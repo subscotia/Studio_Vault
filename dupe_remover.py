@@ -3,8 +3,8 @@ import os
 from collections import defaultdict
 
 # 🔧 Config
-json_path = 'vault_instruments_wip.json'
-output_path = 'vault_instruments_wip.json'
+json_path = 'vault_instr_wip.json'
+output_path = 'vault_instr_wip.json'
 log_path = 'logs/dupes_removed_log.json'  # Where removed entries get saved
 dedup_fields = ['developer', 'name']
 filter_type = 'Instrument'
