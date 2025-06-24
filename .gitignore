@@ -1,0 +1,18 @@
+# 🗃️ Raw vault files (local only)
+vault_*.json
+*_deduped.json
+*.bak.json
+
+# 📄 CSV/JSON logs and reports
+logs/
+*.csv
+*.log
+
+# 💻 OS/system files
+.DS_Store
+Thumbs.db
+
+# 🧪 Virtual environments (if any later)
+venv/
+__pycache__/
+*.pyc
