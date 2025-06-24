@@ -1,0 +1,106 @@
+[
+  {
+    "name": "﻿EZB-Acoustic",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZB-ClassicRock",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZB-DiscoPop",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZB-EZbassModern",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZB-EZbassVintage",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZB-Fretless",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZB-HardRock",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZB-Hollowbody",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZB-SessionPlayer",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZB-TheEightiesElectric",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZB-TheEightiesElectronic",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZB-TheSixties",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MIDI",
+    "type": "Instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  }
+]

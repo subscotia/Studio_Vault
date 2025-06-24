@@ -1,0 +1,13 @@
+﻿EZB-Acoustic
+EZB-ClassicRock
+EZB-DiscoPop
+EZB-EZbassModern
+EZB-EZbassVintage
+EZB-Fretless
+EZB-HardRock
+EZB-Hollowbody
+EZB-SessionPlayer
+EZB-TheEightiesElectric
+EZB-TheEightiesElectronic
+EZB-TheSixties
+MIDI

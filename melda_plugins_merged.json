@@ -1,0 +1,154 @@
+[
+  {
+    "name": "MMultiAnalyzer",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MDrumStrip",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MDynamicEq",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MPolySaturator",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MStereoProcessor",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MAutopanMB",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MCenter",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MReverbMB",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MPhaserMB",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MSoundFactoryLE",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MConvolutionMB",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MTurboReverb",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MEssentialsFXBundle",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MRotary",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MFlangerMB",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MGuitarArchitect",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MDrumLeveler",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MTremoloMB",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MMatcher",
+    "type": "FX",
+    "host": "vst3",
+    "developer": "MeldaProduction",
+    "libraryPath": null,
+    "tags": []
+  }
+]

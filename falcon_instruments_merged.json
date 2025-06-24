@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Austrian Grand",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Key Suite Acoustic",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Key Suite Digital",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Key Suite Electric",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Mosaiq",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "World Suite 3",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Aurora",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Digital Synsations",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EGP",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Ether Fields",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Falcon Factory rev2",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Noctua by Venus Theory",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Orchestral Suite",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Organic Arps",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Retro Organ Suite",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "TagLibrary",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  }
+]

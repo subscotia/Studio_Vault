@@ -1,0 +1,1131 @@
+[
+  {
+    "name": "24K Keys Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Acoustic Drums Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Air Music Mini Grand",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "Air Music",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "AmpleSound",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Analog Dreams Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Battery 4 Factory Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Battery Now Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Beam Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Blaque-Dark Electric Guitar",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Bump Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Butch Vig Drums Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Choir - Omnia Essentials Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Continuum Guitars",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Discoteca Drums Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Dreamtonics",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Drive Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EastWest",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "EastWest",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Emotional Piano",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZBass",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EZDrummer",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Fade Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Homage Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Hypha",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Irish Harp Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Jacob Collier Audience Choir Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Karriem Riggins Drums Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Kinetic Treats",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Kontakt",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Kontakt Factory Library 2 Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Kontakt Factory Selection 2 Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Kontakt-2",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Liquid Death Snare",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Luxa Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Luxury Hip Hop Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Mallet Flux",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Massive X Factory Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Modular Icons Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Moebius Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MSoundFactory",
+    "type": "Instrument",
+    "host": "vst3",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "New Nation",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Now Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Numb-Dark Acoustic Guitar",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Parallax Guitar",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Pharlight",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Playbox",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Progressive Trance Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Rapid Composer",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Scaler Sounds",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Scarbee Rickenbacker Bass",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Scene - Saffron Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "SEQUI2R Bundle",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Sequis Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Soul Gold Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Soul Sessions Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Soundfonts",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Spitfire Audio",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Straylight",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "String Machine Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Studio Drummer Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Superior",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Teletone Audio Retrograde Bass",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Triaz",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Utopia Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Valves",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Veenum Sync",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Voyager Guitar",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Waves",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Yangqin",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "80s New Wave Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Apollo 2 Cinematic Guitars",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Ashlight",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Audiomodern_Opacity_II",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Bazzazian Tapes Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Disco and Funk Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Drum Lab Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Emotional_Piano",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Ethereal Earth Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Evolution Baritone Electric",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Fred Poirier - Afterglow",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Guitar Swell",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Hearth and Hollow - Folk Voices",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Hybrid Keys Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Noire",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Platinum Pop Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Retro Machines Mk2 Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Riff Generation - Outside In Edition",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Rise and Hit",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Ronroco by Gustavo Santaolalla",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Schema - Dark",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Session Bassist - Icon Bass",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Session Bassist - Prime Bass Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Session Guitarist - Electric Sunburst Deluxe",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Session Guitarist - Electric Vintage",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Session Guitarist - Picked Acoustic",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Session Guitarist - Strummed Acoustic 2",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "skyscapeparadise - GAZE",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Spitfire Audio - Ambient Guitars",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Spitfire Audio - Earth",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Vintage Organs Library",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "West Africa",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name":"Ambition",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Arctica",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Bowed Guitar Prado",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Dark Drones",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Deep Blue",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Drum Machines",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Empyreal",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Ensemblia 2",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Evolution Indie Rock",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Evolution Jumbo 12",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Evolution Rick 12",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Evolution Sitardelic",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Gongster's Paradise",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Guitar Harmonics",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Guitars In Space Vol 2",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Guitars In Space Vol 3",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Irish Lyre Harp - Lite",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Limerence",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "MMM",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Pianobook",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "RR GODWIN",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "RR LOGAN COMPLETE",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "RR TEST UNIT",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Smooth Guitars Vol 1",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Smooth Guitars Vol 2",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Sonuscore Lyrical Phrases",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Soundiron",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Wavesfactory Freelodica",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Wrongtools Cassette Bass",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": null,
+    "libraryPath": null,
+    "tags": []
+  },
+
+  {
+    "name": "Berlin Free Orchestra",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Andea by Richard Harvey",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Drones by Alexander Hacke",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Salu Close-Up Soundscapes",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Talinn",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Peteris Vasks Strings",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "TIME Micro",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Modus - Jeff Russo",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Metropolis Ark 4",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Metropolis Ark 2",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Metropolis Ark 0",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Berlin Orchestra Inspire 2",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  }
+]
