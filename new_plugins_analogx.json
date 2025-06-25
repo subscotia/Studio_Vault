@@ -1,0 +1,11 @@
+[
+  {
+    "name": "AnalogX-Mod ATS-1 Tape Emulations",
+    "type": "FX",
+    "host": "Genesis",
+    "developer": "AnalogX",
+    "libraryPath": null,
+    "tags": ["genesis", "tape", "saturation"]
+  }
+
+]

@@ -1,0 +1,2421 @@
+[
+  {
+    "name": "Austrian Grand",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Key Suite Acoustic",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Key Suite Digital",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Key Suite Electric",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Mosaiq",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "World Suite 3",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Aurora",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Digital Synsations",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "EGP",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Ether Fields",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Falcon Factory rev2",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Noctua by Venus Theory",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Orchestral Suite",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Organic Arps",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Retro Organ Suite",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "TagLibrary",
+    "type": "Instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Berlin Free Orchestra",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Andea by Richard Harvey",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Drones by Alexander Hacke",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Salu Close-Up Soundscapes",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Talinn",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Peteris Vasks Strings",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "TIME Micro",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Modus - Jeff Russo",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Metropolis Ark 4",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Metropolis Ark 2",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Metropolis Ark 0",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Berlin Orchestra Inspire 2",
+    "type": "Instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Guitar Triggers",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Perc Triggers",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "AGE Cimbalom",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "AGE Guitar",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Ambiences",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Guitar Ambiences",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Supercluster",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Basstard",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Bazantar",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Fender P-Bass",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Symphonic Shadows Brass",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Free Angels",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Free ASMR",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Free Home",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Free Radicals",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Nu-Disco Drums 1",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "10 Electric Guitars",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Epic Frame Drum Ensemble",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Epic Toms Ensemble",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "1959 Swingmaster",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "1974 Jagra",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "1994 LP Studio",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "2020 Modern PR-String",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Disco Vintage",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Emotional Guitars Multi",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Instant 12 String",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Instant Dobro",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Instant Electric",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Instant Steel String",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Oliver Codd 12 String",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Terz Guitar",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Atmospheres and Moods",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Spice Drums",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Copperphone",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Polyphon",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Smiley Drum",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "1928 Vintage Grand Steinway",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Plucked Grand Piano",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Chamber All Full Sections",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Chamber Basses",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Chamber Cellos",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Chamber Violas",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Chamber Violins",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Ensemble All Full Sections",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Ensemble Basses",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Ensemble Cellos",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Ensemble Violas",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Ensemble Violins",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Solo All Full Sections",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Solo Bass",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Solo Cello",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Solo Viola",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Adastra Solo Violin",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Disco Strings",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Symphonic Shadows Strings",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Icelandia I",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Barbary",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Cait",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Francesca",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "2001 Piccolo Shire",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Symphonic Shadows Winds",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Harmonium",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Santur",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Sitar",
+    "type": "Instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "african mamba",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "ancient bones",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "apocalyptica",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "gina luciani flutes",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "randy kerber celeste",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "randy kerber prepared piano",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "taylor davis solo violin",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "tina guo acoustic cello",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "tina guo electric cello",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "tina guo solo cello",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "voces 8",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinebrass core",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinebrass deep horns",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinebrass descant horn",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinebrass low brass",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinebrass pro",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinebrass sonore",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cineharps",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cine harpsichord",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cineperc",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cineperc drum kit",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cineperc epic",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cineperc metal",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cineperc orchestral",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cineperc tonal",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cineperc wood",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cineperc world",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinepiano",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinestrings core",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinestrings pro",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinestrings runs",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinestrings solo",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinesymphony",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinewinds core",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinewinds low winds",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "cinewinds pro",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "collision impact design",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "colors full spectrum tonal percussion",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "accent pianos",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "create series kalimba",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "create series tonal tickles",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "tongue drum",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "create series toyxylo",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "twisted psaltry",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "drums in blue",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "drums of war 1",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "drums of war 2",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "drums of war 3",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "dulcimer & zither",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "forbes pipe organ",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "handbells",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "hardanger fiddle",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "hollywoodwinds orchestral woodwinds",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "industry brass core",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "industry brass pro",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "keyboard in blue",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "mister rogers' celeste",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "men of the north nordic voices",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "women of the north nordic voices",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "orchestral chords",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "piano in blue",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "quatre string foundations",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "rhodes seventy three",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "session piano grand",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "session piano upright",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "sew what",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "soundscapes",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "studio basses",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "studio guitars",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "sunset drums",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "village drums",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "village mallets",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "drum machine lin drum",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "drum machine TR-707",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "drum machine TR-808",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "drum machine TR-909",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "synth bass TB-303",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "synthesizer arp quadra",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "synthesizer juliter-6",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "synthesizer mono-poly",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "synthesizer ob-xa",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "synthesizer oberheim",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "synthesizer octave cat",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "synthesizer ppg wave-2",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "synthesizer prophet 5",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "synthesizer rhodes chroma",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "synthesizer synergy",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "viola da gamba",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "vision modern synth",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "iceland",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "ireland",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "scotland",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "south africa",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "wurly electric piano",
+    "type": "Instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": []
+  },
+  {
+    "name": "Analog Lab V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "ARP 2600 V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Buchla Easel V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "CS-80 V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Clavinet V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "CZ V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "DX7 V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Farfisa V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Jupiter-8 V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Korg MS-20 V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Mini V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Matrix-12 V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Modular V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "OB-8 V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "OB-Xa V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Piano V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Prophet V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Prophet-5 V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Prophet-VS V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "SQ-80 V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "SEM V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Solo Strings V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Stage-73 V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Vox Continental V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Wurlitzer V",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Augmented Strings",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Augmented Voices",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "D-50",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "JD-800",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "JUNO-106",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "JUNO-60",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "JUNO-60 CHORUS",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "JUPITER-4",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "JUPITER-8",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "JV-1080",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "JX-3P",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "PROMARS",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "SH-101",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "SH-2",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "SOUND CANVAS VA",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "SYSTEM-100",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "TB-303",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "TR-606",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "TR-707",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "TR-727",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "TR-808",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "TR-909",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "XV-5080",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "SYSTEM-8 (AIRA)",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "SYSTEM-1 (AIRA)",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "ZENOLOGY Pro",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Ample SJ Gibson",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Ample Twelve String",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Ample Luther",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Ample Taylor",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Ample Martin",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Ample RB Rickenbacker",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Ample Vintage Cherry SG",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Ample Semi Hollow 335",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Ample TC Telecaster",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Ample LP Les Paul",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Ample Hellrazer",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Ample Eclipse",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Ample Slide Lapsteel",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ]
+  },
+  {
+    "name": "Oliver Patrice Weder OPW",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Speculative Memories",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Abbey Road One",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Abbey Road Orchestra",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Abbey Road Two",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Albion Solstice",
+    "type": "Instrument",
+    "host": "Kontakt",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "BBC Symphony Orchestra",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "BlankForms Tape Synths",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "LABS",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Epic Strings",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Polaris",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Solar",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Appassionata Strings",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Cimbalom",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Cinematic Frozen Strings",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Cinematic Pads",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Cinematic Soft Piano",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Epic Brass and Woodwinds",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Epic Choir",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Firewood Piano",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Intimate Grand Piano",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Intimate Strings",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Mrs Mills Piano",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  },
+  {
+    "name": "Rare Flutes",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ]
+  }
+]

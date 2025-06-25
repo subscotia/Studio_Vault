@@ -1,4 +1,6 @@
-﻿EZX2_Alt-Rock
+﻿EZDrummer 2
+EZDrummer 3
+EZX2_Alt-Rock
 EZX2_DreamPop
 EZX2_EZdrummer2_Modern
 EZX2_EZdrummer2_Vintage
@@ -28,4 +30,3 @@ EZX_Rock
 EZX_RockSolid
 EZX_TwistedKit
 EZX_Vintage
-Midi

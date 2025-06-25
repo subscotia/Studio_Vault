@@ -15,22 +15,7 @@
     "libraryPath": null,
     "tags": []
   },
-  {
-    "name": "Air Music Mini Grand",
-    "type": "Instrument",
-    "host": "Kontakt",
-    "developer": "Air Music",
-    "libraryPath": null,
-    "tags": []
-  },
-  {
-    "name": "AmpleSound",
-    "type": "Instrument",
-    "host": "Kontakt",
-    "developer": "AmpleSound",
-    "libraryPath": null,
-    "tags": []
-  },
+
   {
     "name": "Analog Dreams Library",
     "type": "Instrument",
@@ -53,7 +38,9 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "drums"
+    ]
   },
   {
     "name": "Beam Library",
@@ -67,9 +54,9 @@
     "name": "Blaque-Dark Electric Guitar",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "New Nation",
     "libraryPath": null,
-    "tags": []
+    "tags": ["guitar"]
   },
   {
     "name": "Bump Library",
@@ -85,23 +72,23 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["drums"]
   },
   {
-    "name": "Choir - Omnia Essentials Library",
+    "name": "Choir Omnia Essentials",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["vocal"]
   },
   {
     "name": "Continuum Guitars",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Metasonica"",
     "libraryPath": null,
-    "tags": []
+    "tags": ["guitar"]
   },
   {
     "name": "Discoteca Drums Library",
@@ -109,7 +96,7 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["drums"]
   },
   {
     "name": "Dreamtonics",
@@ -117,7 +104,7 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["vocal"]
   },
   {
     "name": "Drive Library",
@@ -128,36 +115,36 @@
     "tags": []
   },
   {
-    "name": "EastWest",
-    "type": "Instrument",
-    "host": "Kontakt",
+    "name": "Opus",
+    "type": "container",
+    "host": "vst3i",
     "developer": "EastWest",
     "libraryPath": null,
-    "tags": []
+    "tags": ["container"]
   },
   {
     "name": "Emotional Piano",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Soundiron",
     "libraryPath": null,
-    "tags": []
+    "tags": ["piano"]
   },
   {
     "name": "EZBass",
     "type": "Instrument",
-    "host": "Kontakt",
+    "host": "vst3",
     "developer": "Toontrack",
     "libraryPath": null,
-    "tags": []
+    "tags": ["bass", "container"]
   },
   {
     "name": "EZDrummer",
     "type": "Instrument",
-    "host": "Kontakt",
+    "host": "vst3",
     "developer": "Toontrack",
     "libraryPath": null,
-    "tags": []
+    "tags": ["drums", "container"]
   },
   {
     "name": "Fade Library",
@@ -187,9 +174,9 @@
     "name": "Irish Harp Library",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["orchestral", "folk", "harp"]
   },
   {
     "name": "Jacob Collier Audience Choir Library",
@@ -197,7 +184,7 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["vocal"]
   },
   {
     "name": "Karriem Riggins Drums Library",
@@ -205,7 +192,7 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["drums"]
   },
   {
     "name": "Kinetic Treats",
@@ -217,19 +204,19 @@
   },
   {
     "name": "Kontakt",
-    "type": "Instrument",
-    "host": "Kontakt",
+    "type": "Container",
+    "host": "vst3i",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt". "container"]
   },
   {
-    "name": "Kontakt Factory Library 2 Library",
-    "type": "Instrument",
+    "name": "Kontakt Factory Library 2",
+    "type": "Expansion",
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["expansion", "kontakt"]
   },
   {
     "name": "Kontakt Factory Selection 2 Library",
@@ -237,23 +224,15 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
-  },
-  {
-    "name": "Kontakt-2",
-    "type": "Instrument",
-    "host": "Kontakt",
-    "developer": "NI",
-    "libraryPath": null,
-    "tags": []
+    "tags": ["expansion"]
   },
   {
     "name": "Liquid Death Snare",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["drums", "kontakt"]
   },
   {
     "name": "Luxa Library",
@@ -277,7 +256,7 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["percussion", "kontakt"]
   },
   {
     "name": "Massive X Factory Library",
@@ -285,7 +264,7 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["synth", "expansion", "kontakt"]
   },
   {
     "name": "Modular Icons Library",
@@ -293,7 +272,7 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt"]
   },
   {
     "name": "Moebius Library",
@@ -301,23 +280,15 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt"]
   },
   {
     "name": "MSoundFactory",
     "type": "Instrument",
-    "host": "vst3",
-    "developer": null,
+    "host": "vst3i",
+    "developer": "Melda Production",
     "libraryPath": null,
-    "tags": []
-  },
-  {
-    "name": "New Nation",
-    "type": "Instrument",
-    "host": "Kontakt",
-    "developer": null,
-    "libraryPath": null,
-    "tags": []
+    "tags": ["container"]
   },
   {
     "name": "Now Library",
@@ -333,15 +304,15 @@
     "host": "Kontakt",
     "developer": null,
     "libraryPath": null,
-    "tags": []
+    "tags": ["guitar"]
   },
   {
     "name": "Parallax Guitar",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Musical Sampling",
     "libraryPath": null,
-    "tags": []
+    "tags": ["guitar"]
   },
   {
     "name": "Pharlight",
@@ -349,7 +320,7 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["synth"]
   },
   {
     "name": "Playbox",
@@ -370,10 +341,10 @@
   {
     "name": "Rapid Composer",
     "type": "Instrument",
-    "host": "Kontakt",
-    "developer": null,
+    "host": "vst3i",
+    "developer": "Music Developments",
     "libraryPath": null,
-    "tags": []
+    "tags": ["midi", "composition"]
   },
   {
     "name": "Scaler Sounds",
@@ -387,9 +358,9 @@
     "name": "Scarbee Rickenbacker Bass",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["bass", "kontakt"]
   },
   {
     "name": "Scene - Saffron Library",
@@ -397,7 +368,7 @@
     "host": "Kontakt",
     "developer": null,
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt"]
   },
   {
     "name": "SEQUI2R Bundle",
@@ -405,7 +376,7 @@
     "host": "Kontakt",
     "developer": null,
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt", "synth"]
   },
   {
     "name": "Sequis Library",
@@ -413,7 +384,7 @@
     "host": "Kontakt",
     "developer": null,
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt", "synth"]
   },
   {
     "name": "Soul Gold Library",
@@ -421,7 +392,7 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt"]
   },
   {
     "name": "Soul Sessions Library",
@@ -429,39 +400,31 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt"]
   },
   {
     "name": "Soundfonts",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Musical Artifacts",
     "libraryPath": null,
-    "tags": []
-  },
-  {
-    "name": "Spitfire Audio",
-    "type": "Instrument",
-    "host": "Kontakt",
-    "developer": null,
-    "libraryPath": null,
-    "tags": []
+    "tags": ["container"]
   },
   {
     "name": "Straylight",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["synth", "kontakt"]
   },
   {
     "name": "String Machine Library",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt"]
   },
   {
     "name": "Studio Drummer Library",
@@ -469,31 +432,23 @@
     "host": "Kontakt",
     "developer": null,
     "libraryPath": null,
-    "tags": []
+    "tags": ["drums", "kontakt"]
   },
   {
-    "name": "Superior",
+    "name": "Superior Drummer 3",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Toontrack",
     "libraryPath": null,
-    "tags": []
+    "tags": ["drums", "container"]
   },
   {
-    "name": "Teletone Audio Retrograde Bass",
+    "name": "Retrograde Bass",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Teletone Audio",
     "libraryPath": null,
-    "tags": []
-  },
-  {
-    "name": "Triaz",
-    "type": "Instrument",
-    "host": "Kontakt",
-    "developer": null,
-    "libraryPath": null,
-    "tags": []
+    "tags": ["bass", "kontakt"]
   },
   {
     "name": "Utopia Library",
@@ -501,7 +456,7 @@
     "host": "Kontakt",
     "developer": null,
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt"]
   },
   {
     "name": "Valves",
@@ -509,39 +464,32 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt"]
   },
   {
     "name": "Veenum Sync",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Audiofier",
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt"]
   },
   {
     "name": "Voyager Guitar",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Teletone Audio",
     "libraryPath": null,
-    "tags": []
+    "tags": ["guitar", "kontakt"]
   },
-  {
-    "name": "Waves",
-    "type": "Instrument",
-    "host": "Kontakt",
-    "developer": null,
-    "libraryPath": null,
-    "tags": []
-  },
+
   {
     "name": "Yangqin",
     "type": "Instrument",
     "host": "Kontakt",
     "developer": null,
     "libraryPath": null,
-    "tags": []
+    "tags": ["world", "yangqin", "chinese", "dulcimer", ]
   },
   {
     "name": "80s New Wave Library",
@@ -549,15 +497,15 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt"]
   },
   {
     "name": "Apollo 2 Cinematic Guitars",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Vir2",
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt", "guitar"]
   },
   {
     "name": "Ashlight",
@@ -565,23 +513,23 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["synth", "kontakt"]
   },
   {
-    "name": "Audiomodern_Opacity_II",
+    "name": "Opacity_II",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Audiomodern",
     "libraryPath": null,
-    "tags": []
+    "tags": ["guitar", "kontakt"]
   },
   {
     "name": "Bazzazian Tapes Library",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt"]
   },
   {
     "name": "Disco and Funk Library",
@@ -589,7 +537,7 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["kontakt"]
   },
   {
     "name": "Drum Lab Library",
@@ -597,15 +545,15 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": ["drums", "kontakt"]
   },
   {
     "name": "Emotional_Piano",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Soundiron",
     "libraryPath": null,
-    "tags": []
+    "tags": ["keys", "kontakt"]
   },
   {
     "name": "Ethereal Earth Library",

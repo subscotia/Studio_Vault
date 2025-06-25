@@ -2,10 +2,10 @@ import json
 import csv
 
 # 🔧 Configurable filter
-json_path = 'vault_instruments_wip.json'
-csv_output = 'instruments_with_kontakt_format.csv'
-target_field = 'format'
-target_value = 'Kontakt'
+json_path = 'vault_instr_wip.json'
+csv_output = 'instruments_with_Arturia.csv'
+target_field = 'developer'
+target_value = 'Arturia'
 
 with open(json_path, 'r', encoding='utf-8') as f:
     vault = json.load(f)

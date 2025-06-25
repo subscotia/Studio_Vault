@@ -1,4 +1,5 @@
-﻿EZB-Acoustic
+﻿EZBass
+EZB-Acoustic
 EZB-ClassicRock
 EZB-DiscoPop
 EZB-EZbassModern
@@ -10,4 +11,3 @@ EZB-SessionPlayer
 EZB-TheEightiesElectric
 EZB-TheEightiesElectronic
 EZB-TheSixties
-MIDI

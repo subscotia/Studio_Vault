@@ -12,7 +12,7 @@ logs_dir.mkdir(exist_ok=True)
 # Metadata expectations
 required_fields = ["name", "type", "host", "developer", "tags"]
 allowed_types = {"Instrument", "FX", "Utility"}
-allowed_hosts = {"Kontakt", "vst3", "SINE", "EZDrummer", "MSoundFactory", "Nebula", "Soundpaint", "Opus", "Cube", "Mixbox", "TR5 Suite", "EZBass", "Reaper", "Falcon", "standalone", "CLAP", None}
+allowed_hosts = {"vst3i", "Kontakt", "vst3", "vst2", "SINE", "EZDrummer", "MSoundFactory", "Nebula", "Soundpaint", "Opus", "Cube", "Mixbox", "TR5 Suite", "EZBass", "Reaper", "Falcon", "standalone", "CLAP", None}
 
 # Load Vault
 vault = json.loads(vault_path.read_text(encoding="utf-8"))
