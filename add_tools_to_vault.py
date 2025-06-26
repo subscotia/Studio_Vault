@@ -12,7 +12,7 @@ import os
 from datetime import datetime
 
 VAULT_PATH = "vault_instr_wip.json"
-NEW_ENTRIES_PATH = "Generic_instruments_merged.json"
+NEW_ENTRIES_PATH = "kontakt_instruments_merged.json"
 
 REQUIRED_FIELDS = ["name", "type", "host", "developer", "libraryPath", "tags"]
 

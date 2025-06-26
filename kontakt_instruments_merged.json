@@ -5,7 +5,18 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "electric keys",
+      "pianos",
+      "synths",
+      "orchestral strings",
+      "brass",
+      "basses",
+      "pads",
+      "leads",
+      "special effects"
+    ],
+    "emulates": null
   },
   {
     "name": "Acoustic Drums Library",
@@ -13,16 +24,28 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null
   },
-
   {
     "name": "Analog Dreams Library",
     "type": "Instrument",
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "synth",
+      "bass",
+      "fx",
+      "leads",
+      "pads",
+      "plucked"
+    ],
+    "emulates": null
   },
   {
     "name": "Battery 4 Factory Library",
@@ -30,7 +53,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Battery Now Library",
@@ -39,8 +66,10 @@
     "developer": "NI",
     "libraryPath": null,
     "tags": [
-      "drums"
-    ]
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Beam Library",
@@ -48,15 +77,24 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "synth",
+      "kontakt",
+      "ambient",
+      "pads"
+    ],
+    "emulates": null
   },
   {
     "name": "Blaque-Dark Electric Guitar",
     "type": "Instrument",
-    "host": "Kontakt",
+    "host": "vst3i",
     "developer": "New Nation",
     "libraryPath": null,
-    "tags": ["guitar"]
+    "tags": [
+      "guitar"
+    ],
+    "emulates": null
   },
   {
     "name": "Bump Library",
@@ -64,7 +102,14 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "drums",
+      "bass",
+      "keys",
+      "kontakt",
+      "hip-hop"
+    ],
+    "emulates": null
   },
   {
     "name": "Butch Vig Drums Library",
@@ -72,7 +117,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["drums"]
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Choir Omnia Essentials",
@@ -80,15 +129,23 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["vocal"]
+    "tags": [
+      "vocal",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Continuum Guitars",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": "Metasonica"",
+    "developer": "Metasonica",
     "libraryPath": null,
-    "tags": ["guitar"]
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Discoteca Drums Library",
@@ -96,15 +153,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["drums"]
-  },
-  {
-    "name": "Dreamtonics",
-    "type": "Instrument",
-    "host": "Kontakt",
-    "developer": "NI",
-    "libraryPath": null,
-    "tags": ["vocal"]
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Drive Library",
@@ -112,15 +165,30 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "bass",
+      "drums",
+      "leads",
+      "pads",
+      "plucks",
+      "fx",
+      "kontakt",
+      "pop",
+      "electronic"
+    ],
+    "emulates": null
   },
   {
     "name": "Opus",
-    "type": "container",
+    "type": "Container",
     "host": "vst3i",
     "developer": "EastWest",
     "libraryPath": null,
-    "tags": ["container"]
+    "tags": [
+      "container",
+      "EastWest"
+    ],
+    "emulates": null
   },
   {
     "name": "Emotional Piano",
@@ -128,7 +196,12 @@
     "host": "Kontakt",
     "developer": "Soundiron",
     "libraryPath": null,
-    "tags": ["piano"]
+    "tags": [
+      "piano",
+      "kontakt",
+      "keys"
+    ],
+    "emulates": null
   },
   {
     "name": "EZBass",
@@ -136,7 +209,11 @@
     "host": "vst3",
     "developer": "Toontrack",
     "libraryPath": null,
-    "tags": ["bass", "container"]
+    "tags": [
+      "bass",
+      "container"
+    ],
+    "emulates": null
   },
   {
     "name": "EZDrummer",
@@ -144,31 +221,73 @@
     "host": "vst3",
     "developer": "Toontrack",
     "libraryPath": null,
-    "tags": ["drums", "container"]
+    "tags": [
+      "drums",
+      "container"
+    ],
+    "emulates": null
   },
   {
     "name": "Fade Library",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "pads",
+      "leads",
+      "bass",
+      "fx",
+      "textures",
+      "kontakt",
+      "ambient",
+      "electronic"
+    ],
+    "emulates": null
   },
   {
     "name": "Homage Library",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "synth",
+      "keys",
+      "guitar",
+      "bass",
+      "lo-fi samples",
+      "tape textures",
+      "noise layers",
+      "ambient"
+    ],
+    "emulates": null
   },
   {
     "name": "Hypha",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "synth",
+      "ambient",
+      "textures",
+      "drones",
+      "organic",
+      "plucked strings",
+      "bowed strings",
+      "winds",
+      "keys",
+      "pads",
+      "textures",
+      "soundscapes",
+      "percussion",
+      "noise layers"
+    ],
+    "emulates": null
   },
   {
     "name": "Irish Harp Library",
@@ -176,7 +295,13 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["orchestral", "folk", "harp"]
+    "tags": [
+      "orchestral",
+      "folk",
+      "harp",
+      "celtic"
+    ],
+    "emulates": null
   },
   {
     "name": "Jacob Collier Audience Choir Library",
@@ -184,7 +309,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["vocal"]
+    "tags": [
+      "vocal",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Karriem Riggins Drums Library",
@@ -192,7 +321,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["drums"]
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Kinetic Treats",
@@ -200,7 +333,23 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "toy",
+      "synth",
+      "sound design",
+      "experimental",
+      "ambient",
+      "toy piano",
+      "music box",
+      "mechanical toys",
+      "bells",
+      "whistles",
+      "percussion",
+      "synth layers",
+      "sound effects"
+    ],
+    "emulates": null
   },
   {
     "name": "Kontakt",
@@ -208,7 +357,11 @@
     "host": "vst3i",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["kontakt". "container"]
+    "tags": [
+      "kontakt",
+      "container"
+    ],
+    "emulates": null
   },
   {
     "name": "Kontakt Factory Library 2",
@@ -216,7 +369,98 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["expansion", "kontakt"]
+    "tags": [
+      "expansion",
+      "kontakt",
+      "flute",
+      "dulcimer",
+      "recorder",
+      "bagpipes",
+      "fiddle",
+      "hurdy gurdy",
+      "gong",
+      "percussion",
+      "shakuhachi",
+      "koto",
+      "oud",
+      "santur",
+      "erhu",
+      "duduk",
+      "alto saxophone",
+      "baritone saxophone",
+      "tenor saxophone",
+      "trumpet",
+      "trombone",
+      "grand piano",
+      "upright piano",
+      "clavinet",
+      "mark i",
+      "mark ii",
+      "wurly",
+      "c3 organ",
+      "jazz organ",
+      "funk guitar",
+      "jazz guitar",
+      "nylon guitar",
+      "rock guitar",
+      "upright bass",
+      "funk bass",
+      "pop bass",
+      "drum kit",
+      "drum machine",
+      "808 kit",
+      "hip-hop kit",
+      "pop kit",
+      "urban kit",
+      "jazz kit",
+      "groove kit",
+      "studio break kit",
+      "soprano",
+      "alto",
+      "tenor",
+      "bass",
+      "choir vowels",
+      "choir morph",
+      "strezov sampling altos",
+      "vowel keyswitches",
+      "violin",
+      "viola",
+      "cello",
+      "double bass",
+      "harp",
+      "flute",
+      "oboe",
+      "clarinet",
+      "bassoon",
+      "french horn",
+      "trumpet",
+      "trombone",
+      "timpani",
+      "snare",
+      "bass drum",
+      "xylophone",
+      "glockenspiel",
+      "marimba",
+      "bass",
+      "lead",
+      "pad",
+      "plucked",
+      "arpeggio",
+      "fx",
+      "poly synth",
+      "mono synth",
+      "ambient texture",
+      "analog synth",
+      "tape pad",
+      "bitcrushed lead",
+      "tube bass",
+      "vintage drum machine",
+      "lo-fi keys",
+      "saturated organ",
+      "retro fx",
+      "noise layer"
+    ],
+    "emulates": null
   },
   {
     "name": "Kontakt Factory Selection 2 Library",
@@ -224,7 +468,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["expansion"]
+    "tags": [
+      "expansion",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Liquid Death Snare",
@@ -232,7 +480,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["drums", "kontakt"]
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Luxa Library",
@@ -240,7 +492,21 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "synth",
+      "keys",
+      "bass",
+      "plucks",
+      "pads",
+      "fx",
+      "soundscapes",
+      "kontakt",
+      "pop",
+      "electronic",
+      "modern",
+      "ambient"
+    ],
+    "emulates": null
   },
   {
     "name": "Luxury Hip Hop Library",
@@ -248,7 +514,23 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "keys",
+      "bass",
+      "pads",
+      "plucks",
+      "fx",
+      "textures",
+      "drums",
+      "vocal",
+      "kontakt",
+      "hip-hop",
+      "lo-fi",
+      "soul",
+      "synth",
+      "ambient"
+    ],
+    "emulates": null
   },
   {
     "name": "Mallet Flux",
@@ -256,15 +538,37 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["percussion", "kontakt"]
+    "tags": [
+      "percussion",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Massive X Factory Library",
     "type": "Instrument",
-    "host": "Kontakt",
+    "host": "vst3i",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["synth", "expansion", "kontakt"]
+    "tags": [
+      "synth",
+      "bass",
+      "lead",
+      "pad",
+      "pluck",
+      "fx",
+      "keys",
+      "ambient",
+      "arpeggio",
+      "texture",
+      "drone",
+      "massive x",
+      "electronic",
+      "sound design",
+      "modular",
+      "ambient"
+    ],
+    "emulates": null
   },
   {
     "name": "Modular Icons Library",
@@ -272,7 +576,25 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["kontakt"]
+    "tags": [
+      "bass",
+      "leads",
+      "pads",
+      "plucks",
+      "fx",
+      "arpeggios",
+      "textures",
+      "drones",
+      "noise layers",
+      "kontakt",
+      "synth",
+      "modular",
+      "analog",
+      "ambient",
+      "sound design",
+      "drones"
+    ],
+    "emulates": null
   },
   {
     "name": "Moebius Library",
@@ -280,7 +602,23 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["kontakt"]
+    "tags": [
+      "textures",
+      "pulses",
+      "fx",
+      "drones",
+      "pads",
+      "bass",
+      "leads",
+      "plucks",
+      "kontakt",
+      "synth",
+      "ambient",
+      "sound design",
+      "cinematic",
+      "drones"
+    ],
+    "emulates": null
   },
   {
     "name": "MSoundFactory",
@@ -288,23 +626,46 @@
     "host": "vst3i",
     "developer": "Melda Production",
     "libraryPath": null,
-    "tags": ["container"]
+    "tags": [
+      "container"
+    ],
+    "emulates": null
   },
   {
     "name": "Now Library",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "bass",
+      "leads",
+      "pads",
+      "plucks",
+      "keys",
+      "fx",
+      "textures",
+      "vocals",
+      "drums",
+      "kontakt",
+      "synth",
+      "pop",
+      "electronic",
+      "modern",
+      "ambient"
+    ],
+    "emulates": null
   },
   {
     "name": "Numb-Dark Acoustic Guitar",
     "type": "Instrument",
-    "host": "Kontakt",
-    "developer": null,
+    "host": "vst3i",
+    "developer": "New Nation",
     "libraryPath": null,
-    "tags": ["guitar"]
+    "tags": [
+      "guitar"
+    ],
+    "emulates": null
   },
   {
     "name": "Parallax Guitar",
@@ -312,7 +673,10 @@
     "host": "Kontakt",
     "developer": "Musical Sampling",
     "libraryPath": null,
-    "tags": ["guitar"]
+    "tags": [
+      "guitar"
+    ],
+    "emulates": null
   },
   {
     "name": "Pharlight",
@@ -320,7 +684,24 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["synth"]
+    "tags": [
+      "vocal samples",
+      "granular textures",
+      "pads",
+      "leads",
+      "fx",
+      "soundscapes",
+      "transitions",
+      "noise layers",
+      "kontakt",
+      "synth",
+      "vocal",
+      "granular",
+      "ambient",
+      "sound design",
+      "drones"
+    ],
+    "emulates": null
   },
   {
     "name": "Playbox",
@@ -328,7 +709,29 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "synths",
+      "pads",
+      "plucks",
+      "bass",
+      "keys",
+      "fx",
+      "textures",
+      "soundscapes",
+      "vocal samples",
+      "noise layers",
+      "percussion",
+      "toy instruments",
+      "organic samples",
+      "kontakt",
+      "synth",
+      "ambient",
+      "sound design",
+      "experimental",
+      "generative",
+      "chords"
+    ],
+    "emulates": null
   },
   {
     "name": "Progressive Trance Library",
@@ -336,7 +739,24 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "synth",
+      "electronic",
+      "trance",
+      "progressive",
+      "ambient",
+      "sound design",
+      "bass",
+      "leads",
+      "pads",
+      "plucks",
+      "arpeggios",
+      "fx",
+      "drums",
+      "textures"
+    ],
+    "emulates": null
   },
   {
     "name": "Rapid Composer",
@@ -344,15 +764,11 @@
     "host": "vst3i",
     "developer": "Music Developments",
     "libraryPath": null,
-    "tags": ["midi", "composition"]
-  },
-  {
-    "name": "Scaler Sounds",
-    "type": "Instrument",
-    "host": "Kontakt",
-    "developer": null,
-    "libraryPath": null,
-    "tags": []
+    "tags": [
+      "midi",
+      "composition"
+    ],
+    "emulates": null
   },
   {
     "name": "Scarbee Rickenbacker Bass",
@@ -360,31 +776,62 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["bass", "kontakt"]
+    "tags": [
+      "bass",
+      "kontakt"
+    ],
+    "emulates": "Rickenbacker bass guitar "
   },
   {
     "name": "Scene - Saffron Library",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": ["kontakt"]
+    "tags": [
+      "kontakt",
+      "synth",
+      "ambient",
+      "cinematic",
+      "sound design",
+      "drones",
+      "hybrid",
+      "strings",
+      "synths",
+      "brass",
+      "pads",
+      "drones",
+      "textures",
+      "soundscapes",
+      "fx",
+      "percussion",
+      "noise layers"
+    ],
+    "emulates": null
   },
   {
     "name": "SEQUI2R Bundle",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Audiofier",
     "libraryPath": null,
-    "tags": ["kontakt", "synth"]
+    "tags": [
+      "kontakt",
+      "synth"
+    ],
+    "emulates": null
   },
   {
     "name": "Sequis Library",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Audiofier",
     "libraryPath": null,
-    "tags": ["kontakt", "synth"]
+    "tags": [
+      "kontakt",
+      "synth"
+    ],
+    "emulates": null
   },
   {
     "name": "Soul Gold Library",
@@ -392,7 +839,25 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["kontakt"]
+    "tags": [
+      "kontakt",
+      "synth",
+      "soul",
+      "r&b",
+      "lo-fi",
+      "ambient",
+      "vintage",
+      "keys",
+      "bass",
+      "guitar",
+      "pads",
+      "plucks",
+      "drums",
+      "vocals",
+      "fx",
+      "textures"
+    ],
+    "emulates": null
   },
   {
     "name": "Soul Sessions Library",
@@ -400,15 +865,37 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["kontakt"]
+    "tags": [
+      "kontakt",
+      "synth",
+      "soul",
+      "r&b",
+      "vintage",
+      "ambient",
+      "keys",
+      "guitar",
+      "bass",
+      "sax",
+      "trumpet",
+      "pads",
+      "leads",
+      "organs",
+      "mallets",
+      "plucks",
+      "fx"
+    ],
+    "emulates": null
   },
   {
     "name": "Soundfonts",
     "type": "Instrument",
-    "host": "Kontakt",
+    "host": "vst3i",
     "developer": "Musical Artifacts",
     "libraryPath": null,
-    "tags": ["container"]
+    "tags": [
+      "container"
+    ],
+    "emulates": null
   },
   {
     "name": "Straylight",
@@ -416,7 +903,28 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["synth", "kontakt"]
+    "tags": [
+      "kontakt",
+      "synth",
+      "ambient",
+      "cinematic",
+      "granular",
+      "sound design",
+      "drones",
+      "granular textures",
+      "pads",
+      "transitions",
+      "soundscapes",
+      "drones",
+      "fx",
+      "atmospheres",
+      "pulses",
+      "subs",
+      "leads",
+      "keys",
+      "noise layers"
+    ],
+    "emulates": null
   },
   {
     "name": "String Machine Library",
@@ -424,15 +932,53 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["kontakt"]
+    "tags": [
+      "kontakt",
+      "synth",
+      "vintage",
+      "retro",
+      "ambient",
+      "sound design",
+      "strings",
+      "strings",
+      "synth",
+      "pads",
+      "brass",
+      "choir",
+      "keys",
+      "bass",
+      "organ",
+      "fx",
+      "textures"
+    ],
+    "emulates": ["arp solina", "moog polymoog", "roland rs-505", "roland juno-60", "korg delta", "crumar performer", "freeman string symphonizer", "elka rhapsody", "logan string melody", "eminent 310"]
   },
   {
     "name": "Studio Drummer Library",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": ["drums", "kontakt"]
+    "tags": [
+      "kontakt",
+      "drums",
+      "acoustic",
+      "studio",
+      "grooves",
+      "realistic",
+      "mix-ready",
+      "kick",
+      "snare",
+      "hi-hats",
+      "toms",
+      "cymbals",
+      "overheads",
+      "room mics",
+      "percussion",
+      "drum kits",
+      "midi grooves"
+    ],
+    "emulates": null
   },
   {
     "name": "Superior Drummer 3",
@@ -440,7 +986,11 @@
     "host": "Kontakt",
     "developer": "Toontrack",
     "libraryPath": null,
-    "tags": ["drums", "container"]
+    "tags": [
+      "drums",
+      "container"
+    ],
+    "emulates": null
   },
   {
     "name": "Retrograde Bass",
@@ -448,15 +998,35 @@
     "host": "Kontakt",
     "developer": "Teletone Audio",
     "libraryPath": null,
-    "tags": ["bass", "kontakt"]
+    "tags": [
+      "bass",
+      "kontakt"
+    ],
+    "emulates": ["bass guitar", "1968 fender super reverb"]
   },
   {
     "name": "Utopia Library",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": ["kontakt"]
+    "tags": [
+      "kontakt",
+      "synth",
+      "trance",
+      "electronic",
+      "ambient",
+      "sound design",
+      "euphoric",
+      "pads",
+      "leads",
+      "bass",
+      "arpeggios",
+      "sequences",
+      "fx",
+      "textures"
+    ],
+    "emulates": null
   },
   {
     "name": "Valves",
@@ -464,7 +1034,29 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["kontakt"]
+    "tags": [
+      "kontakt",
+      "brass",
+      "ensemble",
+      "cinematic",
+      "ambient",
+      "sound design",
+      "phrases",
+      "french horn",
+      "flugelhorn",
+      "euphonium",
+      "trombone",
+      "tuba",
+      "brass ensemble",
+      "phrases",
+      "swells",
+      "sustains",
+      "crescendos",
+      "decrescendos",
+      "waves",
+      "noise layers"
+    ],
+    "emulates": null
   },
   {
     "name": "Veenum Sync",
@@ -472,7 +1064,10 @@
     "host": "Kontakt",
     "developer": "Audiofier",
     "libraryPath": null,
-    "tags": ["kontakt"]
+    "tags": [
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Voyager Guitar",
@@ -480,16 +1075,25 @@
     "host": "Kontakt",
     "developer": "Teletone Audio",
     "libraryPath": null,
-    "tags": ["guitar", "kontakt"]
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": ["1970s fender telecaster", "1962 gibson ga-8t", "1964 fender deluxe", "1968 fender super reverb", "shadow hills mono gama", "vintage tascam cassette preamp"]
   },
-
   {
     "name": "Yangqin",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": ["world", "yangqin", "chinese", "dulcimer", ]
+    "tags": [
+      "world",
+      "yangqin",
+      "chinese",
+      "dulcimer"
+    ],
+    "emulates": null
   },
   {
     "name": "80s New Wave Library",
@@ -497,7 +1101,22 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["kontakt"]
+    "tags": [
+      "kontakt",
+      "synth",
+      "80s",
+      "retro",
+      "new wave",
+      "electronic",
+      "vintage",
+      "bass",
+      "leads",
+      "pads",
+      "plucks",
+      "keys",
+      "drums"
+    ],
+    "emulates": null
   },
   {
     "name": "Apollo 2 Cinematic Guitars",
@@ -505,7 +1124,11 @@
     "host": "Kontakt",
     "developer": "Vir2",
     "libraryPath": null,
-    "tags": ["kontakt", "guitar"]
+    "tags": [
+      "kontakt",
+      "guitar"
+    ],
+    "emulates": null
   },
   {
     "name": "Ashlight",
@@ -513,7 +1136,28 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["synth", "kontakt"]
+    "tags": [
+      "kontakt",
+      "synth",
+      "granular",
+      "ambient",
+      "cinematic",
+      "sound design",
+      "drones",
+      "granular textures",
+      "pads",
+      "leads",
+      "fx",
+      "soundscapes",
+      "drones",
+      "transitions",
+      "pulses",
+      "subs",
+      "keys",
+      "atmospheres",
+      "noise layers"
+    ],
+    "emulates": null
   },
   {
     "name": "Opacity_II",
@@ -521,7 +1165,11 @@
     "host": "Kontakt",
     "developer": "Audiomodern",
     "libraryPath": null,
-    "tags": ["guitar", "kontakt"]
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Bazzazian Tapes Library",
@@ -529,7 +1177,21 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["kontakt"]
+    "tags": [
+      "kontakt",
+      "bass",
+      "bowed strings",
+      "keys",
+      "mallet instruments",
+      "organ",
+      "plucked strings",
+      "reed instruments",
+      "sound effects",
+      "soundscapes",
+      "synths",
+      "vocals"
+    ],
+    "emulates": null
   },
   {
     "name": "Disco and Funk Library",
@@ -537,7 +1199,26 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["kontakt"]
+    "tags": [
+      "kontakt",
+      "synth",
+      "funk",
+      "disco",
+      "retro",
+      "groove",
+      "vintage",
+      "bass",
+      "guitar",
+      "drums",
+      "percussion",
+      "synth",
+      "brass",
+      "keys",
+      "vocals",
+      "fx",
+      "loops"
+    ],
+    "emulates": null
   },
   {
     "name": "Drum Lab Library",
@@ -545,63 +1226,151 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": ["drums", "kontakt"]
+    "tags": [
+      "kontakt",
+      "drums",
+      "hybrid",
+      "acoustic",
+      "electronic",
+      "grooves",
+      "mix-ready",
+      "kick",
+      "snare",
+      "hi-hats",
+      "toms",
+      "cymbals",
+      "percussion",
+      "electronic layers",
+      "drum kits",
+      "midi grooves",
+      "room mics"
+    ],
+    "emulates": null
   },
   {
-    "name": "Emotional_Piano",
+    "name": "Emotional Piano",
     "type": "Instrument",
     "host": "Kontakt",
     "developer": "Soundiron",
     "libraryPath": null,
-    "tags": ["keys", "kontakt"]
+    "tags": [
+      "keys",
+      "kontakt"
+    ],
+    "emulates": "kawai grand piano"
   },
   {
     "name": "Ethereal Earth Library",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "synth",
+      "ambient",
+      "sound design",
+      "organic",
+      "world",
+      "play series",
+      "ambience",
+      "bass",
+      "brass",
+      "drone",
+      "fx",
+      "lead",
+      "pad",
+      "pluck",
+      "string",
+      "texture",
+      "wind"
+    ],
+    "emulates": null
   },
   {
     "name": "Evolution Baritone Electric",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Orange Tree Samples",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": [ "baritone electric guitar", "lipstick pickups", "rosewood recording signal chain"]
   },
   {
-    "name": "Fred Poirier - Afterglow",
+    "name": "Fred Poirier Afterglow",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Spitfire Audio",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": ["vintage electric guitar", "dual pickup configuration", "tube amp signal chain", "tempo loco studios"]
   },
   {
     "name": "Guitar Swell",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "InSession Audio",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": ["fender jazzmaster", "fender stratocaster", "gibson les paul", "fender telecaster", "gretsch jet baritone", "rickenbacker lap steel", "electro-harmonix pog", "strymon big sky", "digitech space station", "ventris dual reverb"]
   },
   {
     "name": "Hearth and Hollow - Folk Voices",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "vocals",
+      "folk",
+      "indie",
+      "acoustic",
+      "ambient",
+      "expressive",
+      "solo vocals",
+      "vocal ensemble",
+      "whistle",
+      "body percussion",
+      "vowel blends",
+      "sustains",
+      "blooms",
+      "grooves",
+      "phrases"
+    ],
+    "emulates": null
   },
   {
     "name": "Hybrid Keys Library",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "synth",
+      "keys",
+      "hybrid",
+      "play series",
+      "creative",
+      "sound design",
+      "pianos",
+      "organs",
+      "harpsichords",
+      "mallets",
+      "textures",
+      "fx"
+    ],
+    "emulates": ["upright piano", "rhodes electric piano", "hammond organ", "harpsichord", "analog synth", "prepared piano"]
   },
   {
     "name": "Noire",
@@ -609,7 +1378,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "keys",
+      "kontakt"
+    ],
+    "emulates": ["yamaha cfx concert grand", "nils frahm piano", "funkhaus saal 3", "felt grand piano"]
   },
   {
     "name": "Platinum Pop Library",
@@ -617,7 +1390,25 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "synth",
+      "pop",
+      "electronic",
+      "modern",
+      "radio-ready",
+      "bright",
+      "bass",
+      "leads",
+      "pads",
+      "plucks",
+      "keys",
+      "drums",
+      "fx",
+      "textures",
+      "vocals"
+    ],
+    "emulates": null
   },
   {
     "name": "Retro Machines Mk2 Library",
@@ -625,39 +1416,90 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "synth",
+      "vintage",
+      "analog",
+      "retro",
+      "electronic",
+      "classic",
+      "analog synths",
+      "string machines",
+      "bass synths",
+      "lead synths",
+      "pads",
+      "organs",
+      "electric pianos",
+      "clavinets",
+      "keys",
+      "fx"
+
+    ],
+    "emulates": [
+      "moog minimoog",
+      "roland juno-60",
+      "roland jupiter-6",
+      "roland sh-101",
+      "korg ms-20",
+      "korg poly-800",
+      "arp odyssey",
+      "arp solina",
+      "oberheim ob-xa",
+      "oberheim ob-12",
+      "yamaha cs-01",
+      "yamaha dx7",
+      "crumar performer",
+      "rhodes chroma",
+      "sequential prophet-5",
+      "sequential prophet-600"]
   },
   {
     "name": "Riff Generation - Outside In Edition",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "InSession Audio",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt",
+      "midi",
+      "composition"
+    ],
+    "emulates": null
   },
   {
     "name": "Rise and Hit",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Ronroco by Gustavo Santaolalla",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Spitfire Audio",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt", "acoustic"
+    ],
+    "emulates": ["ten-string ronroco", "e-minor tuning", "gustavo santaolalla signature instrument", "andean folk instrument", "analog tape signal chain"]
   },
   {
     "name": "Schema - Dark",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [],
+    "emulates": null
   },
   {
     "name": "Session Bassist - Icon Bass",
@@ -665,7 +1507,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "bass",
+      "kontakt"
+    ],
+    "emulates": ["1989 fender precision bass", "flatwound strings", "analog di signal chain", "vintage bass amp"]
   },
   {
     "name": "Session Bassist - Prime Bass Library",
@@ -673,7 +1519,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "bass",
+      "kontakt"
+    ],
+    "emulates": ["1981 fender precision bass", "single-coil pickups", "rosewood fingerboard", "universal audio m-610 preamp", "vintage bass amp"]
   },
   {
     "name": "Session Guitarist - Electric Sunburst Deluxe",
@@ -681,7 +1531,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt", "electric"
+    ],
+    "emulates": ["gibson les paul", "dual humbucker electric guitar", "vintage tube amps", "studio cabinet miking", "analog signal chain"]
   },
   {
     "name": "Session Guitarist - Electric Vintage",
@@ -689,7 +1543,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt", "electric"
+    ],
+    "emulates" : ["1950s fender telecaster", "single-coil pickups", "vintage tube amps", "analog preamp signal chain", "studio cabinet miking"]
   },
   {
     "name": "Session Guitarist - Picked Acoustic",
@@ -697,7 +1555,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt", "acoustic"
+    ],
+    "emulates": ["1973 martin 00-21", "steel-string acoustic guitar", "vintage microphones", "analog signal chain"]
   },
   {
     "name": "Session Guitarist - Strummed Acoustic 2",
@@ -705,31 +1567,43 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
-  },
+    "tags": [
+      "guitar",
+      "kontakt", "acoustic"
+    ],
+    "emulates": ["guild f-412 12-string", "martin o-17 6-string"] },
   {
     "name": "skyscapeparadise - GAZE",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Spitfire Audio",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt", "shoegaze", "electric"
+    ],
+    "emulates": ["shoegaze band", "vintage electric guitars", "ribbon microphones", "neve 8048 console", "analog tape recording", "pacific northwest shoegaze", "re-amped synthesizers", "vintage drum kit", "studio bass guitar"]
   },
   {
-    "name": "Spitfire Audio - Ambient Guitars",
+    "name": "Ambient Guitars",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Spitfire Audio",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt", "ambient", "electric"
+    ],
+    "emulates": null
   },
   {
-    "name": "Spitfire Audio - Earth",
+    "name": "Earth",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Spitfire Audio",
     "libraryPath": null,
-    "tags": []
+    "tags": [],
+    "emulates": null
   },
   {
     "name": "Vintage Organs Library",
@@ -737,7 +1611,11 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "keys",
+      "kontakt", "organ", "vintage", "tonewheel", "transistor", "classic", "retro", "electronic", "combo organ"
+    ],
+    "emulates": ["hammond b-3", "hammond c-3", "hammond m-3", "vox continental ii", "farfisa compact"]
   },
   {
     "name": "West Africa",
@@ -745,103 +1623,170 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "world",
+      "kontakt",
+      "djembe",
+      "dunun",
+      "bells",
+      "krin",
+      "calabash",
+      "kora",
+      "bolon",
+      "balafon",
+      "ngoni",
+      "fula flute"
+    ],
+    "emulates": null
   },
   {
-    "name":"Ambition",
+    "name": "Ambition",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": "NI",
+    "developer": "Sound Yeti",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "synth",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Arctica",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Dark Intervals",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "synth",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
-    "name": "Bowed Guitar Prado",
+    "name": "Bowed Guitar",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Edu Prado Sounds",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Dark Drones",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "synth",
+      "kontakt",
+      "pads",
+      "drones"
+    ],
+    "emulates": null
   },
   {
     "name": "Deep Blue",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "New Nation",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "synth",
+      "kontakt",
+      "pads"
+    ],
+    "emulates": null
   },
   {
     "name": "Drum Machines",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "drums",
+      "kontakt", "drum machine", "vintage", "analog", "digital", "electronic", "classic", "retro", "sample-based", "rhythm"
+    ],
+    "emulates": ["roland tr-808", "roland tr-909", "roland tr-606", "linndrum", "oberheim dx", "oberheim dmx", "e-mu drumulator", "yamaha rx5", "korg ddd-1", "korg kr-55", "boss dr-55", "simmons sds-v"]
   },
   {
     "name": "Empyreal",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Sample Logic",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "synth",
+      "kontakt",
+      "pads"
+    ],
+    "emulates": null
   },
   {
     "name": "Ensemblia 2",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Cinematique Instruments",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "orchestral",
+      "ensemble"
+    ],
+    "emulates": null
   },
   {
     "name": "Evolution Indie Rock",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Orange Tree Samples",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt", "electric"
+    ],
+    "emulates": ["offset electric guitar", "dual single-coil pickups", "rosewood recording signal chain", "analog di and amp blend"]
   },
   {
     "name": "Evolution Jumbo 12",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Orange Tree Samples",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt", "acoustic"
+    ],
+    "emulates": ["taylor 355 12-string acoustic", "rosewood recording signal chain", "analog di and enhanced signal"]
   },
   {
     "name": "Evolution Rick 12",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Orange Tree Samples",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt", "electric"
+    ],
+    "emulates": ["rickenbacker 360-12", "12-string electric guitar", "semi-hollow maple body", "rosewood fretboard", "analog di and amp signal chain"]
   },
   {
     "name": "Evolution Sitardelic",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Orange Tree Samples",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Gongster's Paradise",
@@ -849,144 +1794,175 @@
     "host": "Kontakt",
     "developer": "NI",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "percussion",
+      "gongs"
+    ],
+    "emulates": null
   },
   {
     "name": "Guitar Harmonics",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "InSession Audio",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Guitars In Space Vol 2",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "New Nation",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Guitars In Space Vol 3",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "New Nation",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Irish Lyre Harp - Lite",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Dark Intervals",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "harp",
+      "celtic"
+    ],
+    "emulates": null
   },
   {
     "name": "Limerence",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Rigid Audio",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "synth",
+      "kontakt",
+      "ambient"
+    ],
+    "emulates": null
   },
   {
-    "name": "MMM",
+    "name": "GODWIN",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Rhythm Robot",
     "libraryPath": null,
-    "tags": []
+    "tags": ["synth", "kontakt", "vintage"],
+    "emulates": ["godwin string concert", "analog string synthesizer", "polyphonic ensemble synth", "vintage chorus and tremolo"]
   },
   {
-    "name": "Pianobook",
+    "name": "LOGAN COMPLETE",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Rhythm Robot",
     "libraryPath": null,
-    "tags": []
-  },
-  {
-    "name": "RR GODWIN",
-    "type": "Instrument",
-    "host": "Kontakt",
-    "developer": null,
-    "libraryPath": null,
-    "tags": []
-  },
-  {
-    "name": "RR LOGAN COMPLETE",
-    "type": "Instrument",
-    "host": "Kontakt",
-    "developer": null,
-    "libraryPath": null,
-    "tags": []
+    "tags": ["synth", "kontakt", "vintage"],
+    "emulates": ["logan string melody ii", "analog string synthesizer", "polyphonic ensemble synth", "1970s italian string machine", "vintage chorus modulation"]
   },
   {
     "name": "RR TEST UNIT",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Rhythm Robot",
     "libraryPath": null,
-    "tags": []
+    "tags": ["synth", "kontakt", "vintage"],
+    "emulates": ["eminent test unit", "vintage calibration device", "experimental test tones", "analog probe signal chain"]
   },
   {
     "name": "Smooth Guitars Vol 1",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Loot Audio",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
     "name": "Smooth Guitars Vol 2",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Loot Audio",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
-    "name": "Sonuscore Lyrical Phrases",
+    "name": "Lyrical Phrases",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Sonuscore",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "vocal",
+      "kontakt"
+    ],
+    "emulates": null
   },
   {
-    "name": "Soundiron",
+    "name": "Freelodica",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Wavesfactory",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "melodica"
+    ],
+    "emulates": ["melodica", "reed keyboard instrument", "dual mic positions", "air and key noise control"]
   },
   {
-    "name": "Wavesfactory Freelodica",
+    "name": "Cassette Bass",
     "type": "Instrument",
     "host": "Kontakt",
-    "developer": null,
+    "developer": "Wrongtools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "synth",
+      "bass", "lo-fi"
+    ],
+    "emulates": ["moog liberation keytar", "cassette tape saturation", "lo-fi analog bass", "experimental kontakt instrument"]
   },
-  {
-    "name": "Wrongtools Cassette Bass",
-    "type": "Instrument",
-    "host": "Kontakt",
-    "developer": null,
-    "libraryPath": null,
-    "tags": []
-  },
-
   {
     "name": "Berlin Free Orchestra",
     "type": "Instrument",
     "host": "SINE",
     "developer": "Orchestral Tools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "orchestral",
+      "ensemble"
+    ],
+    "emulates": null
   },
   {
     "name": "Andea by Richard Harvey",
@@ -994,7 +1970,12 @@
     "host": "SINE",
     "developer": "Orchestral Tools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "guitar",
+      "acoustic"
+    ],
+    "emulates": ["ronroco", "charangolin", "paraguayan harp", "berimbau", "panpipes", "ocarina", "bombo", "cajón", "andean folk instruments", "south american winds", "central american percussion", "analog dry signal chain", "richard harvey signature collection"]
   },
   {
     "name": "Drones by Alexander Hacke",
@@ -1002,7 +1983,13 @@
     "host": "SINE",
     "developer": "Orchestral Tools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "synth",
+      "kontakt",
+      "ambient",
+      "drones"
+    ],
+    "emulates": null
   },
   {
     "name": "Salu Close-Up Soundscapes",
@@ -1010,7 +1997,13 @@
     "host": "SINE",
     "developer": "Orchestral Tools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "synth",
+      "kontakt",
+      "ambient",
+      "drones"
+    ],
+    "emulates": null
   },
   {
     "name": "Talinn",
@@ -1018,7 +2011,11 @@
     "host": "SINE",
     "developer": "Orchestral Tools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "vocal", "orchestral"
+    ],
+    "emulates": null
   },
   {
     "name": "Peteris Vasks Strings",
@@ -1026,7 +2023,12 @@
     "host": "SINE",
     "developer": "Orchestral Tools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "kontakt",
+      "orchestral",
+      "strings", "chamber"
+    ],
+    "emulates": null
   },
   {
     "name": "TIME Micro",
@@ -1034,7 +2036,11 @@
     "host": "SINE",
     "developer": "Orchestral Tools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "vocal",
+      "orchestral"
+    ],
+    "emulates": null
   },
   {
     "name": "Modus - Jeff Russo",
@@ -1042,7 +2048,12 @@
     "host": "SINE",
     "developer": "Orchestral Tools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "orchestral",
+      "vocal",
+      "percussion"
+    ],
+    "emulates": ["custom orchestral ensembles", "teldex scoring stage", "jeff russo signature toolkit", "shakuhachi", "klingon male choir", "tension performer clusters", "transitional orchestral textures", "hybrid scoring palette"]
   },
   {
     "name": "Metropolis Ark 4",
@@ -1050,7 +2061,11 @@
     "host": "SINE",
     "developer": "Orchestral Tools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "orchestral",
+      "strings"
+    ],
+    "emulates": null
   },
   {
     "name": "Metropolis Ark 2",
@@ -1058,7 +2073,12 @@
     "host": "SINE",
     "developer": "Orchestral Tools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "orchestral",
+      "strings",
+      "ensemble"
+    ],
+    "emulates": null
   },
   {
     "name": "Metropolis Ark 0",
@@ -1066,7 +2086,12 @@
     "host": "SINE",
     "developer": "Orchestral Tools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "orchestral",
+      "strings",
+      "ensemble"
+    ],
+    "emulates": null
   },
   {
     "name": "Berlin Orchestra Inspire 2",
@@ -1074,6 +2099,12 @@
     "host": "SINE",
     "developer": "Orchestral Tools",
     "libraryPath": null,
-    "tags": []
+    "tags": [
+      "orchestral",
+      "strings",
+      "ensemble",
+      "vocal"
+    ],
+    "emulates": null
   }
 ]

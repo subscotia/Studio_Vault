@@ -3014,5 +3014,966 @@
     "tags": [
       "guitar"
     ]
+  },
+  {
+    "name": "SRX BRASS",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ]
+  },
+  {
+    "name": "SRX DANCE TRAX",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ]
+  },
+  {
+    "name": "SRX ELECTRIC PIANO",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ]
+  },
+  {
+    "name": "SRX KEYBOARDS",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ]
+  },
+  {
+    "name": "SRX ORCHESTRA",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ]
+  },
+  {
+    "name": "SRX STRINGS",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ]
+  },
+  {
+    "name": "SRX STUDIO",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ]
+  },
+  {
+    "name": "impOSCar3",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "IconDrum",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ]
+  },
+  {
+    "name": "DMX",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ]
+  },
+  {
+    "name": "M-Tron Pro IV",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "mellotron"
+    ]
+  },
+  {
+    "name": "MINIMONSTA2",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "ODDITY3",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Oberheim SEM",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "VSM IV",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Axxess",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Trilian",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spectrsasonics",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "bass"
+    ]
+  },
+  {
+    "name": "Repro-1",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Diva",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Kee Bass",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Martinic",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "bass"
+    ]
+  },
+  {
+    "name": "Flow Motion Stereo",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Waves",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern"
+    ]
+  },
+  {
+    "name": "CODEX Stereo",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Waves",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern"
+    ]
+  },
+  {
+    "name": "Bazille",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Zebrify",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Hive",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Repro-5",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "SC Theremin",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Stagecraft Software",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "theremin"
+    ]
+  },
+  {
+    "name": "SynthMaster Player",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "KV331 Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern"
+    ]
+  },
+  {
+    "name": "Zebra2",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Zebralette",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Aparillo",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "SugarBytes",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern"
+    ]
+  },
+  {
+    "name": "ElectraX",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Tone2",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern"
+    ]
+  },
+  {
+    "name": "ReaSamplOmatic5000",
+    "type": "Instrument",
+    "host": "Reaper",
+    "developer": "Cockos",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "sampler",
+      "cockos"
+    ]
+  },
+  {
+    "name": "ReaSynth",
+    "type": "Instrument",
+    "host": "Reaper",
+    "developer": "Cockos",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern",
+      "cockos"
+    ]
+  },
+  {
+    "name": "ACE",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Generate",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Newfangledaudio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern"
+    ]
+  },
+  {
+    "name": "Martinic AX73",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Martinic",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "OB-Xtrm3",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Alyjameslabs",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "oberheim"
+    ]
+  },
+  {
+    "name": "Synthesizer V Studio",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Dreamtonics",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vocal"
+    ]
+  },
+  {
+    "name": "Scaler 3",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Plugin Boutique",
+    "libraryPath": null,
+    "tags": [
+      "midi",
+      "composition"
+    ]
+  },
+  {
+    "name": "CR8 Sampler Stereo",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Waves",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "sampler"
+    ]
+  },
+  {
+    "name": "RapidComposer V5",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "MusicDevelopments",
+    "libraryPath": null,
+    "tags": [
+      "midi",
+      "composition"
+    ]
+  },
+  {
+    "name": "VSDSX",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Alyjameslabs",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage",
+      "simmons"
+    ]
+  },
+  {
+    "name": "VR55 DrumComputer",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "SampleScience",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Dr. BeatBox",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Rhythm Robot",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Heartbeat",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Tattoo",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "drums"
+    ]
+  },
+  {
+    "name": "CLAPTRAP",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Alyjameslabs",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "drums",
+      "percussion"
+    ]
+  },
+  {
+    "name": "VPROM",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Alyjameslabs",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "LIN-1"
+    ]
+  },
+  {
+    "name": "Stylo Synthesis",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Sample Science",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "stylophone"
+    ]
+  },
+  {
+    "name": "SuperWave Stylophone",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Christopher Gill",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Lo-Fi Vaportones",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "SampleScience",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Healing 2",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "QuietMusic",
+    "libraryPath": null,
+    "tags": [
+      "world",
+      "bowls",
+      "meditation",
+      "dharma"
+    ]
+  },
+  {
+    "name": "CUBE",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Lunacy Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "container"
+    ]
+  },
+  {
+    "name": "Galaxias",
+    "type": "Container",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "container"
+    ]
+  },
+  {
+    "name": "Nektarine",
+    "type": "Container",
+    "host": "vst3i",
+    "developer": "Nektar",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "container"
+    ]
+  },
+  {
+    "name": "sforzando",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Plogue Art et Technologie",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "container"
+    ]
+  },
+  {
+    "name": "SuperpluginSynth",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "DDMF",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "container"
+    ]
+  },
+  {
+    "name": "UVIWorkstation",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "container"
+    ]
+  },
+  {
+    "name": "BM-COZY",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "UJAM",
+    "libraryPath": null,
+    "tags": [
+      "drums"
+    ]
+  },
+  {
+    "name": "Cinematic Percussion",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "percussion"
+    ]
+  },
+  {
+    "name": "Triaz",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Wave Alchemy",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "percussion"
+    ]
+  },
+  {
+    "name": "VProm3",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Alyjameslabs",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ]
+  },
+  {
+    "name": "VR55 DrumComputer",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "SamplesScience",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Liquid Death Snare",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Purafied Audio",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "percussion"
+    ]
+  },
+  {
+    "name": "606 Koncept Pro",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "SampleScience",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Vintage Drum Elements",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "SampleScience",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Rain Maker",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "QuietMusic",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "foley"
+    ]
+  },
+  {
+    "name": "Vendaval",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "CabbageAudio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "foley"
+    ]
+  },
+  {
+    "name": "SE-BRAAASS",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "UJAM",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "brass"
+    ]
+  },
+  {
+    "name": "SE-STRIIIINGS",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "UJAM",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "strings"
+    ]
+  },
+  {
+    "name": "Abbey Road One Low Strings",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "strings"
+    ]
+  },
+  {
+    "name": "Abbey Road One Horns",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "brass"
+    ]
+  },
+  {
+    "name": "Abbey Road One Trumpets",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "brass"
+    ]
+  },
+  {
+    "name": "Abbey Road One Flutes",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "winds"
+    ]
+  },
+  {
+    "name": "Abbey Road One Brass",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "brass"
+    ]
+  },
+  {
+    "name": "Albion Colossus",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "orchestral",
+      "ensemble"
+    ]
+  },
+  {
+    "name": "Hans Zimmer Strings",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "strings"
+    ]
+  },
+  {
+    "name": "EZkeys",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "keys",
+      "container"
+    ]
+  },
+  {
+    "name": "Pianoteq 6",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Modartt",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage",
+      "container"
+    ]
+  },
+  {
+    "name": "1960s Piano",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "SampleScience",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage"
+    ]
+  },
+  {
+    "name": "EARTH Piano",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Electric200",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Waves",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Evanescent Baby Grand Piano",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "NewNation",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Keyscape",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Spectrasonics",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage"
+    ]
+  },
+  {
+    "name": "Scarred Piano",
+    "type": "Instrument",
+    "host": "vst3i",
+    "developer": "Infinit Audio",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage"
+    ]
   }
 ]
