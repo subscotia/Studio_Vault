@@ -1,366 +1,38 @@
 [
   {
-    "name": "CUBE",
+    "name": "Thing8",
     "type": "Instrument",
     "host": "vst3i",
-    "developer": "Lunacy Audio",
-    "libraryPath": null,
-    "tags": [
-      "synth",
-      "container"
-    ]
-  },
-  {
-    "name": "Galaxias",
-    "type": "Container",
-    "host": "vst3i",
-    "developer": "Roland",
-    "libraryPath": null,
-    "tags": [
-      "synth",
-      "container"
-    ]
-  },
-  {
-    "name": "Nektarine",
-    "type": "Container",
-    "host": "vst3i",
-    "developer": "Nektar",
-    "libraryPath": null,
-    "tags": [
-      "synth",
-      "container"
-    ]
-  },
-  {
-    "name": "sforzando",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Plogue Art et Technologie",
-    "libraryPath": null,
-    "tags": [
-      "synth",
-      "container"
-    ]
-  },
-  {
-    "name": "SuperpluginSynth",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "DDMF",
-    "libraryPath": null,
-    "tags": [
-      "synth",
-      "container"
-    ]
-  },
-  {
-    "name": "UVIWorkstation",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "UVI",
-    "libraryPath": null,
-    "tags": [
-      "container"
-    ]
-  },
-  {
-    "name": "BM-COZY",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "UJAM",
-    "libraryPath": null,
-    "tags": [
-      "drums"
-    ]
-  },
-  {
-    "name": "Cinematic Percussion",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Spitfire Audio",
-    "libraryPath": null,
-    "tags": [
-      "orchestral",
-      "percussion"
-    ]
-  },
-  {
-    "name": "Triaz",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Wave Alchemy",
-    "libraryPath": null,
-    "tags": [
-      "drums",
-      "percussion"
-    ]
-  },
-  {
-    "name": "VProm3",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Alyjameslabs",
-    "libraryPath": null,
-    "tags": [
-      "drums",
-      "vintage"
-    ]
-  },
-  {
-    "name": "VR55 DrumComputer",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "SamplesScience",
-    "libraryPath": null,
-    "tags": [
-      "drums",
-      "vintage"
-    ]
-  },
-  {
-    "name": "Liquid Death Snare",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Purafied Audio",
-    "libraryPath": null,
-    "tags": [
-      "drums",
-      "percussion"
-    ]
-  },
-  {
-    "name": "606 Koncept Pro",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "SampleScience",
+    "developer": "Acustica Audio",
     "libraryPath": null,
     "tags": [
       "synth",
       "vintage"
-    ]
+    ],
+    "emulates": null
   },
   {
-    "name": "Vintage Drum Elements",
+    "name": "Thing5",
     "type": "Instrument",
     "host": "vst3i",
-    "developer": "SampleScience",
-    "libraryPath": null,
-    "tags": [
-      "drums",
-      "vintage"
-    ]
-  },
-  {
-    "name": "Rain Maker",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "QuietMusic",
+    "developer": "Acustica Audio",
     "libraryPath": null,
     "tags": [
       "synth",
-      "foley"
-    ]
+      "vintage"
+    ],
+    "emulates": null
   },
   {
-    "name": "Vendaval",
+    "name": "Expanse5",
     "type": "Instrument",
     "host": "vst3i",
-    "developer": "CabbageAudio",
+    "developer": "Acustica Audio",
     "libraryPath": null,
     "tags": [
       "synth",
-      "foley"
-    ]
-  },
-  {
-    "name": "SE-BRAAASS",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "UJAM",
-    "libraryPath": null,
-    "tags": [
-      "orchestral",
-      "brass"
-    ]
-  },
-  {
-    "name": "SE-STRIIIINGS",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "UJAM",
-    "libraryPath": null,
-    "tags": [
-      "orchestral",
-      "strings"
-    ]
-  },
-  {
-    "name": "Abbey Road One Low Strings",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Spitfire Audio",
-    "libraryPath": null,
-    "tags": [
-      "orchestral",
-      "strings"
-    ]
-  },
-  {
-    "name": "Abbey Road One Horns",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Spitfire Audio",
-    "libraryPath": null,
-    "tags": [
-      "orchestral",
-      "brass"
-    ]
-  },
-  {
-    "name": "Abbey Road One Trumpets",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Spitfire Audio",
-    "libraryPath": null,
-    "tags": [
-      "orchestral",
-      "brass"
-    ]
-  },
-  {
-    "name": "Abbey Road One Flutes",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Spitfire Audio",
-    "libraryPath": null,
-    "tags": [
-      "orchestral",
-      "winds"
-    ]
-  },
-  {
-    "name": "Abbey Road One Brass",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Spitfire Audio",
-    "libraryPath": null,
-    "tags": [
-      "orchestral",
-      "brass"
-    ]
-  },
-  {
-    "name": "Albion Colossus",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Spitfire Audio",
-    "libraryPath": null,
-    "tags": [
-      "synth",
-      "orchestral",
-      "ensemble"
-    ]
-  },
-  {
-    "name": "Hans Zimmer Strings",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Spitfire Audio",
-    "libraryPath": null,
-    "tags": [
-      "orchestral",
-      "strings"
-    ]
-  },
-  {
-    "name": "EZkeys",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Toontrack",
-    "libraryPath": null,
-    "tags": [
-      "synth",
-      "keys",
-      "container"
-    ]
-  },
-  {
-    "name": "Pianoteq 6",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Modartt",
-    "libraryPath": null,
-    "tags": [
-      "keys",
-      "vintage",
-      "container"
-    ]
-  },
-  {
-    "name": "1960s Piano",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "SampleScience",
-    "libraryPath": null,
-    "tags": [
-      "keys",
       "vintage"
-    ]
-  },
-  {
-    "name": "EARTH Piano",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Roland",
-    "libraryPath": null,
-    "tags": [
-      "keys",
-      "vintage"
-    ]
-  },
-  {
-    "name": "Electric200",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Waves",
-    "libraryPath": null,
-    "tags": [
-      "keys",
-      "vintage"
-    ]
-  },
-  {
-    "name": "Evanescent Baby Grand Piano",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "NewNation",
-    "libraryPath": null,
-    "tags": [
-      "keys",
-      "vintage"
-    ]
-  },
-  {
-    "name": "Keyscape",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Spectrasonics",
-    "libraryPath": null,
-    "tags": [
-      "keys",
-      "vintage"
-    ]
-  },
-  {
-    "name": "Scarred Piano",
-    "type": "Instrument",
-    "host": "vst3i",
-    "developer": "Infinit Audio",
-    "libraryPath": null,
-    "tags": [
-      "keys",
-      "vintage"
-    ]
+    ],
+    "emulates": ["Sequential Prophet-5"]
   }
 ]

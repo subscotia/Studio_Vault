@@ -8,7 +8,7 @@ import shutil
 import os
 
 # configuration
-json_path = "kontakt_instruments_merged.json"  # original json file
+json_path = "Generic_instruments_merged.json"  # original json file
 new_field = "emulates"       # field to add
 new_value = None              # set to a list like ["prophet-5"] or leave as None
 

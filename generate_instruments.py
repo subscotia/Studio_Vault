@@ -17,9 +17,10 @@ for entry in lines:
         "name": lib,
         "type": "Instrument",
         "host": "vst3i",
-        "developer": "GForce",
+        "developer": "Acustica Audio",
         "libraryPath": None,
-        "tags": ["synth", "vintage"]
+        "tags": ["synth", "vintage"],
+        "emulates" : None
     })
 
 # 3) Write out the merged JSON

@@ -1,0 +1,1613 @@
+[
+  {
+    "name": "african mamba",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["african marimba", "udu"],
+    "emulates": null,
+    "id": "inci00091"
+  },
+  {
+    "name": "ancient bones",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["death whistle", "femur trumpet", "trident shell", "sound design", "horror", "ethnic winds", "experimental"
+],
+    "emulates": null,
+    "id": "inci00092"
+  },
+  {
+    "name": "apocalyptica",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["solo cello", "rhythmic cello", "power chords", "cello fx", "metal", "cinematic", "post-rock"],
+    "emulates": null,
+    "id": "inci00093"
+  },
+  {
+    "name": "gina luciani flutes",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["solo flute", "alto flute", "bass flute", "contrabass flute", "cinematic", "expressive", "woodwinds"],
+    "emulates": null,
+    "id": "inci00094"
+  },
+  {
+    "name": "randy kerber celeste",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["celeste", "prepared piano", "soft keys", "cinematic", "magical"],
+    "emulates": null,
+    "id": "inci00095"
+  },
+  {
+    "name": "randy kerber prepared piano",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["prepared piano", "soft keys", "cinematic", "magical"],
+    "emulates": null,
+    "id": "inci00096"
+  },
+  {
+    "name": "taylor davis solo violin",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["solo violin", "expressive", "cinematic", "legato"],
+    "emulates": null,
+    "id": "inci00097"
+  },
+  {
+    "name": "tina guo acoustic cello",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["acoustic cello", "solo cello", "expressive", "legato", "cinematic"],
+    "emulates": null,
+    "id": "inci00098"
+  },
+  {
+    "name": "tina guo electric cello",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["electric cello", "solo cello", "sound design", "cinematic", "expressive"],
+    "emulates": null,
+    "id": "inci00099"
+  },
+  {
+    "name": "tina guo solo cello",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["solo cello", "expressive", "legato", "cinematic"],
+    "emulates": null,
+    "id": "inci00100"
+  },
+  {
+    "name": "voces 8",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["choir", "a cappella", "vocal ensemble", "sacred", "cinematic"],
+    "emulates": null,
+    "id": "inci00101"
+  },
+  {
+    "name": "cinebrass core",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["trumpet", "french horn", "trombone", "tuba", "brass ensemble", "orchestral brass", "cinematic"],
+    "emulates": null,
+    "id": "inci00102"
+  },
+  {
+    "name": "cinebrass deep horns",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["tuba", "euphonium", "low brass", "brass ensemble", "orchestral brass", "cinematic"],
+    "emulates": null,
+    "id": "inci00103"
+  },
+  {
+    "name": "cinebrass descant horn",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["descant horn", "solo horn", "high brass", "orchestral brass", "cinematic"],
+    "emulates": null,
+    "id": "inci00104"
+  },
+  {
+    "name": "cinebrass low brass",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["bass trombone", "contrabass trombone", "tuba", "low brass", "brass ensemble", "orchestral brass", "cinematic"],
+    "emulates": null,
+    "id": "inci00105"
+  },
+  {
+    "name": "cinebrass pro",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["solo trumpet", "muted trumpet", "harmon mute trumpet", "solo horn", "horn ensemble", "muted horn", "flutter horn", "horn chords", "horn rips", "horns a12", "solo trombone", "muted trombone", "harmon mute trombone", "flutter trombone", "solo tuba", "monster low brass", "brass fx", "brass ensemble", "orchestral brass", "cinematic"],
+    "emulates": null,
+    "id": "inci00106"
+  },
+  {
+    "name": "cinebrass sonore",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["solo trumpet", "trumpet ensemble", "solo horn", "horn ensemble", "orchestral brass", "resonant", "cinematic"],
+    "emulates": null,
+    "id": "inci00107"
+  },
+  {
+    "name": "cineharps",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["orchestral harp", "solo harp", "glissandi", "plucked strings", "cinematic", "expressive"],
+    "emulates": null,
+    "id": "inci00108"
+  },
+  {
+    "name": "cine harpsichord",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["harpsichord", "baroque", "vintage", "cinematic", "plucked strings", "early music"],
+    "emulates": null,
+    "id": "inci00109"
+  },
+  {
+    "name": "cineperc",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["orchestral percussion", "auxiliary percussion", "ethnic percussion", "metal percussion", "wood percussion", "cinematic", "epic"],
+    "emulates": null,
+    "id": "inci00110"
+  },
+  {
+    "name": "cineperc drum kit",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["drum kit", "acoustic drums", "orchestral percussion", "cinematic", "epic"],
+    "emulates": null,
+    "id": "inci00111"
+  },
+  {
+    "name": "cineperc epic",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["taikos", "gran casas", "concert bass drums", "ensemble drums", "metal impacts", "low booms", "epic percussion", "cinematic", "trailer"],
+    "emulates": null,
+    "id": "inci00112"
+  },
+  {
+    "name": "cineperc metal",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["metal percussion", "anvils", "brake drums", "cymbals", "gongs", "industrial", "cinematic", "epic"],
+    "emulates": null,
+    "id": "inci00113"
+  },
+  {
+    "name": "cineperc orchestral",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["snare drum", "bass drum", "timpani", "cymbals", "glockenspiel", "xylophone", "chimes", "orchestral percussion", "cinematic"],
+    "emulates": null,
+    "id": "inci00114"
+  },
+  {
+    "name": "cineperc tonal",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["tubular bells", "vibraphone", "marimba", "crotales", "bells", "tuned percussion", "orchestral percussion", "cinematic"],
+    "emulates": null,
+    "id": "inci00115"
+  },
+  {
+    "name": "cineperc wood",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["wood blocks", "temple blocks", "log drums", "slit drums", "castanets", "claves", "guiro", "ratchet", "wood percussion", "orchestral percussion", "cinematic"],
+    "emulates": null,
+    "id": "inci00116"
+  },
+  {
+    "name": "cineperc world",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["ethnic percussion", "world drums", "hand percussion", "shakers", "tambourines", "frame drums", "cinematic"],
+    "emulates": null,
+    "id": "inci00117"
+  },
+  {
+    "name": "cinepiano",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["concert grand", "piano", "orchestral piano", "cinematic"],
+    "emulates": null,
+    "id": "inci00118"
+  },
+  {
+    "name": "cinestrings core",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["violin", "viola", "cello", "bass", "string ensemble", "orchestral strings", "legato", "sustain", "short articulations", "cinematic"],
+    "emulates": null,
+    "id": "inci00119"
+  },
+  {
+    "name": "cinestrings pro",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["appassionata strings", "con sordino", "divisi strings", "string fx", "expressive", "cinematic", "orchestral strings"],
+    "emulates": null,
+    "id": "inci00120"
+  },
+  {
+    "name": "cinestrings runs",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["string runs", "scales", "rips", "trills", "major scale", "minor scale", "chromatic scale", "octatonic scale", "whole tone scale", "string fx", "cinematic", "orchestral strings"],
+    "emulates": null,
+    "id": "inci00121"
+  },
+  {
+    "name": "cinestrings solo",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["solo violin", "solo viola", "solo cello", "solo bass", "true legato", "expressive", "cinematic", "orchestral strings"],
+    "emulates": null,
+    "id": "inci00122"
+  },
+  {
+    "name": "cinesymphony",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["string ensemble", "woodwind ensemble", "brass ensemble", "timpani", "orchestral percussion", "cinematic", "orchestral"],
+    "emulates": null,
+    "id": "inci00123"
+  },
+  {
+    "name": "cinewinds core",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["piccolo", "flute", "clarinet", "oboe", "bassoon", "woodwind ensemble", "orchestral woodwinds", "cinematic"],
+    "emulates": null,
+    "id": "inci00124"
+  },
+  {
+    "name": "cinewinds low winds",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["bass clarinet", "contrabass clarinet", "bassoon", "contrabassoon", "low woodwinds", "woodwind ensemble", "orchestral woodwinds", "cinematic"],
+    "emulates": null,
+    "id": "inci00125"
+  },
+  {
+    "name": "cinewinds pro",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["alto flute", "bass flute", "eb clarinet", "bass clarinet", "contrabassoon", "english horn", "baroque flute", "renaissance flute", "duduk", "penny whistle", "bagpipes", "historical woodwinds", "ethnic woodwinds", "orchestral woodwinds", "cinematic", "expressive"],
+    "emulates": null,
+    "id": "inci00126"
+  },
+  {
+    "name": "collision impact design",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["impacts", "hits", "subs", "tickies", "sustains", "designed percussion", "cinematic", "trailer", "sound design"],
+    "emulates": null,
+    "id": "inci00127"
+  },
+  {
+    "name": "colors full spectrum tonal percussion",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["tonal percussion", "bells", "mallets", "vibraphone", "marimba", "glockenspiel", "crotales", "tuned metals", "cinematic", "expressive"],
+    "emulates": null,
+    "id": "inci00128"
+  },
+  {
+    "name": "accent pianos",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["orchestral piano", "accent piano", "percussive piano", "cinematic", "rhythmic"],
+    "emulates": null,
+    "id": "inci00129"
+  },
+  {
+    "name": "create series kalimba",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["kalimba", "thumb piano", "plucked idiophone", "african instrument", "tonal percussion", "light textures", "cinematic"],
+    "emulates": null,
+    "id": "inci00130"
+  },
+  {
+    "name": "create series tonal tickles",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["tickies", "semi-tonal percussion", "glass marimba", "stone marimba", "crotales", "cowbells", "hang drum", "steel tongue drum", "boomwhackers", "balafon", "angklung", "dulcimer", "light grooves", "rhythmic textures", "cinematic"],
+    "emulates": null,
+    "id": "inci00131"
+  },
+  {
+    "name": "tongue drum",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["tongue drum", "iron drum", "pentatonic scale", "hand percussion", "tonal percussion", "cinematic"],
+    "emulates": null,
+    "id": "inci00132"
+  },
+  {
+    "name": "create series toyxylo",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["toy xylophone", "childlike", "bright", "percussive", "melodic", "playful", "cinematic"],
+    "emulates": null,
+    "id": "inci00133"
+  },
+  {
+    "name": "twisted psaltry",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["twisted psaltry", "bowed metal", "metallic textures", "horror fx", "cinematic", "sound design"],
+    "emulates": null,
+    "id": "inci00134"
+  },
+  {
+    "name": "drums in blue",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["jazz drums", "vintage kit", "brushes", "sticks", "ride cymbal", "snare", "kick drum", "hi-hats", "bebop", "swing", "drum set"],
+    "emulates": null,
+    "id": "inci00135"
+  },
+  {
+    "name": "drums of war 1",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["cinematic percussion", "epic drums", "low drums", "taikos", "gran casas", "tom ensemble", "metal hits", "war drums", "trailer percussion"],
+    "emulates": null,
+    "id": "inci00136"
+  },
+  {
+    "name": "drums of war 2",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["taikos", "shime daikos", "frame drums", "djun djuns", "mondo toms", "sub booms", "doumbek", "tabla", "chang chang", "metals", "mixing bells", "hang drum", "gong", "one shot shaker", "kissing fish shaker", "war drums", "cinematic percussion", "trailer percussion"],
+    "emulates": null,
+    "id": "inci00137"
+  },
+  {
+    "name": "drums of war 3",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["epic drums", "cinematic percussion", "low drums", "metal impacts", "gran casas", "taikos", "tom ensemble", "war drums", "trailer percussion"],
+    "emulates": null,
+    "id": "inci00138"
+  },
+  {
+    "name": "dulcimer & zither",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["dulcimer", "zither", "ukelin", "hammered strings", "plucked strings", "folk instrument", "world instrument", "string textures", "cinematic"],
+    "emulates": null,
+    "id": "inci00139"
+  },
+  {
+    "name": "forbes pipe organ",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["pipe organ", "swell", "positive", "great", "pedal", "organ stops", "manuals", "church organ", "cinematic"],
+    "emulates": null,
+    "id": "inci00140"
+  },
+  {
+    "name": "handbells",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["handbells", "chromatic bells", "pitched sleighbells", "metallic percussion", "orchestral bells", "church bells", "cinematic"],
+    "emulates": null,
+    "id": "inci00141"
+  },
+  {
+    "name": "hardanger fiddle",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["hardanger fiddle", "norwegian folk", "sympathetic strings", "resonant strings", "bowed strings", "traditional instrument", "nordic sound", "folk solo", "cinematic"],
+    "emulates": null,
+    "id": "inci00142"
+  },
+  {
+    "name": "hollywoodwinds orchestral woodwinds",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["orchestral woodwinds", "woodwind ensemble", "ensemble runs", "woodwind phrases", "atonal rips", "cluster stacks", "clarinet fx", "piccolo flutters", "cinematic"],
+    "emulates": null,
+    "id": "inci00143"
+  },
+  {
+    "name": "industry brass core",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["orchestral brass", "trumpet", "french horn", "trombone", "tuba", "brass ensemble", "articulations", "brass fx", "cinematic"],
+    "emulates": null,
+    "id": "inci00144"
+  },
+  {
+    "name": "industry brass pro",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["orchestral brass", "trumpet", "french horn", "trombone", "tuba", "bass trombone", "brass ensemble", "articulations", "brass clusters", "brass phrases", "cinematic"],
+    "emulates": null,
+    "id": "inci00145"
+  },
+  {
+    "name": "keyboard in blue",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["electric piano", "rhodes", "vintage keyboard", "tube amp", "analog warmth", "soulful tone", "jazz keys", "character knob"],
+    "emulates": null,
+    "id": "inci00146"
+  },
+  {
+    "name": "mister rogers' celeste",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["celeste", "vintage keyboard", "metallic tines", "nostalgic tone", "character instrument", "tv theme", "gentle resonance"],
+    "emulates": null,
+    "id": "inci00147"
+  },
+  {
+    "name": "men of the north nordic voices",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["male choir", "low voices", "nordic vocals", "old norse", "viking chants", "word building", "legato phrases", "drones", "textures", "atmospheric vocals", "cinematic"],
+    "emulates": null,
+    "id": "inci00148"
+  },
+  {
+    "name": "women of the north nordic voices",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["female choir", "nordic vocals", "old norse", "vocal fx", "word building", "legato phrases", "chanting", "drones", "textures", "cinematic"],
+    "emulates": null,
+    "id": "inci00149"
+  },
+  {
+    "name": "orchestral chords",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["orchestral chords", "ensemble chords", "major chords", "minor chords", "octave stacks", "low brass", "low strings", "full orchestra", "cinematic"],
+    "emulates": null,
+    "id": "inci00150"
+  },
+  {
+    "name": "piano in blue",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["vintage piano", "columbia 30th street studio", "kind of blue", "tape warmth", "neumann mics", "mono option", "jazz piano", "cinematic"],
+    "emulates": "steinway model d",
+    "id": "inci00151"
+  },
+  {
+    "name": "quatre string foundations",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["string quartet", "small ensemble", "intimate strings", "legato", "short articulations", "chamber strings", "cinematic"],
+    "emulates": null,
+    "id": "inci00152"
+  },
+  {
+    "name": "rhodes seventy three",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["electric piano", "rhodes", "fender rhodes", "seventy three", "vintage keyboard", "warm tone", "soulful keys", "analog character", "jazz keys"],
+    "emulates": "1973 fender rhodes",
+    "id": "inci00153"
+  },
+  {
+    "name": "session piano grand",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["concert grand", "steinway", "orchestral piano", "warm tone", "dynamic range", "cinematic", "scoring stage"],
+    "emulates": null,
+    "id": "inci00154"
+  },
+  {
+    "name": "session piano upright",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["upright piano", "challen", "mrs. mills", "vintage upright", "tack piano", "jangle box", "abbey road", "warm tone", "cinematic"],
+    "emulates": null,
+    "id": "inci00155"
+  },
+  {
+    "name": "sew what",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["sewing machine", "knitting needles", "buttons", "beads", "scissors", "cloth", "velcro", "zippers", "shoelaces", "tape measure", "elastic", "embroidery hoops", "cardboard", "fabric", "metallic percussion", "pitched percussion", "non-pitched percussion", "found sounds", "cinematic"],
+    "emulates": null,
+    "id": "inci00156"
+  },
+  {
+    "name": "soundscapes",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["granular synthesis", "violin textures", "pads", "pulses", "one-shots", "sound design", "grain engine", "motion control", "atmospheric"],
+    "emulates": null,
+    "id": "inci00157"
+  },
+  {
+    "name": "studio basses",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["electric bass", "fretless bass", "picked bass", "fingered bass", "slap bass", "studio bass", "bass articulations", "low end", "cinematic"],
+    "emulates": "bass guitar",
+    "id": "inci00158"
+  },
+  {
+    "name": "studio guitars",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["electric guitar", "acoustic guitar", "nylon guitar", "steel string", "guitar rhythms", "guitar pads", "lead guitar", "guitar textures", "sound design", "cinematic"],
+    "emulates": "electric guitar",
+    "id": "inci00159"
+  },
+  {
+    "name": "sunset drums",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["drum kit", "studio drums", "vintage drums", "dry room", "tight sound", "multi-mic", "rock drums", "pop drums", "cinematic"],
+    "emulates": null,
+    "id": "inci00160"
+  },
+  {
+    "name": "village drums",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["ethnic percussion", "world drums", "hand drums", "frame drums", "shakers", "bells", "wood percussion", "tribal rhythms", "cinematic"],
+    "emulates": null,
+    "id": "inci00161"
+  },
+  {
+    "name": "village mallets",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["marimba", "xylophone", "vibraphone", "glockenspiel", "crotales", "kalimba", "log drum", "wood blocks", "shakers", "bells", "ethnic mallets", "world percussion", "cinematic"],
+    "emulates": null,
+    "id": "inci00162"
+  },
+  {
+    "name": "drum machine lin drum",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["linndrum", "drum machine", "vintage drums", "electronic drums", "kick", "snare", "hi-hat", "clap", "tom", "cymbal", "percussion", "retro sound", "80s drums", "cinematic"],
+    "emulates": "linn drum",
+    "id": "inci00163"
+  },
+  {
+    "name": "drum machine TR-707",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["tr-707", "drum machine", "vintage drums", "electronic drums", "kick", "snare", "hi-hat", "clap", "tom", "cymbal", "rimshot", "cowbell", "percussion", "retro sound", "80s drums", "cinematic"],
+    "emulates": "drum machine TR-707",
+    "id": "inci00164"
+  },
+  {
+    "name": "drum machine TR-808",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["tr-808", "drum machine", "vintage drums", "electronic drums", "kick", "snare", "hi-hat", "clap", "tom", "cymbal", "rimshot", "cowbell", "conga", "shaker", "clave", "percussion", "retro sound", "80s drums", "cinematic"],
+    "emulates": "drum machine tr-808",
+    "id": "inci00165"
+  },
+  {
+    "name": "drum machine TR-909",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["tr-909", "drum machine", "vintage drums", "electronic drums", "kick", "snare", "hi-hat", "clap", "tom", "cymbal", "rimshot", "cowbell", "percussion", "retro sound", "80s drums", "cinematic"],
+    "emulates": "drum machine tr-909",
+    "id": "inci00166"
+  },
+  {
+    "name": "synth bass TB-303",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["tb-303", "synth bass", "acid bass", "bassline synth", "analog synth", "step sequencer", "resonant filter", "glide", "electronic music", "retro sound", "80s synth"],
+    "emulates": "tb-303",
+    "id": "inci00167"
+  },
+  {
+    "name": "synthesizer arp quadra",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["arp quadra", "synthesizer", "bass synth", "poly synth", "lead synth", "string synth", "analog synth", "vintage synth", "multi-section", "layered sounds", "retro sound", "cinematic"],
+    "emulates": "arp quadra",
+    "id": "inci00168"
+  },
+  {
+    "name": "synthesizer juliter-6",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["juliter-6", "synthesizer", "analog synth", "poly synth", "lead synth", "bass synth", "vintage synth", "multi-mode filter", "modulation", "retro sound", "80s synth", "cinematic"],
+    "emulates": "jupiter-6",
+    "id": "inci00169"
+  },
+  {
+    "name": "synthesizer mono-poly",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["mono-poly", "synthesizer", "analog synth", "poly synth", "lead synth", "bass synth", "vintage synth", "4 oscillator", "modulation", "arpeggiator", "retro sound", "80s synth", "cinematic"],
+    "emulates": null,
+    "id": "inci00170"
+  },
+  {
+    "name": "synthesizer ob-xa",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["ob-xa", "synthesizer", "analog synth", "poly synth", "lead synth", "bass synth", "vintage synth", "dual vco", "resonant filter", "modulation", "retro sound", "80s synth", "cinematic"],
+    "emulates": "oberheim ob-xa",
+    "id": "inci00171"
+  },
+  {
+    "name": "synthesizer oberheim",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["oberheim", "synthesizer", "analog synth", "poly synth", "lead synth", "bass synth", "vintage synth", "modulation", "resonant filter", "retro sound", "80s synth", "cinematic"],
+    "emulates": "oberheim",
+    "id": "inci00172"
+  },
+  {
+    "name": "synthesizer octave cat",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [ "synthesizer", "analog synth", "duophonic", "vco", "sub oscillator", "cross modulation", "waveform blending", "resonant filter", "modulation", "vintage synth", "retro sound", "80s synth", "cinematic"],
+    "emulates": "octave cat",
+    "id": "inci00173"
+  },
+  {
+    "name": "synthesizer ppg wave-2",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["ppg wave-2", "synthesizer", "wavetable synth", "digital analog hybrid", "poly synth", "vintage synth", "wave sequencing", "resonant filter", "modulation", "retro sound", "80s synth", "cinematic"],
+    "emulates": null,
+    "id": "inci00174"
+  },
+  {
+    "name": "synthesizer prophet 5",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["prophet 5", "synthesizer", "analog synth", "poly synth", "lead synth", "bass synth", "vintage synth", "vco", "resonant filter", "modulation", "retro sound", "80s synth", "cinematic"],
+    "emulates": "prophet 5",
+    "id": "inci00175"
+  },
+  {
+    "name": "synthesizer rhodes chroma",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["rhodes chroma", "synthesizer", "analog synth", "poly synth", "vintage synth", "dual vco", "resonant filter", "modulation", "layered sounds", "waveform blending", "retro sound", "80s synth", "cinematic"],
+    "emulates": "rhodes chroma",
+    "id": "inci00176"
+  },
+  {
+    "name": "synthesizer synergy",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["synergy", "synthesizer", "digital synth", "additive synthesis", "fm synthesis", "poly synth", "vintage synth", "resonant filter", "modulation", "waveform blending", "retro sound", "80s synth", "cinematic"],
+    "emulates": null,
+    "id": "inci00177"
+  },
+  {
+    "name": "viola da gamba",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["early music", "baroque strings", "legato", "drones", "infinite bow", "historic instrument", "string ensemble", "expressive articulations", "cinematic"],
+    "emulates": "viola da gamba",
+    "id": "inci00178"
+  },
+  {
+    "name": "vision modern synth",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["vision", "modern synth", "synthesizer", "analog synth", "digital synth", "hybrid synth", "poly synth", "bass synth", "lead synth", "pads", "textures", "motion control", "sound design", "cinematic"],
+    "emulates": null,
+    "id": "inci00179"
+  },
+  {
+    "name": "iceland",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["iceland", "folk instruments", "traditional music", "nordic instruments", "ethnic percussion", "string instruments", "wind instruments", "ambient textures", "sound design", "world music", "cinematic"],
+    "emulates": null,
+    "id": "inci00180"
+  },
+  {
+    "name": "ireland",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["ireland", "folk instruments", "traditional music", "celtic instruments", "ethnic percussion", "string instruments", "wind instruments", "bodhrán", "uilleann pipes", "fiddle", "ambient textures", "sound design", "world music", "cinematic"],
+    "emulates": null,
+    "id": "inci00181"
+  },
+  {
+    "name": "scotland",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["scotland", "folk instruments", "traditional music", "celtic instruments", "ethnic percussion", "bagpipes", "snare drum", "tenor drum", "fiddle", "flute", "ambient textures", "sound design", "world music", "cinematic"],
+    "emulates": null,
+    "id": "inci00182"
+  },
+  {
+    "name": "south africa",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["south africa", "folk instruments", "traditional music", "african instruments", "ethnic percussion", "hand drums", "shakers", "bells", "string instruments", "wind instruments", "ambient textures", "sound design", "world music", "cinematic"],
+    "emulates": null,
+    "id": "inci00183"
+  },
+  {
+    "name": "wurly electric piano",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": ["wurly", "electric piano", "reed piano", "vintage keys", "wurlitzer 200", "wurlitzer 200a", "analog emulation", "tremolo", "mechanical noise", "soulful tone", "retro sound", "70s keys", "cinematic"],
+    "emulates": "wurlitzer 200a",
+    "id": "inci00184"
+  },
+  {
+    "name": "Schema-Dark",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": ["schema dark", "loop-based instrument", "rhythmic textures", "percussive loops", "sound design", "dark atmospheres", "cinematic", "electronic", "hybrid scoring"],
+    "emulates": null,
+    "id": "inni00494"
+  },
+  {
+    "name": "Guitar Triggers",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["guitar triggers", "soundpaint", "guitar", "banjo", "dulcimer", "ukulele", "bass", "body slap", "muted pluck", "release trigger", "acoustic guitar", "electric guitar", "telecaster", "brushed articulations", "percussive accents", "hidden gems", "dynamic expression", "loop-based", "sound design", "cinematic"],
+    "emulates": "guitar",
+    "id": "inso00027"
+  },
+  {
+    "name": "Perc Triggers",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["perc triggers", "soundpaint", "percussion", "percussive triggers", "attack sounds", "release sounds", "metal pipes", "glass sheets", "bubble wrap", "congas", "hand claps", "wooden planks", "plastic pipes", "udu", "coin bag", "paper bag", "kitchen sink", "shekere", "spanner", "polystyrene", "hidden gems", "dynamic expression", "sound design", "cinematic"],
+    "emulates": null,
+    "id": "inso00028"
+  },
+  {
+    "name": "AGE Cimbalom",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["age cimbalom", "soundpaint", "cimbalom", "dulcimer", "struck strings", "plucked strings", "tremolo", "staccato", "sustain", "snap pizz", "strummed", "barok pizz", "ensemble", "folk instrument", "eastern european", "cinematic", "sound design"],
+    "emulates": null,
+    "id": "inso00029"
+  },
+  {
+    "name": "AGE Guitar",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["age guitar", "soundpaint", "guitar", "acoustic guitar", "electric guitar", "nylon guitar", "steel string", "12 string", "dobro", "strummed", "plucked", "sustain", "staccato", "tremolo", "harmonics", "slides", "dynamic expression", "ensemble", "cinematic"],
+    "emulates": "guitar",
+    "id": "inso00030"
+  },
+  {
+    "name": "Adastra Ambiences",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra ambiences", "soundpaint", "cinematic", "ambient textures", "string ambiences", "violins", "violas", "cellos", "basses", "ethereal", "dreamscape", "contrast", "emotive", "sound design", "hidden gems"],
+    "emulates": null,
+    "id": "inso00031"
+  },
+  {
+    "name": "Guitar Ambiences",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["guitar ambiences", "soundpaint", "guitar", "ambient textures", "drones", "phrases", "multi-samples", "electric guitar", "acoustic guitar", "post-processed", "ethereal", "dreamy", "cinematic", "sound design"],
+    "emulates": "guitar",
+    "id": "inso00032"
+  },
+  {
+    "name": "Supercluster",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["supercluster", "soundpaint", "ambient textures", "space sounds", "electromagnetic recordings", "asteroids", "moons", "planets", "nebulae", "solar winds", "galactic core", "radio emissions", "cosmic drones", "cinematic", "sound design"],
+    "emulates": null,
+    "id": "inso00033"
+  },
+  {
+    "name": "Basstard",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["basstard", "soundpaint", "string bass", "upright bass", "orchestral bass", "tonal", "percussion", "groove", "fx", "brushed", "mallet", "plucked", "harmonics", "destruction", "experimental", "sound design", "cinematic"],
+    "emulates": "orchestral bass",
+    "id": "inso00034"
+  },
+  {
+    "name": "Bazantar",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["bazantar", "soundpaint", "acoustic bass", "five string bass", "sympathetic strings", "drone strings", "plucked", "bowed", "tapped", "vibrato", "sustain", "tremolo", "dynamic arcs", "experimental", "folk instrument", "cinematic", "sound design"],
+    "emulates": "bazantar",
+    "id": "inso00035"
+  },
+  {
+    "name": "Fender P-Bass",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["precision bass", "electric bass", "solid body", "split-coil pickup", "fingered", "picked", "plucked", "slapped", "sustain", "staccato", "harmonics", "muted", "vintage tone", "groove", "dynamic expression", "cinematic"],
+    "emulates": "fender p-bass",
+    "id": "inso00036"
+  },
+  {
+    "name": "Symphonic Shadows Brass",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["symphonic shadows brass", "soundpaint", "brass ensemble", "orchestral brass", "horns", "trumpets", "trombones", "bass trombones", "chaotic textures", "dystopic clusters", "growling flutters", "scattered falls", "risers", "cinematic", "dark orchestral", "sound design"],
+    "emulates": "brass ensemble",
+    "id": "inso00037"
+  },
+  {
+    "name": "Free Angels",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["free angels", "soundpaint", "angelic ambiences", "celestial risers", "ethereal plucks", "heavenly hits", "seraphic voices", "soft percussion", "non tonal drones", "tonal drones", "guitar angel", "nylon love piano", "bells", "synth gliss", "ukulele", "experimental", "ambient textures", "sound design", "cinematic"],
+    "emulates": null,
+    "id": "inso00038"
+  },
+  {
+    "name": "Free ASMR",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["free asmr", "soundpaint", "asmr", "ambient textures", "whispers", "paper crunch", "metallic scrapes", "ceramic grit", "percussive sounds", "tonal elements", "gated fx", "psychoacoustic", "experimental", "sound design", "cinematic"],
+    "emulates": null,
+    "id": "inso00039"
+  },
+  {
+    "name": "Free Home",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["free home", "soundpaint", "community samples", "household sounds", "custom instruments", "ambience", "designed sounds", "noises", "percussion", "bottle organ", "bowed uke", "choir", "flask sounds", "drone", "frozen uke", "glockenspiel", "resonate", "water sounds", "experimental", "sound design", "cinematic"],
+    "emulates": "household sounds",
+    "id": "inso00040"
+  },
+  {
+    "name": "Free Radicals",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["free radicals", "soundpaint", "dark ambiences", "eerie atmospheres", "glitchy beats", "distorted synths", "viral ambiences", "bacterial hits", "microwave sounds", "experimental", "sound design", "community collaboration", "cinematic"],
+    "emulates": null,
+    "id": "inso00041"
+  },
+  {
+    "name": "Nu-Disco Drums 1",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["nu-disco drums 1", "soundpaint", "disco drums", "vintage drums", "modern disco", "funk", "pop", "top 40", "drum kits", "one-shot kits", "uds kits", "chamber kits", "clean kits", "crushed kits", "dynamic articulations", "groove", "studio drums", "cinematic", "sound design"],
+    "emulates": null,
+    "id": "inso00042"
+  },
+  {
+    "name": "10 Electric Guitars",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["10 electric guitars", "soundpaint", "electric guitar ensemble", "guitar amps", "power chords", "muted strums", "harmonics", "tremolo", "vibrato", "slides", "scrapes", "feedback", "fret noise", "shorts", "sustains", "effects", "dynamic expression", "cinematic", "sound design"],
+    "emulates": "electric guitar ensemble",
+    "id": "inso00043"
+  },
+  {
+    "name": "Epic Frame Drum Ensemble",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["epic frame drum ensemble", "soundpaint", "frame drums", "bodhrán", "tar", "riq", "daf", "tribal drums", "solo drums", "ensemble drums", "deep drags", "large drags", "rolls", "swells", "percussion effects", "dynamic layers", "cinematic", "sound design"],
+    "emulates": "frame drums",
+    "id": "inso00044"
+  },
+  {
+    "name": "Epic Toms Ensemble",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["epic toms ensemble", "soundpaint", "toms", "roto-toms", "octobans", "floor toms", "bass drums", "mega toms", "ensemble percussion", "tribal drums", "battle drums", "shouts", "dynamic layers", "high velocity", "cinematic", "sound design"],
+    "emulates": null,
+    "id": "inso00045"
+  },
+  {
+    "name": "1959 Swingmaster",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["1959 swingmaster", "soundpaint", "electric guitar", "jazz guitar", "vintage guitar", "flatwound strings", "lo-fi tone", "single coil pickup", "drop tuning", "warm tone", "gritty character", "bop", "swing", "soul", "rnb", "dynamic expression", "cinematic", "sound design"],
+    "emulates": "jazz guitar",
+    "id": "inso00046"
+  },
+  {
+    "name": "1974 Jagra",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["1974 jagra", "soundpaint", "vintage guitar", "electric guitar", "fender jaguar", "lead tone", "rhythm tone", "double circuit", "short scale", "22 frets", "sustain", "dead strums", "string noise", "arpeggios", "pre-designed styles", "rock", "indie", "metal", "blues", "jazz", "cinematic", "sound design"],
+    "emulates": "1974 fender jaguar",
+    "id": "inso00047"
+  },
+  {
+    "name": "1994 LP Studio",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["1994 lp studio", "soundpaint", "electric guitar", "les paul", "studio model", "490t pickup", "490r pickup", "vintage tone", "midrange punch", "sustain", "dead strum", "string noise", "rock", "blues", "jazz", "rnb", "dynamic expression", "cinematic", "sound design"],
+    "emulates": "1994 les paul studio",
+    "id": "inso00048"
+  },
+  {
+    "name": "2020 Modern PR-String",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["2020 modern pr-string", "soundpaint", "electric guitar", "prs guitar", "clean tone", "fuzz tone", "overdrive tone", "power chords", "palm mute", "open harmonics", "touch harmonics", "sustain", "tremolo", "shorts", "transitions", "dynamic expression", "real-time samples", "cinematic", "sound design"],
+    "emulates": "2020 modern prs",
+    "id": "inso00049"
+  },
+  {
+    "name": "Disco Vintage",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["disco vintage", "soundpaint", "vintage disco guitars", "electric guitar", "70s guitar", "funk riffs", "strummed rhythms", "micro-phrases", "direct input", "amped versions", "groove machine", "retro sound", "disco era", "expressive performance", "cinematic", "sound design"],
+    "emulates": "1970s electric guitar",
+    "id": "inso00050"
+  },
+  {
+    "name": "Emotional Guitars Multi",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["emotional guitars multi", "soundpaint", "electric guitar", "32 guitars", "emotional articulations", "plutchik's wheel", "acceptance", "admiration", "aggressiveness", "amazement", "anger", "annoyance", "anticipation", "apprehension", "awe", "boredom", "contempt", "disapproval", "disgust", "distraction", "ecstasy", "fear", "grief", "interest", "joy", "loathing", "love", "optimism", "pensiveness", "rage", "remorse", "sadness", "serenity", "submission", "surprise", "terror", "trust", "vigilance", "emotive textures", "cinematic", "sound design"],
+    "emulates": "electric guitar",
+    "id": "inso00051"
+  },
+  {
+    "name": "Instant 12 String",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["instant 12 string", "soundpaint", "12-string guitar", "electric guitar", "solo guitar", "strummer", "natural strums", "fret noise", "release noise", "sustain", "vibrato", "non vibrato", "chugs", "campfire strum", "country strum", "finger arp", "syncopated strum", "pop chug", "island shuffle", "cinematic", "sound design"],
+    "emulates": "12-string guitar",
+    "id": "inso00052"
+  },
+  {
+    "name": "Instant Dobro",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["instant dobro", "soundpaint", "dobro", "resonator guitar", "slide guitar", "fingerpicked", "strummed", "natural strums", "vibrato", "non vibrato", "sustain", "slides", "licks", "fret noise", "release noise", "strummer engine", "chord patterns", "rhythm patterns", "expressive performance", "cinematic", "sound design"],
+    "emulates": "dobro",
+    "id": "inso00053"
+  },
+  {
+    "name": "Instant Electric",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["instant electric", "soundpaint", "electric guitar", "solo guitar", "strummer engine", "natural strums", "picked", "fingered", "thumbed", "sustain", "vibrato", "non vibrato", "fret noise", "release noise", "chugs", "campfire strum", "country strum", "finger arp", "island shuffle", "pop chug", "dynamic expression", "cinematic", "sound design"],
+    "emulates": null,
+    "id": "inso00054"
+  },
+  {
+    "name": "Instant Steel String",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["instant steel string", "soundpaint", "steel-string guitar", "acoustic guitar", "solo guitar", "strummer engine", "natural strums", "fingerpicked", "picked", "sustain", "vibrato", "non vibrato", "fret noise", "release noise", "strum chugs", "campfire strum", "country strum", "finger arp", "pop chug", "dynamic expression", "cinematic", "sound design"],
+    "emulates": null,
+    "id": "inso00055"
+  },
+  {
+    "name": "Oliver Codd 12 String",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["oliver codd 12 string", "soundpaint", "12-string guitar", "experimental guitar", "custom instrument", "unison tuning", "ensemble tone", "bagpipe-like", "hurdy gurdy-like", "church organ-like", "acoustic textures", "emotive pads", "arpeggios", "synth-like tones", "strums", "sustain", "tremolo", "soundscape", "cinematic", "sound design"],
+    "emulates": "12-string guitar",
+    "id": "inso00056"
+  },
+  {
+    "name": "Terz Guitar",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["terz guitar", "soundpaint", "acoustic guitar", "martin terz", "small body guitar", "picked", "fingered", "sustain", "muted", "power chords", "chords", "tapped", "arpeggios", "pads", "banjo", "guitalele", "zither", "kora", "harp", "experimental textures", "dynamic expression", "cinematic", "sound design"],
+    "emulates": "small body guitar",
+    "id": "inso00057"
+  },
+  {
+    "name": "Atmospheres and Moods",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["atmospheres and moods", "soundpaint", "hybrid cinema", "textural score", "ambient textures", "serene", "spacey", "epic", "underscore", "atmospheric strings", "celestial landscapes", "dark moods", "drone fx", "distortion fx", "tonal swellings", "lovecrafty moods", "visions fx", "soundscapes", "cinematic", "sound design"],
+    "emulates": null,
+    "id": "inso00058"
+  },
+  {
+    "name": "Spice Drums",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["spice drums", "soundpaint", "post-epic percussion", "hybrid drums", "cinematic drums", "synth percussion", "resampled drums", "epic hits", "firecracker rolls", "eclyptic boom", "eclyptic sweeper", "heavyyn anvil", "kylarhys ruff", "low grunge hit", "mesa boomer", "steel hit", "yeti metal hit", "velocity layers", "round robin", "sound design", "cinematic"],
+    "emulates": null,
+    "id": "inso00059"
+  },
+  {
+    "name": "Copperphone",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["copperphone", "soundpaint", "copper pipes", "metallic marimba", "pitched percussion", "hard mallets", "soft mallets", "wooden mallets", "fingernail strikes", "muted tones", "resonant textures", "ambient layers", "frightening ambiences", "beautiful ambiences", "metallic textures", "experimental", "sound design", "cinematic"],
+    "emulates": "copper pipes",
+    "id": "inso00060"
+  },
+  {
+    "name": "Polyphon",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["polyphon", "soundpaint", "mechanical music box", "antique instrument", "vintage tones", "metallic hits", "main shimmer", "lofi hits", "popcorn", "music box", "vibradrum", "indie melody", "gentle touch", "energetic shimmer", "ambient textures", "bonus ambiences", "piano ambience", "experimental", "sound design", "cinematic"],
+    "emulates": null,
+    "id": "inso00061"
+  },
+  {
+    "name": "Smiley Drum",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["smiley drum", "soundpaint", "custom percussion", "tonal percussion", "metal tongue drum", "tuned tongues", "side slaps", "rolls", "crescendo effects", "bright tone", "soulful timbre", "mexican craftsmanship", "father-daughter duo", "experimental textures", "ambient layers", "sound design", "cinematic"],
+    "emulates": "custom percussion",
+    "id": "inso00062"
+  },
+  {
+    "name": "1928 Vintage Grand Steinway",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["1928 vintage grand steinway", "soundpaint", "grand piano", "vintage piano", "steinway piano", "original 1928 strings", "emotional scoring", "warm tone", "aged resonance", "expressive dynamics", "real-time rendering", "velocity morphing", "solo piano", "cinematic", "sound design"],
+    "emulates": "1928 vintage grand steinway",
+    "id": "inso00063"
+  },
+  {
+    "name": "Plucked Grand Piano",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["plucked grand piano", "soundpaint", "kawai grand piano", "plucked strings", "hammered strings", "guitar picks", "mini hammers", "harp-like", "clavinet-like", "guitar-like", "lute-like", "harpsichord-like", "dulcimer articulation", "hybrid instrument", "experimental piano", "vintage tone", "cinematic", "sound design"],
+    "emulates": null,
+    "id": "inso00064"
+  },
+  {
+    "name": "Adastra Chamber All Full Sections",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra chamber all full sections", "soundpaint", "chamber strings", "full string ensemble", "violins", "violas", "cellos", "basses", "intimate strings", "emotive legato", "expressive vibrato", "non-vibrato", "shorts", "arcs", "dynamic layers", "realistic performance", "cinematic", "sound design"],
+    "emulates": "full string ensemble",
+    "id": "inso00065"
+  },
+  {
+    "name": "Adastra Chamber Basses",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra chamber basses", "soundpaint", "chamber strings", "double bass", "solo bass", "bass ensemble", "expressive legato", "vibrato", "non-vibrato", "shorts", "arcs", "dynamic layers", "intimate tone", "emotive performance", "cinematic", "sound design"],
+    "emulates": "double bass",
+    "id": "inso00066"
+  },
+  {
+    "name": "Adastra Chamber Cellos",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra chamber cellos", "soundpaint", "chamber strings", "solo cello", "cello ensemble", "expressive legato", "vibrato", "non-vibrato", "shorts", "arcs", "dynamic layers", "intimate tone", "emotive performance", "cinematic", "sound design"],
+    "emulates":  "cello ensemble",
+    "id": "inso00067"
+  },
+  {
+    "name": "Adastra Chamber Violas",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra chamber violas", "soundpaint", "chamber strings", "solo viola", "viola ensemble", "expressive legato", "vibrato", "non-vibrato", "shorts", "arcs", "dynamic layers", "intimate tone", "emotive performance", "cinematic", "sound design"],
+    "emulates": "viola ensemble",
+    "id": "inso00068"
+  },
+  {
+    "name": "Adastra Chamber Violins",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra chamber violins", "soundpaint", "chamber strings", "solo violin", "violin ensemble", "expressive legato", "vibrato", "non-vibrato", "shorts", "arcs", "dynamic layers", "intimate tone", "emotive performance", "cinematic", "sound design"],
+    "emulates": "violin ensemble",
+    "id": "inso00069"
+  },
+  {
+    "name": "Adastra Ensemble All Full Sections",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra ensemble all full sections", "soundpaint", "ensemble strings", "full string sections", "violins", "violas", "cellos", "basses", "emotive legato", "sordino", "non-sordino", "spiccato", "pizzicato", "tremolo", "trills", "arcs", "emotional sustains", "dynamic layers", "hyper-expressive", "cinematic", "sound design"],
+    "emulates": "ensemble strings",
+    "id": "inso00070"
+  },
+  {
+    "name": "Adastra Ensemble Basses",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra ensemble basses", "soundpaint", "ensemble strings", "double bass", "bass section", "expressive legato", "sordino", "non-sordino", "spiccato", "pizzicato", "tremolo", "trills", "arcs", "emotional sustains", "dynamic layers", "hyper-expressive", "cinematic", "sound design"],
+    "emulates": "bass section",
+    "id": "inso00071"
+  },
+  {
+    "name": "Adastra Ensemble Cellos",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra ensemble cellos", "soundpaint", "ensemble strings", "cello section", "expressive legato", "sordino", "non-sordino", "spiccato", "pizzicato", "tremolo", "trills", "arcs", "emotional sustains", "dynamic layers", "hyper-expressive", "cinematic", "sound design"],
+    "emulates": "cello section",
+    "id": "inso00072"
+  },
+  {
+    "name": "Adastra Ensemble Violas",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra ensemble violas", "soundpaint", "ensemble strings", "viola section", "expressive legato", "sordino", "non-sordino", "spiccato", "pizzicato", "tremolo", "trills", "arcs", "emotional sustains", "dynamic layers", "hyper-expressive", "cinematic", "sound design"],
+    "emulates": "viola section",
+    "id": "inso00073"
+  },
+  {
+    "name": "Adastra Ensemble Violins",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra ensemble violins", "soundpaint", "ensemble strings", "violin section", "expressive legato", "sordino", "non-sordino", "spiccato", "pizzicato", "tremolo", "trills", "arcs", "emotional sustains", "dynamic layers", "hyper-expressive", "cinematic", "sound design"],
+    "emulates": "violin section",
+    "id": "inso00074"
+  },
+  {
+    "name": "Adastra Solo All Full Sections",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra solo all full sections", "soundpaint", "solo strings", "solo violin", "solo viola", "solo cello", "solo bass", "expressive legato", "marcato", "sustain", "pizzicato", "spiccato", "emotive performance", "intimate tone", "dynamic layers", "realistic articulation", "hyper-expressive", "cinematic", "sound design"],
+    "emulates": "solo strings",
+    "id": "inso00075"
+  },
+  {
+    "name": "Adastra Solo Bass",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra solo bass", "soundpaint", "solo strings", "double bass", "expressive legato", "marcato", "sustain", "pizzicato", "spiccato", "intimate tone", "emotive performance", "dynamic layers", "realistic articulation", "hyper-expressive", "cinematic", "sound design"],
+    "emulates": "double bass",
+    "id": "inso00076"
+  },
+  {
+    "name": "Adastra Solo Cello",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra solo cello", "soundpaint", "solo strings", "cello", "expressive legato", "marcato", "sustain", "pizzicato", "spiccato", "intimate tone", "emotive performance", "dynamic layers", "realistic articulation", "hyper-expressive", "cinematic", "sound design"],
+    "emulates": "solo cello",
+    "id": "inso00077"
+  },
+  {
+    "name": "Adastra Solo Viola",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra solo viola", "soundpaint", "solo strings", "viola", "expressive legato", "marcato", "sustain", "pizzicato", "spiccato", "intimate tone", "emotive performance", "dynamic layers", "realistic articulation", "hyper-expressive", "cinematic", "sound design"],
+    "emulates": "solo viola",
+    "id": "inso00078"
+  },
+  {
+    "name": "Adastra Solo Violin",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["adastra solo violin", "soundpaint", "solo strings", "violin", "expressive legato", "marcato", "sustain", "pizzicato", "spiccato", "intimate tone", "emotive performance", "dynamic layers", "realistic articulation", "hyper-expressive", "cinematic", "sound design"],
+    "emulates": "solo violin",
+    "id": "inso00079"
+  },
+  {
+    "name": "Disco Strings",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["disco strings", "soundpaint", "studio strings", "disco violins", "70s strings", "pop strings", "polyphonic legato", "portamento", "pizzicato", "spiccato", "marcato", "sustain", "tremolo", "trills", "string falls", "ornamental articulations", "dry studio sound", "vintage tone", "hyper-realistic", "cinematic", "sound design"],
+    "emulates": "70s disco strings",
+    "id": "inso00080"
+  },
+  {
+    "name": "Symphonic Shadows Strings",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["symphonic shadows strings", "soundpaint", "orchestral effects", "dark strings", "shadow strings", "40-piece string section", "decca mic", "spot mic", "downers", "falls", "risers", "chaotic textures", "nocturnal tones", "dramatic swells", "haunting ambience", "cinematic", "sound design"],
+    "emulates": "dark strings",
+    "id": "inso00081"
+  },
+  {
+    "name": "Icelandia I",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["icelandia i", "soundpaint", "neoclassical pads", "elemental pads", "soft pads", "hard pads", "ambient textures", "atmospheric scoring", "minimalist scoring", "analog synths", "digital synths", "icelandic scoring", "cinematic", "sound design", "emotive textures", "slow evolving", "dynamic expression", "textural layers", "electronic orchestral blend", "inspirational scoring"],
+    "emulates": "icelandic scoring",
+    "id": "inso00082"
+  },
+  {
+    "name": "Barbary",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["celtic vocal"],
+    "emulates": ["barbary", "soundpaint", "forgotten voices", "celtic vocals", "gaelic singing", "scots gaelic", "irish", "manx", "sean nós", "vocal phrases", "whisper songs", "chanting", "lullabies", "elvish whispers", "sustained notes", "ambient vocals", "vocal textures", "folk melodies", "experimental vocals", "sound design", "cinematic"],
+    "id": "inso00083"
+  },
+  {
+    "name": "Cait",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["cait", "soundpaint", "forgotten voices", "celtic vocals", "gaelic singing", "irish", "scots gaelic", "manx", "vedic mantras", "sanskrit chants", "balkan vocals", "middle-eastern vocals", "free improvisation", "vocal phrases", "chants", "songs", "rhythmic vocals", "vocal ambiences", "experimental vocals", "ambient textures", "sound design", "cinematic"],
+    "emulates": "celtic vocal",
+    "id": "inso00084"
+  },
+  {
+    "name": "Francesca",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["francesca", "soundpaint", "forgotten voices", "female alto", "emotional vocals", "vocal phrases", "ambient vocals", "chants", "songs", "fx", "sound labs", "vocal textures", "haunting ambience", "balkan vocals", "middle eastern vocals", "western classical", "shamanic singing", "vocal ambiences", "cinematic", "sound design"],
+    "emulates": "balkan vocals",
+    "id": "inso00085"
+  },
+  {
+    "name": "2001 Piccolo Shire",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["2001 piccolo shire", "soundpaint", "piccolo flute", "hyper acoustic legato", "lyrical legato", "strong legato", "maj runs", "min runs", "trills", "marcato", "sustain", "staccatissimo", "breath fx", "click fx", "arcs", "ethereal tone", "mystical textures", "fantastical sound design", "cinematic", "sound design"],
+    "emulates": "piccolo flute",
+    "id": "inso00086"
+  },
+  {
+    "name": "Symphonic Shadows Winds",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["symphonic shadows winds", "soundpaint", "shadow woodwinds", "piccolo", "flutes", "alto flute", "clarinets", "bassoons", "decca mic", "spot mic", "longs agitated", "longs bends", "longs bursts", "longs clusters", "longs dancing", "longs frantic", "longs goblins", "longs hells fury", "longs mayhem", "longs panic", "longs tension", "shorts animated", "shorts bouncing", "shorts frantic", "shorts furioso", "chaotic textures", "nocturnal tones", "haunting ambience", "cinematic", "sound design"],
+    "emulates": "woodwinds",
+    "id": "inso00087"
+  },
+  {
+    "name": "Harmonium",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["harmonium", "soundpaint", "reed organ", "pump organ", "accordion-like", "pipe organ-like", "muted harmonium", "semi-muted harmonium", "open harmonium", "staccato", "crescendo", "air fx", "attack noise", "release noise", "sustain", "vintage tone", "textural layers", "experimental harmonium", "cinematic", "sound design"],
+    "emulates": "harmonium",
+    "id": "inso00088"
+  },
+  {
+    "name": "Santur",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": ["santur", "soundpaint", "hammered dulcimer", "babylonian lineage", "middle eastern", "balkan", "eastern european", "wooden mallet", "semi-soft mallet", "felt mallet", "sustains", "staccato", "staccatissimo", "trills", "rolls", "crescendo", "half-dampened", "full-dampened", "intimate mic", "ambient mic", "resonant tone", "textural layers", "haunting ambience", "spiritual pads", "experimental strings", "cinematic", "sound design"],
+    "emulates": null,
+    "id": "inso00089"
+  },
+  {
+    "name": "Sitar",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00090"
+  },
+  {
+    "name": "Earth",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": ["sitar", "soundpaint", "indian instrument", "plucked strings", "resonance sweeps", "harmonics", "ornaments", "bends", "short plucks", "sustains", "appogiatura", "trills", "ethereal textures", "mystical tone", "expressive articulations", "traditional timbre", "cinematic", "sound design"],
+    "emulates": "sitar",
+    "id": "insp00503"
+  },
+  {
+    "name": "Organic Arps",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": ["organic arps", "uvi", "falcon expansion", "modern arpeggios", "circular arps", "generative arps", "repetitive arps", "rhythmic arps", "macro controls", "chorder tool", "customizable patches", "sequencer toolkit", "electronic scoring", "pop production", "genre versatility", "motion textures", "dynamic patterns", "sound design", "cinematic", "expressive performance"],
+    "emulates": null,
+    "id": "inuv00014"
+  }
+]
