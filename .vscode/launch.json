@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Generate FX IDs",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/generate_catalog_ids.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "xvault_raw.json",
+        "xvault_with_ids.json",
+        "--index-file", "fx_index.csv",
+        "--log-file",  "fx_log.txt",
+        "--start-seq", "542"
+      ]
+    }
+  ]
+}
