@@ -13,7 +13,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-INPUT_JSON  = "vault_instr_master.json"
+INPUT_JSON  = "ivault_master.json"
 OUTPUT_HTML = "subscotia_vault.html"
 
 def build_html(input_path: Path, output_path: Path):

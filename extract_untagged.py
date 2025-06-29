@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-manage_untagged.py
+extract_untagged.py
 
 Modes:
   extract: pull out all entries where `tags` is empty or missing
@@ -8,8 +8,8 @@ Modes:
            matching on (name, developer) and overwriting those entries.
 
 Usage:
-  python manage_untagged.py extract master.json untagged.json
-  python manage_untagged.py merge  master.json untagged.json merged.json
+  python extract_untagged.py extract master.json untagged.json
+  python extract_untagged.py merge  master.json untagged.json merged.json
 """
 
 import sys, json

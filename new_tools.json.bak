@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Theremin Plus",
+    "type": "instrument",
+    "host": "kontakt",
+    "developer": "Soundiron",
+    "libraryPath": null,
+    "tags": [ "theremin plus", "soundiron", "kontakt instrument", "theremin emulation", "vintage synth", "waveform selector", "sine wave", "triangle wave", "square wave", "sawtooth wave", "glide control", "polyphonic mode", "sub-layer synth", "ambient textures", "spacey tones", "modulation effects", "convolution reverb", "cinematic", "sound design", "experimental tones" ],
+    "emulates": "theremin"
+
+  }
+  {
+    "name": "Bloom",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [ "uvi bloom", "uvi", "reverb plugin", "creative reverb", "diffusion-based reverb", "blooming tails", "ambient effects", "spatial design", "expressive depth", "modulation", "preset morphing", "randomization", "parallel reverb", "serial reverb", "vocal reverb", "synth reverb", "cinematic", "sound design", "plugin fx", "modern reverb" ],
+    "emulates": 
+
+  }
+
+    {
+    "name": "Deep Pool",
+    "type": "instrument",
+    "host": "kontakt",
+    "developer": "InSession Audio",
+    "libraryPath": null,
+    "tags": [ "deep pool", "insession audio", "kontakt instrument", "downtempo drums", "modern percussion", "acoustic drums", "electronic drums", "loop suites", "one-shot samples", "rhythmic warmth", "slow bpm", "ambient grooves", "chill production", "lo-fi textures", "performance loops", "sound design", "cinematic", "expressive rhythm", "percussive layering", "creative fx" ] ],
+    "emulates": 
+
+  }
+
+    {
+    "name": "Soulfi",
+    "type": "instrument",
+    "host": "kontakt",
+    "developer": "Teletone Audio",
+    "libraryPath": null,
+    "tags": [ "soulfi", "teletone audio", "kontakt instrument", "vintage drums", "soulful beats", "ribbon microphones", "analog warmth", "beatmaker", "groove engine", "era-specific kits", "round robin samples", "lo-fi textures", "bongos", "shakers", "snaps", "claps", "dynamic grooves", "expressive rhythm", "cinematic", "sound design" ] ],
+    "emulates": 
+
+  }
+
+    {
+    "name": "Harp Guitar",
+    "type": "instrument",
+    "host": "kontakt",
+    "developer": "Soundiron",
+    "libraryPath": null,
+    "tags": [ "harp guitar", "soundiron", "kontakt instrument", "30-string guitar", "acoustic hybrid", "plucks", "palm mutes", "chokes", "slides", "glisses", "strums", "guitar body percussion", "round robin", "velocity layering", "true legato", "auto-strumming", "adaptive arpeggiation", "custom tuning", "ambient presets", "cinematic", "sound design" ] ],
+    "emulates": "30-string guitar"
+
+  }
+
+    {
+    "name": "The Musique Box",
+    "type": "instrument",
+    "host": "kontakt",
+    "developer": "Soundiron",
+    "libraryPath": null,
+    "tags": [ "the musique box", "soundiron", "kontakt instrument", "music box", "antique music boxes", "deep sampling", "ambient pads", "evolving textures", "sound-designed fx", "atmospheric sustains", "multi-layered instruments", "vintage tone", "haunting melodies", "cinematic", "sound design", "expressive performance", "modular fx", "custom arpeggiator", "creative scoring", "emotive timbres" ] ],
+    "emulates": "antique music boxes"
+
+  }
+]

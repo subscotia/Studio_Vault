@@ -3,7 +3,7 @@ from collections import Counter
 import csv
 
 # 🔧 Config
-json_path = 'vault_instr_wip.json'
+json_path = 'vault_merged.json'
 csv_output = 'duplicates_report.csv'  # Set to None if you don't want CSV export
 dedup_fields = ['developer', 'name']  # Fields used to determine duplicates
 

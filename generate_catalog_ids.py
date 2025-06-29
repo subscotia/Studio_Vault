@@ -2,31 +2,44 @@
 """
 generate_catalog_ids.py
 
-Assign unique IDs to catalog entries (instruments, FX, DAWs, utilities, etc.)
-and optionally produce:
-  • a CSV index (id → name → type → developer)
-  • a detailed log file of actions
+Assign unique IDs to catalog entries and emit:
+  • Updated JSON
+  • CSV index (id,name,type,developer)
+  • Optional detailed log file
 
-ID format: <2-letter type prefix><2-letter developer prefix><zero-padded 5-digit seq>
+Now supports:
+  --start-seq N     # Begin numbering at N instead of 1
+
+Usage:
+  python generate_catalog_ids.py \
+    input.json    output.json \
+    [--index-file IDX.csv] \
+    [--log-file LOG.txt] \
+    [--include-skipped] \
+    [--no-sort] \
+    [--start-seq N]
 """
 
 import json
 import shutil
 import logging
 import csv
+import argparse
 from pathlib import Path
 from typing import Optional
 
-# ──────── 1) Logging Setup ────────
+# ─── Logging Setup ────────────────────────────────────────────────────────────
 logger = logging.getLogger("catalog_id_gen")
 logger.setLevel(logging.DEBUG)
-fmt = logging.Formatter("%(asctime)s  %(levelname)-5s  %(message)s", "%Y-%m-%d %H:%M:%S")
-ch = logging.StreamHandler()           # console handler
+fmt = logging.Formatter(
+    "%(asctime)s  %(levelname)-5s  %(message)s", "%Y-%m-%d %H:%M:%S"
+)
+ch = logging.StreamHandler()
 ch.setLevel(logging.INFO)
 ch.setFormatter(fmt)
 logger.addHandler(ch)
 
-# ──────── 2) Backup Utility ────────
+# ─── Backup Utility ───────────────────────────────────────────────────────────
 def backup(src: Path) -> None:
     """Copy src → src.bak if not already present."""
     bak = src.with_suffix(src.suffix + ".bak")
@@ -36,56 +49,43 @@ def backup(src: Path) -> None:
     else:
         logger.info(f"Backup already exists: {bak.name}")
 
-# ──────── 3) Core ID Generator ────────
+# ─── Core ID Generator ────────────────────────────────────────────────────────
 def generate_ids(
-    input_file: str,
-    output_file: str,
-    index_file: Optional[str] = None,
-    log_file:   Optional[str] = None,
+    input_file: Path,
+    output_file: Path,
+    index_file: Optional[Path] = None,
+    log_file:   Optional[Path] = None,
     sort_by_id: bool = True,
-    include_skipped: bool = False
+    include_skipped: bool = False,
+    start_seq: int = 1
 ):
-    """
-    Reads JSON array from input_file, assigns each entry a unique `id`:
-      <first2(type)><first2(developer)><5-digit sequence>
-    Writes:
-      - updated JSON to output_file
-      - optional CSV index (id,name,type,developer) to index_file
-      - optional detailed log to log_file
-    """
+    # 1) Backup
+    backup(input_file)
 
-    src  = Path(input_file)
-    dest = Path(output_file)
-
-    # 3.1 Backup original
-    backup(src)
-
-    # 3.2 Load data
+    # 2) Load data
     try:
-        data = json.loads(src.read_text(encoding="utf-8"))
+        data = json.loads(input_file.read_text(encoding="utf-8"))
     except Exception as e:
         logger.error(f"Failed to read/parse JSON: {e}")
         return
 
     processed, skipped = [], []
-    sequence = 1
+    sequence = start_seq
 
-    # 3.3 Assign IDs
-    logger.info("=== Starting ID assignment ===")
+    logger.info(f"=== Starting ID assignment (start_seq={start_seq}) ===")
     for entry in data:
         name = entry.get("name", "<Unnamed>")
         t    = entry.get("type")
         d    = entry.get("developer")
 
-        # Validation
+        # skip if missing type or developer
         if not t or not d:
-            msg = f"SKIP  missing type/developer → {name}"
-            logger.warning(msg)
+            logger.warning(f"SKIP  missing type/developer → {name}")
             skipped.append(entry.copy())
             continue
 
-        # Build prefix + ID
-        prefix = t.strip().lower()[:2] + d.strip().lower()[:2]
+        # build prefix from first two letters of type & developer
+        prefix = (t.strip().lower()[:2] + d.strip().lower()[:2]).upper()
         new_id = f"{prefix}{sequence:05d}"
         entry["id"] = new_id
 
@@ -93,39 +93,44 @@ def generate_ids(
         processed.append(entry)
         sequence += 1
 
-    # 3.4 Sort if requested
+    # 3) Sort?
     if sort_by_id:
         processed.sort(key=lambda x: x["id"])
 
-    # 3.5 Prepare final output list
+    # 4) Combine
     output_list = processed + (skipped if include_skipped else [])
 
-    # 3.6 Write updated JSON
+    # 5) Write JSON
     try:
-        dest.write_text(json.dumps(output_list, indent=2, ensure_ascii=False),
-                        encoding="utf-8")
-        logger.info(f"Updated JSON written to: {dest.name}")
+        output_file.write_text(
+            json.dumps(output_list, indent=2, ensure_ascii=False),
+            encoding="utf-8"
+        )
+        logger.info(f"Updated JSON written to: {output_file.name}")
     except Exception as e:
         logger.error(f"Failed to write JSON: {e}")
 
-    # 3.7 Optional: CSV index
+    # 6) Write CSV index
     if index_file:
-        idx = Path(index_file)
         try:
-            with idx.open("w", newline="", encoding="utf-8") as csvf:
+            with index_file.open("w", newline="", encoding="utf-8") as csvf:
                 writer = csv.writer(csvf)
-                writer.writerow(["id", "name", "type", "developer"])
+                writer.writerow(["id","name","type","developer"])
                 for e in processed:
-                    writer.writerow([ e["id"], e.get("name",""), e.get("type",""), e.get("developer","") ])
-            logger.info(f"CSV index written to: {idx.name}")
+                    writer.writerow([
+                        e["id"],
+                        e.get("name",""),
+                        e.get("type",""),
+                        e.get("developer","")
+                    ])
+            logger.info(f"CSV index written to: {index_file.name}")
         except Exception as e:
             logger.error(f"Failed to write CSV: {e}")
 
-    # 3.8 Optional: Detailed log file
+    # 7) Write detailed log
     if log_file:
-        lg = Path(log_file)
         try:
-            with lg.open("w", encoding="utf-8") as lf:
+            with log_file.open("w", encoding="utf-8") as lf:
                 lf.write("=== Catalog ID Assignment Log ===\n\n")
                 lf.write(f"Processed: {len(processed)} entries\n")
                 lf.write(f"Skipped:   {len(skipped)} entries\n\n")
@@ -133,32 +138,44 @@ def generate_ids(
                     lf.write(f"OK    {e['id']} → {e.get('name','')}\n")
                 for e in skipped:
                     lf.write(f"SKIP  {e.get('name','')} (missing fields)\n")
-            logger.info(f"Log file saved to: {lg.name}")
+            logger.info(f"Log file saved to: {log_file.name}")
         except Exception as e:
             logger.error(f"Failed to write log: {e}")
 
-# ──────── 4) Example Usage ────────
+# ─── CLI Entrypoint ───────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    # Simply call generate_ids() with file paths.
-    # You can ignore CLI—just edit these variables or call from another script.
-    generate_ids(
-        input_file     = "vault_instr.json",
-        output_file    ="vault_instr_master.json",
-        index_file     = "instrument_index.csv",    # set to None to skip CSV
-        log_file    ="logs/id_assignment.log",       # set to None to skip log
-        sort_by_id     = True,
-        include_skipped= False
+    p = argparse.ArgumentParser(
+        description="Assign IDs to catalog entries and emit JSON/CSV/logs"
     )
+    p.add_argument("input_file",  type=Path,
+                   help="Source JSON (e.g. new_tools.json)")
+    p.add_argument("output_file", type=Path,
+                   help="Destination JSON (e.g. new_tools_with_ids.json)")
+    p.add_argument("--index-file", "-i", type=Path,
+                   help="CSV index file (default: <output_stem>_index.csv)")
+    p.add_argument("--log-file", "-l", type=Path,
+                   help="Detailed text log file")
+    p.add_argument("--include-skipped", "-s", action="store_true",
+                   help="Also include skipped entries at end of JSON")
+    p.add_argument("--no-sort", action="store_true",
+                   help="Do not sort processed entries by ID")
+    p.add_argument("--start-seq", "-S", type=int, default=1,
+                   help="Sequence number to start from (default: 1)")
 
-#Legend & Use:
-#1.	Backup: Creates input.json.bak if none exists.
-#2.	ID Logic:
-#• type_prefix = first 2 chars of "type" (lowercased)
-#• dev_prefix = first 2 chars of "developer"
-#• sequence = 5-digit, zero-padded counter only for valid entries
-#3.	Skip Handling: Entries missing type/developer go into skipped and are dropped by default.
-#4.	Outputs:
-#– Updated JSON (always)
-#– Optional CSV for quick lookup (--index_file)
-#- Optional detailed text log (--log_file)
-#5.	Customization: Toggle sorting or include skipped entries by changing flags in the final generate_ids() call.
+    args = p.parse_args()
+
+    # default index name if none given
+    if not args.index_file:
+        args.index_file = args.output_file.with_name(
+            f"{args.output_file.stem}_index.csv"
+        )
+
+    generate_ids(
+        input_file      = args.input_file,
+        output_file     = args.output_file,
+        index_file      = args.index_file,
+        log_file        = args.log_file,
+        sort_by_id      = not args.no_sort,
+        include_skipped = args.include_skipped,
+        start_seq       = args.start_seq
+    )

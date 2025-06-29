@@ -2,7 +2,7 @@ import json
 import os
 import sys
 
-VAULT_PATH = "manage_untagged.py"  # Change if needed
+VAULT_PATH = "vault_deduped.json"  # Change if needed
 
 def validate_json(path):
     print(f"🔍 Checking {path} for JSON syntax issues...")

@@ -1,0 +1,11 @@
+=== Catalog ID Assignment Log ===
+
+Processed: 6 entries
+Skipped:   0 entries
+
+OK    fxuv00002 → Bloom
+OK    inin00003 → Deep Pool
+OK    inso00001 → Theremin Plus
+OK    inso00005 → Harp Guitar
+OK    inso00006 → The Musique Box
+OK    inte00004 → Soulfi

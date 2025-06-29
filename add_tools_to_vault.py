@@ -11,8 +11,8 @@ import json
 import os
 from datetime import datetime
 
-VAULT_PATH = "vault_instr_wip.json"
-NEW_ENTRIES_PATH = "Generic_instruments_merged.json"
+VAULT_PATH = "vault_merged.json"
+NEW_ENTRIES_PATH = "untagged.json"
 
 REQUIRED_FIELDS = ["name", "type", "host", "developer", "libraryPath", "tags"]
 

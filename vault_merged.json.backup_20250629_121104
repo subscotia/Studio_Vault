@@ -1,0 +1,8575 @@
+[
+  {
+    "name": "Opus",
+    "type": "container",
+    "host": "vst3i",
+    "developer": "EastWest",
+    "libraryPath": null,
+    "tags": [
+      "container",
+      "EastWest"
+    ],
+    "emulates": null,
+    "id": "coea00430"
+  },
+  {
+    "name": "Nektarine",
+    "type": "container",
+    "host": "vst3i",
+    "developer": "Nektar",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "container"
+    ],
+    "emulates": null,
+    "id": "cone00386"
+  },
+  {
+    "name": "Kontakt",
+    "type": "container",
+    "host": "vst3i",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "container"
+    ],
+    "emulates": null,
+    "id": "coni00440"
+  },
+  {
+    "name": "Galaxias",
+    "type": "container",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "container"
+    ],
+    "emulates": null,
+    "id": "coro00385"
+  },
+  {
+    "name": "Kontakt Factory Library 2",
+    "type": "expansion",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "kontakt",
+      "flute",
+      "dulcimer",
+      "recorder",
+      "bagpipes",
+      "fiddle",
+      "hurdy gurdy",
+      "gong",
+      "percussion",
+      "shakuhachi",
+      "koto",
+      "oud",
+      "santur",
+      "erhu",
+      "duduk",
+      "alto saxophone",
+      "baritone saxophone",
+      "tenor saxophone",
+      "trumpet",
+      "trombone",
+      "grand piano",
+      "upright piano",
+      "clavinet",
+      "mark i",
+      "mark ii",
+      "wurly",
+      "c3 organ",
+      "jazz organ",
+      "funk guitar",
+      "jazz guitar",
+      "nylon guitar",
+      "rock guitar",
+      "upright bass",
+      "funk bass",
+      "pop bass",
+      "drum kit",
+      "drum machine",
+      "808 kit",
+      "hip-hop kit",
+      "pop kit",
+      "urban kit",
+      "jazz kit",
+      "groove kit",
+      "studio break kit",
+      "soprano",
+      "alto",
+      "tenor",
+      "bass",
+      "choir vowels",
+      "choir morph",
+      "strezov sampling altos",
+      "vowel keyswitches",
+      "violin",
+      "viola",
+      "cello",
+      "double bass",
+      "harp",
+      "flute",
+      "oboe",
+      "clarinet",
+      "bassoon",
+      "french horn",
+      "trumpet",
+      "trombone",
+      "timpani",
+      "snare",
+      "bass drum",
+      "xylophone",
+      "glockenspiel",
+      "marimba",
+      "bass",
+      "lead",
+      "pad",
+      "plucked",
+      "arpeggio",
+      "fx",
+      "poly synth",
+      "mono synth",
+      "ambient texture",
+      "analog synth",
+      "tape pad",
+      "bitcrushed lead",
+      "tube bass",
+      "vintage drum machine",
+      "lo-fi keys",
+      "saturated organ",
+      "retro fx",
+      "noise layer"
+    ],
+    "emulates": null,
+    "id": "exni00441"
+  },
+  {
+    "name": "Cherry CA600",
+    "type": "fx",
+    "host": "vst3i",
+    "developer": "Cherry Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "ARP 2600",
+    "id": "fxch00533"
+  },
+  {
+    "name": "Galactic Reverb",
+    "type": "fx",
+    "host": "vst3i",
+    "developer": "Cherry Audio",
+    "libraryPath": null,
+    "tags": [
+      "reverb",
+      "digital",
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "fxch00534"
+  },
+  {
+    "name": "OB-Xtrm3",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Alyjameslabs",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "oberheim"
+    ],
+    "emulates": [
+      "Oberheim OB-X",
+      "Oberheim OB-Xa"
+    ],
+    "id": "inal00368"
+  },
+  {
+    "name": "VSDSX",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Alyjameslabs",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage",
+      "simmons"
+    ],
+    "emulates": "1981 simmons sds-v analog drum synthesizer by simmons electronic drums",
+    "id": "inal00373"
+  },
+  {
+    "name": "CLAPTRAP",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Alyjameslabs",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "drums",
+      "percussion"
+    ],
+    "emulates": null,
+    "id": "inal00378"
+  },
+  {
+    "name": "VPROM",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Alyjameslabs",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "LIN-1"
+    ],
+    "emulates": "1980 linn lm-1 digital drum machine by linn electronics",
+    "id": "inal00379"
+  },
+  {
+    "name": "VProm3",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Alyjameslabs",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ],
+    "emulates": "1980 linn lm-1 digital drum machine by linn electronics",
+    "id": "inal00393"
+  },
+  {
+    "name": "Ample SJ Gibson",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "gibson sj-200 vintage custom shop",
+    "id": "inam00243"
+  },
+  {
+    "name": "Ample Twelve String",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "taylor 956ce 12-string acoustic guitar",
+    "id": "inam00244"
+  },
+  {
+    "name": "Ample Luther",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "alhambra luthier classical guitar",
+    "id": "inam00245"
+  },
+  {
+    "name": "Ample Taylor",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "taylor 714ce grand auditorium acoustic guitar",
+    "id": "inam00246"
+  },
+  {
+    "name": "Ample Martin",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "martin d-41 dreadnought acoustic guitar",
+    "id": "inam00247"
+  },
+  {
+    "name": "Ample RB Rickenbacker",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "rickenbacker 330 semi-hollow electric guitar",
+    "id": "inam00248"
+  },
+  {
+    "name": "Ample Vintage Cherry SG",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "gibson sg vintage 1961 electric guitar",
+    "id": "inam00249"
+  },
+  {
+    "name": "Ample Semi Hollow 335",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "gibson es-335 semi-hollow electric guitar",
+    "id": "inam00250"
+  },
+  {
+    "name": "Ample TC Telecaster",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "fender telecaster john english masterbuilt electric guitar",
+    "id": "inam00251"
+  },
+  {
+    "name": "Ample LP Les Paul",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "gibson les paul 1958 reissue electric guitar",
+    "id": "inam00252"
+  },
+  {
+    "name": "Ample Hellrazer",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "schecter hellraiser c-9 9-string electric guitar",
+    "id": "inam00253"
+  },
+  {
+    "name": "Ample Eclipse",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "esp eclipse i electric guitar",
+    "id": "inam00254"
+  },
+  {
+    "name": "Ample Slide Lapsteel",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "AmpleSound",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": "1970 jedson lap steel guitar with emg pickup",
+    "id": "inam00255"
+  },
+  {
+    "name": "Analog Lab V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "container"
+    ],
+    "emulates": null,
+    "id": "inar00185"
+  },
+  {
+    "name": "ARP 2600 V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "1971 arp 2600 semi-modular analog synthesizer by arp instruments",
+    "id": "inar00186"
+  },
+  {
+    "name": "Mellotron V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "1963 mellotron m400 and earlier mellotron models by bradmatic ltd",
+    "id": "inar00187"
+  },
+  {
+    "name": "Buchla Easel V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Buchla Music Easel",
+    "id": "inar00188"
+  },
+  {
+    "name": "CS-80 V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Yamaha CS-80",
+    "id": "inar00189"
+  },
+  {
+    "name": "Clavinet V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Hohner Clavinet D6",
+    "id": "inar00190"
+  },
+  {
+    "name": "CZ V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Casio CZ-101/102",
+    "id": "inar00191"
+  },
+  {
+    "name": "DX7 V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Yamaha DX7",
+    "id": "inar00192"
+  },
+  {
+    "name": "Farfisa V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Farfisa Compact Deluxe",
+    "id": "inar00193"
+  },
+  {
+    "name": "Jupiter-8 V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Roland Jupiter-8",
+    "id": "inar00194"
+  },
+  {
+    "name": "Korg MS-20 V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Korg MS-20",
+    "id": "inar00195"
+  },
+  {
+    "name": "Mini V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "moog"
+    ],
+    "emulates": "Minimoog Model D",
+    "id": "inar00196"
+  },
+  {
+    "name": "Matrix-12 V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Oberheim Matrix-12",
+    "id": "inar00197"
+  },
+  {
+    "name": "Modular V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "moog"
+    ],
+    "emulates": "Moog Modular 55",
+    "id": "inar00198"
+  },
+  {
+    "name": "Arturia Emulator II V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "E-mu Systems Emulator II",
+    "id": "inar00199"
+  },
+  {
+    "name": "OB-Xa V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Oberheim OB-Xa",
+    "id": "inar00200"
+  },
+  {
+    "name": "Piano V3",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage",
+      "modern"
+    ],
+    "emulates": [
+      "american grand",
+      "german grand",
+      "japanese grand",
+      "pop grand",
+      "classical upright",
+      "jazz upright",
+      "pop upright",
+      "tack upright",
+      "plucked grand",
+      "glass grand",
+      "metal grand",
+      "experimental piano"
+    ],
+    "id": "inar00201"
+  },
+  {
+    "name": "Prophet-5 V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "prophet"
+    ],
+    "emulates": "Prophet 5/VS",
+    "id": "inar00202"
+  },
+  {
+    "name": "Prophet-5 VS",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Prophet-5 VS",
+    "id": "inar00203"
+  },
+  {
+    "name": "SQ-80 V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Ensoniq SQ-80",
+    "id": "inar00204"
+  },
+  {
+    "name": "B-3 V2",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "hammond",
+      "vintage",
+      "organ"
+    ],
+    "emulates": "Hammond B-3",
+    "id": "inar00205"
+  },
+  {
+    "name": "Jun-6 V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "juno"
+    ],
+    "emulates": "Roland Juno-6",
+    "id": "inar00206"
+  },
+  {
+    "name": "CMI V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "fairlight"
+    ],
+    "emulates": "Fairlight CMI",
+    "id": "inar00207"
+  },
+  {
+    "name": "SEM V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Oberheim SEM",
+    "id": "inar00208"
+  },
+  {
+    "name": "Synclavier V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "NED Synclavier",
+    "id": "inar00209"
+  },
+  {
+    "name": "Synthi V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "EMS Synthi A/AKS",
+    "id": "inar00210"
+  },
+  {
+    "name": "Vocoder V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Moog Bode 7702",
+    "id": "inar00211"
+  },
+  {
+    "name": "Solina V2",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "solina"
+    ],
+    "emulates": "1974 arp solina string ensemble analog string machine by eminent and arp instruments",
+    "id": "inar00212"
+  },
+  {
+    "name": "Solo Strings V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "strings",
+      "vintage"
+    ],
+    "emulates": [
+      "solo violin",
+      "solo viola",
+      "solo cello",
+      "solo double bass",
+      "legato",
+      "sustain",
+      "spiccato",
+      "staccato",
+      "pizzicato",
+      "tremolo",
+      "sul ponticello",
+      "sul tasto",
+      "harmonics",
+      "col legno",
+      "glissando",
+      "runs",
+      "trills",
+      "clusters"
+    ],
+    "id": "inar00213"
+  },
+  {
+    "name": "Stage-73 V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "1973 fender rhodes stage and suitcase electric pianos by fender rhodes",
+    "id": "inar00214"
+  },
+  {
+    "name": "Vox Continental V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "organ",
+      "vintage",
+      "vox"
+    ],
+    "emulates": "VOX Continental",
+    "id": "inar00215"
+  },
+  {
+    "name": "Wurlitzer V",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "organ",
+      "vintage"
+    ],
+    "emulates": "Wurlitzer 200A",
+    "id": "inar00216"
+  },
+  {
+    "name": "Augmented Strings",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inar00217"
+  },
+  {
+    "name": "Augmented Voices",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Arturia",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inar00218"
+  },
+  {
+    "name": "SEQUI2R Bundle",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Audiofier",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth"
+    ],
+    "emulates": null,
+    "id": "inau00460"
+  },
+  {
+    "name": "Sequis Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Audiofier",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth"
+    ],
+    "emulates": null,
+    "id": "inau00461"
+  },
+  {
+    "name": "Veenum Sync",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Audiofier",
+    "libraryPath": null,
+    "tags": [
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inau00472"
+  },
+  {
+    "name": "Opacity_II",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Audiomodern",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inau00478"
+  },
+  {
+    "name": "Vendaval",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "CabbageAudio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "foley"
+    ],
+    "emulates": null,
+    "id": "inca00399"
+  },
+  {
+    "name": "SuperWave Stylophone",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Christopher Gill",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "stylophone",
+    "id": "inch00381"
+  },
+  {
+    "name": "Cherry PS-20",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Cherry Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": [
+      "Korg MS-20"
+    ],
+    "id": "inch00535"
+  },
+  {
+    "name": "ARP 2600",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Cherry Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "ARP 2600",
+    "id": "inch00536"
+  },
+  {
+    "name": "Lowdown",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Cherry Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "bass"
+    ],
+    "emulates": "1975 moog taurus i bass pedal synthesizer by moog music",
+    "id": "inch00537"
+  },
+  {
+    "name": "Memorymode",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Cherry Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "moog"
+    ],
+    "emulates": "Moog Memorymoog",
+    "id": "inch00538"
+  },
+  {
+    "name": "Mercury-4",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Cherry Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "jupiter"
+    ],
+    "emulates": "Roland Jupiter-4",
+    "id": "inch00539"
+  },
+  {
+    "name": "Surrealistic MG-1 Plus",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Cherry Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "bass"
+    ],
+    "emulates": "Realistic MG-1",
+    "id": "inch00540"
+  },
+  {
+    "name": "GX-80",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Cherry Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": [
+      "CS-80",
+      "GX-1 Dream Machine"
+    ],
+    "id": "inch00541"
+  },
+  {
+    "name": "african mamba",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00091"
+  },
+  {
+    "name": "ancient bones",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00092"
+  },
+  {
+    "name": "apocalyptica",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00093"
+  },
+  {
+    "name": "gina luciani flutes",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00094"
+  },
+  {
+    "name": "randy kerber celeste",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00095"
+  },
+  {
+    "name": "randy kerber prepared piano",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00096"
+  },
+  {
+    "name": "taylor davis solo violin",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00097"
+  },
+  {
+    "name": "tina guo acoustic cello",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00098"
+  },
+  {
+    "name": "tina guo electric cello",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00099"
+  },
+  {
+    "name": "tina guo solo cello",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00100"
+  },
+  {
+    "name": "voces 8",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00101"
+  },
+  {
+    "name": "cinebrass core",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00102"
+  },
+  {
+    "name": "cinebrass deep horns",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00103"
+  },
+  {
+    "name": "cinebrass descant horn",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00104"
+  },
+  {
+    "name": "cinebrass low brass",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00105"
+  },
+  {
+    "name": "cinebrass pro",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00106"
+  },
+  {
+    "name": "cinebrass sonore",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00107"
+  },
+  {
+    "name": "cineharps",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00108"
+  },
+  {
+    "name": "cine harpsichord",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00109"
+  },
+  {
+    "name": "cineperc",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00110"
+  },
+  {
+    "name": "cineperc drum kit",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00111"
+  },
+  {
+    "name": "cineperc epic",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00112"
+  },
+  {
+    "name": "cineperc metal",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00113"
+  },
+  {
+    "name": "cineperc orchestral",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00114"
+  },
+  {
+    "name": "cineperc tonal",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00115"
+  },
+  {
+    "name": "cineperc wood",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00116"
+  },
+  {
+    "name": "cineperc world",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00117"
+  },
+  {
+    "name": "cinepiano",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00118"
+  },
+  {
+    "name": "cinestrings core",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00119"
+  },
+  {
+    "name": "cinestrings pro",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00120"
+  },
+  {
+    "name": "cinestrings runs",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00121"
+  },
+  {
+    "name": "cinestrings solo",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00122"
+  },
+  {
+    "name": "cinesymphony",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00123"
+  },
+  {
+    "name": "cinewinds core",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00124"
+  },
+  {
+    "name": "cinewinds low winds",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00125"
+  },
+  {
+    "name": "cinewinds pro",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00126"
+  },
+  {
+    "name": "collision impact design",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00127"
+  },
+  {
+    "name": "colors full spectrum tonal percussion",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00128"
+  },
+  {
+    "name": "accent pianos",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00129"
+  },
+  {
+    "name": "create series kalimba",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00130"
+  },
+  {
+    "name": "create series tonal tickles",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00131"
+  },
+  {
+    "name": "tongue drum",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00132"
+  },
+  {
+    "name": "create series toyxylo",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00133"
+  },
+  {
+    "name": "twisted psaltry",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00134"
+  },
+  {
+    "name": "drums in blue",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00135"
+  },
+  {
+    "name": "drums of war 1",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00136"
+  },
+  {
+    "name": "drums of war 2",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00137"
+  },
+  {
+    "name": "drums of war 3",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00138"
+  },
+  {
+    "name": "dulcimer & zither",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00139"
+  },
+  {
+    "name": "forbes pipe organ",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00140"
+  },
+  {
+    "name": "handbells",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00141"
+  },
+  {
+    "name": "hardanger fiddle",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00142"
+  },
+  {
+    "name": "hollywoodwinds orchestral woodwinds",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00143"
+  },
+  {
+    "name": "industry brass core",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00144"
+  },
+  {
+    "name": "industry brass pro",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00145"
+  },
+  {
+    "name": "keyboard in blue",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00146"
+  },
+  {
+    "name": "mister rogers' celeste",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00147"
+  },
+  {
+    "name": "men of the north nordic voices",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00148"
+  },
+  {
+    "name": "women of the north nordic voices",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00149"
+  },
+  {
+    "name": "orchestral chords",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00150"
+  },
+  {
+    "name": "piano in blue",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00151"
+  },
+  {
+    "name": "quatre string foundations",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00152"
+  },
+  {
+    "name": "rhodes seventy three",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00153"
+  },
+  {
+    "name": "session piano grand",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00154"
+  },
+  {
+    "name": "session piano upright",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00155"
+  },
+  {
+    "name": "sew what",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00156"
+  },
+  {
+    "name": "soundscapes",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00157"
+  },
+  {
+    "name": "studio basses",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00158"
+  },
+  {
+    "name": "studio guitars",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00159"
+  },
+  {
+    "name": "sunset drums",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00160"
+  },
+  {
+    "name": "village drums",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00161"
+  },
+  {
+    "name": "village mallets",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00162"
+  },
+  {
+    "name": "drum machine lin drum",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00163"
+  },
+  {
+    "name": "drum machine TR-707",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00164"
+  },
+  {
+    "name": "drum machine TR-808",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00165"
+  },
+  {
+    "name": "drum machine TR-909",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00166"
+  },
+  {
+    "name": "synth bass TB-303",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00167"
+  },
+  {
+    "name": "synthesizer arp quadra",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00168"
+  },
+  {
+    "name": "synthesizer juliter-6",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00169"
+  },
+  {
+    "name": "synthesizer mono-poly",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00170"
+  },
+  {
+    "name": "synthesizer ob-xa",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00171"
+  },
+  {
+    "name": "synthesizer oberheim",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00172"
+  },
+  {
+    "name": "synthesizer octave cat",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00173"
+  },
+  {
+    "name": "synthesizer ppg wave-2",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00174"
+  },
+  {
+    "name": "synthesizer prophet 5",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00175"
+  },
+  {
+    "name": "synthesizer rhodes chroma",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00176"
+  },
+  {
+    "name": "synthesizer synergy",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00177"
+  },
+  {
+    "name": "viola da gamba",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00178"
+  },
+  {
+    "name": "vision modern synth",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00179"
+  },
+  {
+    "name": "iceland",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00180"
+  },
+  {
+    "name": "ireland",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00181"
+  },
+  {
+    "name": "scotland",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00182"
+  },
+  {
+    "name": "south africa",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00183"
+  },
+  {
+    "name": "wurly electric piano",
+    "type": "instrument",
+    "host": "Musio",
+    "developer": "Cinesamples",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inci00184"
+  },
+  {
+    "name": "Ensemblia 2",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Cinematique Instruments",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "orchestral",
+      "ensemble"
+    ],
+    "emulates": null,
+    "id": "inci00513"
+  },
+  {
+    "name": "ReaSamplOmatic5000",
+    "type": "instrument",
+    "host": "Reaper",
+    "developer": "Cockos",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "sampler",
+      "cockos"
+    ],
+    "emulates": null,
+    "id": "inco00363"
+  },
+  {
+    "name": "ReaSynth",
+    "type": "instrument",
+    "host": "Reaper",
+    "developer": "Cockos",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern",
+      "cockos"
+    ],
+    "emulates": null,
+    "id": "inco00364"
+  },
+  {
+    "name": "Arctica",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Dark Intervals",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inda00507"
+  },
+  {
+    "name": "Irish Lyre Harp - Lite",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Dark Intervals",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "harp",
+      "celtic"
+    ],
+    "emulates": null,
+    "id": "inda00522"
+  },
+  {
+    "name": "SuperpluginSynth",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "DDMF",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "container"
+    ],
+    "emulates": null,
+    "id": "indd00388"
+  },
+  {
+    "name": "Synthesizer V Studio",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Dreamtonics",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vocal"
+    ],
+    "emulates": null,
+    "id": "indr00369"
+  },
+  {
+    "name": "Bowed Guitar",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Edu Prado Sounds",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "ined00508"
+  },
+  {
+    "name": "impOSCar3",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "hybrid",
+      "synth",
+      "virtual analog",
+      "additive",
+      "wavetable",
+      "vintage",
+      "1980s",
+      "british",
+      "sampled",
+      "modeled",
+      "plugin",
+      "virtual instrument",
+      "vst",
+      "au",
+      "aax",
+      "gforce",
+      "imposcar",
+      "oscar"
+    ],
+    "emulates": [
+      "1983 oscar synthesizer by oxford synthesizer company"
+    ],
+    "id": "ingf00338"
+  },
+  {
+    "name": "IconDrum",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage",
+      "drum machine"
+    ],
+    "emulates": "1982 linndrum lm-2 drum machine by linn electronics",
+    "id": "ingf00339"
+  },
+  {
+    "name": "DMX",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage",
+      "drum machine"
+    ],
+    "emulates": [
+      "1981 oberheim dmx digital drum machine by oberheim electronics"
+    ],
+    "id": "ingf00340"
+  },
+  {
+    "name": "M-Tron Pro IV",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "mellotron"
+    ],
+    "emulates": "1973 mellotron m400 tape-based keyboard by streetly electronics",
+    "id": "ingf00341"
+  },
+  {
+    "name": "MINIMONSTA2",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "1970 moog minimoog model d analog synthesizer by moog music",
+    "id": "ingf00342"
+  },
+  {
+    "name": "ODDITY3",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "1972 arp odyssey duophonic analog synthesizer by arp instruments",
+    "id": "ingf00343"
+  },
+  {
+    "name": "Oberheim SEM",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "1974 oberheim sem synthesizer expander module by oberheim electronics",
+    "id": "ingf00344"
+  },
+  {
+    "name": "VSM IV",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": [
+      "solina string ensemble",
+      "roland vp-330",
+      "elka rhapsody",
+      "logan string melody",
+      "freeman string symphonizer",
+      "crumar performer",
+      "eminent 310",
+      "korg lambda",
+      "yamaha sk-20",
+      "moog opus 3",
+      "arp omni",
+      "arp solina",
+      "roland rs-202",
+      "roland rs-505",
+      "hammond string symphony",
+      "siel orchestra",
+      "multivox mx-202",
+      "crumar multiman",
+      "elka string symphony",
+      "korg polyensemble",
+      "vox string thing",
+      "farfisa string orchestra",
+      "hohner string performer",
+      "akai vx600",
+      "oberheim ob-8",
+      "oberheim matrix-12",
+      "moog polymoog",
+      "roland juno-60",
+      "roland jupiter-8",
+      "yamaha cs-80",
+      "yamaha sy-2",
+      "string machine hybrid"
+    ],
+    "id": "ingf00345"
+  },
+  {
+    "name": "Axxess",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "1975 arp axxe monophonic analog synthesizer by arp instruments",
+    "id": "ingf00346"
+  },
+  {
+    "name": "Heartbeat",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "ingf00376"
+  },
+  {
+    "name": "Tattoo",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "GForce",
+    "libraryPath": null,
+    "tags": [
+      "drums"
+    ],
+    "emulates": null,
+    "id": "ingf00377"
+  },
+  {
+    "name": "Scarred Piano",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Infinit Audio",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inin00416"
+  },
+  {
+    "name": "Guitar Swell",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "InSession Audio",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": [
+      "fender jazzmaster",
+      "fender stratocaster",
+      "gibson les paul",
+      "fender telecaster",
+      "gretsch jet baritone",
+      "rickenbacker lap steel",
+      "electro-harmonix pog",
+      "strymon big sky",
+      "digitech space station",
+      "ventris dual reverb"
+    ],
+    "id": "inin00485"
+  },
+  {
+    "name": "Riff Generation - Outside In Edition",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "InSession Audio",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt",
+      "midi",
+      "composition"
+    ],
+    "emulates": null,
+    "id": "inin00491"
+  },
+  {
+    "name": "Guitar Harmonics",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "InSession Audio",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inin00519"
+  },
+  {
+    "name": "SynthMaster Player",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "KV331 Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern"
+    ],
+    "emulates": null,
+    "id": "inkv00358"
+  },
+  {
+    "name": "Smooth Guitars Vol 1",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Loot Audio",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inlo00527"
+  },
+  {
+    "name": "Smooth Guitars Vol 2",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Loot Audio",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inlo00528"
+  },
+  {
+    "name": "CUBE",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Lunacy Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "container"
+    ],
+    "emulates": null,
+    "id": "inlu00384"
+  },
+  {
+    "name": "Kee Bass",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Martinic",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "bass"
+    ],
+    "emulates": "1960s rheem kee bass monophonic string bass simulator by rheem manufacturing company",
+    "id": "inma00350"
+  },
+  {
+    "name": "Martinic AX73",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Martinic",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Martinic AX73",
+    "id": "inma00367"
+  },
+  {
+    "name": "Continuum Guitars",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Metasonica",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inme00427"
+  },
+  {
+    "name": "MSoundFactory",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Melda Production",
+    "libraryPath": null,
+    "tags": [
+      "container"
+    ],
+    "emulates": null,
+    "id": "inme00450"
+  },
+  {
+    "name": "Pianoteq 6",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Modartt",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage",
+      "container"
+    ],
+    "emulates": [
+      "steinway model d",
+      "steinway model b",
+      "shigeru kawai sk-ex",
+      "bösendorfer 280vc",
+      "c. bechstein 282",
+      "petrof 284 mistral",
+      "steingraeber e-272",
+      "grotrian concert royal",
+      "blothner model 1",
+      "k2 grand",
+      "yc5 rock piano",
+      "u4 upright",
+      "karsten collection",
+      "kremsegg collection",
+      "j.b. streicher",
+      "c. bechstein 1899",
+      "ny steinway square",
+      "classical guitar",
+      "concert harp",
+      "hohner clavinet",
+      "hohner pianet-n",
+      "hohner pianet-t",
+      "hohner electra",
+      "vibraphone",
+      "xylophone",
+      "marimba",
+      "toy piano",
+      "celesta",
+      "glockenspiel",
+      "kalimba",
+      "steel drums",
+      "handpan",
+      "spacedrum",
+      "tank drum",
+      "harpsichord",
+      "virginal"
+    ],
+    "id": "inmo00410"
+  },
+  {
+    "name": "RapidComposer V5",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "MusicDevelopments",
+    "libraryPath": null,
+    "tags": [
+      "midi",
+      "composition"
+    ],
+    "emulates": null,
+    "id": "inmu00372"
+  },
+  {
+    "name": "Parallax Guitar",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Musical Sampling",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": null,
+    "id": "inmu00453"
+  },
+  {
+    "name": "Rapid Composer",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Music Developments",
+    "libraryPath": null,
+    "tags": [
+      "midi",
+      "composition"
+    ],
+    "emulates": null,
+    "id": "inmu00457"
+  },
+  {
+    "name": "Soundfonts",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Musical Artifacts",
+    "libraryPath": null,
+    "tags": [
+      "container"
+    ],
+    "emulates": null,
+    "id": "inmu00464"
+  },
+  {
+    "name": "Generate",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Newfangledaudio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern"
+    ],
+    "emulates": null,
+    "id": "inne00366"
+  },
+  {
+    "name": "Evanescent Baby Grand Piano",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "NewNation",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inne00414"
+  },
+  {
+    "name": "Blaque-Dark Electric Guitar",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "New Nation",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": null,
+    "id": "inne00423"
+  },
+  {
+    "name": "Numb-Dark Acoustic Guitar",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "New Nation",
+    "libraryPath": null,
+    "tags": [
+      "guitar"
+    ],
+    "emulates": null,
+    "id": "inne00452"
+  },
+  {
+    "name": "Deep Blue",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "New Nation",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "kontakt",
+      "pads"
+    ],
+    "emulates": null,
+    "id": "inne00510"
+  },
+  {
+    "name": "Guitars In Space Vol 2",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "New Nation",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inne00520"
+  },
+  {
+    "name": "Guitars In Space Vol 3",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "New Nation",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inne00521"
+  },
+  {
+    "name": "24K Keys Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "electric keys",
+      "pianos",
+      "synths",
+      "orchestral strings",
+      "brass",
+      "basses",
+      "pads",
+      "leads",
+      "special effects"
+    ],
+    "emulates": null,
+    "id": "inni00417"
+  },
+  {
+    "name": "Acoustic Drums Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inni00418"
+  },
+  {
+    "name": "Analog Dreams Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "bass",
+      "fx",
+      "leads",
+      "pads",
+      "plucked"
+    ],
+    "emulates": null,
+    "id": "inni00419"
+  },
+  {
+    "name": "Battery 4 Factory Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inni00420"
+  },
+  {
+    "name": "Battery Now Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inni00421"
+  },
+  {
+    "name": "Beam Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "kontakt",
+      "ambient",
+      "pads"
+    ],
+    "emulates": null,
+    "id": "inni00422"
+  },
+  {
+    "name": "Bump Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "bass",
+      "keys",
+      "kontakt",
+      "hip-hop"
+    ],
+    "emulates": null,
+    "id": "inni00424"
+  },
+  {
+    "name": "Butch Vig Drums Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inni00425"
+  },
+  {
+    "name": "Choir Omnia Essentials",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "vocal",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inni00426"
+  },
+  {
+    "name": "Discoteca Drums Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inni00428"
+  },
+  {
+    "name": "Drive Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "bass",
+      "drums",
+      "leads",
+      "pads",
+      "plucks",
+      "fx",
+      "kontakt",
+      "pop",
+      "electronic"
+    ],
+    "emulates": null,
+    "id": "inni00429"
+  },
+  {
+    "name": "Fade Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "pads",
+      "leads",
+      "bass",
+      "fx",
+      "textures",
+      "kontakt",
+      "ambient",
+      "electronic"
+    ],
+    "emulates": null,
+    "id": "inni00433"
+  },
+  {
+    "name": "Homage Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "keys",
+      "guitar",
+      "bass",
+      "lo-fi samples",
+      "tape textures",
+      "noise layers",
+      "ambient"
+    ],
+    "emulates": null,
+    "id": "inni00434"
+  },
+  {
+    "name": "Hypha",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "ambient",
+      "textures",
+      "drones",
+      "organic",
+      "plucked strings",
+      "bowed strings",
+      "winds",
+      "keys",
+      "pads",
+      "textures",
+      "soundscapes",
+      "percussion",
+      "noise layers"
+    ],
+    "emulates": null,
+    "id": "inni00435"
+  },
+  {
+    "name": "Irish Harp Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "folk",
+      "harp",
+      "celtic"
+    ],
+    "emulates": null,
+    "id": "inni00436"
+  },
+  {
+    "name": "Jacob Collier Audience Choir Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "vocal",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inni00437"
+  },
+  {
+    "name": "Karriem Riggins Drums Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inni00438"
+  },
+  {
+    "name": "Kinetic Treats",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "toy",
+      "synth",
+      "sound design",
+      "experimental",
+      "ambient",
+      "toy piano",
+      "music box",
+      "mechanical toys",
+      "bells",
+      "whistles",
+      "percussion",
+      "synth layers",
+      "sound effects"
+    ],
+    "emulates": null,
+    "id": "inni00439"
+  },
+  {
+    "name": "Kontakt Factory Selection 2 Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inni00442"
+  },
+  {
+    "name": "Liquid Death Snare",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inni00443"
+  },
+  {
+    "name": "Luxa Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "keys",
+      "bass",
+      "plucks",
+      "pads",
+      "fx",
+      "soundscapes",
+      "kontakt",
+      "pop",
+      "electronic",
+      "modern",
+      "ambient"
+    ],
+    "emulates": null,
+    "id": "inni00444"
+  },
+  {
+    "name": "Luxury Hip Hop Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "bass",
+      "pads",
+      "plucks",
+      "fx",
+      "textures",
+      "drums",
+      "vocal",
+      "kontakt",
+      "hip-hop",
+      "lo-fi",
+      "soul",
+      "synth",
+      "ambient"
+    ],
+    "emulates": null,
+    "id": "inni00445"
+  },
+  {
+    "name": "Mallet Flux",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "percussion",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inni00446"
+  },
+  {
+    "name": "Massive X Factory Library",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "bass",
+      "lead",
+      "pad",
+      "pluck",
+      "fx",
+      "keys",
+      "ambient",
+      "arpeggio",
+      "texture",
+      "drone",
+      "massive x",
+      "electronic",
+      "sound design",
+      "modular",
+      "ambient"
+    ],
+    "emulates": null,
+    "id": "inni00447"
+  },
+  {
+    "name": "Modular Icons Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "bass",
+      "leads",
+      "pads",
+      "plucks",
+      "fx",
+      "arpeggios",
+      "textures",
+      "drones",
+      "noise layers",
+      "kontakt",
+      "synth",
+      "modular",
+      "analog",
+      "ambient",
+      "sound design",
+      "drones"
+    ],
+    "emulates": null,
+    "id": "inni00448"
+  },
+  {
+    "name": "Moebius Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "textures",
+      "pulses",
+      "fx",
+      "drones",
+      "pads",
+      "bass",
+      "leads",
+      "plucks",
+      "kontakt",
+      "synth",
+      "ambient",
+      "sound design",
+      "cinematic",
+      "drones"
+    ],
+    "emulates": null,
+    "id": "inni00449"
+  },
+  {
+    "name": "Now Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "bass",
+      "leads",
+      "pads",
+      "plucks",
+      "keys",
+      "fx",
+      "textures",
+      "vocals",
+      "drums",
+      "kontakt",
+      "synth",
+      "pop",
+      "electronic",
+      "modern",
+      "ambient"
+    ],
+    "emulates": null,
+    "id": "inni00451"
+  },
+  {
+    "name": "Pharlight",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "vocal samples",
+      "granular textures",
+      "pads",
+      "leads",
+      "fx",
+      "soundscapes",
+      "transitions",
+      "noise layers",
+      "kontakt",
+      "synth",
+      "vocal",
+      "granular",
+      "ambient",
+      "sound design",
+      "drones"
+    ],
+    "emulates": null,
+    "id": "inni00454"
+  },
+  {
+    "name": "Playbox",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "synths",
+      "pads",
+      "plucks",
+      "bass",
+      "keys",
+      "fx",
+      "textures",
+      "soundscapes",
+      "vocal samples",
+      "noise layers",
+      "percussion",
+      "toy instruments",
+      "organic samples",
+      "kontakt",
+      "synth",
+      "ambient",
+      "sound design",
+      "experimental",
+      "generative",
+      "chords"
+    ],
+    "emulates": null,
+    "id": "inni00455"
+  },
+  {
+    "name": "Progressive Trance Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "electronic",
+      "trance",
+      "progressive",
+      "ambient",
+      "sound design",
+      "bass",
+      "leads",
+      "pads",
+      "plucks",
+      "arpeggios",
+      "fx",
+      "drums",
+      "textures"
+    ],
+    "emulates": null,
+    "id": "inni00456"
+  },
+  {
+    "name": "Scarbee Rickenbacker Bass",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "bass",
+      "kontakt"
+    ],
+    "emulates": "Rickenbacker bass guitar ",
+    "id": "inni00458"
+  },
+  {
+    "name": "Scene - Saffron Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "ambient",
+      "cinematic",
+      "sound design",
+      "drones",
+      "hybrid",
+      "strings",
+      "synths",
+      "brass",
+      "pads",
+      "drones",
+      "textures",
+      "soundscapes",
+      "fx",
+      "percussion",
+      "noise layers"
+    ],
+    "emulates": null,
+    "id": "inni00459"
+  },
+  {
+    "name": "Soul Gold Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "soul",
+      "r&b",
+      "lo-fi",
+      "ambient",
+      "vintage",
+      "keys",
+      "bass",
+      "guitar",
+      "pads",
+      "plucks",
+      "drums",
+      "vocals",
+      "fx",
+      "textures"
+    ],
+    "emulates": null,
+    "id": "inni00462"
+  },
+  {
+    "name": "Soul Sessions Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "soul",
+      "r&b",
+      "vintage",
+      "ambient",
+      "keys",
+      "guitar",
+      "bass",
+      "sax",
+      "trumpet",
+      "pads",
+      "leads",
+      "organs",
+      "mallets",
+      "plucks",
+      "fx"
+    ],
+    "emulates": null,
+    "id": "inni00463"
+  },
+  {
+    "name": "Straylight",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "ambient",
+      "cinematic",
+      "granular",
+      "sound design",
+      "drones",
+      "granular textures",
+      "pads",
+      "transitions",
+      "soundscapes",
+      "drones",
+      "fx",
+      "atmospheres",
+      "pulses",
+      "subs",
+      "leads",
+      "keys",
+      "noise layers"
+    ],
+    "emulates": null,
+    "id": "inni00465"
+  },
+  {
+    "name": "String Machine Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "vintage",
+      "retro",
+      "ambient",
+      "sound design",
+      "strings",
+      "strings",
+      "synth",
+      "pads",
+      "brass",
+      "choir",
+      "keys",
+      "bass",
+      "organ",
+      "fx",
+      "textures"
+    ],
+    "emulates": [
+      "arp solina",
+      "moog polymoog",
+      "roland rs-505",
+      "roland juno-60",
+      "korg delta",
+      "crumar performer",
+      "freeman string symphonizer",
+      "elka rhapsody",
+      "logan string melody",
+      "eminent 310"
+    ],
+    "id": "inni00466"
+  },
+  {
+    "name": "Studio Drummer Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "drums",
+      "acoustic",
+      "studio",
+      "grooves",
+      "realistic",
+      "mix-ready",
+      "kick",
+      "snare",
+      "hi-hats",
+      "toms",
+      "cymbals",
+      "overheads",
+      "room mics",
+      "percussion",
+      "drum kits",
+      "midi grooves"
+    ],
+    "emulates": null,
+    "id": "inni00467"
+  },
+  {
+    "name": "Utopia Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "trance",
+      "electronic",
+      "ambient",
+      "sound design",
+      "euphoric",
+      "pads",
+      "leads",
+      "bass",
+      "arpeggios",
+      "sequences",
+      "fx",
+      "textures"
+    ],
+    "emulates": null,
+    "id": "inni00470"
+  },
+  {
+    "name": "Valves",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "brass",
+      "ensemble",
+      "cinematic",
+      "ambient",
+      "sound design",
+      "phrases",
+      "french horn",
+      "flugelhorn",
+      "euphonium",
+      "trombone",
+      "tuba",
+      "brass ensemble",
+      "phrases",
+      "swells",
+      "sustains",
+      "crescendos",
+      "decrescendos",
+      "waves",
+      "noise layers"
+    ],
+    "emulates": null,
+    "id": "inni00471"
+  },
+  {
+    "name": "Yangqin",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "world",
+      "yangqin",
+      "chinese",
+      "dulcimer"
+    ],
+    "emulates": null,
+    "id": "inni00474"
+  },
+  {
+    "name": "80s New Wave Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "80s",
+      "retro",
+      "new wave",
+      "electronic",
+      "vintage",
+      "bass",
+      "leads",
+      "pads",
+      "plucks",
+      "keys",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "inni00475"
+  },
+  {
+    "name": "Ashlight",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "granular",
+      "ambient",
+      "cinematic",
+      "sound design",
+      "drones",
+      "granular textures",
+      "pads",
+      "leads",
+      "fx",
+      "soundscapes",
+      "drones",
+      "transitions",
+      "pulses",
+      "subs",
+      "keys",
+      "atmospheres",
+      "noise layers"
+    ],
+    "emulates": null,
+    "id": "inni00477"
+  },
+  {
+    "name": "Bazzazian Tapes Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "bass",
+      "bowed strings",
+      "keys",
+      "mallet instruments",
+      "organ",
+      "plucked strings",
+      "reed instruments",
+      "sound effects",
+      "soundscapes",
+      "synths",
+      "vocals"
+    ],
+    "emulates": null,
+    "id": "inni00479"
+  },
+  {
+    "name": "Disco and Funk Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "funk",
+      "disco",
+      "retro",
+      "groove",
+      "vintage",
+      "bass",
+      "guitar",
+      "drums",
+      "percussion",
+      "synth",
+      "brass",
+      "keys",
+      "vocals",
+      "fx",
+      "loops"
+    ],
+    "emulates": null,
+    "id": "inni00480"
+  },
+  {
+    "name": "Drum Lab Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "drums",
+      "hybrid",
+      "acoustic",
+      "electronic",
+      "grooves",
+      "mix-ready",
+      "kick",
+      "snare",
+      "hi-hats",
+      "toms",
+      "cymbals",
+      "percussion",
+      "electronic layers",
+      "drum kits",
+      "midi grooves",
+      "room mics"
+    ],
+    "emulates": null,
+    "id": "inni00481"
+  },
+  {
+    "name": "Ethereal Earth Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "ambient",
+      "sound design",
+      "organic",
+      "world",
+      "play series",
+      "ambience",
+      "bass",
+      "brass",
+      "drone",
+      "fx",
+      "lead",
+      "pad",
+      "pluck",
+      "string",
+      "texture",
+      "wind"
+    ],
+    "emulates": null,
+    "id": "inni00482"
+  },
+  {
+    "name": "Hearth and Hollow - Folk Voices",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "vocals",
+      "folk",
+      "indie",
+      "acoustic",
+      "ambient",
+      "expressive",
+      "solo vocals",
+      "vocal ensemble",
+      "whistle",
+      "body percussion",
+      "vowel blends",
+      "sustains",
+      "blooms",
+      "grooves",
+      "phrases"
+    ],
+    "emulates": null,
+    "id": "inni00486"
+  },
+  {
+    "name": "Hybrid Keys Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "keys",
+      "hybrid",
+      "play series",
+      "creative",
+      "sound design",
+      "pianos",
+      "organs",
+      "harpsichords",
+      "mallets",
+      "textures",
+      "fx"
+    ],
+    "emulates": [
+      "upright piano",
+      "rhodes electric piano",
+      "hammond organ",
+      "harpsichord",
+      "analog synth",
+      "prepared piano"
+    ],
+    "id": "inni00487"
+  },
+  {
+    "name": "Noire",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "kontakt"
+    ],
+    "emulates": [
+      "yamaha cfx concert grand",
+      "nils frahm piano",
+      "funkhaus saal 3",
+      "felt grand piano"
+    ],
+    "id": "inni00488"
+  },
+  {
+    "name": "Platinum Pop Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "pop",
+      "electronic",
+      "modern",
+      "radio-ready",
+      "bright",
+      "bass",
+      "leads",
+      "pads",
+      "plucks",
+      "keys",
+      "drums",
+      "fx",
+      "textures",
+      "vocals"
+    ],
+    "emulates": null,
+    "id": "inni00489"
+  },
+  {
+    "name": "Retro Machines Mk2 Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "vintage",
+      "analog",
+      "retro",
+      "electronic",
+      "classic",
+      "analog synths",
+      "string machines",
+      "bass synths",
+      "lead synths",
+      "pads",
+      "organs",
+      "electric pianos",
+      "clavinets",
+      "keys",
+      "fx"
+    ],
+    "emulates": [
+      "moog minimoog",
+      "roland juno-60",
+      "roland jupiter-6",
+      "roland sh-101",
+      "korg ms-20",
+      "korg poly-800",
+      "arp odyssey",
+      "arp solina",
+      "oberheim ob-xa",
+      "oberheim ob-12",
+      "yamaha cs-01",
+      "yamaha dx7",
+      "crumar performer",
+      "rhodes chroma",
+      "sequential prophet-5",
+      "sequential prophet-600"
+    ],
+    "id": "inni00490"
+  },
+  {
+    "name": "Rise and Hit",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inni00492"
+  },
+  {
+    "name": "Schema - Dark",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inni00494"
+  },
+  {
+    "name": "Session Bassist - Icon Bass",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "bass",
+      "kontakt"
+    ],
+    "emulates": [
+      "1989 fender precision bass",
+      "flatwound strings",
+      "analog di signal chain",
+      "vintage bass amp"
+    ],
+    "id": "inni00495"
+  },
+  {
+    "name": "Session Bassist - Prime Bass Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "bass",
+      "kontakt"
+    ],
+    "emulates": [
+      "1981 fender precision bass",
+      "single-coil pickups",
+      "rosewood fingerboard",
+      "universal audio m-610 preamp",
+      "vintage bass amp"
+    ],
+    "id": "inni00496"
+  },
+  {
+    "name": "Session Guitarist - Electric Sunburst Deluxe",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt",
+      "electric"
+    ],
+    "emulates": [
+      "gibson les paul",
+      "dual humbucker electric guitar",
+      "vintage tube amps",
+      "studio cabinet miking",
+      "analog signal chain"
+    ],
+    "id": "inni00497"
+  },
+  {
+    "name": "Session Guitarist - Electric Vintage",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt",
+      "electric"
+    ],
+    "emulates": [
+      "1950s fender telecaster",
+      "single-coil pickups",
+      "vintage tube amps",
+      "analog preamp signal chain",
+      "studio cabinet miking"
+    ],
+    "id": "inni00498"
+  },
+  {
+    "name": "Session Guitarist - Picked Acoustic",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt",
+      "acoustic"
+    ],
+    "emulates": [
+      "1973 martin 00-21",
+      "steel-string acoustic guitar",
+      "vintage microphones",
+      "analog signal chain"
+    ],
+    "id": "inni00499"
+  },
+  {
+    "name": "Session Guitarist - Strummed Acoustic 2",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt",
+      "acoustic"
+    ],
+    "emulates": [
+      "guild f-412 12-string",
+      "martin o-17 6-string"
+    ],
+    "id": "inni00500"
+  },
+  {
+    "name": "Vintage Organs Library",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "kontakt",
+      "organ",
+      "vintage",
+      "tonewheel",
+      "transistor",
+      "classic",
+      "retro",
+      "electronic",
+      "combo organ"
+    ],
+    "emulates": [
+      "hammond b-3",
+      "hammond c-3",
+      "hammond m-3",
+      "vox continental ii",
+      "farfisa compact"
+    ],
+    "id": "inni00504"
+  },
+  {
+    "name": "West Africa",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "world",
+      "kontakt",
+      "djembe",
+      "dunun",
+      "bells",
+      "krin",
+      "calabash",
+      "kora",
+      "bolon",
+      "balafon",
+      "ngoni",
+      "fula flute"
+    ],
+    "emulates": null,
+    "id": "inni00505"
+  },
+  {
+    "name": "Dark Drones",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "kontakt",
+      "pads",
+      "drones"
+    ],
+    "emulates": null,
+    "id": "inni00509"
+  },
+  {
+    "name": "Drum Machines",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "kontakt",
+      "drum machine",
+      "vintage",
+      "analog",
+      "digital",
+      "electronic",
+      "classic",
+      "retro",
+      "sample-based",
+      "rhythm"
+    ],
+    "emulates": [
+      "roland tr-808",
+      "roland tr-909",
+      "roland tr-606",
+      "linndrum",
+      "oberheim dx",
+      "oberheim dmx",
+      "e-mu drumulator",
+      "yamaha rx5",
+      "korg ddd-1",
+      "korg kr-55",
+      "boss dr-55",
+      "simmons sds-v"
+    ],
+    "id": "inni00511"
+  },
+  {
+    "name": "Gongster's Paradise",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "NI",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "percussion",
+      "gongs"
+    ],
+    "emulates": null,
+    "id": "inni00518"
+  },
+  {
+    "name": "Berlin Free Orchestra",
+    "type": "instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "orchestral",
+      "ensemble"
+    ],
+    "emulates": null,
+    "id": "inor00016"
+  },
+  {
+    "name": "Drones by Alexander Hacke",
+    "type": "instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "kontakt",
+      "ambient",
+      "drones"
+    ],
+    "emulates": null,
+    "id": "inor00017"
+  },
+  {
+    "name": "Salu Close-Up Soundscapes",
+    "type": "instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "kontakt",
+      "ambient",
+      "drones"
+    ],
+    "emulates": null,
+    "id": "inor00018"
+  },
+  {
+    "name": "Talinn",
+    "type": "instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "vocal",
+      "orchestral"
+    ],
+    "emulates": null,
+    "id": "inor00019"
+  },
+  {
+    "name": "Peteris Vasks Strings",
+    "type": "instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "strings",
+      "chamber"
+    ],
+    "emulates": null,
+    "id": "inor00020"
+  },
+  {
+    "name": "TIME Micro",
+    "type": "instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": [
+      "vocal",
+      "orchestral"
+    ],
+    "emulates": null,
+    "id": "inor00021"
+  },
+  {
+    "name": "Modus - Jeff Russo",
+    "type": "instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "vocal",
+      "percussion"
+    ],
+    "emulates": [
+      "custom orchestral ensembles",
+      "teldex scoring stage",
+      "jeff russo signature toolkit",
+      "shakuhachi",
+      "klingon male choir",
+      "tension performer clusters",
+      "transitional orchestral textures",
+      "hybrid scoring palette"
+    ],
+    "id": "inor00022"
+  },
+  {
+    "name": "Metropolis Ark 4",
+    "type": "instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "strings"
+    ],
+    "emulates": null,
+    "id": "inor00023"
+  },
+  {
+    "name": "Metropolis Ark 2",
+    "type": "instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "strings",
+      "ensemble"
+    ],
+    "emulates": null,
+    "id": "inor00024"
+  },
+  {
+    "name": "Metropolis Ark 0",
+    "type": "instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "strings",
+      "ensemble"
+    ],
+    "emulates": null,
+    "id": "inor00025"
+  },
+  {
+    "name": "Berlin Orchestra Inspire 2",
+    "type": "instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "strings",
+      "ensemble",
+      "vocal"
+    ],
+    "emulates": null,
+    "id": "inor00026"
+  },
+  {
+    "name": "Evolution Baritone Electric",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Orange Tree Samples",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": [
+      "baritone electric guitar",
+      "lipstick pickups",
+      "rosewood recording signal chain"
+    ],
+    "id": "inor00483"
+  },
+  {
+    "name": "Evolution Indie Rock",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Orange Tree Samples",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt",
+      "electric"
+    ],
+    "emulates": [
+      "offset electric guitar",
+      "dual single-coil pickups",
+      "rosewood recording signal chain",
+      "analog di and amp blend"
+    ],
+    "id": "inor00514"
+  },
+  {
+    "name": "Evolution Jumbo 12",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Orange Tree Samples",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt",
+      "acoustic"
+    ],
+    "emulates": [
+      "taylor 355 12-string acoustic",
+      "rosewood recording signal chain",
+      "analog di and enhanced signal"
+    ],
+    "id": "inor00515"
+  },
+  {
+    "name": "Evolution Rick 12",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Orange Tree Samples",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt",
+      "electric"
+    ],
+    "emulates": [
+      "rickenbacker 360-12",
+      "12-string electric guitar",
+      "semi-hollow maple body",
+      "rosewood fretboard",
+      "analog di and amp signal chain"
+    ],
+    "id": "inor00516"
+  },
+  {
+    "name": "Evolution Sitardelic",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Orange Tree Samples",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inor00517"
+  },
+  {
+    "name": "Andea by Richard Harvey",
+    "type": "instrument",
+    "host": "SINE",
+    "developer": "Orchestral Tools",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "guitar",
+      "acoustic"
+    ],
+    "emulates": [
+      "ronroco",
+      "charangolin",
+      "paraguayan harp",
+      "berimbau",
+      "panpipes",
+      "ocarina",
+      "bombo",
+      "cajón",
+      "andean folk instruments",
+      "south american winds",
+      "central american percussion",
+      "analog dry signal chain",
+      "richard harvey signature collection"
+    ],
+    "id": "inor00532"
+  },
+  {
+    "name": "Scaler 3",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Plugin Boutique",
+    "libraryPath": null,
+    "tags": [
+      "midi",
+      "composition"
+    ],
+    "emulates": null,
+    "id": "inpl00370"
+  },
+  {
+    "name": "sforzando",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Plogue Art et Technologie",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "container"
+    ],
+    "emulates": null,
+    "id": "inpl00387"
+  },
+  {
+    "name": "Liquid Death Snare",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Purafied Audio",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "percussion"
+    ],
+    "emulates": null,
+    "id": "inpu00395"
+  },
+  {
+    "name": "Healing 2",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "QuietMusic",
+    "libraryPath": null,
+    "tags": [
+      "world",
+      "bowls",
+      "meditation",
+      "dharma"
+    ],
+    "emulates": null,
+    "id": "inqu00383"
+  },
+  {
+    "name": "Rain Maker",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "QuietMusic",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "foley"
+    ],
+    "emulates": null,
+    "id": "inqu00398"
+  },
+  {
+    "name": "Dr. BeatBox",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Rhythm Robot",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inrh00375"
+  },
+  {
+    "name": "GODWIN",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Rhythm Robot",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "kontakt",
+      "vintage"
+    ],
+    "emulates": [
+      "godwin string concert",
+      "analog string synthesizer",
+      "polyphonic ensemble synth",
+      "vintage chorus and tremolo"
+    ],
+    "id": "inrh00524"
+  },
+  {
+    "name": "LOGAN COMPLETE",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Rhythm Robot",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "kontakt",
+      "vintage"
+    ],
+    "emulates": [
+      "logan string melody ii",
+      "analog string synthesizer",
+      "polyphonic ensemble synth",
+      "1970s italian string machine",
+      "vintage chorus modulation"
+    ],
+    "id": "inrh00525"
+  },
+  {
+    "name": "RR TEST UNIT",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Rhythm Robot",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "kontakt",
+      "vintage"
+    ],
+    "emulates": [
+      "eminent test unit",
+      "vintage calibration device",
+      "experimental test tones",
+      "analog probe signal chain"
+    ],
+    "id": "inrh00526"
+  },
+  {
+    "name": "Limerence",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Rigid Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "kontakt",
+      "ambient"
+    ],
+    "emulates": null,
+    "id": "inri00523"
+  },
+  {
+    "name": "D-50",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00219"
+  },
+  {
+    "name": "JD-800",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00220"
+  },
+  {
+    "name": "JUNO-106",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00221"
+  },
+  {
+    "name": "JUNO-60",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00222"
+  },
+  {
+    "name": "JUNO-60 CHORUS",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00223"
+  },
+  {
+    "name": "JUPITER-4",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00224"
+  },
+  {
+    "name": "JUPITER-8",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00225"
+  },
+  {
+    "name": "JV-1080",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00226"
+  },
+  {
+    "name": "JX-3P",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00227"
+  },
+  {
+    "name": "PROMARS",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00228"
+  },
+  {
+    "name": "SH-101",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00229"
+  },
+  {
+    "name": "SH-2",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00230"
+  },
+  {
+    "name": "SOUND CANVAS VA",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00231"
+  },
+  {
+    "name": "SYSTEM-100",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00232"
+  },
+  {
+    "name": "TB-303",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00233"
+  },
+  {
+    "name": "TR-606",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00234"
+  },
+  {
+    "name": "TR-707",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00235"
+  },
+  {
+    "name": "TR-727",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00236"
+  },
+  {
+    "name": "TR-808",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00237"
+  },
+  {
+    "name": "TR-909",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00238"
+  },
+  {
+    "name": "XV-5080",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00239"
+  },
+  {
+    "name": "SYSTEM-8 (AIRA)",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00240"
+  },
+  {
+    "name": "SYSTEM-1 (AIRA)",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00241"
+  },
+  {
+    "name": "ZENOLOGY Pro",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inro00242"
+  },
+  {
+    "name": "SRX BRASS",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ],
+    "emulates": [
+      "trumpet",
+      "trombone",
+      "french horn",
+      "tuba",
+      "brass section",
+      "muted trumpet",
+      "muted trombone",
+      "fall",
+      "swell",
+      "stab",
+      "bleat"
+    ],
+    "id": "inro00331"
+  },
+  {
+    "name": "SRX DANCE TRAX",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ],
+    "emulates": [
+      "analog synth",
+      "digital synth",
+      "bass synth",
+      "lead synth",
+      "pad",
+      "pluck",
+      "stab",
+      "loop",
+      "groove",
+      "scratch",
+      "sound effect",
+      "kick",
+      "snare",
+      "hi-hat",
+      "clap",
+      "percussion",
+      "drum kit"
+    ],
+    "id": "inro00332"
+  },
+  {
+    "name": "SRX ELECTRIC PIANO",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ],
+    "emulates": [
+      "rhodes",
+      "wurlitzer",
+      "clavinet",
+      "electric piano",
+      "ep",
+      "tremolo ep",
+      "chorus ep",
+      "phaser ep",
+      "super tramp ep",
+      "dual ep",
+      "pure ep",
+      "melodic ep",
+      "chorus wurly",
+      "dual clav",
+      "pure clav"
+    ],
+    "id": "inro00333"
+  },
+  {
+    "name": "SRX KEYBOARDS",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ],
+    "emulates": [
+      "acoustic piano",
+      "electric piano",
+      "rhodes",
+      "wurlitzer",
+      "clavinet",
+      "organ",
+      "synth pad",
+      "lead synth",
+      "bass synth",
+      "string machine",
+      "harpsichord",
+      "guitar",
+      "woodwind",
+      "brass",
+      "choir",
+      "bell",
+      "mallet",
+      "fx",
+      "layered keys"
+    ],
+    "id": "inro00334"
+  },
+  {
+    "name": "SRX ORCHESTRA",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ],
+    "emulates": [
+      "string ensemble",
+      "violin",
+      "viola",
+      "cello",
+      "double bass",
+      "brass section",
+      "trumpet",
+      "trombone",
+      "french horn",
+      "tuba",
+      "woodwinds",
+      "flute",
+      "clarinet",
+      "oboe",
+      "bassoon",
+      "choir",
+      "soprano",
+      "alto",
+      "tenor",
+      "bass",
+      "orchestral percussion",
+      "timpani",
+      "snare drum",
+      "cymbals",
+      "glockenspiel",
+      "harp",
+      "celesta",
+      "orchestral fx"
+    ],
+    "id": "inro00335"
+  },
+  {
+    "name": "SRX STRINGS",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ],
+    "emulates": [
+      "string ensemble",
+      "violin",
+      "viola",
+      "cello",
+      "double bass",
+      "pizzicato strings",
+      "legato strings",
+      "tremolo strings",
+      "spiccato strings",
+      "sforzando",
+      "string swell",
+      "string stab",
+      "orchestral fx"
+    ],
+    "id": "inro00336"
+  },
+  {
+    "name": "SRX STUDIO",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "multi",
+      "synth"
+    ],
+    "emulates": [
+      "acoustic piano",
+      "electric piano",
+      "nylon guitar",
+      "jazz guitar",
+      "bass guitar",
+      "drum kit",
+      "studio drums",
+      "flute",
+      "clarinet",
+      "saxophone",
+      "trumpet",
+      "trombone",
+      "french horn",
+      "moceno flute",
+      "synth pad",
+      "ambient pad",
+      "ethereal pad",
+      "harmonic sequence",
+      "orchestral percussion",
+      "studio fx"
+    ],
+    "id": "inro00337"
+  },
+  {
+    "name": "EARTH Piano",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Roland",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage",
+      "piano"
+    ],
+    "emulates": null,
+    "id": "inro00412"
+  },
+  {
+    "name": "VR55 DrumComputer",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "SampleScience",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "insa00374"
+  },
+  {
+    "name": "Stylo Synthesis",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Sample Science",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "stylophone"
+    ],
+    "emulates": null,
+    "id": "insa00380"
+  },
+  {
+    "name": "Lo-Fi Vaportones",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "SampleScience",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "insa00382"
+  },
+  {
+    "name": "VR55 DrumComputer",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "SamplesScience",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "insa00394"
+  },
+  {
+    "name": "606 Koncept Pro",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "SampleScience",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "insa00396"
+  },
+  {
+    "name": "Vintage Drum Elements",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "SampleScience",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "insa00397"
+  },
+  {
+    "name": "1960s Piano",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "SampleScience",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "insa00411"
+  },
+  {
+    "name": "Empyreal",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Sample Logic",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "kontakt",
+      "pads"
+    ],
+    "emulates": null,
+    "id": "insa00512"
+  },
+  {
+    "name": "Guitar Triggers",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00027"
+  },
+  {
+    "name": "Perc Triggers",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00028"
+  },
+  {
+    "name": "AGE Cimbalom",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00029"
+  },
+  {
+    "name": "AGE Guitar",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00030"
+  },
+  {
+    "name": "Adastra Ambiences",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00031"
+  },
+  {
+    "name": "Guitar Ambiences",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00032"
+  },
+  {
+    "name": "Supercluster",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00033"
+  },
+  {
+    "name": "Basstard",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00034"
+  },
+  {
+    "name": "Bazantar",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00035"
+  },
+  {
+    "name": "Fender P-Bass",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00036"
+  },
+  {
+    "name": "Symphonic Shadows Brass",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00037"
+  },
+  {
+    "name": "Free Angels",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00038"
+  },
+  {
+    "name": "Free ASMR",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00039"
+  },
+  {
+    "name": "Free Home",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00040"
+  },
+  {
+    "name": "Free Radicals",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00041"
+  },
+  {
+    "name": "Nu-Disco Drums 1",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00042"
+  },
+  {
+    "name": "10 Electric Guitars",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00043"
+  },
+  {
+    "name": "Epic Frame Drum Ensemble",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00044"
+  },
+  {
+    "name": "Epic Toms Ensemble",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00045"
+  },
+  {
+    "name": "1959 Swingmaster",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00046"
+  },
+  {
+    "name": "1974 Jagra",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00047"
+  },
+  {
+    "name": "1994 LP Studio",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00048"
+  },
+  {
+    "name": "2020 Modern PR-String",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00049"
+  },
+  {
+    "name": "Disco Vintage",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00050"
+  },
+  {
+    "name": "Emotional Guitars Multi",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00051"
+  },
+  {
+    "name": "Instant 12 String",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00052"
+  },
+  {
+    "name": "Instant Dobro",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00053"
+  },
+  {
+    "name": "Instant Electric",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00054"
+  },
+  {
+    "name": "Instant Steel String",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00055"
+  },
+  {
+    "name": "Oliver Codd 12 String",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00056"
+  },
+  {
+    "name": "Terz Guitar",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00057"
+  },
+  {
+    "name": "Atmospheres and Moods",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00058"
+  },
+  {
+    "name": "Spice Drums",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00059"
+  },
+  {
+    "name": "Copperphone",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00060"
+  },
+  {
+    "name": "Polyphon",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00061"
+  },
+  {
+    "name": "Smiley Drum",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00062"
+  },
+  {
+    "name": "1928 Vintage Grand Steinway",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00063"
+  },
+  {
+    "name": "Plucked Grand Piano",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00064"
+  },
+  {
+    "name": "Adastra Chamber All Full Sections",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00065"
+  },
+  {
+    "name": "Adastra Chamber Basses",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00066"
+  },
+  {
+    "name": "Adastra Chamber Cellos",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00067"
+  },
+  {
+    "name": "Adastra Chamber Violas",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00068"
+  },
+  {
+    "name": "Adastra Chamber Violins",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00069"
+  },
+  {
+    "name": "Adastra Ensemble All Full Sections",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00070"
+  },
+  {
+    "name": "Adastra Ensemble Basses",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00071"
+  },
+  {
+    "name": "Adastra Ensemble Cellos",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00072"
+  },
+  {
+    "name": "Adastra Ensemble Violas",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00073"
+  },
+  {
+    "name": "Adastra Ensemble Violins",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00074"
+  },
+  {
+    "name": "Adastra Solo All Full Sections",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00075"
+  },
+  {
+    "name": "Adastra Solo Bass",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00076"
+  },
+  {
+    "name": "Adastra Solo Cello",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00077"
+  },
+  {
+    "name": "Adastra Solo Viola",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00078"
+  },
+  {
+    "name": "Adastra Solo Violin",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00079"
+  },
+  {
+    "name": "Disco Strings",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00080"
+  },
+  {
+    "name": "Symphonic Shadows Strings",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00081"
+  },
+  {
+    "name": "Icelandia I",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00082"
+  },
+  {
+    "name": "Barbary",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00083"
+  },
+  {
+    "name": "Cait",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00084"
+  },
+  {
+    "name": "Francesca",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00085"
+  },
+  {
+    "name": "2001 Piccolo Shire",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00086"
+  },
+  {
+    "name": "Symphonic Shadows Winds",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00087"
+  },
+  {
+    "name": "Harmonium",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00088"
+  },
+  {
+    "name": "Santur",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00089"
+  },
+  {
+    "name": "Sitar",
+    "type": "instrument",
+    "host": "Soundpaint",
+    "developer": "Soundpaint",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inso00090"
+  },
+  {
+    "name": "Emotional Piano",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Soundiron",
+    "libraryPath": null,
+    "tags": [
+      "piano",
+      "kontakt",
+      "keys"
+    ],
+    "emulates": "kawai grand piano",
+    "id": "inso00431"
+  },
+  {
+    "name": "Ambition",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Sound Yeti",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inso00506"
+  },
+  {
+    "name": "Lyrical Phrases",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Sonuscore",
+    "libraryPath": null,
+    "tags": [
+      "vocal",
+      "kontakt"
+    ],
+    "emulates": null,
+    "id": "inso00529"
+  },
+  {
+    "name": "Oliver Patrice Weder OPW",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ],
+    "emulates": null,
+    "id": "insp00256"
+  },
+  {
+    "name": "Speculative Memories",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ],
+    "emulates": null,
+    "id": "insp00257"
+  },
+  {
+    "name": "Abbey Road One",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ],
+    "emulates": null,
+    "id": "insp00258"
+  },
+  {
+    "name": "Abbey Road Orchestra",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ],
+    "emulates": null,
+    "id": "insp00259"
+  },
+  {
+    "name": "Abbey Road Two",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ],
+    "emulates": [
+      "solo violin",
+      "solo violin ii",
+      "solo viola",
+      "solo cello",
+      "solo bass"
+    ],
+    "id": "insp00260"
+  },
+  {
+    "name": "Albion Solstice",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "celtic"
+    ],
+    "emulates": [
+      "nyckelharpa",
+      "hurdy-gurdy",
+      "celtic fiddle",
+      "accordion",
+      "bodhrán",
+      "folk percussion",
+      "electric guitar",
+      "electric bass",
+      "saxophone",
+      "trombone",
+      "choir",
+      "strings",
+      "brass",
+      "woodwinds",
+      "eurorack modular",
+      "analog synthesizer",
+      "cassette orchestra",
+      "drone grid",
+      "solstice orchestra"
+    ],
+    "id": "insp00261"
+  },
+  {
+    "name": "BBC Symphony Orchestra",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "orchestral",
+      "ensemble"
+    ],
+    "emulates": [
+      "violin i",
+      "violin ii",
+      "viola",
+      "cello",
+      "double bass",
+      "piccolo",
+      "flute i",
+      "flute ii",
+      "alto flute",
+      "oboe",
+      "cor anglais",
+      "clarinet i",
+      "clarinet ii",
+      "bass clarinet",
+      "bassoon",
+      "contrabassoon",
+      "horn i",
+      "horn ii",
+      "horn iii",
+      "horn iv",
+      "trumpet i",
+      "trumpet ii",
+      "trumpet iii",
+      "tenor trombone i",
+      "tenor trombone ii",
+      "bass trombone",
+      "contrabass trombone",
+      "tuba",
+      "harp",
+      "celeste",
+      "piano",
+      "timpani",
+      "bass drum",
+      "snare drum",
+      "cymbals",
+      "tambourine",
+      "triangle",
+      "glockenspiel",
+      "xylophone",
+      "marimba",
+      "vibraphone",
+      "tubular bells"
+    ],
+    "id": "insp00262"
+  },
+  {
+    "name": "BlankForms Tape Synths",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ],
+    "emulates": null,
+    "id": "insp00263"
+  },
+  {
+    "name": "LABS",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire"
+    ],
+    "emulates": null,
+    "id": "insp00264"
+  },
+  {
+    "name": "Epic Strings",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "orchestral",
+      "strings"
+    ],
+    "emulates": null,
+    "id": "insp00265"
+  },
+  {
+    "name": "Polaris",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "orchestral",
+      "strings",
+      "synth"
+    ],
+    "emulates": null,
+    "id": "insp00266"
+  },
+  {
+    "name": "Solar",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "synth"
+    ],
+    "emulates": null,
+    "id": "insp00267"
+  },
+  {
+    "name": "Appassionata Strings",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "orchestral",
+      "strings"
+    ],
+    "emulates": null,
+    "id": "insp00268"
+  },
+  {
+    "name": "Cimbalom",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "cimbalom"
+    ],
+    "emulates": "cimbalom",
+    "id": "insp00269"
+  },
+  {
+    "name": "Cinematic Frozen Strings",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "orchestral",
+      "strings"
+    ],
+    "emulates": null,
+    "id": "insp00270"
+  },
+  {
+    "name": "Cinematic Pads",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "orchestral",
+      "strings",
+      "ambient"
+    ],
+    "emulates": null,
+    "id": "insp00271"
+  },
+  {
+    "name": "Cinematic Soft Piano",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "keys"
+    ],
+    "emulates": null,
+    "id": "insp00272"
+  },
+  {
+    "name": "Epic Brass and Woodwinds",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "brass"
+    ],
+    "emulates": null,
+    "id": "insp00273"
+  },
+  {
+    "name": "Epic Choir",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "vocal"
+    ],
+    "emulates": null,
+    "id": "insp00274"
+  },
+  {
+    "name": "Firewood Piano",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "keys"
+    ],
+    "emulates": null,
+    "id": "insp00275"
+  },
+  {
+    "name": "Intimate Grand Piano",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "keys"
+    ],
+    "emulates": null,
+    "id": "insp00276"
+  },
+  {
+    "name": "Intimate Strings",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "orchestral",
+      "strings"
+    ],
+    "emulates": null,
+    "id": "insp00277"
+  },
+  {
+    "name": "Mrs Mills Piano",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "keys"
+    ],
+    "emulates": null,
+    "id": "insp00278"
+  },
+  {
+    "name": "Rare Flutes",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "spitfire",
+      "flutes"
+    ],
+    "emulates": null,
+    "id": "insp00279"
+  },
+  {
+    "name": "Trilian",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spectrsasonics",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "bass",
+      "acoustic bass",
+      "upright bass",
+      "electric bass",
+      "fretless bass",
+      "slap bass",
+      "picked bass",
+      "fingered bass",
+      "muted bass",
+      "tapped bass",
+      "synth bass",
+      "analog synth bass",
+      "digital synth bass",
+      "modular synth bass",
+      "trilogy legacy bass",
+      "bass guitar",
+      "bass lead",
+      "bass pad"
+    ],
+    "emulates": null,
+    "id": "insp00347"
+  },
+  {
+    "name": "Cinematic Percussion",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "percussion",
+      "cymbals",
+      "tams",
+      "gongs",
+      "earthquake hits",
+      "metal hits",
+      "percussion hits - high",
+      "percussion hits - low",
+      "swells"
+    ],
+    "emulates": null,
+    "id": "insp00391"
+  },
+  {
+    "name": "Abbey Road One Low Strings",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "strings"
+    ],
+    "emulates": null,
+    "id": "insp00402"
+  },
+  {
+    "name": "Abbey Road One Horns",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "brass"
+    ],
+    "emulates": null,
+    "id": "insp00403"
+  },
+  {
+    "name": "Abbey Road One Trumpets",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "brass",
+      "trumpets"
+    ],
+    "emulates": null,
+    "id": "insp00404"
+  },
+  {
+    "name": "Abbey Road One Flutes",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "winds",
+      "flutes"
+    ],
+    "emulates": null,
+    "id": "insp00405"
+  },
+  {
+    "name": "Abbey Road One Brass",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "brass"
+    ],
+    "emulates": null,
+    "id": "insp00406"
+  },
+  {
+    "name": "Albion Colossus",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "orchestral",
+      "ensemble"
+    ],
+    "emulates": [
+      "chamber strings",
+      "symphonic strings",
+      "chamber brass",
+      "symphonic brass",
+      "chamber woodwinds",
+      "symphonic woodwinds",
+      "percussion",
+      "drum kits",
+      "electric guitars",
+      "synths",
+      "evo grid textures"
+    ],
+    "id": "insp00407"
+  },
+  {
+    "name": "Hans Zimmer Strings",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "strings"
+    ],
+    "emulates": [
+      "violins",
+      "violas",
+      "cellos",
+      "basses",
+      "high strings",
+      "low strings",
+      "string ensemble",
+      "longs",
+      "shorts",
+      "tremolo",
+      "harmonics",
+      "sul pont",
+      "sul tasto",
+      "col legno",
+      "marcato",
+      "glissandi",
+      "runs",
+      "clusters",
+      "waves",
+      "super sul pont",
+      "tremolo harmonic waves"
+    ],
+    "id": "insp00408"
+  },
+  {
+    "name": "Keyscape",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Spectrasonics",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage"
+    ],
+    "emulates": [
+      "la custom c7 grand",
+      "wing upright",
+      "rhodes - la custom",
+      "rhodes - classic",
+      "rhodes - vintage vibe",
+      "wurli 200a",
+      "wurli 140b",
+      "hohner pianet m",
+      "hohner pianet t",
+      "hohner pianet n",
+      "hohner clavinet c",
+      "hohner clavinet d6",
+      "mk-80 digital rhodes",
+      "cp-70 electric grand",
+      "vintage vibanet",
+      "dolceola",
+      "electric harpsichord",
+      "harmochord",
+      "celeste",
+      "toy piano",
+      "rhodes bass",
+      "mks-20 digital piano",
+      "chimeatron",
+      "clavichord",
+      "harpsichord",
+      "church organ",
+      "rock organ",
+      "reed organ",
+      "harmonium",
+      "vibraphone",
+      "dulcitone",
+      "electric piano bass",
+      "hybrid duo"
+    ],
+    "id": "insp00415"
+  },
+  {
+    "name": "Fred Poirier Afterglow",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": [
+      "vintage electric guitar",
+      "dual pickup configuration",
+      "tube amp signal chain",
+      "tempo loco studios"
+    ],
+    "id": "insp00484"
+  },
+  {
+    "name": "Ronroco by Gustavo Santaolalla",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt",
+      "acoustic"
+    ],
+    "emulates": [
+      "ten-string ronroco",
+      "e-minor tuning",
+      "gustavo santaolalla signature instrument",
+      "andean folk instrument",
+      "analog tape signal chain"
+    ],
+    "id": "insp00493"
+  },
+  {
+    "name": "skyscapeparadise - GAZE",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt",
+      "shoegaze",
+      "electric"
+    ],
+    "emulates": [
+      "shoegaze band",
+      "vintage electric guitars",
+      "ribbon microphones",
+      "neve 8048 console",
+      "analog tape recording",
+      "pacific northwest shoegaze",
+      "re-amped synthesizers",
+      "vintage drum kit",
+      "studio bass guitar"
+    ],
+    "id": "insp00501"
+  },
+  {
+    "name": "Ambient Guitars",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt",
+      "ambient",
+      "electric"
+    ],
+    "emulates": null,
+    "id": "insp00502"
+  },
+  {
+    "name": "Earth",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Spitfire Audio",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "insp00503"
+  },
+  {
+    "name": "SC Theremin",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Stagecraft Software",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "theremin"
+    ],
+    "emulates": "theremin",
+    "id": "inst00357"
+  },
+  {
+    "name": "Aparillo",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "SugarBytes",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern"
+    ],
+    "emulates": null,
+    "id": "insu00361"
+  },
+  {
+    "name": "Retrograde Bass",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Teletone Audio",
+    "libraryPath": null,
+    "tags": [
+      "bass",
+      "kontakt"
+    ],
+    "emulates": [
+      "bass guitar",
+      "1968 fender super reverb"
+    ],
+    "id": "inte00469"
+  },
+  {
+    "name": "Voyager Guitar",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Teletone Audio",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "kontakt"
+    ],
+    "emulates": [
+      "1970s fender telecaster",
+      "1962 gibson ga-8t",
+      "1964 fender deluxe",
+      "1968 fender super reverb",
+      "shadow hills mono gama",
+      "vintage tascam cassette preamp"
+    ],
+    "id": "inte00473"
+  },
+  {
+    "name": "EZBass",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "ezbass",
+      "bass"
+    ],
+    "emulates": [
+      "bass guitar"
+    ],
+    "id": "into00280"
+  },
+  {
+    "name": "Acoustic EBX",
+    "type": "instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezbass",
+      "bass",
+      "acoustic bass",
+      "four-string"
+    ],
+    "emulates": [
+      "taylor gs mini",
+      "piezo",
+      "microphone"
+    ],
+    "id": "into00281"
+  },
+  {
+    "name": "Classic Rock EBX",
+    "type": "instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezbass",
+      "bass",
+      "classic rock"
+    ],
+    "emulates": [
+      "electric bass",
+      "precision bass",
+      "1960s",
+      "fender",
+      "four-string",
+      "fretted"
+    ],
+    "id": "into00282"
+  },
+  {
+    "name": "Disco Pop EBX",
+    "type": "instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezbass",
+      "bass",
+      "disco",
+      "pop",
+      "electric bass"
+    ],
+    "emulates": [
+      "hagström",
+      "super swede",
+      "rutger gunnarsson",
+      "four-string",
+      "fretted"
+    ],
+    "id": "into00283"
+  },
+  {
+    "name": "EZB-Modern EBX",
+    "type": "instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezbass",
+      "bass"
+    ],
+    "emulates": [
+      "modern",
+      "electric bass",
+      "five-string",
+      "low b",
+      "fretted"
+    ],
+    "id": "into00284"
+  },
+  {
+    "name": "Vintage EBX",
+    "type": "instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezbass",
+      "bass",
+      "vintage",
+      "electric bass",
+      "soul",
+      "motown",
+      "r&b"
+    ],
+    "emulates": [
+      "1960s",
+      "flatwound",
+      "four-string"
+    ],
+    "id": "into00285"
+  },
+  {
+    "name": "Fretless EBX",
+    "type": "instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezbass",
+      "bass",
+      "jazz",
+      "fusion",
+      "soul",
+      "ambient"
+    ],
+    "emulates": [
+      "fretless",
+      "electric bass",
+      "four-string"
+    ],
+    "id": "into00286"
+  },
+  {
+    "name": "Hard Rock EBX",
+    "type": "instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezbass",
+      "bass",
+      "hard rock",
+      "electric bass"
+    ],
+    "emulates": [
+      "1974 rickenbacker 4001",
+      "4001",
+      "1970s"
+    ],
+    "id": "into00287"
+  },
+  {
+    "name": "EZB-Hollowbody",
+    "type": "instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezbass",
+      "bass",
+      "acoustic pop",
+      "indie rock",
+      "goth",
+      "electric bass",
+      "semi-hollow",
+      "short-scale"
+    ],
+    "emulates": [
+      "1967 Gibson EB-2",
+      "vintage"
+    ],
+    "id": "into00288"
+  },
+  {
+    "name": "Session Player EBX",
+    "type": "instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezbass",
+      "bass"
+    ],
+    "emulates": [
+      "1963 Fender Precision Bass"
+    ],
+    "id": "into00289"
+  },
+  {
+    "name": "The Eighties EBX",
+    "type": "instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezbass",
+      "bass",
+      "synth"
+    ],
+    "emulates": [
+      "Wal Mk1 electric bass guitar"
+    ],
+    "id": "into00290"
+  },
+  {
+    "name": "EZB-TheEightiesElectronic",
+    "type": "instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezbass",
+      "bass"
+    ],
+    "emulates": [
+      "Minimoog Model D analog synthesizer"
+    ],
+    "id": "into00291"
+  },
+  {
+    "name": "EZB-TheSixties",
+    "type": "instrument",
+    "host": "EZBass",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezbass",
+      "bass",
+      "melodic",
+      "electric Bass",
+      "violin bass"
+    ],
+    "emulates": [
+      "Hofner 500/1 Violin Bass"
+    ],
+    "id": "into00292"
+  },
+  {
+    "name": "EZDrummer 2",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00293"
+  },
+  {
+    "name": "EZDrummer 3",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00294"
+  },
+  {
+    "name": "EZX2_Alt-Rock",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": [
+      "Ludwig Club Date",
+      "DW Collector Series"
+    ],
+    "id": "into00295"
+  },
+  {
+    "name": "EZX2_DreamPop",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00296"
+  },
+  {
+    "name": "EZX2_EZdrummer2_Modern",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00297"
+  },
+  {
+    "name": "EZX2_EZdrummer2_Vintage",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00298"
+  },
+  {
+    "name": "EZX2_PopRock",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": [
+      "GMS Grand Master Series"
+    ],
+    "id": "into00299"
+  },
+  {
+    "name": "EZXP_EZdrummer2_Percussion",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00300"
+  },
+  {
+    "name": "EZX_Americana",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00301"
+  },
+  {
+    "name": "EZX_Blues",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00302"
+  },
+  {
+    "name": "EZX_Classic",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00303"
+  },
+  {
+    "name": "EZX_Classic_4Mic",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00304"
+  },
+  {
+    "name": "EZX_Claustrophobic",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00305"
+  },
+  {
+    "name": "EZX_Cocktail",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00306"
+  },
+  {
+    "name": "EZX_dfh",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00307"
+  },
+  {
+    "name": "EZX_Electronic",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00308"
+  },
+  {
+    "name": "EZX_Funkmaster_Clyde",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00309"
+  },
+  {
+    "name": "EZX_Funkmaster_Jabo",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00310"
+  },
+  {
+    "name": "EZX_Indie",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00311"
+  },
+  {
+    "name": "EZX_Indie_4Mic",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00312"
+  },
+  {
+    "name": "EZX_Jazz",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00313"
+  },
+  {
+    "name": "EZX_Metal",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00314"
+  },
+  {
+    "name": "EZX_MetalHeads",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00315"
+  },
+  {
+    "name": "EZX_MetalMachine",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00316"
+  },
+  {
+    "name": "EZX_Nashville",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00317"
+  },
+  {
+    "name": "EZX_No1_Hits",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00318"
+  },
+  {
+    "name": "EZX_Percussion",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00319"
+  },
+  {
+    "name": "EZX_POP",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00320"
+  },
+  {
+    "name": "EZX_Rock",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00321"
+  },
+  {
+    "name": "EZX_RockSolid",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00322"
+  },
+  {
+    "name": "EZX_TwistedKit",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00323"
+  },
+  {
+    "name": "EZX_Vintage",
+    "type": "instrument",
+    "host": "EZDrummer",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "expansion",
+      "ezdrummer",
+      "drums"
+    ],
+    "emulates": null,
+    "id": "into00324"
+  },
+  {
+    "name": "ElectraX",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Tone2",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern"
+    ],
+    "emulates": null,
+    "id": "into00362"
+  },
+  {
+    "name": "EZkeys",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "keys",
+      "container"
+    ],
+    "emulates": null,
+    "id": "into00409"
+  },
+  {
+    "name": "EZDrummer",
+    "type": "instrument",
+    "host": "vst3",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "container"
+    ],
+    "emulates": null,
+    "id": "into00432"
+  },
+  {
+    "name": "Superior Drummer 3",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Toontrack",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "container"
+    ],
+    "emulates": null,
+    "id": "into00468"
+  },
+  {
+    "name": "Repro-1",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "1981 sequential circuits pro-one monophonic analog synthesizer",
+    "id": "inu-00348"
+  },
+  {
+    "name": "Diva",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": [
+      "moog minimoog model d",
+      "roland jupiter-6",
+      "jupiter-8",
+      "alpha juno",
+      "korg ms-20",
+      "oberheim sem"
+    ],
+    "id": "inu-00349"
+  },
+  {
+    "name": "Bazille",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Roland System 100M",
+    "id": "inu-00353"
+  },
+  {
+    "name": "Zebrify",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "modular fx processor based on zebra2's architecture",
+    "id": "inu-00354"
+  },
+  {
+    "name": "Hive",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": null,
+    "id": "inu-00355"
+  },
+  {
+    "name": "Repro-5",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "1978 sequential circuits prophet-5 polyphonic analog synthesizer",
+    "id": "inu-00356"
+  },
+  {
+    "name": "Zebra2",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "modern"
+    ],
+    "emulates": null,
+    "id": "inu-00359"
+  },
+  {
+    "name": "Zebralette",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage"
+    ],
+    "emulates": "Zebra2 powerful oscillator engine",
+    "id": "inu-00360"
+  },
+  {
+    "name": "ACE",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "U-he",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "Any Cable Everywhere"
+    ],
+    "emulates": "inspired by arp 2600 and other vintage modular systems",
+    "id": "inu-00365"
+  },
+  {
+    "name": "CARBON",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "UJAM",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "electric",
+      "distorted"
+    ],
+    "emulates": null,
+    "id": "inuj00325"
+  },
+  {
+    "name": "IRON 2",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "UJAM",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "electric"
+    ],
+    "emulates": null,
+    "id": "inuj00326"
+  },
+  {
+    "name": "SPARKLE 2",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "UJAM",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "electric"
+    ],
+    "emulates": null,
+    "id": "inuj00327"
+  },
+  {
+    "name": "AMBER 2",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "UJAM",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "acoustic"
+    ],
+    "emulates": null,
+    "id": "inuj00328"
+  },
+  {
+    "name": "SILK 2",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "UJAM",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "acoustic"
+    ],
+    "emulates": null,
+    "id": "inuj00329"
+  },
+  {
+    "name": "CINEDREAM",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "UJAM",
+    "libraryPath": null,
+    "tags": [
+      "guitar",
+      "ambient",
+      "electric"
+    ],
+    "emulates": null,
+    "id": "inuj00330"
+  },
+  {
+    "name": "BM-COZY",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "UJAM",
+    "libraryPath": null,
+    "tags": [
+      "drums"
+    ],
+    "emulates": null,
+    "id": "inuj00390"
+  },
+  {
+    "name": "SE-BRAAASS",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "UJAM",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "brass"
+    ],
+    "emulates": null,
+    "id": "inuj00400"
+  },
+  {
+    "name": "SE-STRIIIINGS",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "UJAM",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "strings"
+    ],
+    "emulates": null,
+    "id": "inuj00401"
+  },
+  {
+    "name": "Austrian Grand",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "piano",
+      "acoustic",
+      "grand",
+      "concert",
+      "cinematic",
+      "expressive",
+      "sampled",
+      "uvi",
+      "falcon",
+      "workstation",
+      "classical",
+      "solo",
+      "warm",
+      "dynamic",
+      "multi-mic",
+      "natural"
+    ],
+    "emulates": [
+      "austrian grand piano"
+    ],
+    "id": "inuv00001"
+  },
+  {
+    "name": "Key Suite Acoustic",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "piano",
+      "upright",
+      "grand",
+      "plucked",
+      "metallophone",
+      "acoustic",
+      "sampled",
+      "expressive",
+      "vintage",
+      "classical",
+      "cinematic",
+      "falcon",
+      "uvi",
+      "workstation",
+      "multi-mic",
+      "deep-sampled"
+    ],
+    "emulates": [
+      "model d",
+      "f grand",
+      "japanese c7",
+      "hybrid custom",
+      "baby grand",
+      "grand upright",
+      "german upright",
+      "tender upright",
+      "tack upright",
+      "honky-tonk upright",
+      "the compact",
+      "harpsichord",
+      "clavichord",
+      "spinet",
+      "blanchet cembalo",
+      "celesta",
+      "keyboard glockenspiel",
+      "papageno bells",
+      "j-celeste",
+      "dulcitone"
+    ],
+    "id": "inuv00002"
+  },
+  {
+    "name": "Key Suite Digital",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "digital",
+      "vintage",
+      "lo-fi",
+      "sampled",
+      "synthesized",
+      "keys",
+      "piano",
+      "electric",
+      "retro",
+      "80s",
+      "90s",
+      "falcon",
+      "uvi",
+      "workstation",
+      "characterful",
+      "expressive"
+    ],
+    "emulates": [
+      "mini white",
+      "nano p",
+      "performance",
+      "sp module",
+      "king sg",
+      "the micro",
+      "the eighty",
+      "the twenty",
+      "digital 330",
+      "tx piano"
+    ],
+    "id": "inuv00003"
+  },
+  {
+    "name": "Key Suite Electric",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "electric",
+      "vintage",
+      "tines",
+      "reeds",
+      "clav",
+      "analog",
+      "sampled",
+      "expressive",
+      "funk",
+      "soul",
+      "retro",
+      "70s",
+      "80s",
+      "falcon",
+      "uvi",
+      "workstation",
+      "deep-sampled",
+      "characterful"
+    ],
+    "emulates": [
+      "rhodes",
+      "wurli",
+      "clavinet",
+      "cp-70",
+      "electra",
+      "pianet",
+      "suitcase",
+      "reed piano",
+      "tine piano",
+      "electric grand",
+      "analog keys",
+      "electro-acoustic",
+      "combo organ",
+      "electric harpsichord",
+      "bass keys"
+    ],
+    "id": "inuv00004"
+  },
+  {
+    "name": "Mosaiq",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "toolbox",
+      "chords",
+      "beats",
+      "kits",
+      "midi",
+      "generative",
+      "sampled",
+      "electronic",
+      "cinematic",
+      "pop",
+      "hip hop",
+      "r&b",
+      "hyperpop",
+      "retrofuturism",
+      "sound design",
+      "falcon",
+      "uvi",
+      "workstation"
+    ],
+    "emulates": [
+      "chord progressions",
+      "drum kits",
+      "melodic kits",
+      "midi sequences",
+      "sound design layers",
+      "genre presets",
+      "ai-randomized textures",
+      "multi-part instruments"
+    ],
+    "id": "inuv00005"
+  },
+  {
+    "name": "World Suite 3",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "ethnic",
+      "traditional",
+      "folk",
+      "percussion",
+      "winds",
+      "strings",
+      "vocal",
+      "global",
+      "cinematic",
+      "sampled",
+      "expressive",
+      "cultural",
+      "regional",
+      "falcon",
+      "uvi",
+      "workstation",
+      "deep-sampled",
+      "authentic"
+    ],
+    "emulates": [
+      "accordion",
+      "bagpipes",
+      "balalaika",
+      "bouzouki",
+      "cimbalom",
+      "hurdy-gurdy",
+      "lute",
+      "mandolin",
+      "nyckelharpa",
+      "saz",
+      "zither",
+      "fiddle",
+      "flamenco guitar",
+      "celtic harp",
+      "frame drum",
+      "bodhrán",
+      "tamburello",
+      "castanets",
+      "church bells",
+      "carillon",
+      "pipe organ",
+      "ancient greek lyre",
+      "greek aulos",
+      "medieval ensemble",
+      "european choir",
+      "berimbau",
+      "cuíca",
+      "surdo",
+      "pandeiro",
+      "agogo",
+      "reco-reco",
+      "tamborim",
+      "cajón",
+      "bombo legüero",
+      "charango",
+      "quena",
+      "zampona",
+      "ronroco",
+      "cavaquinho",
+      "bandoneon",
+      "latin percussion",
+      "andean flutes",
+      "brazilian drums",
+      "panpipes",
+      "latin ensemble",
+      "shamisen",
+      "koto",
+      "erhu",
+      "guzheng",
+      "pipa",
+      "yangqin",
+      "dizi",
+      "bansuri",
+      "shakuhachi",
+      "taiko",
+      "tabla",
+      "mridangam",
+      "ghatam",
+      "sitar",
+      "sarod",
+      "tanpura",
+      "shehnai",
+      "suona",
+      "sheng",
+      "hulusi",
+      "khaen",
+      "dan bau",
+      "dan tranh",
+      "janggu",
+      "gayageum",
+      "haegeum",
+      "mongolian throat singing",
+      "gamelan",
+      "kulintang",
+      "asian choir",
+      "djembe",
+      "talking drum",
+      "udu",
+      "kalimba",
+      "kora",
+      "ngoni",
+      "balafon",
+      "shekere",
+      "agogo",
+      "bougarabou",
+      "krin",
+      "bara",
+      "sabar",
+      "dunun",
+      "mbira",
+      "berimbau",
+      "african flute",
+      "african choir",
+      "juju bass",
+      "african ensemble",
+      "didgeridoo",
+      "bullroarer",
+      "clapsticks",
+      "gum leaf",
+      "tongue drum",
+      "ocean drum",
+      "polynesian log drum",
+      "pacific conch",
+      "maori chant",
+      "aboriginal voice",
+      "native american flute",
+      "powwow drum",
+      "frame drum",
+      "banjo",
+      "jug",
+      "spoons",
+      "jaw harp",
+      "american fiddle",
+      "blues harmonica",
+      "gospel choir",
+      "bluegrass ensemble",
+      "bodhrán",
+      "uilleann pipes",
+      "celtic harp",
+      "irish flute",
+      "tin whistle",
+      "fiddle",
+      "bouzouki",
+      "low whistle",
+      "irish accordion",
+      "celtic ensemble",
+      "nyckelharpa",
+      "hardanger fiddle",
+      "langeleik",
+      "sami drum",
+      "scandinavian jaw harp",
+      "willow flute",
+      "lur",
+      "tagelharpa",
+      "scandinavian choir"
+    ],
+    "id": "inuv00006"
+  },
+  {
+    "name": "Aurora",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "piano",
+      "acoustic",
+      "textured",
+      "cinematic",
+      "ambient",
+      "expressive",
+      "modern",
+      "sampled",
+      "creative",
+      "sound design",
+      "falcon",
+      "uvi",
+      "workstation",
+      "deep-sampled",
+      "emotive",
+      "keys"
+    ],
+    "emulates": [
+      "concert grand piano",
+      "texture layers",
+      "atmosphere layer",
+      "augmented piano",
+      "textured piano",
+      "multi-layer piano"
+    ],
+    "id": "inuv00007"
+  },
+  {
+    "name": "Digital Synsations",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "digital",
+      "synth",
+      "90s",
+      "vintage",
+      "sampled",
+      "hybrid",
+      "fm",
+      "pcm",
+      "la synthesis",
+      "transwave",
+      "rompler",
+      "expressive",
+      "retro",
+      "pop",
+      "synthwave",
+      "falcon",
+      "uvi",
+      "workstation"
+    ],
+    "emulates": [
+      "sy77",
+      "korg m1",
+      "ensoniq vfx",
+      "roland d50"
+    ],
+    "id": "inuv00008"
+  },
+  {
+    "name": "EGP",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "electric",
+      "acoustic",
+      "hybrid",
+      "prepared",
+      "grand",
+      "piano",
+      "sampled",
+      "expressive",
+      "cinematic",
+      "sound design",
+      "deep-sampled",
+      "multi-mic",
+      "falcon",
+      "uvi",
+      "workstation",
+      "modern",
+      "textured"
+    ],
+    "emulates": [
+      "electric grand piano",
+      "yamaha cp-70",
+      "prepared piano",
+      "classic",
+      "brush",
+      "bow",
+      "ebow",
+      "fingers",
+      "pick",
+      "stick",
+      "multi-mic piano"
+    ],
+    "id": "inuv00009"
+  },
+  {
+    "name": "Ether Fields",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "ambient",
+      "cinematic",
+      "ethereal",
+      "soundscape",
+      "granular",
+      "hybrid",
+      "synth",
+      "pad",
+      "textured",
+      "expressive",
+      "experimental",
+      "idm",
+      "new age",
+      "electronic",
+      "falcon",
+      "uvi",
+      "workstation",
+      "deep-sampled"
+    ],
+    "emulates": [
+      "bells",
+      "granular textures",
+      "hybrid soundscapes",
+      "pads",
+      "patterned sounds",
+      "synths",
+      "wavetables",
+      "plucks",
+      "sequencers",
+      "multitimbral patches"
+    ],
+    "id": "inuv00010"
+  },
+  {
+    "name": "Falcon Factory rev2",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "hybrid",
+      "synth",
+      "sampled",
+      "electronic",
+      "cinematic",
+      "ambient",
+      "experimental",
+      "mpe",
+      "expressive",
+      "modular",
+      "sound design",
+      "falcon",
+      "uvi",
+      "workstation",
+      "deep-sampled",
+      "macro-ready",
+      "multitimbral"
+    ],
+    "emulates": [
+      "analog synth",
+      "fm synth",
+      "wavetable synth",
+      "additive synth",
+      "physical modeling",
+      "granular textures",
+      "sampled instruments",
+      "drum kits",
+      "bass synths",
+      "pads",
+      "plucks",
+      "leads",
+      "arps",
+      "keys",
+      "organs",
+      "soundscapes",
+      "fx",
+      "vocals",
+      "sequencers",
+      "mpe patches"
+    ],
+    "id": "inuv00011"
+  },
+  {
+    "name": "Noctua by Venus Theory",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "ambient",
+      "drone",
+      "soundscapes"
+    ],
+    "emulates": null,
+    "id": "inuv00012"
+  },
+  {
+    "name": "Orchestral Suite",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "orchestral",
+      "classical",
+      "ensemble",
+      "solo",
+      "strings",
+      "brass",
+      "woodwinds",
+      "percussion",
+      "choir",
+      "acoustic",
+      "sampled",
+      "expressive",
+      "cinematic",
+      "traditional",
+      "deep-sampled",
+      "falcon",
+      "uvi",
+      "workstation"
+    ],
+    "emulates": [
+      "violin",
+      "viola",
+      "cello",
+      "contrabass",
+      "string ensemble",
+      "trumpet",
+      "trombone",
+      "french horn",
+      "tuba",
+      "brass ensemble",
+      "flute",
+      "clarinet",
+      "oboe",
+      "bassoon",
+      "english horn",
+      "piccolo",
+      "woodwind ensemble",
+      "timpani",
+      "snare",
+      "cymbals",
+      "gongs",
+      "taiko",
+      "grand cassa",
+      "xylophone",
+      "marimba",
+      "vibraphone",
+      "tubular bells",
+      "glockenspiel",
+      "celesta",
+      "harpsichord",
+      "cathedral organ",
+      "classical guitar",
+      "harp",
+      "children choir",
+      "female choir",
+      "male choir",
+      "mixed choir"
+    ],
+    "id": "inuv00013"
+  },
+  {
+    "name": "Organic Arps",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [],
+    "emulates": null,
+    "id": "inuv00014"
+  },
+  {
+    "name": "Retro Organ Suite",
+    "type": "instrument",
+    "host": "Falcon",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "organ",
+      "electric organ",
+      "combo organ",
+      "tonewheel",
+      "transistor",
+      "vintage",
+      "retro",
+      "falcon",
+      "uvi",
+      "keyboard",
+      "sampled",
+      "rotary",
+      "drawbar",
+      "emulation",
+      "plugin"
+    ],
+    "emulates": [
+      "hammer b",
+      "ex iii",
+      "super vx",
+      "retrocorda",
+      "gt2500",
+      "combo k",
+      "yammy c10"
+    ],
+    "id": "inuv00015"
+  },
+  {
+    "name": "UVIWorkstation",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "UVI",
+    "libraryPath": null,
+    "tags": [
+      "container"
+    ],
+    "emulates": null,
+    "id": "inuv00389"
+  },
+  {
+    "name": "Apollo 2 Cinematic Guitars",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Vir2",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "guitar"
+    ],
+    "emulates": null,
+    "id": "invi00476"
+  },
+  {
+    "name": "Flow Motion Stereo",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Waves",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern"
+    ],
+    "emulates": null,
+    "id": "inwa00351"
+  },
+  {
+    "name": "CODEX Stereo",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Waves",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "modern"
+    ],
+    "emulates": null,
+    "id": "inwa00352"
+  },
+  {
+    "name": "CR8 Sampler Stereo",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Waves",
+    "libraryPath": null,
+    "tags": [
+      "synth",
+      "vintage",
+      "sampler"
+    ],
+    "emulates": null,
+    "id": "inwa00371"
+  },
+  {
+    "name": "Triaz",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Wave Alchemy",
+    "libraryPath": null,
+    "tags": [
+      "drums",
+      "percussion"
+    ],
+    "emulates": null,
+    "id": "inwa00392"
+  },
+  {
+    "name": "Electric200",
+    "type": "instrument",
+    "host": "vst3i",
+    "developer": "Waves",
+    "libraryPath": null,
+    "tags": [
+      "keys",
+      "vintage"
+    ],
+    "emulates": "1970s fender rhodes electric piano model 200",
+    "id": "inwa00413"
+  },
+  {
+    "name": "Freelodica",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Wavesfactory",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "melodica"
+    ],
+    "emulates": [
+      "melodica",
+      "reed keyboard instrument",
+      "dual mic positions",
+      "air and key noise control"
+    ],
+    "id": "inwa00530"
+  },
+  {
+    "name": "Cassette Bass",
+    "type": "instrument",
+    "host": "Kontakt",
+    "developer": "Wrongtools",
+    "libraryPath": null,
+    "tags": [
+      "kontakt",
+      "synth",
+      "bass",
+      "lo-fi"
+    ],
+    "emulates": [
+      "moog liberation keytar",
+      "cassette tape saturation",
+      "lo-fi analog bass",
+      "experimental kontakt instrument"
+    ],
+    "id": "inwr00531"
+  },
+  {
+    "name": "Deep Pool",
+    "type": "instrument",
+    "host": "kontakt",
+    "developer": "InSession Audio",
+    "libraryPath": null,
+    "tags": [
+      "deep pool",
+      "insession audio",
+      "kontakt instrument",
+      "downtempo drums",
+      "modern percussion",
+      "acoustic drums",
+      "electronic drums",
+      "loop suites",
+      "one-shot samples",
+      "rhythmic warmth",
+      "slow bpm",
+      "ambient grooves",
+      "chill production",
+      "lo-fi textures",
+      "performance loops",
+      "sound design",
+      "cinematic",
+      "expressive rhythm",
+      "percussive layering",
+      "creative fx"
+    ],
+    "emulates": "drum effects",
+    "id": "inin00003"
+  },
+  {
+    "name": "Theremin Plus",
+    "type": "instrument",
+    "host": "kontakt",
+    "developer": "Soundiron",
+    "libraryPath": null,
+    "tags": [
+      "theremin plus",
+      "soundiron",
+      "kontakt instrument",
+      "theremin emulation",
+      "vintage synth",
+      "waveform selector",
+      "sine wave",
+      "triangle wave",
+      "square wave",
+      "sawtooth wave",
+      "glide control",
+      "polyphonic mode",
+      "sub-layer synth",
+      "ambient textures",
+      "spacey tones",
+      "modulation effects",
+      "convolution reverb",
+      "cinematic",
+      "sound design",
+      "experimental tones"
+    ],
+    "emulates": "theremin",
+    "id": "inso00001"
+  },
+  {
+    "name": "Harp Guitar",
+    "type": "instrument",
+    "host": "kontakt",
+    "developer": "Soundiron",
+    "libraryPath": null,
+    "tags": [
+      "harp guitar",
+      "soundiron",
+      "kontakt instrument",
+      "30-string guitar",
+      "acoustic hybrid",
+      "plucks",
+      "palm mutes",
+      "chokes",
+      "slides",
+      "glisses",
+      "strums",
+      "guitar body percussion",
+      "round robin",
+      "velocity layering",
+      "true legato",
+      "auto-strumming",
+      "adaptive arpeggiation",
+      "custom tuning",
+      "ambient presets",
+      "cinematic",
+      "sound design"
+    ],
+    "emulates": "30-string guitar",
+    "id": "inso00005"
+  },
+  {
+    "name": "The Musique Box",
+    "type": "instrument",
+    "host": "kontakt",
+    "developer": "Soundiron",
+    "libraryPath": null,
+    "tags": [
+      "the musique box",
+      "soundiron",
+      "kontakt instrument",
+      "music box",
+      "antique music boxes",
+      "deep sampling",
+      "ambient pads",
+      "evolving textures",
+      "sound-designed fx",
+      "atmospheric sustains",
+      "multi-layered instruments",
+      "vintage tone",
+      "haunting melodies",
+      "cinematic",
+      "sound design",
+      "expressive performance",
+      "modular fx",
+      "custom arpeggiator",
+      "creative scoring",
+      "emotive timbres"
+    ],
+    "emulates": "antique music boxes",
+    "id": "inso00006"
+  },
+  {
+    "name": "Soulfi",
+    "type": "instrument",
+    "host": "kontakt",
+    "developer": "Teletone Audio",
+    "libraryPath": null,
+    "tags": [
+      "soulfi",
+      "teletone audio",
+      "kontakt instrument",
+      "vintage drums",
+      "soulful beats",
+      "ribbon microphones",
+      "analog warmth",
+      "beatmaker",
+      "groove engine",
+      "era-specific kits",
+      "round robin samples",
+      "lo-fi textures",
+      "bongos",
+      "shakers",
+      "snaps",
+      "claps",
+      "dynamic grooves",
+      "expressive rhythm",
+      "cinematic",
+      "sound design"
+    ],
+    "emulates": "drums",
+    "id": "inte00004"
+  }
+]
