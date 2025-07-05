@@ -1,0 +1,241 @@
+AIR Music Technology
+APU Software
+Acon Digital
+Acustica
+Adam Szabo
+Aegean Music
+Airwindows
+Algonaut
+Alyjameslabs
+AmpleSound
+AnalogX
+Apogee
+Antares
+Arboreal Audio
+Arturia
+Audified
+Audiosingularity
+Audio Assault
+Audio Damage, Inc.
+AudioThing
+Audiority
+Audioscape
+Ayaic
+BABY Audio
+BOOM Interactive
+BRAINGINES
+Bertom
+Black Rooster Audio
+Black Salt Audio
+Blue Cat Audio
+Boz Digital Labs
+CabbageAudio
+Cableguys
+Caelum Audio
+Celemony
+chmaha
+Chokehold
+Christopher Gill
+Cinesamples
+Cockos
+D16 Group
+DDMF
+Demian D
+DIBIQUADRO
+DMGAudio
+Dear Reality
+Direct Approach
+Dreamtonics
+EBU
+East West
+Eiosis
+Empirical Labs
+Eric Beam
+ERSH Plugins
+Eventide
+Excite Audio
+FabFilter
+Fiedler Audio
+FireSonic
+Fractal Audio Systems
+Francesco Bertolaccini
+Fuse Audio Labs
+GForce
+George Yohng
+Geraint
+Goodhertz
+HOFA
+Handcrafted Labs
+Harrison Audio
+Hears Plugins
+Helgoboss
+HoRNet
+IK Multimedia
+Imaginando
+Infinit Audio
+Inspired Acoustics
+Inphonik
+Inspired Acoustics
+InstantAudio
+Intermorphic
+JDFactory
+JMGSound
+Jam Origin
+Jeremy Bernstein
+JonVProd
+KIT Plugins
+KV331 Audio
+Kazrog
+Kiive Audio
+Kilohearts
+Klanghabit
+Klanghelm
+Klevgrand
+Korneff Audio
+Kuassa
+Kush Audio
+LFOAUDIO
+LVC-Audio
+Leapwing Audio
+LennarDigital
+LetiMix
+LiquidSonics
+London Acoustics
+Loser
+Luan Albani
+Lunacy Audio
+MAAT
+Make Believe Studios
+MIA Laboratories
+ML Sound Lab
+Martinic
+Mastering the Mix
+Mathew Lane
+McDSP
+Melda Production
+MeterPlugs
+Metric Halo
+MixWave
+Mixed In Key
+Mixland
+Modartt
+mrelwood
+Muramasa
+MusicDevelopments
+NOIZ Hub
+NUGEN Audio
+Nebula
+Nektar
+Nembrini Audio
+Neural DSP
+NewNation
+Newfangled Audio
+NoiseWorks
+OSC Audio
+Orchestral Tools
+Output
+Overloud
+PSP Audioware
+Plogue Art et Technologie
+Plugin Alliance
+Plugin Boutique
+Polyverse Music
+PrimeStudio
+Process.audio
+Pulsar Audio
+Pulsar Modular
+Purafied Audio
+QuietMusic
+RJStudios
+Rast Sound
+reaclassical
+ReaTeam
+Red Rock Sound
+Reflex Acoustics
+Relab Development
+Reverb Foundry
+Rhythm Robot
+Roland
+Saike Tools
+SA Recordings
+SIR Audio Tools
+SKnote
+SOUNDDROPS
+Saike
+SampleScience
+Samplicity
+Savant Audio
+Scaler Music
+Signum Audio
+Slate Digital
+Slate Audio
+Softube
+Solid State Logic
+Sonalksis
+Sonible
+Sonic Academy
+SonicAnomaly
+SonicAxiom
+Sonimus
+Sonnox
+Sound Particles
+Sound Radix
+SoundToys
+SoundeviceDigital
+Soundpaint
+Soundtheory
+Spectrasonics
+Spitfire Audio
+Stagecraft Software
+Steven Atkinson
+Steven Slate Audio
+Stillwell Audio
+Sugar Bytes
+Tape Over
+TBProAudio
+TBTECH
+TMT
+TSE Audio
+Techivation
+The Ampsim Universe
+The Him DSP
+Thomas Mundt
+Tokyo Dawn Labs
+Tone Empire
+Tone Projects
+Tone2
+ToneBoosters
+Toontrack
+Trident Audio Developments
+Tukan
+Two notes Audio Engineering
+U-he
+UJAM
+Unfiltered Audio
+United Plugins
+unknown
+UVI
+Universal Audio
+Valhalla
+Variety Of Sound
+Vladislav Goncharov
+VoosteQ
+Voxengo
+Waldorf
+Wave Alchemy
+WaveMachine Labs
+Wavemind Audio Plugins
+Wavegrove
+Waves
+Wavesfactory
+Xfer Records
+Youlean
+Zynaptiq
+accusonus
+audiosingularity
+chowdsp
+dSONIQ
+iZotope
+klanghabitat
+oeksound
+yg331

@@ -17,28 +17,28 @@ from pathlib import Path
 
 # ─── locate files relative to this script ─────────────────────────────────
 BASE_DIR    = Path(__file__).resolve().parent
-VAULT_FILE  = BASE_DIR / "xvault_raw.json"
+VAULT_FILE  = BASE_DIR / "xvault_skipped.json"
 BACKUP_FILE = BASE_DIR / "xvault_raw_bak.json"
 REPORT_FILE = BASE_DIR / "logs" / "dev-helper.json"
 # ────────────────────────────────────────────────────────────────────────────
 
 DEV_RULES = {
-    "Newfangled":     "Newfangledaudio",
-    "Noiz ":          "Kit Plugins",
-    "Nolard ":        "Nebula",
-    "Amethyst":       "Acustica",
-    "Purple":         "Acustica",
-    "Neutron":        "Izotope",
-    "Ozone":          "Izotope",
-    "Neold":          "Neold",
-    "Navy":           "Acustica",
-    "Mint":           "Acustica",
-    "Mindscape":      "Fuseroom",
-    "Taupe":          "Acustica",
-    "Need ":          "Noiseash",
-    "Anvil  ":        "Fuseroom",
-    "API_1608_":      "Nebula",
-    "Amplifikation ": "Kuassa",
+    "M-":     "Techivation",
+"T-":     "Techivation",
+"TDR ":     "Tokyo Dawn Labs",
+"stilwell":     "Stillwell Audio",
+"Nugen":     "Nugen Audio",
+"MAAT":     "MAAT",
+"KHs":     "Kilohearts",
+"RX8":     "Izotope",
+"Hornet":     "Hornet"
+
+
+
+
+
+
+
     # …add more as needed
 }
 
