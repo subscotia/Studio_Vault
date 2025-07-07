@@ -39,7 +39,7 @@ BACKUP_DIR = Path("backups")
 BACKUP_FILE = BACKUP_DIR / "xvault_wking_filling.relabel_families.json"
 
 family_replacements = {
-    "---emu--pedals": "pedals",
+    "reverb": "reverbs"
 
 
     # Add more as needed

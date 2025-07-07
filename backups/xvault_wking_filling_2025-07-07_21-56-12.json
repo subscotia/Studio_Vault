@@ -1544,6 +1544,113 @@
   },
   {
     "product": "Acustica Amber",
+    "name": "Amber2Zl",
+    "filename": "AMBER2ZL.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": "Acustica",
+    "families": [
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": false
+  },
+  {
+    "product": "Acustica Amber",
+    "name": "Amber3",
+    "filename": "AMBER3.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "avalon"
+    ],
+    "tags": [],
+    "emulates": "Avalon",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Amber",
+    "name": "Amber3Comp",
+    "filename": "AMBER3COMP.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "avalon",
+      "compressors"
+    ],
+    "tags": [],
+    "emulates": "Avalon",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Amber",
+    "name": "Amber3Pre",
+    "filename": "AMBER3PRE.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "avalon"
+    ],
+    "tags": [],
+    "emulates": "Avalon",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Amber",
+    "name": "Amber3S",
+    "filename": "AMBER3S.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "avalon"
+    ],
+    "tags": [],
+    "emulates": "Avalon",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Amber",
+    "name": "Amber3Strip",
+    "filename": "AMBER3STRIP.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "avalon",
+      "amek"
+    ],
+    "tags": [],
+    "emulates": "AMEK",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Amber",
+    "name": "Amber3Zl",
+    "filename": "AMBER3ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Amber",
     "name": "Amber4",
     "filename": "AMBER4.vst3",
     "type": "fx",
@@ -1552,9 +1659,7 @@
     "families": [
       "avalon"
     ],
-    "tags": [
-      "avalon"
-    ],
+    "tags": [],
     "emulates": "Avalon",
     "id": null,
     "ACTIVE": true
@@ -1570,9 +1675,7 @@
       "avalon",
       "compressors"
     ],
-    "tags": [
-      "avalon"
-    ],
+    "tags": [],
     "emulates": "Avalon",
     "id": null,
     "ACTIVE": true
@@ -1588,9 +1691,7 @@
       "avalon",
       "compressors"
     ],
-    "tags": [
-      "avalon"
-    ],
+    "tags": [],
     "emulates": "Avalon",
     "id": null,
     "ACTIVE": true
@@ -1605,9 +1706,7 @@
     "families": [
       "avalon"
     ],
-    "tags": [
-      "avalon"
-    ],
+    "tags": [],
     "emulates": "Avalon",
     "id": null,
     "ACTIVE": true
@@ -1627,9 +1726,7 @@
       "avalon",
       "eq"
     ],
-    "tags": [
-      "avalon"
-    ],
+    "tags": [],
     "emulates": "Avalon",
     "id": null,
     "ACTIVE": true
@@ -1644,9 +1741,7 @@
     "families": [
       "avalon"
     ],
-    "tags": [
-      "avalon"
-    ],
+    "tags": [],
     "emulates": "Avalon AD2055 equalizer",
     "id": null,
     "ACTIVE": true
@@ -1666,9 +1761,7 @@
       "avalon",
       "eq"
     ],
-    "tags": [
-      "avalon"
-    ],
+    "tags": [],
     "emulates": "Avalon AD2055 equalizer",
     "id": null,
     "ACTIVE": true
@@ -1683,9 +1776,7 @@
     "families": [
       "avalon"
     ],
-    "tags": [
-      "avalon"
-    ],
+    "tags": [],
     "emulates": "Avalon",
     "id": null,
     "ACTIVE": true
@@ -1705,9 +1796,7 @@
       "avalon",
       "eq"
     ],
-    "tags": [
-      "avalon"
-    ],
+    "tags": [],
     "emulates": "Avalon",
     "id": null,
     "ACTIVE": true
@@ -1817,6 +1906,22 @@
     ],
     "tags": [],
     "emulates": "AMEK",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Amethyst",
+    "name": "Amethyst4Zl",
+    "filename": "AMETHYST4ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -3537,6 +3642,21 @@
   },
   {
     "product": "Acustica Aquamarine",
+    "name": "Aquamarine4Zl",
+    "filename": "AQUAMARINE4ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Aquamarine",
     "name": "Aquamarine5",
     "filename": "AQUAMARINE5.vst3",
     "type": "fx",
@@ -3568,6 +3688,21 @@
       "equalisers",
       "analog",
       "eq"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Aquamarine",
+    "name": "Aquamarine5Zl",
+    "filename": "AQUAMARINE5ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
     ],
     "tags": [],
     "emulates": null,
@@ -4561,6 +4696,21 @@
       "equalisers",
       "analog",
       "eq"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Azure",
+    "name": "Azure2Zl",
+    "filename": "AZURE2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
     ],
     "tags": [],
     "emulates": null,
@@ -9346,6 +9496,21 @@
     "ACTIVE": true
   },
   {
+    "product": "Prime Studio Charly",
+    "name": "Charly2Zl",
+    "filename": "CHARLY2ZL.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": null,
+    "families": [
+      "zero latency"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
     "product": "Acustica Cherry",
     "name": "Cherry",
     "filename": "CHERRY.vst3",
@@ -9938,6 +10103,21 @@
     "ACTIVE": true
   },
   {
+    "product": "Acustica Cobalt",
+    "name": "Cobalt2Zl",
+    "filename": "COBALT2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
     "product": "Acustica Coffee",
     "name": "Coffee",
     "filename": "COFFEE.vst3",
@@ -10125,8 +10305,40 @@
   },
   {
     "product": "Acustica Cola",
+    "name": "Cola2Eq228Zl",
+    "filename": "COLA2EQ228ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Cola",
     "name": "Cola2Eq415",
     "filename": "COLA2EQ415.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "chandler emi",
+      "emulations"
+    ],
+    "tags": [],
+    "emulates": "EMI / Chandler",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Cola",
+    "name": "Cola2Eq415Zl",
+    "filename": "COLA2EQ415ZL.vst3",
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
@@ -10152,6 +10364,22 @@
     ],
     "tags": [],
     "emulates": "EMI / Chandler",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Cola",
+    "name": "Cola2Eq1671Zl",
+    "filename": "COLA2EQ1671ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -10212,6 +10440,22 @@
   },
   {
     "product": "Acustica Cola",
+    "name": "Colaeq228Zl",
+    "filename": "COLAEQ228ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Cola",
     "name": "Colaeq415",
     "filename": "COLAEQ415.vst3",
     "type": "fx",
@@ -10228,6 +10472,22 @@
   },
   {
     "product": "Acustica Cola",
+    "name": "Colaeq415Zl",
+    "filename": "COLAEQ415ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Cola",
     "name": "Colaeq1671",
     "filename": "COLAEQ1671.vst3",
     "type": "fx",
@@ -10239,6 +10499,22 @@
     ],
     "tags": [],
     "emulates": "EMI / Chandler",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Cola",
+    "name": "Colaeq1671Zl",
+    "filename": "COLAEQ1671ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -11245,6 +11521,22 @@
   },
   {
     "product": "Acustica Coral",
+    "name": "Coral2Zl",
+    "filename": "CORAL2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Coral",
     "name": "Coralbax",
     "filename": "CORALBAX.vst3",
     "type": "fx",
@@ -11359,9 +11651,7 @@
       "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "emi"
-    ],
+    "tags": [],
     "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
@@ -11377,9 +11667,7 @@
       "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "emi"
-    ],
+    "tags": [],
     "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
@@ -11396,9 +11684,7 @@
       "compressors",
       "emulations"
     ],
-    "tags": [
-      "emi"
-    ],
+    "tags": [],
     "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
@@ -11414,9 +11700,7 @@
       "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "emi"
-    ],
+    "tags": [],
     "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
@@ -11433,10 +11717,24 @@
       "preamps",
       "emulations"
     ],
-    "tags": [
-      "emi"
-    ],
+    "tags": [],
     "emulates": "EMI / Chandler",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Cream",
+    "name": "Cream2Zl",
+    "filename": "CREAM2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -11466,9 +11764,7 @@
       "compressors",
       "INACTIVE"
     ],
-    "tags": [
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -11483,9 +11779,7 @@
     "families": [
       "INACTIVE"
     ],
-    "tags": [
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -11500,9 +11794,7 @@
     "families": [
       "INACTIVE"
     ],
-    "tags": [
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -13517,9 +13809,7 @@
       "channel strip"
     ],
     "tags": [],
-    "emulates": [
-      "1960s Decca Germanium 8 channel mixer"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -13538,9 +13828,7 @@
       "compressors"
     ],
     "tags": [],
-    "emulates": [
-      "1960s Decca Germanium 8 channel mixer"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -13557,9 +13845,7 @@
       "eq"
     ],
     "tags": [],
-    "emulates": [
-      "1960s Decca Germanium 8 channel mixer"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -13574,9 +13860,7 @@
       "preamps"
     ],
     "tags": [],
-    "emulates": [
-      "1960s Decca Germanium 8 channel mixer"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -13676,6 +13960,22 @@
   },
   {
     "product": "Acustica Diamond colour EQ-3",
+    "name": "Diamond2Zl",
+    "filename": "DIAMOND2ZL.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Diamond colour EQ-3",
     "name": "Diamond3",
     "filename": "DIAMOND3.vst3",
     "type": "fx",
@@ -13685,6 +13985,22 @@
       "equalisers",
       "analog",
       "eq"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Diamond colour EQ-3",
+    "name": "Diamond3Zl",
+    "filename": "DIAMOND3ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
     "tags": [],
     "emulates": null,
@@ -15204,9 +15520,7 @@
       "reverbs"
     ],
     "tags": [],
-    "emulates": [
-      "Elektromesstecknik- EMT -140 Plate Reverb"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -15227,9 +15541,7 @@
       "reverbs"
     ],
     "tags": [],
-    "emulates": [
-      "Elektromesstecknik- EMT -140 Plate Reverb"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -15248,9 +15560,7 @@
       "reverbs"
     ],
     "tags": [],
-    "emulates": [
-      "Elektromesstecknik- EMT -140 Plate Reverb"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -15267,9 +15577,7 @@
       "reverbs"
     ],
     "tags": [],
-    "emulates": [
-      "Elektromesstecknik- EMT -140 Plate Reverb"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -15285,9 +15593,7 @@
       "reverbs"
     ],
     "tags": [],
-    "emulates": [
-      "Elektromesstecknik- EMT -140 Plate Reverb"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -15303,9 +15609,7 @@
       "reverbs"
     ],
     "tags": [],
-    "emulates": [
-      "Elektromesstecknik- EMT -140 Plate Reverb"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -16070,9 +16374,7 @@
       "acqua"
     ],
     "tags": [],
-    "emulates": [
-      "RCA BA-6B limiting amplifier compressor"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -16093,9 +16395,7 @@
       "acqua"
     ],
     "tags": [],
-    "emulates": [
-      "RCA BA-6B limiting amplifier compressor"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -16116,9 +16416,29 @@
       "acqua"
     ],
     "tags": [],
-    "emulates": [
-      "RCA BA-6B limiting amplifier compressor"
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica El Rey",
+    "name": "El Rey2Zl",
+    "filename": "EL_REY2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "compressors",
+      "rca ba-6a",
+      "vari mu",
+      "acustica",
+      "analog",
+      "emulation",
+      "acqua",
+      "zero latency"
     ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -16446,9 +16766,7 @@
       "eq"
     ],
     "tags": [],
-    "emulates": [
-      "Custom inspired by Klein and Hummel UE 1000 equalizer"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -16465,9 +16783,7 @@
       "eq"
     ],
     "tags": [],
-    "emulates": [
-      "Custom inspired by Klein and Hummel UE 1000 equalizer"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -16484,9 +16800,23 @@
       "eq"
     ],
     "tags": [],
-    "emulates": [
-      "Custom inspired by Klein and Hummel UE 1000 equalizer"
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Emerald",
+    "name": "Emerald2Zl",
+    "filename": "EMERALD2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -16503,9 +16833,7 @@
       "emulations"
     ],
     "tags": [],
-    "emulates": [
-      "EMI and Altec"
-    ],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -17023,9 +17351,7 @@
       "ear",
       "compressors"
     ],
-    "tags": [
-      "ear"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -17042,9 +17368,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "ear"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -17061,9 +17385,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "ear"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -17082,9 +17404,7 @@
       "ear",
       "compressors"
     ],
-    "tags": [
-      "ear"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -17103,9 +17423,7 @@
       "ear",
       "compressors"
     ],
-    "tags": [
-      "ear"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -18227,6 +18545,21 @@
     "ACTIVE": true
   },
   {
+    "product": "Acustica Fire The LP8",
+    "name": "Firethelp8Zl",
+    "filename": "FIRETHELP8ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
     "product": "Acustica Fire The Pan",
     "name": "Firethepan",
     "filename": "FIRETHEPAN.vst3",
@@ -19042,9 +19375,7 @@
       "solid state logic",
       "emulation"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": "SSL",
     "id": null,
     "ACTIVE": true
@@ -19066,9 +19397,7 @@
       "stereo field",
       "reverbs"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -19827,6 +20156,22 @@
   },
   {
     "product": "Acustica Gold",
+    "name": "Gold3Zl",
+    "filename": "GOLD3ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Gold",
     "name": "Gold4",
     "filename": "GOLD4.vst3",
     "type": "fx",
@@ -19883,6 +20228,22 @@
     ],
     "tags": [],
     "emulates": "Neve",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Gold",
+    "name": "Gold4Zl",
+    "filename": "GOLD4ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -19945,6 +20306,21 @@
     ],
     "tags": [],
     "emulates": "Neve",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Gold",
+    "name": "Gold5Zl",
+    "filename": "GOLD5ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -20228,9 +20604,7 @@
       "pedals",
       "emulations"
     ],
-    "tags": [
-      "gml"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20245,9 +20619,23 @@
     "families": [
       "INACTIVE"
     ],
-    "tags": [
-      "gml"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Green",
+    "name": "Green3Zl",
+    "filename": "GREEN3ZL.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20265,9 +20653,7 @@
       "eq",
       "nebula"
     ],
-    "tags": [
-      "gml"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20285,9 +20671,7 @@
       "eq",
       "nebula"
     ],
-    "tags": [
-      "gml"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20310,9 +20694,7 @@
       "acqua",
       "nebula"
     ],
-    "tags": [
-      "gml"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20330,9 +20712,7 @@
       "eq",
       "nebula"
     ],
-    "tags": [
-      "gml"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20349,9 +20729,7 @@
       "compressors digital",
       "compressors misc"
     ],
-    "tags": [
-      "gml"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20368,9 +20746,7 @@
       "compressors digital",
       "compressors misc"
     ],
-    "tags": [
-      "gml"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20389,9 +20765,7 @@
       "ultra",
       "eq"
     ],
-    "tags": [
-      "gml"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20410,9 +20784,7 @@
       "ultra",
       "eq"
     ],
-    "tags": [
-      "gml"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20428,9 +20800,7 @@
       "workhorses",
       "preamps"
     ],
-    "tags": [
-      "gml"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20447,9 +20817,7 @@
       "dbx",
       "vca"
     ],
-    "tags": [
-      "dbx"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20465,9 +20833,7 @@
       "compressors",
       "vca"
     ],
-    "tags": [
-      "dbx"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20483,9 +20849,7 @@
       "compressors",
       "vca"
     ],
-    "tags": [
-      "dbx"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -20502,9 +20866,7 @@
       "dbx",
       "vca"
     ],
-    "tags": [
-      "dbx"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -22127,9 +22489,7 @@
       "eq",
       "emulations"
     ],
-    "tags": [
-      "harrison"
-    ],
+    "tags": [],
     "emulates": "Harrison EQs",
     "id": null,
     "ACTIVE": true
@@ -22149,9 +22509,7 @@
       "harrison",
       "compressors"
     ],
-    "tags": [
-      "harrison"
-    ],
+    "tags": [],
     "emulates": "Harrison Compressors",
     "id": null,
     "ACTIVE": true
@@ -22169,9 +22527,7 @@
       "harrison",
       "emulations"
     ],
-    "tags": [
-      "harrison"
-    ],
+    "tags": [],
     "emulates": "Harrison Consoles",
     "id": null,
     "ACTIVE": true
@@ -22191,9 +22547,7 @@
       "eq",
       "emulations"
     ],
-    "tags": [
-      "harrison"
-    ],
+    "tags": [],
     "emulates": "Harrison EQs",
     "id": null,
     "ACTIVE": true
@@ -23639,9 +23993,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "masalec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -23660,9 +24012,7 @@
       "acqua",
       "compressors"
     ],
-    "tags": [
-      "masalec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -23683,9 +24033,7 @@
       "emulation",
       "acqua"
     ],
-    "tags": [
-      "masalec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -23702,9 +24050,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "masalec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -23721,9 +24067,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "masalec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -23738,9 +24082,7 @@
     "families": [
       "limiters"
     ],
-    "tags": [
-      "masalec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -23757,9 +24099,23 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "masalec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Ivory",
+    "name": "Ivory5Zl",
+    "filename": "IVORY5ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -23806,9 +24162,7 @@
       "focusrite",
       "emulations"
     ],
-    "tags": [
-      "focusrite"
-    ],
+    "tags": [],
     "emulates": "Focusrite",
     "id": null,
     "ACTIVE": true
@@ -23824,9 +24178,7 @@
       "focusrite",
       "emulations"
     ],
-    "tags": [
-      "focusrite"
-    ],
+    "tags": [],
     "emulates": "Focusrite",
     "id": null,
     "ACTIVE": true
@@ -23842,9 +24194,7 @@
       "focusrite",
       "emulations"
     ],
-    "tags": [
-      "focusrite"
-    ],
+    "tags": [],
     "emulates": "Focusrite",
     "id": null,
     "ACTIVE": true
@@ -23861,10 +24211,24 @@
       "emulations",
       "preamps"
     ],
-    "tags": [
-      "focusrite"
-    ],
+    "tags": [],
     "emulates": "Focusrite",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Jade",
+    "name": "Jade2Zl",
+    "filename": "JADE2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -23913,6 +24277,21 @@
       "distortion",
       "harmonics",
       "saturation"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Jam",
+    "name": "Jam2Zl",
+    "filename": "JAM2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
     ],
     "tags": [],
     "emulates": null,
@@ -25679,6 +26058,36 @@
     "ACTIVE": true
   },
   {
+    "product": "Acustica Diamond Lift",
+    "name": "Lift3 Zl",
+    "filename": "LIFT3ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": false
+  },
+  {
+    "product": "Acustica Diamond Lift",
+    "name": "Lift4 Zl",
+    "filename": "LIFT4ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": false
+  },
+  {
     "product": "Airwindows Lilamp",
     "name": "Lilamp",
     "filename": "LilAmp64.dll",
@@ -25703,9 +26112,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -25720,9 +26127,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -25737,9 +26142,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -25754,9 +26157,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -25772,10 +26173,24 @@
       "neve",
       "preamps"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Lime",
+    "name": "Lime2Zl",
+    "filename": "LIME2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -25789,9 +26204,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -25806,9 +26219,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -25823,9 +26234,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -25840,9 +26249,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -25857,10 +26264,23 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Lime",
+    "name": "Lime3Zl",
+    "filename": "LIME3ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -27078,9 +27498,7 @@
     "families": [
       "manley"
     ],
-    "tags": [
-      "manley"
-    ],
+    "tags": [],
     "emulates": "Manley",
     "id": null,
     "ACTIVE": true
@@ -27096,9 +27514,7 @@
       "manley",
       "compressors"
     ],
-    "tags": [
-      "manley"
-    ],
+    "tags": [],
     "emulates": "Manley",
     "id": null,
     "ACTIVE": true
@@ -27114,9 +27530,7 @@
       "manley",
       "compressors"
     ],
-    "tags": [
-      "manley"
-    ],
+    "tags": [],
     "emulates": "Manley",
     "id": null,
     "ACTIVE": true
@@ -27131,9 +27545,7 @@
     "families": [
       "manley"
     ],
-    "tags": [
-      "manley"
-    ],
+    "tags": [],
     "emulates": "Manley",
     "id": null,
     "ACTIVE": true
@@ -27148,9 +27560,7 @@
     "families": [
       "manley"
     ],
-    "tags": [
-      "manley"
-    ],
+    "tags": [],
     "emulates": "Manley",
     "id": null,
     "ACTIVE": true
@@ -27165,10 +27575,23 @@
     "families": [
       "manley"
     ],
-    "tags": [
-      "manley"
-    ],
+    "tags": [],
     "emulates": "Manley",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Magenta",
+    "name": "Magenta5Zl",
+    "filename": "MAGENTA5ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -28771,9 +29194,7 @@
       "channel strip"
     ],
     "tags": [],
-    "emulates": [
-      "Studer-Revox Gunther Loof GL2112"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -28792,9 +29213,7 @@
       "compressors"
     ],
     "tags": [],
-    "emulates": [
-      "Studer-Revox Gunther Loof GL2112"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -28811,9 +29230,7 @@
       "eq"
     ],
     "tags": [],
-    "emulates": [
-      "Studer-Revox Gunther Loof GL2112"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -28830,9 +29247,7 @@
       "eq"
     ],
     "tags": [],
-    "emulates": [
-      "Studer-Revox Gunther Loof GL2112"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -28847,9 +29262,7 @@
       "preamps"
     ],
     "tags": [],
-    "emulates": [
-      "Studer-Revox Gunther Loof GL2112"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -28864,9 +29277,7 @@
       "preamps"
     ],
     "tags": [],
-    "emulates": [
-      "Studer-Revox Gunther Loof GL2112"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -30264,9 +30675,7 @@
       "channel strip"
     ],
     "tags": [],
-    "emulates": [
-      "Tree Audio Branch II Channel Strip"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -30357,6 +30766,22 @@
     "ACTIVE": true
   },
   {
+    "product": "London Acoustics Brighton",
+    "name": "N4Brighton2Zl",
+    "filename": "N4BRIGHTON2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
+      "nebula"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
     "product": "London Acoustics Enna",
     "name": "N4Enna2",
     "filename": "N4ENNA2.vst3",
@@ -30382,6 +30807,23 @@
     "families": [
       "exciters",
       "nebula"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "London Acoustics Enna",
+    "name": "N4Enna2Zl",
+    "filename": "N4ENNA2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
+      "nebula",
+      "INACTIVE"
     ],
     "tags": [],
     "emulates": null,
@@ -30496,6 +30938,24 @@
   },
   {
     "product": "SoundDrops PowerCabs Nebula",
+    "name": "N4Pwrcab1Zl",
+    "filename": "N4PWRCAB1ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
+      "cabinets",
+      "nebula",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "SoundDrops PowerCabs Nebula",
     "name": "N4Pwrcab2",
     "filename": "N4PWRCAB2.vst3",
     "type": "fx",
@@ -30506,6 +30966,24 @@
       "emulations",
       "cabinets",
       "nebula"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "SoundDrops PowerCabs Nebula",
+    "name": "N4Pwrcab2Zl",
+    "filename": "N4PWRCAB2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
+      "cabinets",
+      "nebula",
+      "INACTIVE"
     ],
     "tags": [],
     "emulates": null,
@@ -30532,6 +31010,24 @@
   },
   {
     "product": "SoundDrops PowerCabs Nebula",
+    "name": "N4Pwrcab3Zl",
+    "filename": "N4PWRCAB3ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
+      "cabinets",
+      "nebula",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "SoundDrops PowerCabs Nebula",
     "name": "N4Pwrcab4",
     "filename": "N4PWRCAB4.vst3",
     "type": "fx",
@@ -30540,6 +31036,23 @@
     "families": [
       "amp cabs",
       "emulations",
+      "cabinets",
+      "nebula"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "SoundDrops PowerCabs Nebula",
+    "name": "N4Pwrcab4Zl",
+    "filename": "N4PWRCAB4ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
       "cabinets",
       "nebula"
     ],
@@ -30568,6 +31081,23 @@
   },
   {
     "product": "SoundDrops PowerCabs Nebula",
+    "name": "N4Pwrcab5Zl",
+    "filename": "N4PWRCAB5ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
+      "cabinets",
+      "nebula"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "SoundDrops PowerCabs Nebula",
     "name": "N4Pwrcab6",
     "filename": "N4PWRCAB6.vst3",
     "type": "fx",
@@ -30578,6 +31108,24 @@
       "emulations",
       "cabinets",
       "nebula"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "SoundDrops PowerCabs Nebula",
+    "name": "N4Pwrcab6Zl",
+    "filename": "N4PWRCAB6ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
+      "cabinets",
+      "nebula",
+      "INACTIVE"
     ],
     "tags": [],
     "emulates": null,
@@ -30604,6 +31152,24 @@
   },
   {
     "product": "SoundDrops PowerCabs Nebula",
+    "name": "N4Pwrcab7Zl",
+    "filename": "N4PWRCAB7ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
+      "cabinets",
+      "nebula",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "SoundDrops PowerCabs Nebula",
     "name": "N4Pwrcab8",
     "filename": "N4PWRCAB8.vst3",
     "type": "fx",
@@ -30614,6 +31180,24 @@
       "emulations",
       "cabinets",
       "nebula"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "SoundDrops PowerCabs Nebula",
+    "name": "N4Pwrcab8Zl",
+    "filename": "N4PWRCAB8ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
+      "cabinets",
+      "nebula",
+      "INACTIVE"
     ],
     "tags": [],
     "emulates": null,
@@ -30640,6 +31224,24 @@
   },
   {
     "product": "SoundDrops PowerCabs Nebula",
+    "name": "N4Pwrcab9Zl",
+    "filename": "N4PWRCAB9ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
+      "cabinets",
+      "nebula",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "SoundDrops PowerCabs Nebula",
     "name": "N4Pwrcab10",
     "filename": "N4PWRCAB10.vst3",
     "type": "fx",
@@ -30650,6 +31252,24 @@
       "emulations",
       "cabinets",
       "nebula"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "SoundDrops PowerCabs Nebula",
+    "name": "N4Pwrcab10Zl",
+    "filename": "N4PWRCAB10ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
+      "cabinets",
+      "nebula",
+      "INACTIVE"
     ],
     "tags": [],
     "emulates": null,
@@ -30725,6 +31345,22 @@
     "ACTIVE": true
   },
   {
+    "product": "London Acoustics Telge",
+    "name": "N4Telge2Zl",
+    "filename": "N4TELGE2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "nebula",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
     "product": "London Acoustics Tokyo EQ",
     "name": "N4Tokyoeq2",
     "filename": "N4TOKYOEQ2.vst3",
@@ -30735,6 +31371,22 @@
       "equalisers",
       "analog",
       "eq",
+      "nebula"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "London Acoustics Tokyo EQ",
+    "name": "N4Tokyoeq2Zl",
+    "filename": "N4TOKYOEQ2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency",
       "nebula"
     ],
     "tags": [],
@@ -31819,9 +32471,7 @@
       "neve",
       "compressors"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -31836,9 +32486,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -31853,9 +32501,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -33837,9 +34483,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "sae"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": false
@@ -33961,9 +34605,7 @@
       "compressors"
     ],
     "tags": [],
-    "emulates": [
-      "Olive Electrodynamics 2000 Mixing Console"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -33980,9 +34622,7 @@
       "eq"
     ],
     "tags": [],
-    "emulates": [
-      "Olive Electrodynamics 2000 Mixing Console"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -33998,9 +34638,7 @@
       "expanders"
     ],
     "tags": [],
-    "emulates": [
-      "Olive Electrodynamics 2000 Mixing Console"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -34015,9 +34653,7 @@
       "preamps"
     ],
     "tags": [],
-    "emulates": [
-      "Olive Electrodynamics 2000 Mixing Console"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -34146,9 +34782,7 @@
       "eq"
     ],
     "tags": [],
-    "emulates": [
-      "Oram Sonics Hi-Def 55 EQ"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -34165,9 +34799,7 @@
       "eq"
     ],
     "tags": [],
-    "emulates": [
-      "Oram Sonics Hi-Def 55 EQ"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -36011,6 +36643,21 @@
     "ACTIVE": true
   },
   {
+    "product": "Acustica Pensado EQ",
+    "name": "Pensadoeq2Zl",
+    "filename": "PENSADOEQ2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
     "product": "Voxengo PHA-979",
     "name": "PHA-979",
     "filename": "PHA_979.vst3",
@@ -36626,9 +37273,7 @@
     "families": [
       "api"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": "API",
     "id": null,
     "ACTIVE": true
@@ -36643,9 +37288,7 @@
     "families": [
       "api"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": "API",
     "id": null,
     "ACTIVE": true
@@ -36660,9 +37303,7 @@
     "families": [
       "api"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": "API",
     "id": null,
     "ACTIVE": true
@@ -36677,10 +37318,24 @@
     "families": [
       "api"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": "API",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Pink",
+    "name": "Pink3Zl",
+    "filename": "PINK3ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -36694,9 +37349,7 @@
     "families": [
       "api"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": "API",
     "id": null,
     "ACTIVE": true
@@ -36711,9 +37364,7 @@
     "families": [
       "api"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": "API",
     "id": null,
     "ACTIVE": true
@@ -36728,9 +37379,7 @@
     "families": [
       "api"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": "API",
     "id": null,
     "ACTIVE": true
@@ -36745,10 +37394,24 @@
     "families": [
       "api"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": "API",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Pink",
+    "name": "Pink4Zl",
+    "filename": "PINK4ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -36762,10 +37425,24 @@
     "families": [
       "api"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": "API",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Pink",
+    "name": "Pink32412Zl",
+    "filename": "PINK32412ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -36779,10 +37456,24 @@
     "families": [
       "api"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": "API",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Pink",
+    "name": "Pink37236Zl",
+    "filename": "PINK37236ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -36796,10 +37487,23 @@
     "families": [
       "api"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": "API",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Pink",
+    "name": "Pink42412Zl",
+    "filename": "PINK42412ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -36813,10 +37517,24 @@
     "families": [
       "api"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": "API",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Pink",
+    "name": "Pink47236Zl",
+    "filename": "PINK47236ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -38851,9 +39569,7 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -38873,9 +39589,23 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Purple",
+    "name": "Purple2H2Zl",
+    "filename": "PURPLE2H2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -38895,9 +39625,7 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -38917,9 +39645,23 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Purple",
+    "name": "Purple2M5Zl",
+    "filename": "PURPLE2M5ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -38939,9 +39681,23 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Purple",
+    "name": "Purple2P1Zl",
+    "filename": "PURPLE2P1ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -38961,9 +39717,7 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -38983,9 +39737,23 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Purple",
+    "name": "Purple3H2Zl",
+    "filename": "PURPLE3H2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39005,9 +39773,7 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39027,9 +39793,7 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39049,9 +39813,23 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Purple",
+    "name": "Purple3M5Zl",
+    "filename": "PURPLE3M5ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39071,9 +39849,23 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Purple",
+    "name": "Purple3P1Zl",
+    "filename": "PURPLE3P1ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39094,9 +39886,7 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39116,9 +39906,7 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39138,9 +39926,22 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Purple",
+    "name": "Purple4H2Zl",
+    "filename": "PURPLE4H2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39160,9 +39961,7 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39182,9 +39981,7 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39204,9 +40001,22 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Purple",
+    "name": "Purple4M5Zl",
+    "filename": "PURPLE4M5ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39226,9 +40036,7 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39248,9 +40056,22 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Purple",
+    "name": "Purple4P1Zl",
+    "filename": "PURPLE4P1ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -39270,9 +40091,7 @@
       "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -41312,9 +42131,7 @@
       "emulations"
     ],
     "tags": [],
-    "emulates": [
-      "D. W. Fearn VT-4 and VT-5 equalisers"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -41331,9 +42148,23 @@
       "eq"
     ],
     "tags": [],
-    "emulates": [
-      "D. W. Fearn VT-4 and VT-5 equalisers"
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Ruby",
+    "name": "Ruby2Zl",
+    "filename": "RUBY2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -41350,9 +42181,7 @@
       "eq"
     ],
     "tags": [],
-    "emulates": [
-      "D. W. Fearn VT-4 and VT-5 equalisers"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -41972,13 +42801,7 @@
       "api",
       "eq"
     ],
-    "tags": [
-      [
-        "neve",
-        "ssl",
-        "api"
-      ]
-    ],
+    "tags": [],
     "emulates": "API",
     "id": null,
     "ACTIVE": true
@@ -41996,13 +42819,7 @@
       "workhorses",
       "eq"
     ],
-    "tags": [
-      [
-        "neve",
-        "ssl",
-        "api"
-      ]
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -42035,9 +42852,7 @@
       "emulation",
       "compressors"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": "SSL",
     "id": null,
     "ACTIVE": true
@@ -42054,9 +42869,7 @@
       "solid state logic",
       "emulation"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": "SSL",
     "id": null,
     "ACTIVE": true
@@ -42073,9 +42886,7 @@
       "solid state logic",
       "emulation"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": "SSL",
     "id": null,
     "ACTIVE": true
@@ -42092,9 +42903,7 @@
       "solid state logic",
       "emulation"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": "SSL",
     "id": null,
     "ACTIVE": true
@@ -42111,9 +42920,7 @@
       "solid state logic",
       "emulation"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": "SSL",
     "id": null,
     "ACTIVE": true
@@ -42130,9 +42937,7 @@
       "solid state logic",
       "emulation"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": "SSL",
     "id": null,
     "ACTIVE": true
@@ -42152,9 +42957,7 @@
       "solid state logic",
       "emulation"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": "SSL",
     "id": null,
     "ACTIVE": true
@@ -42176,9 +42979,7 @@
       "emulation",
       "eq"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": "SSL",
     "id": null,
     "ACTIVE": true
@@ -42196,9 +42997,7 @@
       "solid state logic",
       "emulation"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": "SSL",
     "id": null,
     "ACTIVE": true
@@ -42368,9 +43167,23 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "sontec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Scarlet",
+    "name": "Scarlet3Zl",
+    "filename": "SCARLET3ZL.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -42387,9 +43200,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "sontec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -42406,9 +43217,22 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "sontec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Scarlet",
+    "name": "Scarlet4Zl",
+    "filename": "SCARLET4ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "INACTIVE"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -42425,9 +43249,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "sontec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -42444,9 +43266,22 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "sontec"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Scarlet",
+    "name": "Scarlet5Zl",
+    "filename": "SCARLET5ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
     ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -42548,9 +43383,7 @@
       "tape"
     ],
     "tags": [],
-    "emulates": [
-      "Crystal Sound Recording Studios and Crystal Industries Inc Collection "
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -43684,12 +44517,7 @@
     "families": [
       "channel strip"
     ],
-    "tags": [
-      [
-        "gates",
-        "retro"
-      ]
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -43708,12 +44536,7 @@
       "ear",
       "compressors"
     ],
-    "tags": [
-      [
-        "gates",
-        "retro"
-      ]
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -43730,12 +44553,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      [
-        "gates",
-        "retro"
-      ]
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -43940,9 +44758,7 @@
       "neve",
       "compressors"
     ],
-    "tags": [
-      "neve 5088"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -43957,9 +44773,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve 5088"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -43974,9 +44788,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve 5088"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -43991,9 +44803,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve 5088"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -47941,13 +48751,7 @@
       "acustica",
       "emulations"
     ],
-    "tags": [
-      [
-        "trident",
-        "asr",
-        "emi"
-      ]
-    ],
+    "tags": [],
     "emulates": "ULTRA",
     "id": null,
     "ACTIVE": true
@@ -48363,9 +49167,22 @@
       "acqua"
     ],
     "tags": [],
-    "emulates": [
-      "IGS Audio Multicore Compressor"
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Tan",
+    "name": "Tan2Zl",
+    "filename": "TAN2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "zero latency"
     ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -48686,9 +49503,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "tape"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -48708,9 +49523,7 @@
       "compressors",
       "tape"
     ],
-    "tags": [
-      "tape"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -48728,9 +49541,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "tape"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -48747,9 +49558,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "tape"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -48766,9 +49575,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "tape"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -49522,9 +50329,7 @@
       "harmonics",
       "saturation"
     ],
-    "tags": [
-      "tubes"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50327,9 +51132,7 @@
       "multiband",
       "emulations"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50349,9 +51152,7 @@
       "acqua",
       "eq"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50366,9 +51167,7 @@
     "families": [
       "preamps"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50387,9 +51186,7 @@
       "acqua",
       "channel strip"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50404,9 +51201,7 @@
     "families": [
       "INACTIVE"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50421,9 +51216,7 @@
     "families": [
       "INACTIVE"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50441,9 +51234,7 @@
       "tubes",
       "opto"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50461,9 +51252,7 @@
       "tubes",
       "opto"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -51086,7 +51875,7 @@
     "filename": "TR5_Black_76.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "general",
@@ -51106,7 +51895,7 @@
     "filename": "TR5_Brickwall_Limiter.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "limiters"
     ],
@@ -51121,7 +51910,7 @@
     "filename": "TR5_British_Channel.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "channel strip",
@@ -51138,7 +51927,7 @@
     "filename": "TR5_Bus_Compressor.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "compressors digital",
@@ -51155,7 +51944,7 @@
     "filename": "TR5_Classic_Clipper.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "clippers"
     ],
@@ -51170,7 +51959,7 @@
     "filename": "TR5_Classic_Comp.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "compressors digital",
@@ -51187,7 +51976,7 @@
     "filename": "TR5_Classic_EQ.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "eq"
@@ -51203,7 +51992,7 @@
     "filename": "TR5_Classic_Multi_Band_Limiter.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "limiters"
     ],
@@ -51218,7 +52007,7 @@
     "filename": "TR5_Comprexxor.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "distressor",
@@ -51236,7 +52025,7 @@
     "filename": "TR5_CSR_Hall.dll",
     "type": "fx",
     "host": "dll",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "INACTIVE"
     ],
@@ -51251,7 +52040,7 @@
     "filename": "TR5_CSR_Inverse.dll",
     "type": "fx",
     "host": "dll",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "INACTIVE"
     ],
@@ -51266,7 +52055,7 @@
     "filename": "TR5_CSR_Plate.dll",
     "type": "fx",
     "host": "dll",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "INACTIVE"
     ],
@@ -51281,7 +52070,7 @@
     "filename": "TR5_CSR_Room.dll",
     "type": "fx",
     "host": "dll",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "INACTIVE"
     ],
@@ -51296,7 +52085,7 @@
     "filename": "TR5_De_Esser.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "deess",
       "vocal"
@@ -51312,7 +52101,7 @@
     "filename": "TR5_Dyna_Mu.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "compressors digital",
@@ -51329,7 +52118,7 @@
     "filename": "TR5_EQ_73.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "neve"
     ],
@@ -51344,7 +52133,7 @@
     "filename": "TR5_EQ_81.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "neve",
@@ -51361,7 +52150,7 @@
     "filename": "TR5_EQ_PA.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "analog",
@@ -51382,7 +52171,7 @@
     "filename": "TR5_EQ_PB.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "analog",
@@ -51403,7 +52192,7 @@
     "filename": "TR5_EQ_PG.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "api"
     ],
@@ -51418,7 +52207,7 @@
     "filename": "TR5_EQP_1A.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "passive",
       "analog",
@@ -51438,7 +52227,7 @@
     "filename": "TR5_EQual.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "eq"
@@ -51454,7 +52243,7 @@
     "filename": "TR5_Fame_Studio_Reverb.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "reverb convolution",
       "reverb spaces",
@@ -51472,7 +52261,7 @@
     "filename": "TR5_Joe_Chiccarelli_Vocal_Strip.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "vocals",
       "vocal mixing tools"
@@ -51488,7 +52277,7 @@
     "filename": "TR5_Leslie.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "rotary",
       "cabinets"
@@ -51504,7 +52293,7 @@
     "filename": "TR5_Linear_Phase_EQ.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "eq"
@@ -51520,7 +52309,7 @@
     "filename": "TR5_Master_EQ_432.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "eq"
@@ -51536,7 +52325,7 @@
     "filename": "TR5_Master_Match.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "eq",
       "matching",
@@ -51553,7 +52342,7 @@
     "filename": "TR5_Metering.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Acustica",
     "families": [
       "gainstaging",
       "metering",
@@ -51570,7 +52359,7 @@
     "filename": "TR5_Mic_Room.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "mic emulations",
       "vocal mix tools",
@@ -51587,7 +52376,7 @@
     "filename": "TR5_One.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "compressors digital",
@@ -51604,7 +52393,7 @@
     "filename": "TR5_Opto_Comp.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "compressors digital",
@@ -51621,7 +52410,7 @@
     "filename": "TR5_Precision_Comp_Limiter.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "general",
@@ -51640,7 +52429,7 @@
     "filename": "TR5_Quad_Compressor.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "multi-band",
@@ -51660,7 +52449,7 @@
     "filename": "TR5_Quad_Image.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "spatial",
       "panning",
@@ -51677,7 +52466,7 @@
     "filename": "TR5_Quad_Limiter.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "limiters"
     ],
@@ -51692,7 +52481,7 @@
     "filename": "TR5_Saturator_X.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "distortion",
       "harmonics",
@@ -51709,7 +52498,7 @@
     "filename": "TR5_Space_Delay.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "time",
       "delay"
@@ -51725,7 +52514,7 @@
     "filename": "TR5_Stealth_Limiter.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Acustica",
     "families": [
       "limiters"
     ],
@@ -51740,7 +52529,7 @@
     "filename": "TR5_Suite.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "channel strip",
       "500 racks"
@@ -51756,7 +52545,7 @@
     "filename": "TR5_Sunset_Sound_Studio_Reverb.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "reverb convolution",
       "reverb spaces",
@@ -51774,7 +52563,7 @@
     "filename": "TR5_Tape_Echo.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51791,7 +52580,7 @@
     "filename": "TR5_Tape_Machine_24.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51808,7 +52597,7 @@
     "filename": "TR5_Tape_Machine_80.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51825,7 +52614,7 @@
     "filename": "TR5_Tape_Machine_99.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51842,7 +52631,7 @@
     "filename": "TR5_Tape_Machine_440.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51859,7 +52648,7 @@
     "filename": "TR5_TASCAM_388.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51876,7 +52665,7 @@
     "filename": "TR5_TASCAM_PORTA_ONE.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51893,7 +52682,7 @@
     "filename": "TR5_TEAC_A_3340S.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51910,7 +52699,7 @@
     "filename": "TR5_TEAC_A_6100_MKII.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51927,7 +52716,7 @@
     "filename": "TR5_The_Farm_Stone_Room.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "spaces",
       "emulations",
@@ -51944,7 +52733,7 @@
     "filename": "TR5_VC_670.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "general",
@@ -51965,7 +52754,7 @@
     "filename": "TR5_White_2A.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "la2a",
@@ -51985,7 +52774,7 @@
     "filename": "TR5_White_Channel.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "channel strip",
@@ -54383,6 +55172,22 @@
   },
   {
     "product": "Acustica Ultramarine4",
+    "name": "Ultramarine4Eqa27Zl",
+    "filename": "ULTRAMARINE4EQA27ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "vari mu",
+      "compressors"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": false
+  },
+  {
+    "product": "Acustica Ultramarine4",
     "name": "Ultramarine4Eqa64",
     "filename": "ULTRAMARINE4EQA64.vst3",
     "type": "fx",
@@ -54396,6 +55201,22 @@
     "emulates": null,
     "id": null,
     "ACTIVE": true
+  },
+  {
+    "product": "Acustica Ultramarine4",
+    "name": "Ultramarine4Eqa64Zl",
+    "filename": "ULTRAMARINE4EQA64ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "vari mu",
+      "compressors"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": false
   },
   {
     "product": "Acustica Ultramarine4",
@@ -54428,6 +55249,22 @@
     "emulates": null,
     "id": null,
     "ACTIVE": true
+  },
+  {
+    "product": "Acustica Ultramarine4",
+    "name": "Ultramarine4Zl",
+    "filename": "ULTRAMARINE4ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "vari mu",
+      "compressors"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": false
   },
   {
     "product": "Eventide UltraReverb",
@@ -55979,6 +56816,22 @@
     "ACTIVE": true
   },
   {
+    "product": "Acustica Viridian",
+    "name": "Viridian2Zl",
+    "filename": "VIRIDIAN2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
     "product": "Slate Digital Virtual Mix Rack",
     "name": "Virtual Mix Rack",
     "filename": "Virtual_Mix_Rack.vst3",
@@ -56450,6 +57303,22 @@
   },
   {
     "product": "Acustica Water",
+    "name": "Water2Zl",
+    "filename": "WATER2ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Water",
     "name": "Water3",
     "filename": "WATER3.vst3",
     "type": "fx",
@@ -56500,6 +57369,21 @@
     ],
     "tags": [],
     "emulates": "Siemens",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica Water",
+    "name": "Water3Zl",
+    "filename": "WATER3ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency"
+    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -56729,6 +57613,22 @@
     "developer": "Acustica",
     "families": [
       "filters"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Acustica White",
+    "name": "White3Zl",
+    "filename": "WHITE3ZL.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Acustica",
+    "families": [
+      "zero latency",
+      "INACTIVE"
     ],
     "tags": [],
     "emulates": null,
@@ -58764,9 +59664,7 @@
       "amp sims",
       "jsfx"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true

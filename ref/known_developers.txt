@@ -28,6 +28,7 @@ Bertom
 Black Rooster Audio
 Black Salt Audio
 Blue Cat Audio
+BOOM Interactive
 Boz Digital Labs
 CabbageAudio
 Cableguys
@@ -40,6 +41,7 @@ Cinesamples
 Cockos
 D16 Group
 DDMF
+Dear Reality
 Demian D
 DIBIQUADRO
 DMGAudio
@@ -82,7 +84,7 @@ JDFactory
 JMGSound
 Jam Origin
 Jeremy Bernstein
-JonVProd
+JonVAudio
 KIT Plugins
 KV331 Audio
 Kazrog
@@ -115,12 +117,13 @@ McDSP
 Melda Production
 MeterPlugs
 Metric Halo
+MIA Laboratories
 MixWave
 Mixed In Key
 Mixland
 Modartt
-mrelwood
-Muramasa
+MRelwood
+Muramasa Audio
 MusicDevelopments
 NOIZ Hub
 NUGEN Audio
@@ -128,7 +131,7 @@ Nebula
 Nektar
 Nembrini Audio
 Neural DSP
-NewNation
+NewNation Audio
 Newfangled Audio
 NoiseWorks
 OSC Audio
@@ -167,6 +170,7 @@ Samplicity
 Savant Audio
 Scaler Music
 Signum Audio
+SIR Audio Tools
 Slate Digital
 Slate Audio
 Softube
@@ -192,7 +196,7 @@ Steven Slate Audio
 Stillwell Audio
 Sugar Bytes
 Tape Over
-TBProAudio
+TBPro Audio
 TBTECH
 TMT
 TSE Audio
@@ -208,7 +212,7 @@ ToneBoosters
 Toontrack
 Trident Audio Developments
 Tukan
-Two notes Audio Engineering
+Two Notes Audio
 U-he
 UJAM
 Unfiltered Audio

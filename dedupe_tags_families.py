@@ -1,32 +1,16 @@
-#!/usr/bin/env python3
-"""
-deduplicate_tags_families.py
-
-🎯 PURPOSE:
-Removes exact duplicate values from "tags" and "families" fields
-in the vault JSON. Leaves other fields untouched.
-
-🛡️ SAFE:
-- Only modifies "tags" and "families" if they are lists
-- Ignores missing or malformed fields
-- Writes a backup before making changes
-
-📁 INPUT:
-- xvault_wking_filling.json
-
-📁 OUTPUT:
-- Updated vault with cleaned lists
-- Backup saved in: backups/xvault_wking_filling.deduped_tags_families.json
-"""
+# F:\Studio\Admin Ops\Operations\git\vault\dedupe_tags_families.py (Refactored)
 
 import json
 from pathlib import Path
+# highlight-next-line
+from vault_utils import save_vault_with_backup # <-- Import our new function
 
-VAULT_FILE = Path("ivault_master.json")
+# --- Configuration ---
+VAULT_FILE = Path("xvault_wking_filling.json")
 BACKUP_DIR = Path("backups")
-BACKUP_FILE = BACKUP_DIR / "ivault_master.deduped_tags_families.json"
 
 def deduplicate_list(values):
+    # This is a good candidate to move into vault_utils.py later!
     return list(dict.fromkeys(values)) if isinstance(values, list) else values
 
 def main():
@@ -42,12 +26,19 @@ def main():
                     entry[field] = deduped
                     cleaned_count += 1
 
-    BACKUP_DIR.mkdir(exist_ok=True)
-    BACKUP_FILE.write_text(json.dumps(vault, indent=2, ensure_ascii=False), encoding="utf-8")
-    VAULT_FILE.write_text(json.dumps(vault, indent=2, ensure_ascii=False), encoding="utf-8")
+    # highlight-start
+    # --- Simplified save and backup ---
+    print(f"Deduplication complete. Cleaned {cleaned_count} entries.")
+    print("Saving vault and creating backup...")
+    backup_path = save_vault_with_backup(
+        vault_path=VAULT_FILE,
+        data_to_save=vault,
+        backup_dir=BACKUP_DIR
+    )
+    print(f"✅ Vault updated successfully.")
+    print(f"🔒 Backup saved to: {backup_path}")
+    # highlight-end
 
-    print(f"✅ Deduplication complete. Cleaned {cleaned_count} entries.")
-    print(f"🔒 Backup saved to: {BACKUP_FILE}")
 
 if __name__ == "__main__":
     main()

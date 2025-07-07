@@ -42368,9 +42368,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "sontec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -42387,9 +42385,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "sontec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -42406,9 +42402,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "sontec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -42425,9 +42419,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "sontec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -42444,9 +42436,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "sontec"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -42548,9 +42538,7 @@
       "tape"
     ],
     "tags": [],
-    "emulates": [
-      "Crystal Sound Recording Studios and Crystal Industries Inc Collection "
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -43684,12 +43672,7 @@
     "families": [
       "channel strip"
     ],
-    "tags": [
-      [
-        "gates",
-        "retro"
-      ]
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -43708,12 +43691,7 @@
       "ear",
       "compressors"
     ],
-    "tags": [
-      [
-        "gates",
-        "retro"
-      ]
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -43730,12 +43708,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      [
-        "gates",
-        "retro"
-      ]
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -43940,9 +43913,7 @@
       "neve",
       "compressors"
     ],
-    "tags": [
-      "neve 5088"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -43957,9 +43928,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve 5088"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -43974,9 +43943,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve 5088"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -43991,9 +43958,7 @@
     "families": [
       "neve"
     ],
-    "tags": [
-      "neve 5088"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -47941,13 +47906,7 @@
       "acustica",
       "emulations"
     ],
-    "tags": [
-      [
-        "trident",
-        "asr",
-        "emi"
-      ]
-    ],
+    "tags": [],
     "emulates": "ULTRA",
     "id": null,
     "ACTIVE": true
@@ -48363,9 +48322,7 @@
       "acqua"
     ],
     "tags": [],
-    "emulates": [
-      "IGS Audio Multicore Compressor"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -48686,9 +48643,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "tape"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -48708,9 +48663,7 @@
       "compressors",
       "tape"
     ],
-    "tags": [
-      "tape"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -48728,9 +48681,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "tape"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -48747,9 +48698,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "tape"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -48766,9 +48715,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "tape"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -49522,9 +49469,7 @@
       "harmonics",
       "saturation"
     ],
-    "tags": [
-      "tubes"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50327,9 +50272,7 @@
       "multiband",
       "emulations"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50349,9 +50292,7 @@
       "acqua",
       "eq"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50366,9 +50307,7 @@
     "families": [
       "preamps"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50387,9 +50326,7 @@
       "acqua",
       "channel strip"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50404,9 +50341,7 @@
     "families": [
       "INACTIVE"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50421,9 +50356,7 @@
     "families": [
       "INACTIVE"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50441,9 +50374,7 @@
       "tubes",
       "opto"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -50461,9 +50392,7 @@
       "tubes",
       "opto"
     ],
-    "tags": [
-      "tube tech"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -51086,7 +51015,7 @@
     "filename": "TR5_Black_76.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "general",
@@ -51106,7 +51035,7 @@
     "filename": "TR5_Brickwall_Limiter.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "limiters"
     ],
@@ -51121,7 +51050,7 @@
     "filename": "TR5_British_Channel.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "channel strip",
@@ -51138,7 +51067,7 @@
     "filename": "TR5_Bus_Compressor.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "compressors digital",
@@ -51155,7 +51084,7 @@
     "filename": "TR5_Classic_Clipper.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "clippers"
     ],
@@ -51170,7 +51099,7 @@
     "filename": "TR5_Classic_Comp.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "compressors digital",
@@ -51187,7 +51116,7 @@
     "filename": "TR5_Classic_EQ.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "eq"
@@ -51203,7 +51132,7 @@
     "filename": "TR5_Classic_Multi_Band_Limiter.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "limiters"
     ],
@@ -51218,7 +51147,7 @@
     "filename": "TR5_Comprexxor.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "distressor",
@@ -51236,7 +51165,7 @@
     "filename": "TR5_CSR_Hall.dll",
     "type": "fx",
     "host": "dll",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "INACTIVE"
     ],
@@ -51251,7 +51180,7 @@
     "filename": "TR5_CSR_Inverse.dll",
     "type": "fx",
     "host": "dll",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "INACTIVE"
     ],
@@ -51266,7 +51195,7 @@
     "filename": "TR5_CSR_Plate.dll",
     "type": "fx",
     "host": "dll",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "INACTIVE"
     ],
@@ -51281,7 +51210,7 @@
     "filename": "TR5_CSR_Room.dll",
     "type": "fx",
     "host": "dll",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "INACTIVE"
     ],
@@ -51296,7 +51225,7 @@
     "filename": "TR5_De_Esser.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "deess",
       "vocal"
@@ -51312,7 +51241,7 @@
     "filename": "TR5_Dyna_Mu.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "compressors digital",
@@ -51329,7 +51258,7 @@
     "filename": "TR5_EQ_73.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "neve"
     ],
@@ -51344,7 +51273,7 @@
     "filename": "TR5_EQ_81.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "neve",
@@ -51361,7 +51290,7 @@
     "filename": "TR5_EQ_PA.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "analog",
@@ -51382,7 +51311,7 @@
     "filename": "TR5_EQ_PB.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "analog",
@@ -51403,7 +51332,7 @@
     "filename": "TR5_EQ_PG.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "api"
     ],
@@ -51418,7 +51347,7 @@
     "filename": "TR5_EQP_1A.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "passive",
       "analog",
@@ -51438,7 +51367,7 @@
     "filename": "TR5_EQual.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "eq"
@@ -51454,7 +51383,7 @@
     "filename": "TR5_Fame_Studio_Reverb.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "reverb convolution",
       "reverb spaces",
@@ -51472,7 +51401,7 @@
     "filename": "TR5_Joe_Chiccarelli_Vocal_Strip.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "vocals",
       "vocal mixing tools"
@@ -51488,7 +51417,7 @@
     "filename": "TR5_Leslie.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "rotary",
       "cabinets"
@@ -51504,7 +51433,7 @@
     "filename": "TR5_Linear_Phase_EQ.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "eq"
@@ -51520,7 +51449,7 @@
     "filename": "TR5_Master_EQ_432.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "eq"
@@ -51536,7 +51465,7 @@
     "filename": "TR5_Master_Match.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "eq",
       "matching",
@@ -51553,7 +51482,7 @@
     "filename": "TR5_Metering.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Acustica",
     "families": [
       "gainstaging",
       "metering",
@@ -51570,7 +51499,7 @@
     "filename": "TR5_Mic_Room.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "mic emulations",
       "vocal mix tools",
@@ -51587,7 +51516,7 @@
     "filename": "TR5_One.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "compressors digital",
@@ -51604,7 +51533,7 @@
     "filename": "TR5_Opto_Comp.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "compressors digital",
@@ -51621,7 +51550,7 @@
     "filename": "TR5_Precision_Comp_Limiter.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "general",
@@ -51640,7 +51569,7 @@
     "filename": "TR5_Quad_Compressor.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "multi-band",
@@ -51660,7 +51589,7 @@
     "filename": "TR5_Quad_Image.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "spatial",
       "panning",
@@ -51677,7 +51606,7 @@
     "filename": "TR5_Quad_Limiter.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "limiters"
     ],
@@ -51692,7 +51621,7 @@
     "filename": "TR5_Saturator_X.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "distortion",
       "harmonics",
@@ -51709,7 +51638,7 @@
     "filename": "TR5_Space_Delay.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "time",
       "delay"
@@ -51725,7 +51654,7 @@
     "filename": "TR5_Stealth_Limiter.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Acustica",
     "families": [
       "limiters"
     ],
@@ -51740,7 +51669,7 @@
     "filename": "TR5_Suite.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "channel strip",
       "500 racks"
@@ -51756,7 +51685,7 @@
     "filename": "TR5_Sunset_Sound_Studio_Reverb.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "reverb convolution",
       "reverb spaces",
@@ -51774,7 +51703,7 @@
     "filename": "TR5_Tape_Echo.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51791,7 +51720,7 @@
     "filename": "TR5_Tape_Machine_24.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51808,7 +51737,7 @@
     "filename": "TR5_Tape_Machine_80.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51825,7 +51754,7 @@
     "filename": "TR5_Tape_Machine_99.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51842,7 +51771,7 @@
     "filename": "TR5_Tape_Machine_440.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51859,7 +51788,7 @@
     "filename": "TR5_TASCAM_388.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51876,7 +51805,7 @@
     "filename": "TR5_TASCAM_PORTA_ONE.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51893,7 +51822,7 @@
     "filename": "TR5_TEAC_A_3340S.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51910,7 +51839,7 @@
     "filename": "TR5_TEAC_A_6100_MKII.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "technology",
       "tape machines",
@@ -51927,7 +51856,7 @@
     "filename": "TR5_The_Farm_Stone_Room.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "spaces",
       "emulations",
@@ -51944,7 +51873,7 @@
     "filename": "TR5_VC_670.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "general",
@@ -51965,7 +51894,7 @@
     "filename": "TR5_White_2A.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "compressors",
       "la2a",
@@ -51985,7 +51914,7 @@
     "filename": "TR5_White_Channel.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "IK Multimedia",
+    "developer": "Ik Multimedia",
     "families": [
       "equalisers",
       "channel strip",
