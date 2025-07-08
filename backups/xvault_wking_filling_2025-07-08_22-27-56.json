@@ -94,9 +94,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -113,9 +111,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -132,9 +128,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -151,9 +145,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -170,9 +162,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -187,11 +177,11 @@
     "families": [
       "technology",
       "tape machines",
+
       "tape"
+
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -432,6 +422,7 @@
     "developer": "Audio Assault",
     "families": [
       "channel strips",
+      "api",
       "emulations"
     ],
     "tags": [],
@@ -567,7 +558,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Sonimus",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -790,9 +783,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -810,9 +801,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -830,9 +819,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -850,9 +837,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -870,9 +855,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -890,9 +873,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -910,9 +891,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -930,9 +909,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -950,9 +927,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -971,9 +946,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -991,9 +964,7 @@
       "fet",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1012,9 +983,7 @@
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1032,9 +1001,7 @@
       "fet",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1053,9 +1020,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1072,9 +1037,7 @@
       "compressors",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1093,9 +1056,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1112,9 +1073,7 @@
       "compressors",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1131,9 +1090,7 @@
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1152,9 +1109,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1171,9 +1126,7 @@
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1193,9 +1146,7 @@
       "gates",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1216,9 +1167,7 @@
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1238,9 +1187,7 @@
       "gates",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": ["timp"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1302,7 +1249,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": null,
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -1514,9 +1463,7 @@
       "preamps",
       "emulations"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": ["alexb"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1531,9 +1478,7 @@
     "families": [
       "preamps"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": ["alexb"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1548,9 +1493,7 @@
     "families": [
       "preamps"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": ["alexb"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1565,9 +1508,7 @@
     "families": [
       "preamps"
     ],
-    "tags": [
-      "ownhammer"
-    ],
+    "tags": ["ownhammer"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1582,9 +1523,7 @@
     "families": [
       "preamps"
     ],
-    "tags": [
-      "ownhammer"
-    ],
+    "tags": ["ownhammer"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2441,9 +2380,7 @@
       "emulations",
       "analog"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": ["alexb"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2461,9 +2398,7 @@
       "emulations",
       "analog"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": ["alexb"],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -2480,9 +2415,7 @@
       "emulations",
       "analog"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": ["alexb"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2500,9 +2433,7 @@
       "emulations",
       "analog"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": ["alexb"],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -2566,9 +2497,7 @@
       "chorus",
       "modulation"
     ],
-    "tags": [
-      "stn"
-    ],
+    "tags": ["stn"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2636,9 +2565,7 @@
       "bettermakers",
       "bus processors"
     ],
-    "tags": [
-      "fuseroom"
-    ],
+    "tags": ["fuseroom"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2654,9 +2581,7 @@
       "bettermakers",
       "bus processors"
     ],
-    "tags": [
-      "fuseroom"
-    ],
+    "tags": ["fuseroom"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2675,9 +2600,7 @@
       "saturation",
       "dynamics"
     ],
-    "tags": [
-      "fuseroom"
-    ],
+    "tags": ["fuseroom"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2696,9 +2619,7 @@
       "saturation",
       "dynamics"
     ],
-    "tags": [
-      "fuseroom"
-    ],
+    "tags": ["fuseroom"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2714,9 +2635,7 @@
       "bettermakers",
       "bus processors"
     ],
-    "tags": [
-      "fuseroom"
-    ],
+    "tags": ["fuseroom"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2732,9 +2651,7 @@
       "bettermakers",
       "bus processors"
     ],
-    "tags": [
-      "fuseroom"
-    ],
+    "tags": ["fuseroom"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2765,14 +2682,12 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "eq",
       "equalisers",
       "emulations"
     ],
-    "tags": [
-      "api",
-      "aitb"
-    ],
+    "tags": ["api","aitb"],
     "emulates": "API 550B",
     "id": null,
     "ACTIVE": true
@@ -2785,13 +2700,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags":  ["alexb", "api"],
     "emulates": "API 1608 Console",
     "id": null,
     "ACTIVE": true
@@ -2805,13 +2718,11 @@
     "developer": "Nebula",
     "families": [
       "consoles",
+      "api",
       "emulations"
     ],
     "tags": [
-      [
-        "alexb",
-        "api"
-      ]
+ ["alexb", "api"]
     ],
     "emulates": "API 1608 Console",
     "id": null,
@@ -2825,15 +2736,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      [
-        "alexb",
-        "api"
-      ]
+ ["alexb", "api"]
     ],
     "emulates": "API 1608 Console",
     "id": null,
@@ -2847,15 +2756,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      [
-        "alexb",
-        "api"
-      ]
+ ["alexb", "api"]
     ],
     "emulates": "API 1608 Console",
     "id": null,
@@ -2869,15 +2776,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      [
-        "alexb",
-        "api"
-      ]
+ ["alexb", "api"]
     ],
     "emulates": "API 1608 Console",
     "id": null,
@@ -2891,15 +2796,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      [
-        "alexb",
-        "api"
-      ]
+ ["alexb", "api"]
     ],
     "emulates": "API 1608 Console",
     "id": null,
@@ -2913,15 +2816,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      [
-        "alexb",
-        "api"
-      ]
+ ["alexb", "api"]
     ],
     "emulates": "API 1608 Console",
     "id": null,
@@ -2935,14 +2836,12 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "emulations",
       "analog",
       "preamps"
     ],
-    "tags": [
-      "stn",
-      "api"
-    ],
+    "tags": ["stn", "api"],
     "emulates": "API 2500",
     "id": null,
     "ACTIVE": true
@@ -2955,16 +2854,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "compressors",
       "emulations",
       "analog",
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags":  ["alexb", "api"],
     "emulates": "API 2500AE",
     "id": null,
     "ACTIVE": true
@@ -2977,16 +2874,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "compressors",
       "emulations",
       "analog",
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags":  ["alexb", "api"],
     "emulates": "API 2500AE",
     "id": null,
     "ACTIVE": true
@@ -2999,16 +2894,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "compressors",
       "emulations",
       "analog",
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags":  ["alexb", "api"],
     "emulates": "API 2500AE",
     "id": null,
     "ACTIVE": true
@@ -3021,16 +2914,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "compressors",
       "emulations",
       "analog",
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags":  ["alexb", "api"],
     "emulates": "API 2500AE",
     "id": null,
     "ACTIVE": true
@@ -3043,16 +2934,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "compressors",
       "emulations",
       "analog",
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags":  ["alexb", "api"],
     "emulates": "API 2500AE",
     "id": null,
     "ACTIVE": true
@@ -3065,16 +2954,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "compressors",
       "emulations",
       "analog",
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags": ["alexb", "api"],
     "emulates": "API 2500AE",
     "id": null,
     "ACTIVE": true
@@ -3087,13 +2974,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API",
     "id": null,
@@ -3107,13 +2994,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "alexb",
-      "api"
+       "alexb", "api"
     ],
     "emulates": "API Vision Console",
     "id": null,
@@ -3127,14 +3014,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "consoles",
+            "consoles",
       "emulations",
       "analog"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags":  ["alexb", "api"],
     "emulates": "API Vision Console",
     "id": null,
     "ACTIVE": true
@@ -3147,13 +3031,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3167,13 +3051,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3187,13 +3071,12 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "consoles",
+            "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3207,13 +3090,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3232,8 +3115,7 @@
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3252,8 +3134,7 @@
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3267,13 +3148,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3287,13 +3168,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3307,13 +3188,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3327,13 +3208,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3347,13 +3228,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3367,13 +3248,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3387,13 +3268,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3407,13 +3288,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3427,13 +3308,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3447,13 +3328,13 @@
     "host": "dll",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3467,13 +3348,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3487,13 +3368,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3507,13 +3388,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm", "api"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3527,12 +3408,10 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "colour",
+            "colour",
       "emulations"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": ["api"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4420,9 +4299,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": ["cupwise"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4439,9 +4316,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": ["cupwise"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4458,9 +4333,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": ["cupwise"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4477,9 +4350,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": ["cupwise"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4497,9 +4368,7 @@
       "tape",
       "reverbs"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": ["cupwise"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4518,9 +4387,7 @@
       "tape",
       "reverbs"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": ["cupwise"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4538,9 +4405,7 @@
       "tape",
       "reverbs"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": ["cupwise"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4559,9 +4424,7 @@
       "tape",
       "reverbs"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": ["cupwise"],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4988,10 +4851,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5007,10 +4867,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5026,10 +4883,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5045,10 +4899,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5064,10 +4915,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5083,10 +4931,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5102,10 +4947,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5121,10 +4963,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5140,10 +4979,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5159,10 +4995,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5178,10 +5011,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5197,10 +5027,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5978,9 +5805,7 @@
       "compressors",
       "dynamics"
     ],
-    "tags": [
-      "avalon"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7129,10 +6954,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7149,10 +6971,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7169,10 +6988,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7189,10 +7005,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7209,10 +7022,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7229,10 +7039,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7249,10 +7056,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7269,10 +7073,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7289,10 +7090,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7309,10 +7107,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7329,10 +7124,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7349,10 +7141,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7369,10 +7158,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7389,10 +7175,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7409,10 +7192,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7429,10 +7209,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7464,10 +7241,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7482,12 +7256,10 @@
     "families": [
       "hplp",
       "filters",
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7502,12 +7274,10 @@
     "families": [
       "hplp",
       "filters",
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7520,10 +7290,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7536,12 +7303,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7554,12 +7319,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7572,10 +7335,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7588,12 +7348,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7606,12 +7364,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7624,10 +7380,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7640,12 +7393,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7658,12 +7409,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7681,10 +7430,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7697,12 +7443,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7715,12 +7459,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7738,10 +7480,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7754,12 +7493,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7772,12 +7509,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7795,10 +7530,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7811,12 +7543,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7829,12 +7559,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7852,10 +7580,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7868,12 +7593,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7891,10 +7614,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7907,12 +7627,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7925,12 +7643,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7948,10 +7664,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7964,12 +7677,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7982,12 +7693,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -8005,10 +7714,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8021,12 +7727,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -8039,12 +7743,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -8057,12 +7759,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -8080,10 +7780,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8096,13 +7793,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations",
       "preamps"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -8115,12 +7810,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -8407,9 +8100,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8426,9 +8117,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8445,9 +8134,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8464,9 +8151,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8483,9 +8168,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8502,9 +8185,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8521,9 +8202,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8540,9 +8219,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8573,12 +8250,9 @@
     "developer": "Nebula",
     "families": [
       "convolution",
-      "reverbs",
-      "tape"
+      "reverbs"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8591,12 +8265,9 @@
     "host": "dll",
     "developer": "Nebula",
     "families": [
-      "reverbs",
-      "tape"
+      "reverbs"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8668,9 +8339,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8687,9 +8356,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8708,10 +8375,7 @@
     "tags": [],
     "emulates": null,
     "id": null,
-    "ACTIVE": true,
-    "tage": [
-      "cupwise"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Cassette Flangers Nebula",
@@ -8727,10 +8391,7 @@
     "tags": [],
     "emulates": null,
     "id": null,
-    "ACTIVE": true,
-    "tage": [
-      "cupwise"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Cassette Verbs Nebula",
@@ -8743,9 +8404,7 @@
       "reverbs",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8761,9 +8420,7 @@
       "reverbs",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8783,10 +8440,7 @@
     "tags": [],
     "emulates": null,
     "id": null,
-    "ACTIVE": true,
-    "tage": [
-      "cupwise"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Cassette Tape Dynamics Nebula",
@@ -8803,10 +8457,7 @@
     "tags": [],
     "emulates": null,
     "id": null,
-    "ACTIVE": true,
-    "tage": [
-      "cupwise"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Neve 1084 Nebula",
@@ -9065,6 +8716,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -9080,6 +8732,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -9095,18 +8748,15 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "chandler",
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler",
+    "emulates": "EMI / Chandler",
     "id": null,
-    "ACTIVE": true,
-    "tage": [
-      "aitb"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Chandler Germanium Compressor Nebula",
@@ -9116,18 +8766,15 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "chandler",
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler",
+    "emulates": "EMI / Chandler",
     "id": null,
-    "ACTIVE": true,
-    "tage": [
-      "aitb"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Chandler Germanium Compressor Nebula",
@@ -9137,13 +8784,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "chandler",
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9155,13 +8802,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "chandler",
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9183,20 +8830,19 @@
     "ACTIVE": true
   },
   {
-    "product": "Chandler TG2 Preamp Nebula",
+    "product": "Chandler TG2 Preamp Nebulaa",
     "name": "Chandler Tg Preamp",
     "filename": "Chandler_TG_Preamp.vst3",
     "type": "fx",
     "host": "vst3",
     "developer": null,
     "families": [
+      "chandler emi",
       "preamps",
       "emulations"
     ],
-    "tags": [
-      "ownhammer"
-    ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9208,14 +8854,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
-    "ACTIVE": true,
-    "tags": [
-      "ownhammer"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Chandler TG2 Preamp Nebula",
@@ -9225,14 +8870,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
-    "ACTIVE": true,
-    "tags": [
-      "ownhammer"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Chandler TG2 Preamp Nebula",
@@ -9242,12 +8886,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "ownhammer"
-    ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9259,12 +8902,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "ownhammer"
-    ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9276,12 +8918,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "ownhammer"
-    ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9293,12 +8934,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "ownhammer"
-    ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9310,12 +8950,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [],
-    "tags": [
-      "aitb"
-    ],
-    "emulates": [
-      "Chandler Tone Control"
-    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -9327,12 +8963,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [],
-    "tags": [
-      "aitb"
-    ],
-    "emulates": [
-      "Chandler Tone Control"
-    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -9344,12 +8976,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "aitb"
-    ],
-    "emulates": "Chandler Tone Control",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9361,12 +8992,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "aitb"
-    ],
-    "emulates": "Chandler Tone Control",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -10152,6 +9782,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10167,6 +9798,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
@@ -10184,6 +9816,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10199,6 +9832,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10218,6 +9852,7 @@
       "bass processing",
       "infra",
       "sub",
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10316,6 +9951,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10331,6 +9967,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10346,6 +9983,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10363,7 +10001,8 @@
     "families": [
       "analog",
       "emulations",
-      "acqua"
+      "acqua",
+      "chandler emi"
     ],
     "tags": [],
     "emulates": "EMI / Chandler",
@@ -10397,6 +10036,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10412,6 +10052,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10427,6 +10068,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10442,6 +10084,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -11504,6 +11147,7 @@
     "host": "dll",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
@@ -11521,6 +11165,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
@@ -11538,6 +11183,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
@@ -11557,6 +11203,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
@@ -11574,6 +11221,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "preamps",
       "emulations"
     ],
@@ -16513,6 +16161,7 @@
     "developer": null,
     "families": [
       "channel strips",
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -24677,6 +24326,7 @@
     "host": "vst3",
     "developer": "Kit Plugins",
     "families": [
+      "api",
       "consoles",
       "emulations"
     ],
@@ -25804,7 +25454,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -25817,7 +25469,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -25906,7 +25560,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -25919,7 +25575,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -26198,7 +25856,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Nebula",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -26229,7 +25889,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Nebula",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -26260,7 +25922,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Nebula",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -26291,7 +25955,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Nebula",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -26322,7 +25988,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Nebula",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -33107,7 +32775,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Kit Plugins",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -33731,7 +33401,8 @@
       "adda",
       "converters",
       "transformers",
-      "colour"
+      "colour",
+      "api"
     ],
     "tags": [],
     "emulates": "API",
@@ -35018,6 +34689,7 @@
     "host": "vst3",
     "developer": "Pulsar Modular",
     "families": [
+      "api",
       "eq",
       "equalisers",
       "emulations"
@@ -35035,6 +34707,7 @@
     "host": "vst3",
     "developer": "Pulsar Modular",
     "families": [
+      "api",
       "consoles",
       "channel strips",
       "bus processors",
@@ -36258,7 +35931,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36273,7 +35948,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36288,7 +35965,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36303,7 +35982,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36318,7 +35999,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36333,7 +36016,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36348,7 +36033,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36363,7 +36050,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36378,7 +36067,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36393,7 +36084,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36408,7 +36101,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36423,7 +36118,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -40788,6 +40485,7 @@
     "developer": "Red Rock Sound",
     "families": [
       "equalisers",
+      "api",
       "eq"
     ],
     "tags": [],
@@ -41508,6 +41206,7 @@
     "families": [
       "equalisers",
       "analog",
+      "api",
       "eq"
     ],
     "tags": [
@@ -52639,7 +52338,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": null,
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -52652,7 +52353,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": null,
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -56899,6 +56602,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"

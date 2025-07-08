@@ -22,22 +22,22 @@ from pathlib import Path
 from vault_utils import save_vault_with_backup
 
 # --- CONFIGURATION (Tweak these values as needed) ---
-VAULT_FILE = Path("xvault_wking_filling.json")
+VAULT_FILE = Path("waves.json")
 BACKUP_DIR = Path("backups")
 
 # --- Condition to find entries ---
 # The JSON key to inspect in each entry.
-SOURCE_FIELD = "name"
+SOURCE_FIELD = "developer"
 # The matching method. Options: "endswith", "startswith", "contains", "exact"
-MATCH_CRITERION = "startswith"
+MATCH_CRITERION = "exact"
 # The string value to use for the match. This is case-sensitive.
-VALUE_TO_MATCH = "Tr5 "
+VALUE_TO_MATCH = "Waves Audio"
 
 # --- Action to perform on matched entries ---
 # The field to be updated.
-TARGET_FIELD = "developer"
+TARGET_FIELD = "filename"
 # The value to add/set in the target field.
-VALUE_TO_ADD = "IK Multimedia"
+VALUE_TO_ADD = "WaveShell1-VST3 14.vst3"
 
 # How to update the target field. Options: "append", "replace"
 # "append":  Adds the value to a list. Creates the list if it doesn't exist.

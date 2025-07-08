@@ -9065,6 +9065,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -9080,6 +9081,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -9190,13 +9192,14 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "chandler emi",
       "preamps",
       "emulations"
     ],
     "tags": [
       "ownhammer"
     ],
-    "emulates": "Chandler TG2 Preamp",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9208,9 +9211,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "emulates": "Chandler TG2 Preamp",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true,
     "tags": [
@@ -9225,9 +9229,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "emulates": "Chandler TG2 Preamp",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true,
     "tags": [
@@ -9242,12 +9247,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
       "ownhammer"
     ],
-    "emulates": "Chandler TG2 Preamp",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9259,12 +9265,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
       "ownhammer"
     ],
-    "emulates": "Chandler TG2 Preamp",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9276,12 +9283,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
       "ownhammer"
     ],
-    "emulates": "Chandler TG2 Preamp",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9293,12 +9301,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
       "ownhammer"
     ],
-    "emulates": "Chandler TG2 Preamp",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9313,9 +9322,7 @@
     "tags": [
       "aitb"
     ],
-    "emulates": [
-      "Chandler Tone Control"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -9330,9 +9337,7 @@
     "tags": [
       "aitb"
     ],
-    "emulates": [
-      "Chandler Tone Control"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -9344,12 +9349,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
       "aitb"
     ],
-    "emulates": "Chandler Tone Control",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9361,12 +9367,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
       "aitb"
     ],
-    "emulates": "Chandler Tone Control",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -10152,6 +10159,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10167,6 +10175,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
@@ -10184,6 +10193,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10199,6 +10209,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10218,6 +10229,7 @@
       "bass processing",
       "infra",
       "sub",
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10316,6 +10328,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10331,6 +10344,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10346,6 +10360,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10363,7 +10378,8 @@
     "families": [
       "analog",
       "emulations",
-      "acqua"
+      "acqua",
+      "chandler emi"
     ],
     "tags": [],
     "emulates": "EMI / Chandler",
@@ -10397,6 +10413,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10412,6 +10429,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10427,6 +10445,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10442,6 +10461,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -11504,6 +11524,7 @@
     "host": "dll",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
@@ -11521,6 +11542,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
@@ -11538,6 +11560,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
@@ -11557,6 +11580,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
@@ -11574,6 +11598,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "preamps",
       "emulations"
     ],
@@ -16513,6 +16538,7 @@
     "developer": null,
     "families": [
       "channel strips",
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -56899,6 +56925,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"

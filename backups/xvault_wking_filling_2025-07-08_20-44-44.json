@@ -92,11 +92,11 @@
     "families": [
       "technology",
       "tape machines",
-      "tape"
+      "compressors",
+      "tape",
+      "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -111,11 +111,11 @@
     "families": [
       "technology",
       "tape machines",
-      "tape"
+      "compressors",
+      "tape",
+      "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -130,11 +130,11 @@
     "families": [
       "technology",
       "tape machines",
-      "tape"
+      "compressors",
+      "tape",
+      "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -149,11 +149,11 @@
     "families": [
       "technology",
       "tape machines",
-      "tape"
+      "compressors",
+      "tape",
+      "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -168,11 +168,11 @@
     "families": [
       "technology",
       "tape machines",
-      "tape"
+      "compressors",
+      "tape",
+      "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -187,11 +187,11 @@
     "families": [
       "technology",
       "tape machines",
-      "tape"
+      "compressors",
+      "tape",
+      "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -220,8 +220,8 @@
     "host": "vst3",
     "developer": "Eventide",
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "spaces",
       "studio spaces",
       "reverbs"
@@ -339,7 +339,7 @@
     "developer": "McDSP",
     "families": [
       "compressors",
-      "multiband",
+      "multi-band",
       "mb",
       "multi",
       "digital",
@@ -359,6 +359,8 @@
     "developer": "McDSP",
     "families": [
       "compressors",
+      "general",
+      "misc",
       "channel strips",
       "dynamics"
     ],
@@ -376,7 +378,7 @@
     "developer": "McDSP",
     "families": [
       "compressors",
-      "multiband",
+      "multi-band",
       "mb",
       "multi",
       "channel strips",
@@ -432,6 +434,7 @@
     "developer": "Audio Assault",
     "families": [
       "channel strips",
+      "api",
       "emulations"
     ],
     "tags": [],
@@ -491,6 +494,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "compressors",
       "dynamics"
     ],
@@ -507,6 +511,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "compressors",
       "dynamics"
     ],
@@ -567,7 +572,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Sonimus",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -582,7 +589,8 @@
     "developer": "Softube",
     "families": [
       "equalisers",
-      "eq"
+      "eq",
+      "active"
     ],
     "tags": [],
     "emulates": null,
@@ -627,6 +635,7 @@
     "host": "vst3",
     "developer": "Plugin Alliance",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -674,7 +683,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -687,7 +698,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -790,9 +803,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -810,9 +821,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -830,9 +839,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -850,9 +857,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -870,9 +875,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -890,9 +893,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -910,9 +911,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -930,9 +929,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -950,9 +947,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -971,9 +966,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -991,9 +984,7 @@
       "fet",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1012,9 +1003,7 @@
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1032,9 +1021,7 @@
       "fet",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1053,9 +1040,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1072,9 +1057,7 @@
       "compressors",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1093,9 +1076,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1112,9 +1093,7 @@
       "compressors",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1131,9 +1110,7 @@
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1152,9 +1129,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1171,9 +1146,7 @@
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1193,9 +1166,7 @@
       "gates",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1216,9 +1187,7 @@
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1238,9 +1207,7 @@
       "gates",
       "dynamics"
     ],
-    "tags": [
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1253,6 +1220,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "delay"
     ],
     "tags": [],
@@ -1302,7 +1270,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": null,
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -1393,7 +1363,8 @@
     "host": "vst3",
     "developer": "Spitfire Audio",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -1410,6 +1381,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "eq",
       "equalisers"
     ],
@@ -1425,7 +1397,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -1438,7 +1412,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -1469,7 +1445,9 @@
     "type": "fx",
     "host": "RfxChain",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": "SSL",
     "id": null,
@@ -1482,7 +1460,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -1514,9 +1494,7 @@
       "preamps",
       "emulations"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1531,9 +1509,7 @@
     "families": [
       "preamps"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1548,9 +1524,7 @@
     "families": [
       "preamps"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1565,9 +1539,7 @@
     "families": [
       "preamps"
     ],
-    "tags": [
-      "ownhammer"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1582,9 +1554,7 @@
     "families": [
       "preamps"
     ],
-    "tags": [
-      "ownhammer"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -1671,6 +1641,7 @@
     "families": [
       "equalisers",
       "analog",
+      "acustica",
       "ultra",
       "avalon",
       "eq"
@@ -1709,6 +1680,7 @@
     "families": [
       "equalisers",
       "analog",
+      "acustica",
       "ultra",
       "avalon",
       "eq"
@@ -1747,6 +1719,7 @@
     "families": [
       "equalisers",
       "analog",
+      "acustica",
       "ultra",
       "avalon",
       "eq"
@@ -2441,9 +2414,7 @@
       "emulations",
       "analog"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2461,9 +2432,7 @@
       "emulations",
       "analog"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -2480,9 +2449,7 @@
       "emulations",
       "analog"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2500,9 +2467,7 @@
       "emulations",
       "analog"
     ],
-    "tags": [
-      "alexb"
-    ],
+    "tags": [],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -2566,9 +2531,7 @@
       "chorus",
       "modulation"
     ],
-    "tags": [
-      "stn"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2636,9 +2599,7 @@
       "bettermakers",
       "bus processors"
     ],
-    "tags": [
-      "fuseroom"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2654,9 +2615,7 @@
       "bettermakers",
       "bus processors"
     ],
-    "tags": [
-      "fuseroom"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2675,9 +2634,7 @@
       "saturation",
       "dynamics"
     ],
-    "tags": [
-      "fuseroom"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2696,9 +2653,7 @@
       "saturation",
       "dynamics"
     ],
-    "tags": [
-      "fuseroom"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2714,9 +2669,7 @@
       "bettermakers",
       "bus processors"
     ],
-    "tags": [
-      "fuseroom"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2732,9 +2685,7 @@
       "bettermakers",
       "bus processors"
     ],
-    "tags": [
-      "fuseroom"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -2765,14 +2716,12 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "eq",
       "equalisers",
       "emulations"
     ],
-    "tags": [
-      "api",
-      "aitb"
-    ],
+    "tags": "aitb",
     "emulates": "API 550B",
     "id": null,
     "ACTIVE": true
@@ -2785,13 +2734,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags": "alexb",
     "emulates": "API 1608 Console",
     "id": null,
     "ACTIVE": true
@@ -2805,13 +2752,11 @@
     "developer": "Nebula",
     "families": [
       "consoles",
+      "api",
       "emulations"
     ],
     "tags": [
-      [
-        "alexb",
-        "api"
-      ]
+      "alexb"
     ],
     "emulates": "API 1608 Console",
     "id": null,
@@ -2825,15 +2770,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      [
-        "alexb",
-        "api"
-      ]
+      "alexb"
     ],
     "emulates": "API 1608 Console",
     "id": null,
@@ -2847,15 +2790,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      [
-        "alexb",
-        "api"
-      ]
+      "alexb"
     ],
     "emulates": "API 1608 Console",
     "id": null,
@@ -2869,15 +2810,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      [
-        "alexb",
-        "api"
-      ]
+      "alexb"
     ],
     "emulates": "API 1608 Console",
     "id": null,
@@ -2891,15 +2830,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      [
-        "alexb",
-        "api"
-      ]
+      "alexb"
     ],
     "emulates": "API 1608 Console",
     "id": null,
@@ -2913,15 +2850,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      [
-        "alexb",
-        "api"
-      ]
+      "alexb"
     ],
     "emulates": "API 1608 Console",
     "id": null,
@@ -2935,14 +2870,12 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "emulations",
       "analog",
       "preamps"
     ],
-    "tags": [
-      "stn",
-      "api"
-    ],
+    "tags": [],
     "emulates": "API 2500",
     "id": null,
     "ACTIVE": true
@@ -2955,16 +2888,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "compressors",
       "emulations",
       "analog",
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags": [],
     "emulates": "API 2500AE",
     "id": null,
     "ACTIVE": true
@@ -2977,16 +2908,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "compressors",
       "emulations",
       "analog",
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags": [],
     "emulates": "API 2500AE",
     "id": null,
     "ACTIVE": true
@@ -2999,16 +2928,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "compressors",
       "emulations",
       "analog",
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags": [],
     "emulates": "API 2500AE",
     "id": null,
     "ACTIVE": true
@@ -3021,16 +2948,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "compressors",
       "emulations",
       "analog",
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags": [],
     "emulates": "API 2500AE",
     "id": null,
     "ACTIVE": true
@@ -3043,16 +2968,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "compressors",
       "emulations",
       "analog",
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags": [],
     "emulates": "API 2500AE",
     "id": null,
     "ACTIVE": true
@@ -3065,16 +2988,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "compressors",
       "emulations",
       "analog",
       "preamps",
       "dynamics"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags": [],
     "emulates": "API 2500AE",
     "id": null,
     "ACTIVE": true
@@ -3087,13 +3008,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API",
     "id": null,
@@ -3107,13 +3028,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "alexb",
-      "api"
+      "alexb"
     ],
     "emulates": "API Vision Console",
     "id": null,
@@ -3127,14 +3048,12 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
-    "tags": [
-      "alexb",
-      "api"
-    ],
+    "tags": [],
     "emulates": "API Vision Console",
     "id": null,
     "ACTIVE": true
@@ -3147,13 +3066,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3167,13 +3086,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3187,13 +3106,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3207,13 +3126,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3227,13 +3146,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3247,13 +3166,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3267,13 +3186,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3287,13 +3206,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3307,13 +3226,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3327,13 +3246,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3347,13 +3266,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3367,13 +3286,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3387,13 +3306,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3407,13 +3326,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3427,13 +3346,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3447,13 +3366,13 @@
     "host": "dll",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3467,13 +3386,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3487,13 +3406,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3507,13 +3426,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "api",
       "consoles",
       "emulations",
       "analog"
     ],
     "tags": [
-      "cdsm",
-      "api"
+      "cdsm"
     ],
     "emulates": "API 16 Console",
     "id": null,
@@ -3527,12 +3446,12 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
+      "api",
       "colour",
       "emulations"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -3546,6 +3465,8 @@
     "developer": "APU",
     "families": [
       "compressors",
+      "general",
+      "misc",
       "dynamics"
     ],
     "tags": [],
@@ -3578,6 +3499,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua"
@@ -3612,10 +3534,13 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
       "compressors",
+      "general",
+      "misc",
       "channel strips",
       "dynamics"
     ],
@@ -3648,7 +3573,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -3760,6 +3687,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua"
@@ -3777,6 +3705,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua"
@@ -3917,6 +3846,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua"
@@ -3983,8 +3913,8 @@
     "host": "jsfx",
     "developer": "Geraint",
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -4000,9 +3930,10 @@
     "host": "vst3",
     "developer": "Softube",
     "families": [
+      "reverb spaces",
       "spaces",
       "emulations",
-      "studios",
+      "studio spaces",
       "reverbs"
     ],
     "tags": [],
@@ -4033,7 +3964,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -4046,7 +3979,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -4226,7 +4161,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -4254,7 +4191,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -4267,7 +4206,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -4420,9 +4361,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4439,9 +4378,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4458,9 +4395,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4477,9 +4412,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4497,9 +4430,7 @@
       "tape",
       "reverbs"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4512,15 +4443,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "technology",
       "tape machines",
       "tape",
       "reverbs"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4538,9 +4467,7 @@
       "tape",
       "reverbs"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4553,15 +4480,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "technology",
       "tape machines",
       "tape",
       "reverbs"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -4657,7 +4582,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -4942,7 +4869,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -4955,7 +4884,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -4988,10 +4919,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5007,10 +4935,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5026,10 +4951,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5045,10 +4967,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5064,10 +4983,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5083,10 +4999,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5102,10 +5015,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5121,10 +5031,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5140,10 +5047,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5159,10 +5063,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5178,10 +5079,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5197,10 +5095,7 @@
       "consoles",
       "emulations"
     ],
-    "tags": [
-      "cdsm",
-      "emi"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -5353,8 +5248,8 @@
     "host": "vst3",
     "developer": "Samplicity",
     "families": [
-      "spaces",
-      "convolution",
+      "reverb spaces",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -5563,7 +5458,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5576,7 +5473,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5589,7 +5488,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5602,7 +5503,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5615,7 +5518,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5628,7 +5533,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5641,7 +5548,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5654,7 +5563,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5697,7 +5608,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5710,7 +5623,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5724,8 +5639,8 @@
     "host": "vst3",
     "developer": "SoundeviceDigital",
     "families": [
-      "algorithmic",
-      "multi",
+      "reverb algorithmic",
+      "reverb multi",
       "reverbs"
     ],
     "tags": [],
@@ -5793,7 +5708,7 @@
     "host": "vst3",
     "developer": "Eventide",
     "families": [
-      "multi",
+      "reverb multi",
       "reverbs"
     ],
     "tags": [],
@@ -5978,9 +5893,7 @@
       "compressors",
       "dynamics"
     ],
-    "tags": [
-      "avalon"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -6042,10 +5955,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
-      "mics",
+      "reverb convolution",
+      "mic emulations",
       "vocal mix tools",
-      "emulations",
+      "preamps",
       "reverbs"
     ],
     "tags": [],
@@ -6122,7 +6035,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -6135,7 +6050,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -6148,7 +6065,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -6295,6 +6214,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -6761,6 +6681,7 @@
     "host": "vst3",
     "developer": "Brainworx",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -7052,7 +6973,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -7065,7 +6988,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -7129,10 +7054,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7149,10 +7071,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7169,10 +7088,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7189,10 +7105,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7209,10 +7122,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7229,10 +7139,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7249,10 +7156,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7269,10 +7173,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7289,10 +7190,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7309,10 +7207,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7329,10 +7224,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7349,10 +7241,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7369,10 +7258,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7389,10 +7275,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7409,10 +7292,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7429,10 +7309,7 @@
       "panning",
       "stereo field"
     ],
-    "tags": [
-      "cadac",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7464,10 +7341,7 @@
       "analog",
       "eq"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7482,12 +7356,11 @@
     "families": [
       "hplp",
       "filters",
+      "high pass low pass",
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7502,12 +7375,11 @@
     "families": [
       "hplp",
       "filters",
+      "high pass low pass",
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7520,10 +7392,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7536,12 +7405,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7554,12 +7421,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7572,10 +7437,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7588,12 +7450,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7606,12 +7466,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7624,10 +7482,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7640,12 +7495,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7658,12 +7511,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7681,10 +7532,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7697,12 +7545,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7715,12 +7561,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7738,10 +7582,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7754,12 +7595,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7772,12 +7611,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7795,10 +7632,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7811,12 +7645,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7829,12 +7661,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7852,10 +7682,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7868,12 +7695,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7891,10 +7716,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7907,12 +7729,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7925,12 +7745,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7948,10 +7766,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -7964,12 +7779,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -7982,12 +7795,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -8005,10 +7816,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8021,12 +7829,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -8039,12 +7845,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -8057,12 +7861,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -8080,10 +7882,7 @@
       "nebula",
       "dynamics"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8096,13 +7895,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations",
       "preamps"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -8115,12 +7912,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "calrec",
       "emulations"
     ],
-    "tags": [
-      "calrec",
-      "timp"
-    ],
+    "tags": [],
     "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
@@ -8319,6 +8114,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -8407,9 +8203,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8426,9 +8220,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8445,9 +8237,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8464,9 +8254,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8483,9 +8271,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8502,9 +8288,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8521,9 +8305,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8540,9 +8322,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8572,13 +8352,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
-      "reverbs",
-      "tape"
+      "reverb convolution",
+      "reverbs"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8591,12 +8368,9 @@
     "host": "dll",
     "developer": "Nebula",
     "families": [
-      "reverbs",
-      "tape"
+      "reverbs"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8668,9 +8442,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8687,9 +8459,7 @@
       "tape machines",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8708,10 +8478,7 @@
     "tags": [],
     "emulates": null,
     "id": null,
-    "ACTIVE": true,
-    "tage": [
-      "cupwise"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Cassette Flangers Nebula",
@@ -8727,10 +8494,7 @@
     "tags": [],
     "emulates": null,
     "id": null,
-    "ACTIVE": true,
-    "tage": [
-      "cupwise"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Cassette Verbs Nebula",
@@ -8740,12 +8504,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "reverb tape",
       "reverbs",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8758,12 +8521,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "reverb tape",
       "reverbs",
       "tape"
     ],
-    "tags": [
-      "cupwise"
-    ],
+    "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
@@ -8783,10 +8545,7 @@
     "tags": [],
     "emulates": null,
     "id": null,
-    "ACTIVE": true,
-    "tage": [
-      "cupwise"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Cassette Tape Dynamics Nebula",
@@ -8803,10 +8562,7 @@
     "tags": [],
     "emulates": null,
     "id": null,
-    "ACTIVE": true,
-    "tage": [
-      "cupwise"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Neve 1084 Nebula",
@@ -9038,7 +8794,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9051,7 +8809,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9065,6 +8825,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -9080,6 +8841,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -9095,18 +8857,15 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "chandler",
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler",
+    "emulates": "EMI / Chandler",
     "id": null,
-    "ACTIVE": true,
-    "tage": [
-      "aitb"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Chandler Germanium Compressor Nebula",
@@ -9116,18 +8875,15 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "chandler",
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler",
+    "emulates": "EMI / Chandler",
     "id": null,
-    "ACTIVE": true,
-    "tage": [
-      "aitb"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Chandler Germanium Compressor Nebula",
@@ -9137,13 +8893,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "chandler",
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9155,13 +8911,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "chandler",
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9183,20 +8939,19 @@
     "ACTIVE": true
   },
   {
-    "product": "Chandler TG2 Preamp Nebula",
+    "product": "Chandler TG2 Preamp Nebulaa",
     "name": "Chandler Tg Preamp",
     "filename": "Chandler_TG_Preamp.vst3",
     "type": "fx",
     "host": "vst3",
     "developer": null,
     "families": [
+      "chandler emi",
       "preamps",
       "emulations"
     ],
-    "tags": [
-      "ownhammer"
-    ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9208,14 +8963,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
-    "ACTIVE": true,
-    "tags": [
-      "ownhammer"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Chandler TG2 Preamp Nebula",
@@ -9225,14 +8979,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
-    "ACTIVE": true,
-    "tags": [
-      "ownhammer"
-    ]
+    "ACTIVE": true
   },
   {
     "product": "Chandler TG2 Preamp Nebula",
@@ -9242,12 +8995,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "ownhammer"
-    ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9259,12 +9011,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "ownhammer"
-    ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9276,12 +9027,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "ownhammer"
-    ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9293,12 +9043,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "ownhammer"
-    ],
-    "emulates": "Chandler TG2 Preamp",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9310,12 +9059,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [],
-    "tags": [
-      "aitb"
-    ],
-    "emulates": [
-      "Chandler Tone Control"
-    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -9327,12 +9072,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [],
-    "tags": [
-      "aitb"
-    ],
-    "emulates": [
-      "Chandler Tone Control"
-    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -9344,12 +9085,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "aitb"
-    ],
-    "emulates": "Chandler Tone Control",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9361,12 +9101,11 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "emulations"
     ],
-    "tags": [
-      "aitb"
-    ],
-    "emulates": "Chandler Tone Control",
+    "tags": [],
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -9379,6 +9118,8 @@
     "developer": null,
     "families": [
       "compressors",
+      "general",
+      "misc",
       "channel strips",
       "consoles",
       "emulations",
@@ -9446,7 +9187,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9459,7 +9202,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9472,7 +9217,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9485,7 +9232,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9498,7 +9247,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9511,7 +9262,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9574,6 +9327,7 @@
     "families": [
       "equalisers",
       "analog",
+      "acustica",
       "ultra",
       "eq"
     ],
@@ -9592,6 +9346,7 @@
     "families": [
       "equalisers",
       "analog",
+      "acustica",
       "ultra",
       "eq"
     ],
@@ -9610,6 +9365,7 @@
     "families": [
       "equalisers",
       "analog",
+      "acustica",
       "ultra",
       "eq"
     ],
@@ -9833,7 +9589,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9846,7 +9604,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9925,8 +9685,8 @@
     "host": "vst3",
     "developer": "Liquidsonics",
     "families": [
-      "convolution",
-      "spaces",
+      "reverb convolution",
+      "reverb spaces",
       "reverbs"
     ],
     "tags": [],
@@ -9959,7 +9719,7 @@
     "host": "vst3",
     "developer": "Samplicity",
     "families": [
-      "digital",
+      "reverb digital",
       "reverbs",
       "multi",
       "emulations"
@@ -9997,7 +9757,7 @@
     "host": "vst3",
     "developer": "Apogee",
     "families": [
-      "spaces",
+      "reverb spaces",
       "reverbs"
     ],
     "tags": [],
@@ -10012,7 +9772,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -10025,7 +9787,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -10054,7 +9818,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -10101,6 +9867,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -10152,6 +9919,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10167,6 +9935,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
@@ -10184,6 +9953,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10199,6 +9969,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10218,6 +9989,7 @@
       "bass processing",
       "infra",
       "sub",
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10298,6 +10070,9 @@
     "developer": "Acustica",
     "families": [
       "compressors",
+      "general",
+      "misc",
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -10316,6 +10091,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10331,6 +10107,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10346,6 +10123,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10361,9 +10139,11 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
-      "acqua"
+      "acqua",
+      "chandler emi"
     ],
     "tags": [],
     "emulates": "EMI / Chandler",
@@ -10378,6 +10158,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -10397,6 +10178,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10412,6 +10194,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10427,6 +10210,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10442,6 +10226,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -10470,7 +10255,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "spring",
+      "reverb spring",
       "reverbs"
     ],
     "tags": [],
@@ -10545,6 +10330,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -10705,6 +10491,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10720,6 +10507,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10735,6 +10523,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10750,6 +10539,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10765,6 +10555,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10780,6 +10571,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10795,6 +10587,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10810,6 +10603,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10825,6 +10619,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10840,6 +10635,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10855,6 +10651,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10870,6 +10667,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10885,6 +10683,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10900,6 +10699,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10915,6 +10715,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10930,6 +10731,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10945,6 +10747,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10960,6 +10763,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10975,6 +10779,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -10990,6 +10795,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11005,6 +10811,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11020,6 +10827,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11035,6 +10843,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11050,6 +10859,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11065,6 +10875,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11080,6 +10891,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11095,6 +10907,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11110,6 +10923,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11125,6 +10939,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11140,6 +10955,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11155,6 +10971,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11170,6 +10987,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11185,6 +11003,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11200,6 +11019,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11215,6 +11035,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "consoles"
     ],
     "tags": [],
@@ -11260,6 +11081,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -11504,6 +11326,7 @@
     "host": "dll",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
@@ -11521,6 +11344,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
@@ -11538,6 +11362,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
@@ -11557,6 +11382,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "emulations"
     ],
     "tags": [
@@ -11574,6 +11400,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "chandler emi",
       "preamps",
       "emulations"
     ],
@@ -11591,7 +11418,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -11652,7 +11481,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -11696,6 +11527,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -11794,7 +11626,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -11809,8 +11643,11 @@
     "developer": null,
     "families": [
       "compressors",
+      "general",
+      "misc",
       "de essers",
       "vocal",
+      "reverb general",
       "reverbs",
       "dynamics"
     ],
@@ -11826,7 +11663,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -11889,7 +11728,7 @@
     "host": "vst3",
     "developer": "SoundToys",
     "families": [
-      "pitch shifters",
+      "pitch shift",
       "delay"
     ],
     "tags": [],
@@ -11922,7 +11761,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -11935,7 +11776,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -12177,7 +12020,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "tape",
+      "reverb tape",
       "reverbs"
     ],
     "tags": [],
@@ -12206,7 +12049,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -12261,7 +12104,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -12277,7 +12120,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -12306,7 +12149,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -12322,7 +12165,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -12387,7 +12231,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "tape",
+      "reverb tape",
       "reverbs"
     ],
     "tags": [
@@ -12405,7 +12249,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "tape",
+      "reverb tape",
       "reverbs"
     ],
     "tags": [
@@ -12477,6 +12321,8 @@
     "developer": "unknown",
     "families": [
       "compressors",
+      "general",
+      "misc",
       "amp sims",
       "emulations",
       "dynamics"
@@ -12609,6 +12455,7 @@
     "host": "jsfx",
     "developer": "Demian D",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -12769,6 +12616,7 @@
     "host": "jsfx",
     "developer": "Demian D",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -12830,7 +12678,7 @@
     "host": "jsfx",
     "developer": "Demian D",
     "families": [
-      "spaces",
+      "reverb spaces",
       "reverbs"
     ],
     "tags": [],
@@ -12846,7 +12694,7 @@
     "host": "jsfx",
     "developer": "Demian D",
     "families": [
-      "plate",
+      "reverb plate",
       "reverbs"
     ],
     "tags": [],
@@ -12862,7 +12710,7 @@
     "host": "jsfx",
     "developer": "Demian D",
     "families": [
-      "spaces",
+      "reverb spaces",
       "reverbs"
     ],
     "tags": [],
@@ -13044,7 +12892,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "preamps",
+      "preamp",
       "harmonics",
       "saturation"
     ],
@@ -13148,7 +12996,7 @@
     "host": "vst3",
     "developer": "Wave Alchemy",
     "families": [
-      "digital",
+      "reverb digital",
       "reverbs",
       "emulations"
     ],
@@ -13348,6 +13196,7 @@
     "host": "vst3",
     "developer": "Hornet",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -13428,6 +13277,7 @@
     "host": "vst3",
     "developer": "Arturia",
     "families": [
+      "time",
       "delay",
       "emulations"
     ],
@@ -13447,6 +13297,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "time",
       "delay",
       "digital",
       "modern"
@@ -13464,6 +13315,7 @@
     "host": "vst3",
     "developer": "Arturia",
     "families": [
+      "time",
       "delay",
       "tape",
       "emulations"
@@ -13481,6 +13333,7 @@
     "host": "dll",
     "developer": null,
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -13495,7 +13348,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13508,7 +13363,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13538,7 +13395,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13551,7 +13410,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13564,7 +13425,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13595,6 +13458,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -13651,7 +13515,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13664,7 +13530,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13771,6 +13639,7 @@
     "host": "vst3",
     "developer": "NewNation Audio",
     "families": [
+      "time",
       "delay",
       "digital"
     ],
@@ -13933,7 +13802,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13946,7 +13817,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13959,7 +13832,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -14005,7 +13880,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -14035,7 +13912,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -14048,7 +13927,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -14061,7 +13942,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -14074,7 +13957,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -14088,6 +13973,7 @@
     "host": "vst3",
     "developer": "Direct Approach",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -14103,6 +13989,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -14444,7 +14331,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -14503,7 +14392,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "tape",
+      "reverb tape",
       "spatial",
       "panning",
       "stereo field",
@@ -14561,7 +14450,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "tape",
+      "reverb tape",
       "reverbs"
     ],
     "tags": [],
@@ -14898,7 +14787,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -14912,6 +14803,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -14927,6 +14819,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -15214,7 +15107,7 @@
     "host": "dll",
     "developer": "Acustica",
     "families": [
-      "convolution",
+      "reverb convolution",
       "channel strips",
       "reverbs"
     ],
@@ -15233,7 +15126,8 @@
     "host": "dll",
     "developer": "Acustica",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -15256,7 +15150,7 @@
     "host": "dll",
     "developer": "Acustica",
     "families": [
-      "convolution",
+      "reverb convolution",
       "equalisers",
       "analog",
       "eq",
@@ -15277,7 +15171,7 @@
     "host": "dll",
     "developer": "Acustica",
     "families": [
-      "convolution",
+      "reverb convolution",
       "preamps",
       "reverbs"
     ],
@@ -15296,7 +15190,7 @@
     "host": "dll",
     "developer": "Acustica",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -15314,7 +15208,7 @@
     "host": "dll",
     "developer": "Acustica",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -15982,7 +15876,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "multi",
+      "reverb multi",
       "reverbs"
     ],
     "tags": [],
@@ -16078,6 +15972,7 @@
     "families": [
       "compressors",
       "vari mu",
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -16100,6 +15995,7 @@
     "families": [
       "compressors",
       "vari mu",
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -16122,6 +16018,7 @@
     "families": [
       "compressors",
       "vari mu",
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -16327,7 +16224,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -16513,6 +16412,7 @@
     "developer": null,
     "families": [
       "channel strips",
+      "chandler emi",
       "emulations"
     ],
     "tags": [],
@@ -16529,7 +16429,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -16542,7 +16444,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -17154,7 +17058,8 @@
     "developer": null,
     "families": [
       "hplp",
-      "filters"
+      "filters",
+      "high pass low pass"
     ],
     "tags": [],
     "emulates": null,
@@ -17247,7 +17152,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -17260,7 +17167,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -17273,7 +17182,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -17336,7 +17247,7 @@
     "developer": "Fabfilter",
     "families": [
       "compressors",
-      "multiband",
+      "multi-band",
       "dynamics"
     ],
     "tags": [],
@@ -17944,7 +17855,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -18009,11 +17922,7 @@
     "families": [
       "unmasking",
       "resonance control",
-      "spectral balance",
-      [
-        "spectral",
-        "balance"
-      ]
+      "spectral balance"
     ],
     "tags": [],
     "emulates": null,
@@ -18111,6 +18020,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -18895,7 +18805,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -18908,7 +18820,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -19037,10 +18951,11 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
-      "multi",
+      "reverb multi",
       "spatial",
       "panning",
-      "digital",
+      "reverb digital",
+      "reverb general",
       "monostereo",
       "stereo field",
       "reverbs"
@@ -19062,11 +18977,7 @@
     "families": [
       "unmasking",
       "resonance control",
-      "spectral balance",
-      [
-        "spectral",
-        "balance"
-      ]
+      "spectral balance"
     ],
     "tags": [],
     "emulates": null,
@@ -19246,8 +19157,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -19262,7 +19173,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -19275,7 +19188,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -19288,7 +19203,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -19301,7 +19218,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -19631,7 +19550,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -19645,7 +19566,7 @@
     "host": "vst3",
     "developer": "Wave Alchemy",
     "families": [
-      "digital",
+      "reverb digital",
       "reverbs",
       "emulations"
     ],
@@ -19729,7 +19650,7 @@
       "chorus",
       "rotary",
       "filter",
-      "phasers"
+      "phaser"
     ],
     "tags": [],
     "emulates": null,
@@ -19930,7 +19851,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -19944,7 +19867,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "plate",
+      "reverb plate",
       "reverbs"
     ],
     "tags": [],
@@ -20273,9 +20196,10 @@
     "developer": "Acustica",
     "families": [
       "compressors",
-      "multiband",
+      "multi-band",
       "mb",
       "multi",
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -20357,6 +20281,7 @@
     "families": [
       "equalisers",
       "analog",
+      "acustica",
       "ultra",
       "eq"
     ],
@@ -20377,6 +20302,7 @@
     "families": [
       "equalisers",
       "analog",
+      "acustica",
       "ultra",
       "eq"
     ],
@@ -21098,6 +21024,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
+      "high pass low pass",
       "hplp",
       "filters"
     ],
@@ -21114,6 +21042,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "gainstaging",
       "gain"
     ],
@@ -21130,6 +21059,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "dither"
     ],
     "tags": [],
@@ -21145,6 +21075,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "eq",
       "equalisers",
       "distortion"
@@ -21162,6 +21093,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
+      "high pass low pass",
       "hplp",
       "filters"
     ],
@@ -21178,6 +21111,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
+      "high pass low pass",
       "hplp",
       "filters"
     ],
@@ -21194,6 +21129,7 @@
     "host": "vst3",
     "developer": "Direct Approach",
     "families": [
+      "high pass low pass",
       "hplp",
       "filters"
     ],
@@ -21210,10 +21146,9 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "mics",
+      "mic emulations",
       "vocal mix tools",
-      "modern",
-      "emulations"
+      "modern"
     ],
     "tags": [
       "henry olonga"
@@ -21230,10 +21165,9 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "mics",
+      "mic emulations",
       "vocal mix tools",
-      "modern",
-      "emulations"
+      "modern"
     ],
     "tags": [
       "henry olonga"
@@ -21250,10 +21184,9 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "mics",
+      "mic emulations",
       "vocal mix tools",
-      "vintage",
-      "emulations"
+      "vintage"
     ],
     "tags": [
       "henry olonga"
@@ -21270,10 +21203,9 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "mics",
+      "mic emulations",
       "vocal mix tools",
-      "vintage",
-      "emulations"
+      "vintage"
     ],
     "tags": [
       "henry olonga"
@@ -21290,7 +21222,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "mics",
+      "mic emulations",
       "vocal mix tools"
     ],
     "tags": [
@@ -21308,7 +21240,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "mics",
+      "mic emulations",
       "vocal mix tools"
     ],
     "tags": [
@@ -21494,8 +21426,8 @@
     "host": "vst3",
     "developer": "HOFA",
     "families": [
-      "convolution",
-      "multi",
+      "reverb convolution",
+      "reverb multi",
       "reverbs"
     ],
     "tags": [],
@@ -21511,8 +21443,8 @@
     "host": "dll<1751536432",
     "developer": "Airwindows",
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -21820,8 +21752,8 @@
     "host": "vst3<623488894",
     "developer": "HOFA",
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -22027,7 +21959,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -22040,7 +21974,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -22054,6 +21990,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "colour",
       "filters"
     ],
@@ -22091,6 +22028,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -22311,6 +22249,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -22651,11 +22590,7 @@
     "families": [
       "unmasking",
       "resonance control",
-      "spectral balance",
-      [
-        "spectral",
-        "balance"
-      ]
+      "spectral balance"
     ],
     "tags": [],
     "emulates": null,
@@ -22704,7 +22639,7 @@
     "host": "vst3",
     "developer": "Hornet",
     "families": [
-      "spring",
+      "reverb spring",
       "reverbs"
     ],
     "tags": [],
@@ -22954,6 +22889,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "harmonics"
     ],
     "tags": [],
@@ -22969,6 +22905,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "eq",
       "equalisers"
     ],
@@ -22985,6 +22922,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "eq",
       "equalisers"
     ],
@@ -23018,6 +22956,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "filters"
     ],
     "tags": [],
@@ -23033,6 +22972,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "filters"
     ],
     "tags": [],
@@ -23047,7 +22987,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -23061,8 +23003,8 @@
     "host": "vst3",
     "developer": "JMGSound",
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -23095,9 +23037,10 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
-      "multi",
+      "reverb multi",
       "reverbs"
     ],
     "tags": [],
@@ -23214,6 +23157,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "reverbs"
     ],
     "tags": [],
@@ -23229,6 +23173,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "reverbs"
     ],
     "tags": [],
@@ -23244,6 +23189,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "expanders",
       "exciters"
     ],
@@ -23260,6 +23206,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "sub",
       "low end",
       "filters"
@@ -23326,8 +23273,9 @@
     "host": "vst3",
     "developer": "Inspired Acoustics",
     "families": [
+      "reverb spaces",
       "spaces",
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -23377,6 +23325,7 @@
     "host": "jsfx",
     "developer": null,
     "families": [
+      "noise,",
       "utilities",
       "studio tools"
     ],
@@ -23393,6 +23342,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "analog",
       "colour",
       "low end"
@@ -23427,6 +23377,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "tape"
     ],
     "tags": [],
@@ -23442,6 +23393,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "tape"
     ],
     "tags": [],
@@ -23457,6 +23409,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "tape"
     ],
     "tags": [],
@@ -23472,7 +23425,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "preamps",
       "reverbs"
     ],
@@ -23504,6 +23457,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "filters"
     ],
     "tags": [],
@@ -23519,6 +23473,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "filters"
     ],
     "tags": [],
@@ -23534,6 +23489,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "filters"
     ],
     "tags": [],
@@ -23583,6 +23539,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -23605,6 +23562,9 @@
     "developer": "Acustica",
     "families": [
       "compressors",
+      "general",
+      "misc",
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -23700,7 +23660,7 @@
     "host": "vst3",
     "developer": "unknown",
     "families": [
-      "pitch shifters"
+      "pitch shift"
     ],
     "tags": [],
     "emulates": null,
@@ -24056,6 +24016,7 @@
     "host": "vst3",
     "developer": "Imaginando",
     "families": [
+      "time",
       "technology",
       "tape machines",
       "delay",
@@ -24074,6 +24035,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "filters"
     ],
     "tags": [],
@@ -24089,7 +24051,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "spaces",
+      "airwindows",
+      "reverb spaces",
       "reverbs"
     ],
     "tags": [],
@@ -24105,7 +24068,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "spaces",
+      "airwindows",
+      "reverb spaces",
       "reverbs"
     ],
     "tags": [],
@@ -24121,7 +24085,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "spaces",
+      "airwindows",
+      "reverb spaces",
       "reverbs"
     ],
     "tags": [],
@@ -24137,7 +24102,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "spaces",
+      "airwindows",
+      "reverb spaces",
       "reverbs"
     ],
     "tags": [],
@@ -24325,7 +24291,8 @@
     "developer": null,
     "families": [
       "hplp",
-      "filters"
+      "filters",
+      "high pass low pass"
     ],
     "tags": [],
     "emulates": null,
@@ -24624,6 +24591,8 @@
     "developer": null,
     "families": [
       "compressors",
+      "general",
+      "misc",
       "distressor",
       "empirical labs",
       "vca",
@@ -24677,6 +24646,7 @@
     "host": "vst3",
     "developer": "Kit Plugins",
     "families": [
+      "api",
       "consoles",
       "emulations"
     ],
@@ -24827,7 +24797,8 @@
     "host": "vst3",
     "developer": "Klevgrand",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -25254,9 +25225,9 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
-      "mics",
+      "mic emulations",
       "vocal mix tools",
-      "emulations"
+      "preamps"
     ],
     "tags": [],
     "emulates": null,
@@ -25305,6 +25276,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "amp sims"
     ],
     "tags": [],
@@ -25337,6 +25309,7 @@
     "host": "jsfx",
     "developer": "SonicAnomaly",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -25352,6 +25325,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "channel management",
       "monostereo"
     ],
@@ -25368,6 +25342,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -25409,6 +25384,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -25424,6 +25400,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -25789,6 +25766,8 @@
     "developer": "Lindell",
     "families": [
       "compressors",
+      "general",
+      "misc",
       "channel strips",
       "dynamics"
     ],
@@ -25804,7 +25783,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -25817,7 +25798,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -25906,7 +25889,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -25919,7 +25904,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -25963,7 +25950,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "pitch shifters",
+      "pitch shift",
       "vocal mixing tools"
     ],
     "tags": [],
@@ -25979,7 +25966,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "plate",
+      "reverb plate",
       "reverbs"
     ],
     "tags": [],
@@ -25995,6 +25982,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -26072,6 +26060,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "compressors",
       "bus",
       "vca",
@@ -26108,6 +26097,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "maximisers"
     ],
     "tags": [],
@@ -26137,7 +26127,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -26150,7 +26142,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -26164,6 +26158,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "channel management",
       "pan",
       "stereo field"
@@ -26198,7 +26193,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Nebula",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -26229,7 +26226,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Nebula",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -26260,7 +26259,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Nebula",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -26291,7 +26292,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Nebula",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -26322,7 +26325,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Nebula",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -26336,7 +26341,7 @@
     "host": "vst3",
     "developer": "Liquidsonics",
     "families": [
-      "plate",
+      "reverb plate",
       "reverbs"
     ],
     "tags": [],
@@ -26387,6 +26392,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "colour"
     ],
     "tags": [],
@@ -26419,8 +26425,8 @@
     "host": "dll",
     "developer": "Nebula",
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "compressors",
       "reverbs",
       "dynamics"
@@ -26472,11 +26478,7 @@
     "families": [
       "unmasking",
       "resonance control",
-      "spectral balance",
-      [
-        "spectral",
-        "balance"
-      ]
+      "spectral balance"
     ],
     "tags": [],
     "emulates": null,
@@ -26493,11 +26495,7 @@
     "families": [
       "unmasking",
       "resonance control",
-      "spectral balance",
-      [
-        "spectral",
-        "balance"
-      ]
+      "spectral balance"
     ],
     "tags": [],
     "emulates": null,
@@ -26515,11 +26513,7 @@
       "unmasking",
       "resonance control",
       "spectral balance",
-      "bus processors",
-      [
-        "spectral",
-        "balance"
-      ]
+      "bus processors"
     ],
     "tags": [],
     "emulates": null,
@@ -26839,7 +26833,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -26852,7 +26848,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -26979,8 +26977,8 @@
     "host": "vst3",
     "developer": "Wave Alchemy",
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -27096,7 +27094,7 @@
     "host": "vst3",
     "developer": "Eventide",
     "families": [
-      "multi",
+      "reverb multi",
       "distortion",
       "reverbs"
     ],
@@ -27282,7 +27280,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "multi",
+      "airwindows",
+      "reverb multi",
       "reverbs"
     ],
     "tags": [],
@@ -27359,7 +27358,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "pitch shifters"
+      "pitch shift"
     ],
     "tags": [],
     "emulates": null,
@@ -27448,8 +27447,8 @@
     "host": "vst3",
     "developer": "Make Believe Studios",
     "families": [
-      "algorithmic",
-      "multi",
+      "reverb algorithmic",
+      "reverb multi",
       "drum mix tools",
       "reverbs"
     ],
@@ -27547,6 +27546,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -27562,6 +27562,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay",
       "nebula"
     ],
@@ -27578,6 +27579,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay",
       "nebula"
     ],
@@ -27594,6 +27596,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay",
       "nebula"
     ],
@@ -27660,7 +27663,7 @@
     "host": "vst3",
     "developer": "Melda Production",
     "families": [
-      "algorithmic",
+      "reverb algorithmic",
       "reverbs"
     ],
     "tags": [],
@@ -27775,7 +27778,7 @@
     "host": "vst3",
     "developer": "Melda Production",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -27791,7 +27794,7 @@
     "host": "vst3",
     "developer": "Melda Production",
     "families": [
-      "multiband",
+      "reverb multiband",
       "reverbs"
     ],
     "tags": [],
@@ -27807,6 +27810,7 @@
     "host": "vst3",
     "developer": "Melda Production",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -27900,6 +27904,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "modulation",
       "filters"
     ],
@@ -28221,9 +28226,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "mics",
-      "vocal mixing tools",
-      "emulations"
+      "mic emulations",
+      "vocal mixing tools"
     ],
     "tags": [],
     "emulates": null,
@@ -28540,6 +28544,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -28970,7 +28975,7 @@
     "developer": "Airwindows",
     "families": [
       "colour",
-      "inflators"
+      "inflator"
     ],
     "tags": [],
     "emulates": null,
@@ -29020,7 +29025,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -29033,7 +29040,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -29046,7 +29055,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -29698,7 +29709,7 @@
     "developer": null,
     "families": [
       "compressors",
-      "multiband",
+      "multi-band",
       "mb",
       "multi",
       "dynamics"
@@ -29716,6 +29727,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -29731,6 +29743,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -29761,7 +29774,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "multi",
+      "reverb general",
+      "reverb multi",
       "reverbs"
     ],
     "tags": [],
@@ -29777,6 +29791,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -30152,6 +30167,7 @@
     "families": [
       "hplp",
       "filters",
+      "high pass low pass",
       "nebula"
     ],
     "tags": [],
@@ -31104,7 +31120,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "digital",
+      "reverb digital",
       "amp sims",
       "emulations",
       "reverbs"
@@ -31286,6 +31302,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -31520,7 +31537,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -32056,7 +32075,7 @@
     "host": "vst3",
     "developer": "Izotope",
     "families": [
-      "digital",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -32138,6 +32157,7 @@
     "families": [
       "hplp",
       "filters",
+      "high pass low pass",
       "consoles",
       "consoles nebula",
       "emulations"
@@ -32157,6 +32177,7 @@
     "families": [
       "hplp",
       "filters",
+      "high pass low pass",
       "consoles",
       "consoles nebula",
       "emulations"
@@ -32515,7 +32536,8 @@
     "developer": "Nebula",
     "families": [
       "filters",
-      "hplp"
+      "hplp",
+      "high pass low pass"
     ],
     "tags": [],
     "emulates": null,
@@ -32531,7 +32553,8 @@
     "developer": "Nebula",
     "families": [
       "hplp",
-      "filters"
+      "filters",
+      "high pass low pass"
     ],
     "tags": [],
     "emulates": null,
@@ -32846,7 +32869,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -32959,6 +32984,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "transformers"
     ],
     "tags": [],
@@ -33001,7 +33027,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -33107,7 +33135,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Kit Plugins",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -33121,7 +33151,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -33137,7 +33168,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "spring",
+      "reverb spring",
       "reverbs"
     ],
     "tags": [],
@@ -33153,7 +33184,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "spring",
+      "reverb spring",
       "reverbs"
     ],
     "tags": [],
@@ -33169,7 +33200,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "spring",
+      "reverb spring",
       "reverbs"
     ],
     "tags": [],
@@ -33198,6 +33229,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "reverb tape",
       "delay",
       "tape",
       "tape machines",
@@ -33217,6 +33249,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "reverb tape",
+      "time",
       "delay",
       "tape",
       "tape machines",
@@ -33236,6 +33270,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "reverb tape",
       "delay",
       "tape",
       "tape machines",
@@ -33255,6 +33290,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay",
       "tape",
       "tape machines",
@@ -33304,7 +33340,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -33317,7 +33355,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -33436,7 +33476,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -33467,7 +33507,7 @@
     "host": "vst3",
     "developer": "Samplicity",
     "families": [
-      "digital",
+      "reverb digital",
       "emulations",
       "reverbs"
     ],
@@ -33569,7 +33609,7 @@
     "host": "vst3",
     "developer": "Eventide",
     "families": [
-      "pitch shifters",
+      "pitch shifter",
       "modulation",
       "emulations"
     ],
@@ -33602,7 +33642,7 @@
     "host": "vst3",
     "developer": "Voxengo",
     "families": [
-      "digital",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -33618,7 +33658,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -33634,6 +33675,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -33731,7 +33773,8 @@
       "adda",
       "converters",
       "transformers",
-      "colour"
+      "colour",
+      "api"
     ],
     "tags": [],
     "emulates": "API",
@@ -34043,7 +34086,7 @@
     "host": "dll",
     "developer": "AudioThing",
     "families": [
-      "tape",
+      "reverb tape",
       "delay",
       "reverbs",
       "emulations"
@@ -34061,7 +34104,7 @@
     "host": "vst3",
     "developer": "AudioThing",
     "families": [
-      "tape",
+      "reverb tape",
       "delay",
       "reverbs",
       "emulations"
@@ -34079,7 +34122,7 @@
     "host": "vst3",
     "developer": "AudioThing",
     "families": [
-      "tape",
+      "reverb tape",
       "delay",
       "reverbs",
       "emulations"
@@ -34111,7 +34154,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -35018,6 +35063,7 @@
     "host": "vst3",
     "developer": "Pulsar Modular",
     "families": [
+      "api",
       "eq",
       "equalisers",
       "emulations"
@@ -35035,6 +35081,7 @@
     "host": "vst3",
     "developer": "Pulsar Modular",
     "families": [
+      "api",
       "consoles",
       "channel strips",
       "bus processors",
@@ -35459,7 +35506,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -35472,7 +35521,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -35555,7 +35606,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -35568,7 +35621,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -35581,7 +35636,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -35806,7 +35863,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Nebula",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -36258,7 +36317,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36273,7 +36334,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36288,7 +36351,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36303,7 +36368,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36318,7 +36385,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36333,7 +36402,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36348,7 +36419,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36363,7 +36436,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36378,7 +36453,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36393,7 +36470,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36408,7 +36487,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36423,7 +36504,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [
       "api"
     ],
@@ -36486,7 +36569,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "plate",
+      "reverb plate",
       "reverbs"
     ],
     "tags": [],
@@ -36502,7 +36585,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -36518,7 +36601,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -36534,7 +36617,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -36550,7 +36633,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -36568,7 +36651,7 @@
     "families": [
       "equalisers",
       "analog",
-      "convolution",
+      "reverb convolution",
       "technology",
       "tape machines",
       "eq",
@@ -36588,7 +36671,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "eq",
       "equalisers",
       "reverbs"
@@ -36606,7 +36689,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -36622,7 +36705,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -36638,7 +36721,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -36654,7 +36737,7 @@
     "host": "dll",
     "developer": "Nebula",
     "families": [
-      "plate",
+      "reverb plate",
       "reverbs"
     ],
     "tags": [],
@@ -36730,6 +36813,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "reverbs"
     ],
     "tags": [],
@@ -36744,7 +36828,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -36757,7 +36843,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -36770,7 +36858,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -36783,7 +36873,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -36843,7 +36935,7 @@
     "developer": null,
     "families": [
       "compressors",
-      "multiband",
+      "multi-band",
       "mb",
       "multi",
       "digital",
@@ -36863,6 +36955,8 @@
     "developer": null,
     "families": [
       "compressors",
+      "general",
+      "misc",
       "dynamics"
     ],
     "tags": [],
@@ -36909,7 +37003,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -36922,7 +37018,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -37302,7 +37400,7 @@
     "host": "vst3",
     "developer": "U-he",
     "families": [
-      "digital",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -37453,6 +37551,8 @@
     "developer": null,
     "families": [
       "compressors",
+      "general",
+      "misc",
       "dynamics"
     ],
     "tags": [],
@@ -37713,8 +37813,8 @@
     "host": "vst3",
     "developer": "PSP Audioware",
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -37730,8 +37830,8 @@
     "host": "vst3",
     "developer": "PSP Audioware",
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -37764,7 +37864,7 @@
     "host": "vst3",
     "developer": "PSP Audioware",
     "families": [
-      "spring",
+      "reverb spring",
       "reverbs"
     ],
     "tags": [],
@@ -37780,6 +37880,7 @@
     "host": "vst3",
     "developer": "PSP Audioware",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -37956,8 +38057,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -38961,8 +39062,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -38978,8 +39079,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -38995,8 +39096,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -39323,7 +39424,8 @@
     "developer": "Nebula",
     "families": [
       "hplp",
-      "filters"
+      "filters",
+      "high pass low pass"
     ],
     "tags": [],
     "emulates": null,
@@ -40062,6 +40164,7 @@
     "host": "jsfx",
     "developer": null,
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -40077,6 +40180,7 @@
     "host": "jsfx",
     "developer": null,
     "families": [
+      "time",
       "compressors",
       "delay",
       "dynamics"
@@ -40226,7 +40330,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -40239,7 +40345,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -40360,7 +40468,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "multi",
+      "reverb multi",
       "reverbs"
     ],
     "tags": [],
@@ -40376,8 +40484,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -40393,7 +40501,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "plate",
+      "reverb plate",
       "reverbs"
     ],
     "tags": [],
@@ -40409,7 +40517,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "spring",
+      "reverb spring",
       "reverbs"
     ],
     "tags": [],
@@ -40425,6 +40533,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "reverbs"
     ],
     "tags": [],
@@ -40440,8 +40549,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "convolution",
-      "multi",
+      "reverb convolution",
+      "reverb multi",
       "reverbs"
     ],
     "tags": [],
@@ -40457,7 +40566,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -40474,7 +40584,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -40491,7 +40602,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -40507,7 +40619,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "multi",
+      "reverb multi",
       "reverbs"
     ],
     "tags": [],
@@ -40523,7 +40635,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "multi",
+      "reverb multi",
       "reverbs"
     ],
     "tags": [],
@@ -40788,6 +40900,7 @@
     "developer": "Red Rock Sound",
     "families": [
       "equalisers",
+      "api",
       "eq"
     ],
     "tags": [],
@@ -41459,7 +41572,7 @@
     "host": "jsfx",
     "developer": null,
     "families": [
-      "multi",
+      "reverb multi",
       "modulation",
       "reverbs"
     ],
@@ -41508,6 +41621,7 @@
     "families": [
       "equalisers",
       "analog",
+      "api",
       "eq"
     ],
     "tags": [
@@ -41672,6 +41786,8 @@
     "developer": "Acustica",
     "families": [
       "compressors",
+      "general",
+      "misc",
       "emulations",
       "dynamics"
     ],
@@ -41692,6 +41808,7 @@
     "families": [
       "equalisers",
       "analog",
+      "acustica",
       "ultra",
       "emulations",
       "eq"
@@ -42144,7 +42261,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -42189,7 +42308,7 @@
     "developer": "Eventide",
     "families": [
       "algorithmic",
-      "pitch shifters",
+      "pitch shfters",
       "reverbs"
     ],
     "tags": [],
@@ -42249,7 +42368,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -42277,7 +42398,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -42493,6 +42616,7 @@
     "host": "dll",
     "developer": null,
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -42508,6 +42632,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -42590,7 +42715,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -42606,7 +42731,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -42634,7 +42759,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -42799,7 +42926,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -42812,7 +42941,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -42825,7 +42956,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -42838,7 +42971,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -42851,7 +42986,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -43142,7 +43279,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -43239,7 +43377,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -43255,11 +43395,7 @@
     "families": [
       "unmasking",
       "resonance control",
-      "spectral balance",
-      [
-        "spectral",
-        "balance"
-      ]
+      "spectral balance"
     ],
     "tags": [],
     "emulates": null,
@@ -43527,7 +43663,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -43556,9 +43694,9 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "multi",
-      "algorithmic",
-      "digital",
+      "reverb multi",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -44176,7 +44314,9 @@
     "developer": null,
     "families": [
       "compressors",
-      "multiband",
+      "general",
+      "misc",
+      "multi-band",
       "mb",
       "multi",
       "expanders",
@@ -44270,7 +44410,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "digital",
+      "reverb digital",
       "reverbs",
       "emulations"
     ],
@@ -44303,6 +44443,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -44320,11 +44461,7 @@
     "families": [
       "unmasking",
       "resonance control",
-      "spectral balance",
-      [
-        "spectral",
-        "balance"
-      ]
+      "spectral balance"
     ],
     "tags": [],
     "emulates": null,
@@ -44355,8 +44492,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -44372,7 +44509,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -44388,8 +44526,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -44405,7 +44543,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -44422,7 +44561,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -44474,7 +44614,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -44490,7 +44631,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -44505,7 +44647,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -44700,7 +44844,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -44713,7 +44859,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -44835,7 +44983,8 @@
     "host": "vst3",
     "developer": "Plugin Alliance",
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -45066,8 +45215,9 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "spring",
+      "reverb spring",
       "spaces",
+      "studio spaces",
       "reverbs"
     ],
     "tags": [],
@@ -45083,7 +45233,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "spring",
+      "reverb spring",
       "reverbs"
     ],
     "tags": [],
@@ -45144,7 +45294,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -45157,7 +45309,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -45649,8 +45803,9 @@
     "host": "vst3",
     "developer": "Solid State Logic",
     "families": [
-      "multi",
-      "digital",
+      "reverb multi",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -45683,6 +45838,8 @@
     "developer": "Solid State Logic",
     "families": [
       "compressors",
+      "general",
+      "misc",
       "emulations",
       "dynamics"
     ],
@@ -45715,7 +45872,7 @@
     "developer": "Solid State Logic",
     "families": [
       "compressors",
-      "multiband",
+      "multi-band",
       "mb",
       "multi",
       "emulations",
@@ -45768,6 +45925,8 @@
     "developer": "Solid State Logic",
     "families": [
       "compressors",
+      "general",
+      "misc",
       "emulations",
       "dynamics"
     ],
@@ -45784,7 +45943,7 @@
     "host": "vst3",
     "developer": "Solid State Logic",
     "families": [
-      "plate",
+      "reverb plate",
       "emulations",
       "reverbs"
     ],
@@ -45834,6 +45993,7 @@
     "host": "vst3",
     "developer": "Solid State Logic",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -46287,7 +46447,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -46300,7 +46462,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -46423,7 +46587,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "pitch shifters"
+      "pitchshifters"
     ],
     "tags": [],
     "emulates": null,
@@ -46502,7 +46666,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "algorithmic",
+      "reverb algorithmic",
       "reverbs",
       "emulations"
     ],
@@ -47183,6 +47347,7 @@
     "developer": "Acustica",
     "families": [
       "ultra",
+      "acustica",
       "emulations"
     ],
     "tags": [
@@ -47265,7 +47430,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -47278,7 +47445,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -47291,7 +47460,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -47304,7 +47475,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -47526,7 +47699,7 @@
     "host": "vst3",
     "developer": "Liquidsonics",
     "families": [
-      "multi",
+      "reverb multi",
       "reverbs",
       "chorus"
     ],
@@ -47646,6 +47819,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "reverb tape",
+      "time",
       "delay",
       "tape",
       "tape machines",
@@ -47735,6 +47910,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "tape",
       "tape machines",
       "technology"
@@ -47754,6 +47930,7 @@
     "families": [
       "technology",
       "tape machines",
+      "airwindows",
       "tape"
     ],
     "tags": [],
@@ -47769,6 +47946,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "delay",
       "tape",
       "tape machines",
@@ -47787,6 +47965,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "delay",
       "tape",
       "tape machines",
@@ -47805,6 +47984,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "tape",
       "tape machines",
       "technology"
@@ -47822,6 +48002,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "tape",
       "tape machines",
       "technology"
@@ -47839,6 +48020,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "tape",
       "tape machines",
       "technology"
@@ -48325,7 +48507,8 @@
     "host": "dll",
     "developer": "Toneboosters",
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -48369,7 +48552,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Toneboosters",
-    "families": [],
+    "families": [
+      "time"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -48447,7 +48632,8 @@
     "developer": null,
     "families": [
       "compressors",
-      "multi",
+      "misc",
+      "reverb multi",
       "reverbs",
       "dynamics"
     ],
@@ -48480,7 +48666,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
       "reverbs"
     ],
     "tags": [],
@@ -48496,7 +48682,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -48532,11 +48719,7 @@
     "families": [
       "unmasking",
       "resonance control",
-      "spectral balance",
-      [
-        "spectral",
-        "balance"
-      ]
+      "spectral balance"
     ],
     "tags": [],
     "emulates": null,
@@ -49004,11 +49187,7 @@
       "bus processors",
       "bettermakers",
       "spectral balance",
-      "eq",
-      [
-        "spectral",
-        "balance"
-      ]
+      "eq"
     ],
     "tags": [],
     "emulates": null,
@@ -49426,7 +49605,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -49443,7 +49623,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -49460,7 +49641,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -49477,7 +49659,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -49494,7 +49677,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -49511,7 +49695,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -49528,7 +49713,8 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -49567,6 +49753,7 @@
     "families": [
       "equalisers",
       "analog",
+      "acustica",
       "emulations",
       "acqua",
       "eq"
@@ -49603,6 +49790,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -50034,7 +50222,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -50129,6 +50319,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "tape",
       "tape machines",
       "technology"
@@ -50148,6 +50339,7 @@
     "families": [
       "technology",
       "tape machines",
+      "airwindows",
       "tape"
     ],
     "tags": [],
@@ -50165,6 +50357,7 @@
     "families": [
       "technology",
       "tape machines",
+      "airwindows",
       "tape"
     ],
     "tags": [],
@@ -50266,7 +50459,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -50279,7 +50474,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -50294,14 +50491,15 @@
     "developer": "IK Multimedia",
     "families": [
       "compressors",
+      "general",
+      "misc",
+      "1176",
+      "1175",
       "fet",
-      "dynamics",
-      "emulations"
+      "dynamics"
     ],
-    "tags": [
-      "1176"
-    ],
-    "emulates": "Urei 1176 compressor/limiter,",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -50331,13 +50529,10 @@
     "families": [
       "equalisers",
       "channel strips",
-      "eq",
-      "emulations"
+      "eq"
     ],
-    "tags": [
-      "ssl"
-    ],
-    "emulates": "SSL-style console",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -50351,13 +50546,10 @@
     "families": [
       "compressors",
       "digital",
-      "dynamics",
-      "emulations"
+      "dynamics"
     ],
-    "tags": [
-      "ssl"
-    ],
-    "emulates": "SSL Bus Compressor",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -50418,8 +50610,7 @@
     "developer": "IK Multimedia",
     "families": [
       "limiters",
-      "dynamics",
-      "multiband"
+      "dynamics"
     ],
     "tags": [],
     "emulates": null,
@@ -50435,14 +50626,13 @@
     "developer": "IK Multimedia",
     "families": [
       "compressors",
+      "distressor",
+      "empirical labs",
       "vca",
-      "dynamics",
-      "emulations"
+      "dynamics"
     ],
-    "tags": [
-      "distressor"
-    ],
-    "emulates": "Empirical Labs Distressor",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -50453,10 +50643,7 @@
     "type": "fx",
     "host": "dll",
     "developer": "IK Multimedia",
-    "families": [
-      "reverbs",
-      "spaces"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -50469,10 +50656,7 @@
     "type": "fx",
     "host": "dll",
     "developer": "IK Multimedia",
-    "families": [
-      "reverbs",
-      "reverse"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -50485,10 +50669,7 @@
     "type": "fx",
     "host": "dll",
     "developer": "IK Multimedia",
-    "families": [
-      "reverbs",
-      "plate"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -50501,10 +50682,7 @@
     "type": "fx",
     "host": "dll",
     "developer": "IK Multimedia",
-    "families": [
-      "reverbs",
-      "spaces"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -50518,7 +50696,8 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
-      "de essers"
+      "de essers",
+      "vocal"
     ],
     "tags": [],
     "emulates": null,
@@ -50534,12 +50713,11 @@
     "developer": "IK Multimedia",
     "families": [
       "compressors",
-      "vari mu",
-      "dynamics",
-      "emulations"
+      "digital",
+      "dynamics"
     ],
     "tags": [],
-    "emulates": "Manley Variable Mu compressor",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -50551,14 +50729,10 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
-      "eq",
-      "equalisers",
-      "emulations"
-    ],
-    "tags": [
       "neve"
     ],
-    "emulates": "Neve 1073",
+    "tags": [],
+    "emulates": "Neve",
     "id": null,
     "ACTIVE": true
   },
@@ -50571,13 +50745,11 @@
     "developer": "IK Multimedia",
     "families": [
       "equalisers",
-      "eq",
-      "emulations"
+      "neve",
+      "eq"
     ],
-    "tags": [
-      "neve"
-    ],
-    "emulates": "Neve 1081",
+    "tags": [],
+    "emulates": "Neve",
     "id": null,
     "ACTIVE": true
   },
@@ -50590,14 +50762,15 @@
     "developer": "IK Multimedia",
     "families": [
       "equalisers",
-      "parametric",
+      "analog",
+      "passive",
+      "api",
       "eq",
+      "pultec",
       "emulations"
     ],
-    "tags": [
-      "api"
-    ],
-    "emulates": "API 550",
+    "tags": [],
+    "emulates": "API",
     "id": null,
     "ACTIVE": true
   },
@@ -50610,13 +50783,15 @@
     "developer": "IK Multimedia",
     "families": [
       "equalisers",
+      "analog",
+      "passive",
+      "api",
       "eq",
+      "pultec",
       "emulations"
     ],
-    "tags": [
-      "api"
-    ],
-    "emulates": "API 550 B",
+    "tags": [],
+    "emulates": "API",
     "id": null,
     "ACTIVE": true
   },
@@ -50628,14 +50803,10 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
-      "eq",
-      "equalisers",
-      "emulations"
-    ],
-    "tags": [
       "api"
     ],
-    "emulates": "API 565 EQ",
+    "tags": [],
+    "emulates": "API",
     "id": null,
     "ACTIVE": true
   },
@@ -50648,14 +50819,14 @@
     "developer": "IK Multimedia",
     "families": [
       "passive",
+      "analog",
       "eq",
       "equalisers",
+      "pultec",
       "emulations"
     ],
-    "tags": [
-      "pultec"
-    ],
-    "emulates": "Pultec EQP-1A",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -50668,8 +50839,7 @@
     "developer": "IK Multimedia",
     "families": [
       "equalisers",
-      "eq",
-      "parametric"
+      "eq"
     ],
     "tags": [],
     "emulates": null,
@@ -50684,14 +50854,13 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
-      "reverbs",
-      "studios",
-      "emulations"
+      "reverbs"
     ],
     "tags": [],
-    "emulates": "FAME Studio in Muscle Shoals Alabama",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -50703,19 +50872,11 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
-      "vocal mixing tools",
-      "emulations"
+      "vocals",
+      "vocal mixing tools"
     ],
-    "tags": [
-      "1176",
-      "fairchild",
-      "tube tech"
-    ],
-    "emulates": [
-      "UREI 1176",
-      "Fairchild 670",
-      "Tube-Tech CL 1B"
-    ],
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -50728,13 +50889,10 @@
     "developer": "IK Multimedia",
     "families": [
       "rotary",
-      "cabinets",
-      "emulations"
+      "cabinets"
     ],
-    "tags": [
-      "leslie"
-    ],
-    "emulates": "Leslie Amps 122, 122A, 147, 3300w, G37, Cabs 147, 122, 122A, 3300w, Studio 12",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -50747,8 +50905,7 @@
     "developer": "IK Multimedia",
     "families": [
       "equalisers",
-      "eq",
-      "mastering"
+      "eq"
     ],
     "tags": [],
     "emulates": null,
@@ -50764,14 +50921,10 @@
     "developer": "IK Multimedia",
     "families": [
       "equalisers",
-      "eq",
-      "parametric",
-      "emulations"
+      "eq"
     ],
-    "tags": [
-      "sontec"
-    ],
-    "emulates": "Sontec MES-432",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -50800,9 +50953,9 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
+      "gainstaging",
       "metering",
-      "loudness",
-      "goniometer"
+      "analysis"
     ],
     "tags": [],
     "emulates": null,
@@ -50810,20 +50963,19 @@
     "ACTIVE": true
   },
   {
-    "product": "IK TR5 Mic Room",
+    "product": "TR5 Mic Room",
     "name": "Tr5 Mic Room",
     "filename": "TR5_Mic_Room.vst3",
     "type": "fx",
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
-      "mics",
+      "mic emulations",
       "vocal mix tools",
-      "preamps",
-      "emulations"
+      "preamps"
     ],
     "tags": [],
-    "emulates": "multi",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -50835,8 +50987,9 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
-      "channel management",
-      "eq"
+      "compressors",
+      "digital",
+      "dynamics"
     ],
     "tags": [],
     "emulates": null,
@@ -50852,7 +51005,7 @@
     "developer": "IK Multimedia",
     "families": [
       "compressors",
-      "opto",
+      "digital",
       "dynamics"
     ],
     "tags": [],
@@ -50869,14 +51022,14 @@
     "developer": "IK Multimedia",
     "families": [
       "compressors",
+      "general",
+      "misc",
       "limiters",
-      "dynamics",
-      "emulations"
+      "neve",
+      "dynamics"
     ],
-    "tags": [
-      "neve"
-    ],
-    "emulates": "Neve 33609",
+    "tags": [],
+    "emulates": "Neve",
     "id": null,
     "ACTIVE": true
   },
@@ -50889,8 +51042,10 @@
     "developer": "IK Multimedia",
     "families": [
       "compressors",
-      "multiband",
-      "opto",
+      "multi-band",
+      "mb",
+      "multi",
+      "digital",
       "dynamics"
     ],
     "tags": [],
@@ -50906,6 +51061,8 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
+      "spatial",
+      "panning",
       "stereo field"
     ],
     "tags": [],
@@ -50922,8 +51079,7 @@
     "developer": "IK Multimedia",
     "families": [
       "limiters",
-      "dynamics",
-      "multiband"
+      "dynamics"
     ],
     "tags": [],
     "emulates": null,
@@ -50938,7 +51094,8 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
-      "analog",
+      "distortion",
+      "harmonics",
       "saturation"
     ],
     "tags": [],
@@ -50954,11 +51111,11 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
-      "delay",
-      "emulations"
+      "time",
+      "delay"
     ],
     "tags": [],
-    "emulates": "Roland RE-201 Space Echo",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -50987,8 +51144,7 @@
     "developer": "IK Multimedia",
     "families": [
       "channel strips",
-      "500 racks",
-      "multi"
+      "500 racks"
     ],
     "tags": [],
     "emulates": null,
@@ -51003,14 +51159,13 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
-      "studios",
-      "reverbs",
-      "emulations"
+      "reverbs"
     ],
     "tags": [],
-    "emulates": "Sunset Sound Studio in Hollywood",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -51022,11 +51177,12 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
-      "tape",
-      "delay"
+      "technology",
+      "tape machines",
+      "tape"
     ],
     "tags": [],
-    "emulates": "Echoplex EP3 tape delay",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -51040,13 +51196,10 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape"
     ],
-    "tags": [
-      "mci"
-    ],
-    "emulates": "MCI JH24 multi-track recorder",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -51060,13 +51213,10 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape"
     ],
-    "tags": [
-      "revox"
-    ],
-    "emulates": "Revox PR99 Mk II",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -51080,13 +51230,10 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape"
     ],
-    "tags": [
-      "ampex"
-    ],
-    "emulates": "Ampex AG440B",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -51100,13 +51247,10 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape"
     ],
-    "tags": [
-      "studer"
-    ],
-    "emulates": "Studer A80 Mk II",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -51120,13 +51264,10 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape"
     ],
-    "tags": [
-      "tascam"
-    ],
-    "emulates": "TASCAM 388 analog tape recorder",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -51140,13 +51281,10 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape"
     ],
-    "tags": [
-      "tascam"
-    ],
-    "emulates": "TASCAM Porta One multi-track recorder",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -51160,13 +51298,10 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape"
     ],
-    "tags": [
-      "teac"
-    ],
-    "emulates": "TEAC A-3340S",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -51180,13 +51315,10 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape"
     ],
-    "tags": [
-      "teac"
-    ],
-    "emulates": "TEAC A-6100 MKII analog tape recorder",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -51198,12 +51330,12 @@
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
+      "spaces",
       "emulations",
-      "studios",
-      "spaces"
+      "studio spaces"
     ],
     "tags": [],
-    "emulates": "drum room Fisher Lane Farm studio",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -51216,19 +51348,20 @@
     "developer": "IK Multimedia",
     "families": [
       "compressors",
+      "general",
+      "misc",
+      "fairchild",
       "vari mu",
-      "dynamics",
-      "emulations"
+      "ear",
+      "dynamics"
     ],
-    "tags": [
-      "fairchild"
-    ],
-    "emulates": "Fairchild 670",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "IK TR5 White 2A",
+    "product": "IK TR5 White 2A ",
     "name": "Tr5 White 2A",
     "filename": "TR5_White_2A.vst3",
     "type": "fx",
@@ -51237,24 +51370,25 @@
     "families": [
       "compressors",
       "opto",
+      "digital",
       "dynamics"
     ],
-    "tags": [
-      "la2a"
-    ],
-    "emulates": "Teletronix LA-2A",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "IK TR5 White Channel",
+    "product": "IK TR5 White Channel ",
     "name": "Tr5 White Channel",
     "filename": "TR5_White_Channel.vst3",
     "type": "fx",
     "host": "vst3",
     "developer": "IK Multimedia",
     "families": [
-      "channel strips"
+      "equalisers",
+      "channel strips",
+      "eq"
     ],
     "tags": [],
     "emulates": null,
@@ -51286,6 +51420,8 @@
     "developer": null,
     "families": [
       "compressors",
+      "general",
+      "misc",
       "dynamics"
     ],
     "tags": [],
@@ -52313,6 +52449,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -52424,7 +52561,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "spring",
+      "reverb spring",
       "reverbs"
     ],
     "tags": [],
@@ -52639,7 +52776,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": null,
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -52652,7 +52791,9 @@
     "type": "fx",
     "host": "vst3",
     "developer": null,
-    "families": [],
+    "families": [
+      "api"
+    ],
     "tags": [],
     "emulates": "API",
     "id": null,
@@ -52697,9 +52838,10 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "reverb spaces",
       "spaces",
       "emulations",
-      "studios",
+      "studio spaces",
       "reverbs"
     ],
     "tags": [],
@@ -52716,6 +52858,8 @@
     "developer": null,
     "families": [
       "compressors",
+      "general",
+      "misc",
       "spaces",
       "emulations",
       "studio spaces",
@@ -52805,6 +52949,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "time",
       "delay",
       "tape",
       "tape machines",
@@ -52841,9 +52986,10 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "reverb spaces",
       "spaces",
       "emulations",
-      "studios",
+      "studio spaces",
       "reverbs"
     ],
     "tags": [],
@@ -52910,8 +53056,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -53075,7 +53221,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "plate",
+      "reverb plate",
       "reverbs"
     ],
     "tags": [],
@@ -53091,9 +53237,10 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "reverb spaces",
       "spaces",
       "emulations",
-      "studios",
+      "studio spaces",
       "reverbs"
     ],
     "tags": [],
@@ -53421,7 +53568,7 @@
     "host": "vst3<1617952704",
     "developer": null,
     "families": [
-      "pitch shifters"
+      "pitch shift"
     ],
     "tags": [],
     "emulates": null,
@@ -53451,7 +53598,8 @@
     "host": "vst3<1819629906",
     "developer": null,
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -53483,6 +53631,7 @@
     "host": "vst3<1885901739",
     "developer": null,
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -53515,7 +53664,7 @@
     "host": "vst3<2023866964",
     "developer": null,
     "families": [
-      "pitch shifters"
+      "pitch shift"
     ],
     "tags": [],
     "emulates": null,
@@ -53544,7 +53693,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -53557,7 +53708,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -53780,7 +53933,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -53854,6 +54009,7 @@
     "host": "vst3",
     "developer": null,
     "families": [
+      "time",
       "multifx",
       "delay"
     ],
@@ -53980,7 +54136,8 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "multi",
+      "reverb multi",
+      "time",
       "multifx",
       "delay",
       "reverbs"
@@ -54091,6 +54248,7 @@
     "host": "vst3",
     "developer": "Valhalla",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -54106,6 +54264,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -54121,7 +54280,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "tape",
+      "reverb tape",
       "reverbs"
     ],
     "tags": [],
@@ -54137,7 +54296,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "plate",
+      "reverb plate",
       "reverbs"
     ],
     "tags": [],
@@ -54153,7 +54312,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "convolution",
+      "reverb convolution",
+      "reverb spaces",
       "spaces",
       "reverbs"
     ],
@@ -54170,8 +54330,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -54202,8 +54362,8 @@
     "host": "vst3",
     "developer": "Valhalla",
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -54219,8 +54379,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "algorithmic",
-      "digital",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -54251,8 +54411,8 @@
     "host": "vst3",
     "developer": "Valhalla",
     "families": [
-      "digital",
-      "algorithmic",
+      "reverb digital",
+      "reverb algorithmic",
       "reverbs"
     ],
     "tags": [],
@@ -54268,7 +54428,8 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "digital",
+      "reverb digital",
+      "reverb general",
       "reverbs"
     ],
     "tags": [],
@@ -54478,7 +54639,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -54691,6 +54854,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "airwindows",
       "reverbs"
     ],
     "tags": [],
@@ -54706,9 +54870,9 @@
     "host": "vst3",
     "developer": null,
     "families": [
-      "multi",
-      "algorithmic",
-      "digital",
+      "reverb multi",
+      "reverb algorithmic",
+      "reverb digital",
       "reverbs"
     ],
     "tags": [],
@@ -54858,7 +55022,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -54922,7 +55088,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -55080,6 +55248,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua"
@@ -55097,6 +55266,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "acustica",
       "compressors",
       "digital",
       "nebula",
@@ -55340,7 +55510,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -55618,6 +55790,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -55669,6 +55842,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
+      "acustica",
       "analog",
       "emulations",
       "acqua",
@@ -55966,7 +56140,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -56149,6 +56325,7 @@
     "families": [
       "hplp",
       "filters",
+      "high pass low pass",
       "emulations",
       "analog"
     ],
@@ -56167,6 +56344,7 @@
     "families": [
       "hplp",
       "filters",
+      "high pass low pass",
       "emulations",
       "analog"
     ],
@@ -56593,6 +56771,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -56608,6 +56787,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -56623,6 +56803,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -56638,6 +56819,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -56653,6 +56835,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -56668,6 +56851,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "time",
       "delay"
     ],
     "tags": [],
@@ -56854,7 +57038,8 @@
     "developer": "Nebula",
     "families": [
       "hplp",
-      "filters"
+      "filters",
+      "high pass low pass"
     ],
     "tags": [],
     "emulates": null,
@@ -56899,6 +57084,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "chandler emi",
       "compressors",
       "emulations",
       "dynamics"
@@ -57180,7 +57366,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -57193,7 +57381,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -57220,7 +57410,7 @@
     "host": "vst3<788168239",
     "developer": null,
     "families": [
-      "multi",
+      "reverb multi",
       "reverbs"
     ],
     "tags": [],
@@ -57277,7 +57467,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -57290,7 +57482,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -57303,7 +57497,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -57316,7 +57512,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -57329,7 +57527,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -57342,7 +57542,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -57385,7 +57587,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -57398,7 +57602,9 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [],
+    "families": [
+      "airwindows"
+    ],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -57765,7 +57971,7 @@
     "host": "jsfx",
     "developer": "Saike",
     "families": [
-      "pitch shifters"
+      "pitch shifter"
     ],
     "tags": [],
     "emulates": null,
@@ -57780,7 +57986,7 @@
     "host": "jsfx",
     "developer": "Saike",
     "families": [
-      "pitch shifters"
+      "pitch shifter"
     ],
     "tags": [],
     "emulates": null,
@@ -57810,7 +58016,7 @@
     "host": "jsfx",
     "developer": "Saike",
     "families": [
-      "maximisers"
+      "maximiser"
     ],
     "tags": [],
     "emulates": null,
