@@ -28,15 +28,15 @@ VAULT_FILE = Path("xvault_wking_filling.json")
 BACKUP_DIR = Path("backups")
 
 # The field to inspect and modify.
-FIELD_NAME = "families"
+FIELD_NAME = "tags"
 
 # The value to search for (the typo or old value).
-TARGET_VALUE = "mic emulations"
+TARGET_VALUE = "henry olonga"
 
 # The value to replace it with.
 # For lists, setting this to None will REMOVE the target value.
 # For simple fields, it will set the field to null.
-REPLACEMENT_VALUE = "mics"
+REPLACEMENT_VALUE = "holonga"
 
 
 # ---------------------------------------------------------

@@ -30,7 +30,7 @@ BACKUP_DIR = Path("backups")
 FIELD_TO_CLEAN = "families"
 
 # The specific string value you want to remove from that field.
-VALUE_TO_REMOVE = "chandler emi"
+VALUE_TO_REMOVE = "acqua"
 
 
 # ---------------------------------------------------------

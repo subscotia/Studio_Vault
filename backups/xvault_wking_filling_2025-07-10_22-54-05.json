@@ -225,12 +225,9 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape", "emulations"
     ],
-    "tags": [
-      "sony"
-    ],
+    "tags": ["sony"],
     "emulates": "Sony PCM 3348 digital tape machine",
     "id": null,
     "ACTIVE": true
@@ -385,9 +382,7 @@
       "equalisers",
       "eq"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": ["neve"],
     "emulates": "Neve 5033",
     "id": null,
     "ACTIVE": true
@@ -421,9 +416,7 @@
       "channel strips",
       "emulations"
     ],
-    "tags": [
-      "api"
-    ],
+    "tags": ["api"],
     "emulates": "API channel strip",
     "id": null,
     "ACTIVE": true
@@ -444,6 +437,7 @@
     "id": null,
     "ACTIVE": true
   },
+
   {
     "product": "Airwindows Acceleration",
     "name": "Acceleration",
@@ -476,6 +470,7 @@
     "id": null,
     "ACTIVE": true
   },
+
   {
     "product": "Acme Opticom XLA 3",
     "name": "Acme Opticom Xla 3",
@@ -488,9 +483,7 @@
       "digital",
       "dynamics"
     ],
-    "tags": [
-      "acme"
-    ],
+    "tags": ["acme"],
     "emulates": "Acme Audio Opticom XLA-3",
     "id": null,
     "ACTIVE": true
@@ -502,10 +495,7 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Sonimus",
-    "families": [
-      "consoles",
-      "emulations"
-    ],
+    "families": ["consoles", "emulations"],
     "tags": [],
     "emulates": "API console",
     "id": null,
@@ -520,8 +510,7 @@
     "developer": "Softube",
     "families": [
       "equalisers",
-      "eq",
-      "emulations"
+      "eq", "emulations"
     ],
     "tags": [],
     "emulates": "Swiss console equalizer",
@@ -536,9 +525,7 @@
     "host": "vst3",
     "developer": "Plugin Alliance",
     "families": [
-      "flangers",
-      "pedals",
-      "emulations"
+      "flangers", "pedals", "emulations"
     ],
     "tags": [],
     "emulates": "ADA Flanger ",
@@ -553,8 +540,7 @@
     "host": "vst3",
     "developer": "Plugin Alliance",
     "families": [
-      "delay",
-      "emulations"
+      "delay", "emulations"
     ],
     "tags": [],
     "emulates": "ADA Stereo Tapped Delay",
@@ -601,9 +587,7 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "clippers"
-    ],
+    "families": ["clippers"],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -616,9 +600,7 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "clippers"
-    ],
+    "families": ["clippers"],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -1155,8 +1137,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "delay",
-      "chorus"
+      "delay", "chorus"
     ],
     "tags": [],
     "emulates": null,
@@ -1235,9 +1216,7 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Techivation",
-    "families": [
-      "resonance control"
-    ],
+    "families": ["resonance control"],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -1315,10 +1294,8 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "eq",
-      "equalisers"
-    ],
+    "families": [      "eq",
+      "equalisers"],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -1331,10 +1308,8 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "eq",
-      "equalisers"
-    ],
+    "families": [      "eq",
+      "equalisers"],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -1363,9 +1338,7 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Airwindows",
-    "families": [
-      "containers"
-    ],
+    "families": ["containers"],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -1400,28 +1373,7 @@
     "tags": [
       "alexb"
     ],
-    "emulates": [
-      "Trident",
-      "AMEK",
-      "AMS Neve",
-      "Millennia",
-      "Calrec",
-      "Neve Portico",
-      "Focusrite",
-      "Empirical Labs",
-      "Lawo",
-      "Neumann",
-      "Telefunken",
-      "Avalon",
-      "Thermionic",
-      "EMI",
-      "Fairchild",
-      "Manley",
-      "Presonus",
-      "Siemens",
-      "SPL",
-      "Tube Tech"
-    ],
+    "emulates": ["Trident", "AMEK", "AMS Neve", "Millennia", "Calrec", "Neve Portico", "Focusrite", "Empirical Labs", "Lawo", "Neumann", "Telefunken", "Avalon", "Thermionic", "EMI", "Fairchild", "Manley", "Presonus", "Siemens", "SPL", "Tube Tech"],
     "id": null,
     "ACTIVE": true
   },
@@ -1433,34 +1385,12 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "preamps",
-      "emulations"
+      "preamps", "emulations"
     ],
     "tags": [
       "alexb"
     ],
-    "emulates": [
-      "Trident",
-      "AMEK",
-      "AMS Neve",
-      "Millennia",
-      "Calrec",
-      "Neve Portico",
-      "Focusrite",
-      "Empirical Labs",
-      "Lawo",
-      "Neumann",
-      "Telefunken",
-      "Avalon",
-      "Thermionic",
-      "EMI",
-      "Fairchild",
-      "Manley",
-      "Presonus",
-      "Siemens",
-      "SPL",
-      "Tube Tech"
-    ],
+    "emulates": ["Trident", "AMEK", "AMS Neve", "Millennia", "Calrec", "Neve Portico", "Focusrite", "Empirical Labs", "Lawo", "Neumann", "Telefunken", "Avalon", "Thermionic", "EMI", "Fairchild", "Manley", "Presonus", "Siemens", "SPL", "Tube Tech"],
     "id": null,
     "ACTIVE": true
   },
@@ -1472,8 +1402,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "preamps",
-      "emulations"
+      "preamps", "emulations"
     ],
     "tags": [
       "alexb"
@@ -1490,8 +1419,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "preamps",
-      "emulations"
+      "preamps", "emulations"
     ],
     "tags": [
       "ownhammer"
@@ -1508,8 +1436,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "preamps",
-      "emulations"
+      "preamps", "emulations"
     ],
     "tags": [
       "ownhammer"
@@ -1526,8 +1453,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
-      "channel strips",
-      "emulations"
+      "channel strips", "emulations"
     ],
     "tags": [
       "avalon"
@@ -1658,8 +1584,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
-      "channel strips",
-      "emulations"
+      "channel strips", "emulations"
     ],
     "tags": [
       "avalon"
@@ -1836,8 +1761,7 @@
     "developer": "ML Sound Lab",
     "families": [
       "amp sims",
-      "emulations",
-      "bass processing"
+      "emulations", "bass processing"
     ],
     "tags": [],
     "emulates": null,
@@ -1856,10 +1780,7 @@
       "emulations"
     ],
     "tags": [],
-    "emulates": [
-      "Bogner Uberschall",
-      "Bogner Uberschall Twin Jet"
-    ],
+    "emulates": ["Bogner Uberschall", "Bogner Uberschall Twin Jet"],
     "id": null,
     "ACTIVE": true
   },
@@ -2080,8 +2001,7 @@
     "developer": "Plugin Alliance",
     "families": [
       "amp sims",
-      "emulations",
-      "bass processing"
+      "emulations", "bass processing"
     ],
     "tags": [],
     "emulates": "Ampeg SVT-3PRO",
@@ -2097,8 +2017,7 @@
     "developer": "Plugin Alliance",
     "families": [
       "amp sims",
-      "emulations",
-      "bass processing"
+      "emulations", "bass processing"
     ],
     "tags": [],
     "emulates": "Ampeg SVT-VR",
@@ -2114,8 +2033,7 @@
     "developer": "Plugin Alliance",
     "families": [
       "amp sims",
-      "emulations",
-      "bass processing"
+      "emulations", "bass processing"
     ],
     "tags": [],
     "emulates": "Ampeg SVT-VR",
@@ -2132,12 +2050,9 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape", "emulations"
     ],
-    "tags": [
-      "cdsm"
-    ],
+    "tags": ["cdsm"],
     "emulates": "multiple tape machines",
     "id": null,
     "ACTIVE": true
@@ -2167,8 +2082,7 @@
     "developer": "Kuassa",
     "families": [
       "amp sims",
-      "emulations",
-      "containers"
+      "emulations", "containers"
     ],
     "tags": [],
     "emulates": null,
@@ -2299,11 +2213,7 @@
       "emulations"
     ],
     "tags": [],
-    "emulates": [
-      "A- Fender Bassman",
-      "B- older Vox amps excl AC series",
-      "C- Roland Jazz Chorus"
-    ],
+    "emulates": ["A- Fender Bassman", "B- older Vox amps excl AC series", "C- Roland Jazz Chorus"],
     "id": null,
     "ACTIVE": true
   },
@@ -2482,8 +2392,8 @@
     "developer": "AnalogX",
     "families": [
       "analog",
-      "emulations",
-      "containers"
+      "emulations", "containers"
+
     ],
     "tags": [],
     "emulates": null,
@@ -3505,10 +3415,7 @@
       "equalisers"
     ],
     "tags": [],
-    "emulates": [
-      "Shadow Hills Mastering Compressor",
-      "Langevin 258-A program EQ."
-    ],
+    "emulates": ["Shadow Hills Mastering Compressor", "Langevin 258-A program EQ."],
     "id": null,
     "ACTIVE": true
   },
@@ -3760,12 +3667,9 @@
       "emulations",
       "dynamics"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": ["neve"],
     "emulates": [
-      "MK-609 Precision Diode Limiter-Comp",
-      "Neve 33609"
+      "MK-609 Precision Diode Limiter-Comp", "Neve 33609"
     ],
     "id": null,
     "ACTIVE": true
@@ -3939,8 +3843,7 @@
     "host": "vst3",
     "developer": "Audiogridder",
     "families": [
-      "connectivity",
-      "utilities"
+      "connectivity", "utilities"
     ],
     "tags": [],
     "emulates": null,
@@ -3955,8 +3858,7 @@
     "host": "vst3",
     "developer": "Audiogridder",
     "families": [
-      "connectivity",
-      "utilities"
+      "connectivity", "utilities"
     ],
     "tags": [],
     "emulates": null,
@@ -4091,10 +3993,7 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "panning",
-      "stereo field"
-    ],
+    "families": ["panning", "stereo field"],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -4120,9 +4019,7 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "filters"
-    ],
+    "families": ["filters"],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -4273,12 +4170,10 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape", "emulations"
     ],
     "tags": [
-      "cupwise",
-      "ampex"
+      "cupwise", "ampex"
     ],
     "emulates": "Ampex ATR-102",
     "id": null,
@@ -4294,12 +4189,10 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape", "emulations"
     ],
     "tags": [
-      "cupwise",
-      "ampex"
+      "cupwise", "ampex"
     ],
     "emulates": "Ampex ATR-102",
     "id": null,
@@ -4315,12 +4208,10 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape", "emulations"
     ],
     "tags": [
-      "cupwise",
-      "ampex"
+      "cupwise", "ampex"
     ],
     "emulates": "Ampex ATR-102",
     "id": null,
@@ -4336,12 +4227,10 @@
     "families": [
       "technology",
       "tape machines",
-      "tape",
-      "emulations"
+      "tape", "emulations"
     ],
     "tags": [
-      "cupwise",
-      "ampex"
+      "cupwise", "ampex"
     ],
     "emulates": "Ampex ATR-102",
     "id": null,
@@ -4358,12 +4247,10 @@
       "technology",
       "tape machines",
       "tape",
-      "reverbs",
-      "emulations"
+      "reverbs", "emulations"
     ],
     "tags": [
-      "cupwise",
-      "ampex"
+      "cupwise", "ampex"
     ],
     "emulates": "Ampex ATR-102",
     "id": null,
@@ -4381,12 +4268,10 @@
       "technology",
       "tape machines",
       "tape",
-      "reverbs",
-      "emulations"
+      "reverbs", "emulations"
     ],
     "tags": [
-      "cupwise",
-      "ampex"
+      "cupwise", "ampex"
     ],
     "emulates": "Ampex ATR-102",
     "id": null,
@@ -4403,9 +4288,7 @@
       "technology",
       "tape machines",
       "tape",
-      "reverbs",
-      "ampex",
-      "emulations"
+      "reverbs", "ampex", "emulations"
     ],
     "tags": [
       "cupwise"
@@ -4426,12 +4309,10 @@
       "technology",
       "tape machines",
       "tape",
-      "reverbs",
-      "emulations"
+      "reverbs", "emulations"
     ],
     "tags": [
-      "cupwise",
-      "ampex"
+      "cupwise", "ampex"
     ],
     "emulates": "Ampex ATR-102",
     "id": null,
@@ -4671,8 +4552,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "amp sims",
-      "bass processing"
+      "amp sims", "bass processing"
     ],
     "tags": [],
     "emulates": null,
@@ -4781,10 +4661,7 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "eq",
-      "equalisers"
-    ],
+    "families": ["eq", "equalisers"],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -4797,10 +4674,7 @@
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "eq",
-      "equalisers"
-    ],
+    "families": ["eq", "equalisers"],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -4837,9 +4711,7 @@
       "cdsm",
       "emi"
     ],
-    "emulates": [
-      "1960s EMI TG12345"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -4858,9 +4730,7 @@
       "cdsm",
       "emi"
     ],
-    "emulates": [
-      "1960s EMI TG12345"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -4879,9 +4749,7 @@
       "cdsm",
       "emi"
     ],
-    "emulates": [
-      "1960s EMI TG12345"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -4900,9 +4768,7 @@
       "cdsm",
       "emi"
     ],
-    "emulates": [
-      "1960s EMI TG12345"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -4921,9 +4787,7 @@
       "cdsm",
       "emi"
     ],
-    "emulates": [
-      "1960s EMI TG12345"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -4942,9 +4806,7 @@
       "cdsm",
       "emi"
     ],
-    "emulates": [
-      "1960s EMI TG12345"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -4963,9 +4825,7 @@
       "cdsm",
       "emi"
     ],
-    "emulates": [
-      "1960s EMI TG12345"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -4984,9 +4844,7 @@
       "cdsm",
       "emi"
     ],
-    "emulates": [
-      "1960s EMI TG12345"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -5005,9 +4863,7 @@
       "cdsm",
       "emi"
     ],
-    "emulates": [
-      "1960s EMI TG12345"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -5026,9 +4882,7 @@
       "cdsm",
       "emi"
     ],
-    "emulates": [
-      "1960s EMI TG12345"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -5047,9 +4901,7 @@
       "cdsm",
       "emi"
     ],
-    "emulates": [
-      "1960s EMI TG12345"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -5068,9 +4920,7 @@
       "cdsm",
       "emi"
     ],
-    "emulates": [
-      "1960s EMI TG12345"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -5083,7 +4933,8 @@
     "developer": "Bluecat",
     "families": [
       "gainstaging",
-      "metering"
+      "metering",
+      "analysis"
     ],
     "tags": [],
     "emulates": null,
@@ -5099,7 +4950,8 @@
     "developer": "Bluecat",
     "families": [
       "gainstaging",
-      "metering"
+      "metering",
+      "analysis"
     ],
     "tags": [],
     "emulates": null,
@@ -5115,7 +4967,8 @@
     "developer": "Bluecat",
     "families": [
       "gainstaging",
-      "metering"
+      "metering",
+      "analysis"
     ],
     "tags": [],
     "emulates": null,
@@ -5159,9 +5012,7 @@
     "type": "fx",
     "host": "dll",
     "developer": "Bluecat",
-    "families": [
-      "connectivity"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5225,10 +5076,23 @@
       "convolution",
       "reverbs"
     ],
-    "tags": [
-      "teldex"
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Bertom Tools Bundle",
+    "name": "Bertbouwhuis Midi Controller For S8 Looper With Fade In And Out",
+    "filename": "bertbouwhuis_MIDI controller for S8 looper with fade in and out.jsfx",
+    "type": "fx",
+    "host": "jsfx",
+    "developer": "Cockos",
+    "families": [
+      "midi"
     ],
-    "emulates": "Teldex Studio, Berlin",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -5256,7 +5120,10 @@
     "host": "vst3",
     "developer": "Bertom",
     "families": [
-      "analysis"
+      "analysis",
+      "loudness",
+      "metering",
+      "gainstaging"
     ],
     "tags": [],
     "emulates": null,
@@ -5265,12 +5132,13 @@
   },
   {
     "product": "Bertom Tools Bundle",
-    "name": "Bertom Phantom Center",
+    "name": "Bertom Phantomcenter X64",
     "filename": "Bertom_PhantomCenter_x64.vst3",
     "type": "fx",
     "host": "vst3",
     "developer": "Bertom",
     "families": [
+      "spatial",
       "panning",
       "monostereo",
       "stereo field"
@@ -5361,7 +5229,7 @@
   },
   {
     "product": "Acustica Big Ceil",
-    "name": "Big Ceil",
+    "name": "Big ceil",
     "filename": "BIGCEIL.vst3",
     "type": "fx",
     "host": "vst3",
@@ -5377,8 +5245,8 @@
     "ACTIVE": true
   },
   {
-    "product": "Boz Big Clipper",
-    "name": "Big Clipper",
+    "product": "Acustica Big Ceil",
+    "name": "Bigclipper",
     "filename": "BigClipper.vst3",
     "type": "fx",
     "host": "vst3",
@@ -5409,14 +5277,12 @@
   },
   {
     "product": "Airwindows Biquad",
-    "name": "Biquad",
+    "name": "Biquad64",
     "filename": "Biquad64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "filters"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5424,104 +5290,90 @@
   },
   {
     "product": "Airwindows Biquad",
-    "name": "Biquad2",
+    "name": "Biquad264",
     "filename": "Biquad264.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "filters"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows BiquadDouble",
-    "name": "BiquadDouble",
+    "product": "Airwindows Biquad",
+    "name": "Biquaddouble64",
     "filename": "BiquadDouble64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "filters"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows BiquadNonLin",
-    "name": "BiquadNonLin",
+    "product": "Airwindows Biquad",
+    "name": "Biquadnonlin64",
     "filename": "BiquadNonLin64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "filters"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows BiquadOneHalf",
-    "name": "BiquadOneHalf",
+    "product": "Airwindows Biquad",
+    "name": "Biquadonehalf64",
     "filename": "BiquadOneHalf64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "filters"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows BiquadPlus",
-    "name": "BiquadPlus",
+    "product": "Airwindows Biquad",
+    "name": "Biquadplus64",
     "filename": "BiquadPlus64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "filters"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows BiquadStack",
-    "name": "BiquadStack",
+    "product": "Airwindows Biquad",
+    "name": "Biquadstack64",
     "filename": "BiquadStack64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "filters"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows BiquadTriple",
-    "name": "BiquadTriple",
+    "product": "Airwindows Biquad",
+    "name": "Biquadtriple64",
     "filename": "BiquadTriple64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "filters"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5543,8 +5395,8 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows BitGlitter",
-    "name": "BitGlitter",
+    "product": "Airwindows Bitglitter",
+    "name": "Bitglitter",
     "filename": "BitGlitter64.dll",
     "type": "fx",
     "host": "dll",
@@ -5558,30 +5410,26 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows Bitshift Gain",
-    "name": "BitShiftGain",
+    "product": "Airwindows Bitshift Gain-Pan",
+    "name": "Bitshiftgain64",
     "filename": "BitShiftGain64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "gain"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows Bitshift Pan",
-    "name": "BitShiftPan",
+    "product": "Airwindows Bitshift Gain-Pan",
+    "name": "Bitshiftpan64",
     "filename": "BitShiftPan64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "panning"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -5615,9 +5463,7 @@
       "preamps",
       "emulations"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve Genesys",
     "id": null,
     "ACTIVE": true
@@ -5651,9 +5497,7 @@
       "emulations",
       "preamps"
     ],
-    "tags": [
-      "neve"
-    ],
+    "tags": [],
     "emulates": "Neve Genesys",
     "id": null,
     "ACTIVE": true
@@ -5690,8 +5534,8 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows BlockParty",
-    "name": "BlockParty",
+    "product": "Airwindows Blockparty",
+    "name": "Blockparty",
     "filename": "BlockParty64.dll",
     "type": "fx",
     "host": "dll",
@@ -5739,8 +5583,7 @@
     "families": [
       "equalisers",
       "analog",
-      "eq",
-      "emulations"
+      "eq"
     ],
     "tags": [],
     "emulates": [
@@ -5758,8 +5601,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
-      "preamps",
-      "emulations"
+      "preamps"
     ],
     "tags": [],
     "emulates": "multi",
@@ -5774,8 +5616,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
-      "preamps",
-      "emulations"
+      "preamps"
     ],
     "tags": [],
     "emulates": "BINSON, AMPLYVOX, AMAVOX, MEAZZI",
@@ -5814,7 +5655,7 @@
       "channel strips"
     ],
     "tags": [],
-    "emulates": null,
+    "emulates": "Kush Audio",
     "id": null,
     "ACTIVE": true
   },
@@ -5836,7 +5677,7 @@
   },
   {
     "product": "TSE Audio BOD",
-    "name": "BOD",
+    "name": "BOD X64",
     "filename": "BOD_x64.dll",
     "type": "fx",
     "host": "dll",
@@ -5847,7 +5688,7 @@
       "emulations"
     ],
     "tags": [],
-    "emulates": "Bass OverDrive",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -5860,13 +5701,12 @@
     "developer": "Nebula",
     "families": [
       "compressors",
-      "dynamics",
-      "emulations"
+      "dynamics"
     ],
     "tags": [
       "avalon"
     ],
-    "emulates": "Avalon 747",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -5928,12 +5768,13 @@
     "developer": "Nebula",
     "families": [
       "convolution",
+      "mics",
       "vocal mix tools",
       "emulations",
-      "spaces"
+      "reverbs"
     ],
     "tags": [],
-    "emulates": "vocal booth",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -6000,8 +5841,8 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows BrightAmbience",
-    "name": "BrightAmbience",
+    "product": "Airwindows Bright",
+    "name": "Brightambience64",
     "filename": "BrightAmbience64.dll",
     "type": "fx",
     "host": "dll",
@@ -6013,8 +5854,8 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows BrightAmbience2",
-    "name": "BrightAmbience2",
+    "product": "Airwindows Bright",
+    "name": "Brightambience264",
     "filename": "BrightAmbience264.dll",
     "type": "fx",
     "host": "dll",
@@ -6026,8 +5867,8 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows BrightAmbience3",
-    "name": "BrightAmbience3",
+    "product": "Airwindows Bright",
+    "name": "Brightambience364",
     "filename": "BrightAmbience364.dll",
     "type": "fx",
     "host": "dll",
@@ -6039,12 +5880,12 @@
     "ACTIVE": true
   },
   {
-    "product": "Sonimus Britson",
-    "name": "Britson buss",
-    "filename": "BritsonBuss.vst3",
+    "product": "AO Brit",
+    "name": "Britchannel",
+    "filename": "BritChannel.vst3",
     "type": "fx",
     "host": "vst3",
-    "developer": "Sonimus",
+    "developer": null,
     "families": [],
     "tags": [],
     "emulates": "Neve",
@@ -6052,8 +5893,89 @@
     "ACTIVE": true
   },
   {
-    "product": "Sonimus Britson",
-    "name": "Britson channel",
+    "product": "AO Brit",
+    "name": "Britchannel X64",
+    "filename": "BritChannel_x64.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": "Airwindows",
+    "families": [
+      "consoles",
+      "emulations"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "AO Brit",
+    "name": "Britpre",
+    "filename": "BritPre.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [],
+    "tags": [],
+    "emulates": "Neve",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "AO Brit",
+    "name": "Britpre X64",
+    "filename": "BritPre_x64.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": "Airwindows",
+    "families": [],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "AO Brit",
+    "name": "Britpressor",
+    "filename": "Britpressor.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [],
+    "tags": [],
+    "emulates": "Neve",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "AO Brit",
+    "name": "Britpressor X64",
+    "filename": "Britpressor_x64.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": "Airwindows",
+    "families": [],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "AO Brit",
+    "name": "Britsonbuss",
+    "filename": "BritsonBuss.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [],
+    "tags": [],
+    "emulates": "Neve",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "AO Brit",
+    "name": "Britsonchannel",
     "filename": "BritsonChannel.vst3",
     "type": "fx",
     "host": "vst3",
@@ -6240,6 +6162,21 @@
     "ACTIVE": true
   },
   {
+    "product": "Arturia Bus Processors",
+    "name": "Bus Processor",
+    "filename": "Bus_Processor.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Arturia",
+    "families": [
+      "channel strips"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
     "product": "Airwindows BussColors 4",
     "name": "BussColors 4",
     "filename": "BussColors464.dll",
@@ -6311,6 +6248,7 @@
     "host": "vst3",
     "developer": "Brainworx",
     "families": [
+      "amek",
       "eq",
       "equalisers",
       "emulations"
@@ -6345,13 +6283,10 @@
     "developer": "Brainworx",
     "families": [
       "pedals",
-      "emulations",
-      "chorus"
+      "emulations"
     ],
-    "tags": [
-      "boss"
-    ],
-    "emulates": "Boss CE-2 chorus",
+    "tags": [],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -6364,8 +6299,7 @@
     "developer": "Brainworx",
     "families": [
       "equalisers",
-      "eq",
-      "drum mixing tools"
+      "eq"
     ],
     "tags": [],
     "emulates": null,
@@ -6410,11 +6344,10 @@
     "host": "vst3",
     "developer": "Brainworx",
     "families": [
-      "channel strips",
-      "emulations"
+      "amek"
     ],
     "tags": [],
-    "emulates": "AMEK 9099",
+    "emulates": "AMEK",
     "id": null,
     "ACTIVE": true
   },
@@ -6426,13 +6359,10 @@
     "host": "vst3",
     "developer": "Brainworx",
     "families": [
-      "channel strips",
       "emulations"
     ],
-    "tags": [
-      "focusrite"
-    ],
-    "emulates": "Focusrite Studio Console",
+    "tags": [],
+    "emulates": "Focusrite",
     "id": null,
     "ACTIVE": true
   },
@@ -6443,32 +6373,24 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Brainworx",
-    "families": [
-      "channel strips",
-      "emulations"
-    ],
-    "tags": [
-      "neve"
-    ],
-    "emulates": "Neve VXS 72-channel analog console",
+    "families": [],
+    "tags": [],
+    "emulates": "Neve",
     "id": null,
     "ACTIVE": true
   },
   {
     "product": "Brainworx SSL 4000 E",
-    "name": "Brainworx SSL 4000 E",
+    "name": "Bx Console Ssl 4000 E",
     "filename": "bx_console_SSL_4000_E.vst3",
     "type": "fx",
     "host": "vst3",
     "developer": "Brainworx",
     "families": [
-      "channel strips",
-      "emulations"
+      "channel strips"
     ],
-    "tags": [
-      "ssl"
-    ],
-    "emulates": "SSL 4000 E",
+    "tags": [],
+    "emulates": "SSL",
     "id": null,
     "ACTIVE": true
   },
@@ -6480,29 +6402,25 @@
     "host": "vst3",
     "developer": "Brainworx",
     "families": [
-      "channel strips",
       "emulations"
     ],
-    "tags": [
-      "ssl"
-    ],
-    "emulates": "SSL 4000 G",
+    "tags": [],
+    "emulates": "SSL",
     "id": null,
     "ACTIVE": true
   },
   {
     "product": "Brainworx SSL 9000 J",
-    "name": "Brainworx SSL 9000 J",
+    "name": "Bx Console Ssl 9000 J",
     "filename": "bx_console_SSL_9000_J.vst3",
     "type": "fx",
     "host": "vst3",
     "developer": "Brainworx",
     "families": [
-      "channel strips",
-      "emulations"
+      "channel strips"
     ],
     "tags": [],
-    "emulates": "SSL 9000 J",
+    "emulates": "SSL",
     "id": null,
     "ACTIVE": true
   },
@@ -6514,6 +6432,10 @@
     "host": "vst3",
     "developer": "Brainworx",
     "families": [
+      "analysis",
+      "loudness",
+      "metering",
+      "spatial",
       "panning",
       "monostereo",
       "stereo field"
@@ -6704,8 +6626,10 @@
     "host": "vst3",
     "developer": "Brainworx",
     "families": [
+      "analysis",
       "loudness",
-      "metering"
+      "metering",
+      "gainstaging"
     ],
     "tags": [],
     "emulates": null,
@@ -6738,11 +6662,10 @@
     "host": "vst3",
     "developer": "Brainworx",
     "families": [
-      "amp sims",
-      "emulations"
+      "amp sims"
     ],
     "tags": [],
-    "emulates": "eight renowned amp models",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -6824,9 +6747,7 @@
       "compressors",
       "dynamics"
     ],
-    "tags": [
-      "ssl"
-    ],
+    "tags": [],
     "emulates": "SSL 4000 B compressor",
     "id": null,
     "ACTIVE": true
@@ -6850,14 +6771,12 @@
   },
   {
     "product": "Airwindows Console",
-    "name": "C5Rawbuss",
+    "name": "C5Rawbuss64",
     "filename": "C5RawBuss64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "consoles"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -6865,14 +6784,12 @@
   },
   {
     "product": "Airwindows Console",
-    "name": "C5Rawchannel",
+    "name": "C5Rawchannel64",
     "filename": "C5RawChannel64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [
-      "consoles"
-    ],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -6932,6 +6849,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -6951,6 +6869,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -6970,6 +6889,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -6989,6 +6909,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7008,6 +6929,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7027,6 +6949,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7046,6 +6969,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7065,6 +6989,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7084,6 +7009,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7103,6 +7029,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7122,6 +7049,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7141,6 +7069,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7160,6 +7089,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7179,6 +7109,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7198,6 +7129,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7217,6 +7149,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "spatial",
       "panning",
       "stereo field"
     ],
@@ -7259,9 +7192,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": [
-      "Calrec 1061 EQ"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -7317,9 +7248,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": [
-      "Calrec 1061 EQ"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -7337,7 +7266,7 @@
       "calrec",
       "timp"
     ],
-    "emulates":       "Calrec 1061 EQ",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7355,7 +7284,7 @@
       "calrec",
       "timp"
     ],
-    "emulates":       "Calrec 1061 EQ",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7371,9 +7300,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": [
-      "Calrec 1061 EQ"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -7391,7 +7318,7 @@
       "calrec",
       "timp"
     ],
-    "emulates":       "Calrec 1061 EQ",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7409,7 +7336,7 @@
       "calrec",
       "timp"
     ],
-    "emulates":       "Calrec 1061 EQ",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7425,9 +7352,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": [
-      "Calrec 1061 EQ"
-    ],
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -7445,7 +7370,7 @@
       "calrec",
       "timp"
     ],
-    "emulates":       "Calrec 1061 EQ",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7463,7 +7388,7 @@
       "calrec",
       "timp"
     ],
-    "emulates":       "Calrec 1061 EQ",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7483,7 +7408,7 @@
       "calrec",
       "timp"
     ],
-    "emulates":  "Calrec DL1656",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -7501,7 +7426,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7519,7 +7444,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7539,7 +7464,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -7557,7 +7482,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7575,7 +7500,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7595,7 +7520,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -7613,7 +7538,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7631,7 +7556,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7651,7 +7576,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -7669,7 +7594,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7689,7 +7614,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -7707,7 +7632,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7725,7 +7650,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7745,7 +7670,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -7763,7 +7688,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7781,7 +7706,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7801,7 +7726,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -7819,7 +7744,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7837,7 +7762,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7855,7 +7780,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7875,7 +7800,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -7894,7 +7819,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7912,7 +7837,7 @@
       "calrec",
       "timp"
     ],
-    "emulates": "Calrec DL1656",
+    "emulates": "Calrec",
     "id": null,
     "ACTIVE": true
   },
@@ -7999,7 +7924,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "filters"
+      "hplp"
     ],
     "tags": [],
     "emulates": null,
@@ -8014,7 +7939,7 @@
     "host": "dll",
     "developer": "Airwindows",
     "families": [
-      "filters"
+      "hplp"
     ],
     "tags": [],
     "emulates": null,
@@ -8029,9 +7954,10 @@
     "host": "dll",
     "developer": "Mixed In Key",
     "families": [
-      "creative tools",
+      "creative",
       "midi",
-      "composition"
+      "composition",
+      "utilities"
     ],
     "tags": [],
     "emulates": null,
@@ -8046,9 +7972,10 @@
     "host": "dll",
     "developer": "Mixed In Key",
     "families": [
-      "creative tools",
+      "creative",
       "midi",
-      "composition"
+      "composition",
+      "utilities"
     ],
     "tags": [],
     "emulates": null,
@@ -8063,9 +7990,10 @@
     "host": "dll",
     "developer": "Mixed In Key",
     "families": [
-      "creative tools",
+      "creative",
       "midi",
-      "composition"
+      "composition",
+      "utilities"
     ],
     "tags": [],
     "emulates": null,
@@ -8080,9 +8008,10 @@
     "host": "dll",
     "developer": "Mixed In Key",
     "families": [
-      "creative tools",
+      "creative",
       "midi",
-      "composition"
+      "composition",
+      "utilities"
     ],
     "tags": [],
     "emulates": null,
@@ -8097,9 +8026,10 @@
     "host": "dll",
     "developer": "Mixed In Key",
     "families": [
-      "creative tools",
+      "creative",
       "midi",
-      "composition"
+      "composition",
+      "utilities"
     ],
     "tags": [],
     "emulates": null,
@@ -8184,7 +8114,7 @@
     "families": [
       "technology",
       "tape machines",
-      "tape", "emulations"
+      "tape"
     ],
     "tags": [],
     "emulates": null,
@@ -8201,12 +8131,12 @@
     "families": [
       "technology",
       "tape machines",
-      "tape", "emulations"
+      "tape"
     ],
     "tags": [
       "cupwise"
     ],
-    "emulates": "multiple cassette tapes",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -8220,12 +8150,12 @@
     "families": [
       "technology",
       "tape machines",
-      "tape", "emulations"
+      "tape"
     ],
     "tags": [
       "cupwise"
     ],
-    "emulates": "multiple cassette tapes",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -8239,12 +8169,12 @@
     "families": [
       "technology",
       "tape machines",
-      "tape", "emulations"
+      "tape"
     ],
     "tags": [
       "cupwise"
     ],
-    "emulates": "multiple cassette tapes",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -8258,12 +8188,12 @@
     "families": [
       "technology",
       "tape machines",
-      "tape", "emulations"
+      "tape"
     ],
     "tags": [
       "cupwise"
     ],
-    "emulates": "multiple cassette tapes",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -8277,12 +8207,12 @@
     "families": [
       "technology",
       "tape machines",
-      "tape", "emulations"
+      "tape"
     ],
     "tags": [
       "cupwise"
     ],
-    "emulates": "multiple cassette tapes",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -8296,12 +8226,12 @@
     "families": [
       "technology",
       "tape machines",
-      "tape", "emulations"
+      "tape"
     ],
     "tags": [
       "cupwise"
     ],
-    "emulates": "multiple cassette tapes",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -8315,12 +8245,12 @@
     "families": [
       "technology",
       "tape machines",
-      "tape", "emulations"
+      "tape"
     ],
     "tags": [
       "cupwise"
     ],
-    "emulates": "multiple cassette tapes",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -8334,12 +8264,12 @@
     "families": [
       "technology",
       "tape machines",
-      "tape", "emulations"
+      "tape"
     ],
     "tags": [
       "cupwise"
     ],
-    "emulates": "multiple cassette tapes",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -8351,6 +8281,8 @@
     "host": "vst3",
     "developer": "Wavesfactory",
     "families": [
+      "technology",
+      "tape machines",
       "tape"
     ],
     "tags": [],
@@ -8426,13 +8358,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "emulations",
+      "technology",
+      "tape machines",
       "compressors",
       "tape",
       "dynamics"
     ],
     "tags": [],
-    "emulates": "multiple cassette compression",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -8444,13 +8377,14 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "emulations",
+      "technology",
+      "tape machines",
       "compressors",
       "tape",
       "dynamics"
     ],
     "tags": [],
-    "emulates": "multiple cassette compression",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -8464,12 +8398,12 @@
     "families": [
       "technology",
       "tape machines",
-      "tape", "emulations"
+      "tape"
     ],
     "tags": [
       "cupwise"
     ],
-    "emulates": "multiple cassette tapes",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -8483,12 +8417,12 @@
     "families": [
       "technology",
       "tape machines",
-      "tape", "emulations"
+      "tape"
     ],
     "tags": [
       "cupwise"
     ],
-    "emulates": "multiple cassette tapes",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -8504,7 +8438,7 @@
       "tape"
     ],
     "tags": [],
-    "emulates": "multiple cassette flanging",
+    "emulates": null,
     "id": null,
     "ACTIVE": true,
     "tage": [
@@ -8523,7 +8457,7 @@
       "tape"
     ],
     "tags": [],
-    "emulates": "multiple cassette flanging",
+    "emulates": null,
     "id": null,
     "ACTIVE": true,
     "tage": [
@@ -8675,7 +8609,7 @@
     "developer": "Acustica",
     "families": [
       "bus processors",
-      "emulations", "multiband"
+      "emulations"
     ],
     "tags": [],
     "emulates": "Solid State Logic Fusion",
@@ -8739,14 +8673,10 @@
     "host": "vst3",
     "developer": "Kuassa",
     "families": [
-      "amp sims", "bass processing"
+      "amp sims"
     ],
     "tags": [],
-    "emulates": [
-      "Clean- tube amp",
-      "Crunch- solid-state amp.",
-      "Drive- overdriven, distorted"
-    ],
+    "emulates": [ "Clean- tube amp", "Crunch- solid-state amp.", "Drive- overdriven, distorted"],
     "id": null,
     "ACTIVE": true
   },
@@ -8757,10 +8687,7 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Acustica",
-    "families": [
-      "channel strips",
-      "emulations"
-    ],
+    "families": ["channel strips" , "emulations"],
     "tags": [],
     "emulates": "Neve Portico",
     "id": null,
@@ -8843,32 +8770,32 @@
   },
   {
     "product": "Airwindows Echo Chambers",
-    "name": "Chamber",
+    "name": "Chamber64",
     "filename": "Chamber64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
     "families": [],
-    "tags": ["reverbs", "spaces"],
-    "emulates": null,
-    "id": null,
-    "ACTIVE": true
-  },
-  {
-    "product": "Airwindows Echo Chambers",
-    "name": "Chamber2",
-    "filename": "Chamber264.dll",
-    "type": "fx",
-    "host": "dll",
-    "developer": "Airwindows",
-    "families": ["reverbs", "spaces"],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Chandler Curve Bender Nebula",
+    "product": "Airwindows Echo Chambers",
+    "name": "Chamber264",
+    "filename": "Chamber264.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": "Airwindows",
+    "families": [],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Airwindows Channel",
     "name": "Chandler Curve Bender 96",
     "filename": "Chandler_Curve_Bender_96.vst3",
     "type": "fx",
@@ -8878,12 +8805,12 @@
       "emulations"
     ],
     "tags": [],
-    "emulates": "Chandler Curve Bender",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Chandler Curve Bender Nebula",
+    "product": "Airwindows Channel",
     "name": "Chandler Curve Bender 96Hv",
     "filename": "Chandler_Curve_Bender_96HV.vst3",
     "type": "fx",
@@ -8893,7 +8820,7 @@
       "emulations"
     ],
     "tags": [],
-    "emulates": "Chandler Curve Bender",
+    "emulates": "EMI / Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -8911,7 +8838,7 @@
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler Germanium Compressor",
+    "emulates": "Chandler",
     "id": null,
     "ACTIVE": true,
     "tage": [
@@ -8932,7 +8859,7 @@
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler Germanium Compressor",
+    "emulates": "Chandler",
     "id": null,
     "ACTIVE": true,
     "tage": [
@@ -8953,7 +8880,7 @@
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler Germanium Compressor",
+    "emulates": "Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -8971,7 +8898,7 @@
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler Germanium Compressor",
+    "emulates": "Chandler",
     "id": null,
     "ACTIVE": true
   },
@@ -8988,7 +8915,7 @@
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Chandler Germanium Compressor",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -9018,7 +8945,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "preamps","emulations"
+      "emulations"
     ],
     "emulates": "Chandler TG2 Preamp",
     "id": null,
@@ -9035,7 +8962,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "preamps","emulations"
+      "emulations"
     ],
     "emulates": "Chandler TG2 Preamp",
     "id": null,
@@ -9052,7 +8979,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "preamps","emulations"
+      "emulations"
     ],
     "tags": [
       "ownhammer"
@@ -9069,7 +8996,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "preamps","emulations"
+      "emulations"
     ],
     "tags": [
       "ownhammer"
@@ -9086,7 +9013,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "preamps","emulations"
+      "emulations"
     ],
     "tags": [
       "ownhammer"
@@ -9103,7 +9030,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "preamps","emulations"
+      "emulations"
     ],
     "tags": [
       "ownhammer"
@@ -9119,7 +9046,7 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Nebula",
-    "families": ["eq", "equalisers", "emulations"],
+    "families": [],
     "tags": [
       "aitb"
     ],
@@ -9136,7 +9063,7 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Nebula",
-    "families": ["eq", "equalisers", "emulations"],
+    "families": [],
     "tags": [
       "aitb"
     ],
@@ -9154,7 +9081,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-"eq", "equalisers", "emulations"
+      "emulations"
     ],
     "tags": [
       "aitb"
@@ -9171,7 +9098,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-"eq", "equalisers", "emulations"
+      "emulations"
     ],
     "tags": [
       "aitb"
@@ -9181,13 +9108,82 @@
     "ACTIVE": true
   },
   {
+    "product": "McDSP Channel G",
+    "name": "Channel G Compact",
+    "filename": "Channel_G_Compact.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "McDSP",
+    "families": [
+      "compressors",
+      "channel strips",
+      "consoles",
+      "emulations",
+      "dynamics"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "McDSP Channel G",
+    "name": "Channel G Console",
+    "filename": "Channel_G_Console.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "McDSP",
+    "families": [
+      "channel strips",
+      "consoles",
+      "emulations"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "McDSP Channel G",
+    "name": "Channel G Dyn",
+    "filename": "Channel_G_Dyn.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "McDSP",
+    "families": [
+      "compressors",
+      "digital",
+      "dynamics"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "McDSP Channel G",
+    "name": "Channel G Eq",
+    "filename": "Channel_G_EQ.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "McDSP",
+    "families": [
+      "equalisers",
+      "eq"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
     "product": "Airwindows Channel",
-    "name": "Channel4",
+    "name": "Channel464",
     "filename": "Channel464.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["consoles"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9195,12 +9191,12 @@
   },
   {
     "product": "Airwindows Channel",
-    "name": "Channel5",
+    "name": "Channel564",
     "filename": "Channel564.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["consoles"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9208,12 +9204,12 @@
   },
   {
     "product": "Airwindows Channel",
-    "name": "Channel6",
+    "name": "Channel664",
     "filename": "Channel664.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["consoles"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9221,12 +9217,12 @@
   },
   {
     "product": "Airwindows Channel",
-    "name": "Channel7",
+    "name": "Channel764",
     "filename": "Channel764.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["consoles"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9234,12 +9230,12 @@
   },
   {
     "product": "Airwindows Channel",
-    "name": "Channel8",
+    "name": "Channel864",
     "filename": "Channel864.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["consoles"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9247,18 +9243,45 @@
   },
   {
     "product": "Airwindows Channel",
-    "name": "Channel9",
+    "name": "Channel964",
     "filename": "Channel964.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["consoles"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
-
+  {
+    "product": "AO Channev",
+    "name": "Channev",
+    "filename": "CHANNEV.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [],
+    "tags": [],
+    "emulates": "Neve",
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "AO Channev",
+    "name": "Channev X64",
+    "filename": "CHANNEV_x64.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": "Airwindows",
+    "families": [
+      "channel strips"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
   {
     "product": "Prime Studio Charly",
     "name": "Charly2",
@@ -9574,26 +9597,26 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows Chorus",
-    "name": "Chorus",
+    "product": "Fuse Audio Chorus",
+    "name": "Chorus64",
     "filename": "Chorus64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["chorus"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows ChorusEnsemble",
-    "name": "ChorusEnsemble",
+    "product": "Airwindows Chorusensemble",
+    "name": "Chorusensemble64",
     "filename": "ChorusEnsemble64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["chorus"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9617,7 +9640,7 @@
   },
   {
     "product": "Chow Tape",
-    "name": "CHOW Tape Model",
+    "name": "Chowtapemodel",
     "filename": "CHOWTapeModel.vst3",
     "type": "fx",
     "host": "vst3",
@@ -9634,12 +9657,14 @@
   },
   {
     "product": "Airwindows Chromeoxide",
-    "name": "ChromeOxide",
+    "name": "Chromeoxide",
     "filename": "ChromeOxide64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
     "families": [
+      "technology",
+      "tape machines",
       "tape"
     ],
     "tags": [],
@@ -9692,7 +9717,7 @@
       "emulations"
     ],
     "tags": [],
-    "emulates": "Kush Clariphonic Mkii",
+    "emulates": "Kush Clariphonic",
     "id": null,
     "ACTIVE": true
   },
@@ -9751,13 +9776,13 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows ClipOnly",
-    "name": "ClipOnly",
+    "product": "Airwindows Clip",
+    "name": "Cliponly64",
     "filename": "ClipOnly64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["clippers"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -9765,33 +9790,49 @@
   },
   {
     "product": "Airwindows Clip",
-    "name": "Cliponly2",
+    "name": "Cliponly264",
     "filename": "ClipOnly264.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["clippers"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows ClipSoftly6",
-    "name": "ClipSoftly6",
+    "product": "Airwindows Clip",
+    "name": "Clipshifter X64",
+    "filename": "ClipShifter_x64.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": "Airwindows",
+    "families": [
+      "limiters",
+      "dynamics"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Airwindows Clip",
+    "name": "Clipsoftly64",
     "filename": "ClipSoftly64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["clippers"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows CloudCoat",
-    "name": "CloudCoat",
+    "product": "Airwindows Cloudcoat",
+    "name": "Cloudcoat",
     "filename": "CloudCoat.dll",
     "type": "fx",
     "host": "dll",
@@ -9942,8 +9983,8 @@
     "ACTIVE": true
   },
   {
-    "product": "Acustica Coffee The Pun",
-    "name": "Coffee The Pun",
+    "product": "Acustica Coffee PUN",
+    "name": "Coffeepun",
     "filename": "COFFEEPUN.vst3",
     "type": "fx",
     "host": "vst3",
@@ -9966,6 +10007,7 @@
     "host": "vst3",
     "developer": "Hornet",
     "families": [
+      "analysis",
       "phase",
       "metering"
     ],
@@ -10209,7 +10251,24 @@
   },
   {
     "product": "U-he ColourCopy",
-    "name": "ColourCopy",
+    "name": "Colourcopy",
+    "filename": "ColourCopy.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": "U-he",
+    "families": [
+      "compressors",
+      "digital",
+      "dynamics"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "U-he ColourCopy",
+    "name": "Colourcopy X64 ",
     "filename": "ColourCopy_x64_.vst3",
     "type": "fx",
     "host": "vst3",
@@ -10235,7 +10294,7 @@
       "emulations",
       "dynamics"
     ],
-    "tags": ["neve"],
+    "tags": [],
     "emulates": [
       "Neve 33609"
     ],
@@ -10255,7 +10314,7 @@
       "emulations",
       "dynamics"
     ],
-    "tags": ["1176"],
+    "tags": [],
     "emulates": "Universal Audio 1176",
     "id": null,
     "ACTIVE": true
@@ -10276,7 +10335,7 @@
     "tags": [
       "cupwise"
     ],
-    "emulates": "multiple tape compression",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -10296,7 +10355,7 @@
     "tags": [
       "cupwise"
     ],
-    "emulates": "multiple tape compression",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -10332,7 +10391,7 @@
       "emulations",
       "dynamics"
     ],
-    "tags": ["dbx"],
+    "tags": [],
     "emulates": "DBX 165A compressor",
     "id": null,
     "ACTIVE": true
@@ -10374,7 +10433,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console0 Buss",
+    "name": "Console0Buss64",
     "filename": "Console0Buss64.dll",
     "type": "fx",
     "host": "dll",
@@ -10389,7 +10448,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console0 Channel",
+    "name": "Console0Channel64",
     "filename": "Console0Channel64.dll",
     "type": "fx",
     "host": "dll",
@@ -10404,7 +10463,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console4 Buss",
+    "name": "Console4Buss64",
     "filename": "Console4Buss64.dll",
     "type": "fx",
     "host": "dll",
@@ -10419,7 +10478,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console4 Channel",
+    "name": "Console4Channel64",
     "filename": "Console4Channel64.dll",
     "type": "fx",
     "host": "dll",
@@ -10434,7 +10493,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console5 Buss",
+    "name": "Console5Buss64",
     "filename": "Console5Buss64.dll",
     "type": "fx",
     "host": "dll",
@@ -10449,7 +10508,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console5 Channel",
+    "name": "Console5Channel64",
     "filename": "Console5Channel64.dll",
     "type": "fx",
     "host": "dll",
@@ -10464,7 +10523,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console5 DarkCh",
+    "name": "Console5Darkch64",
     "filename": "Console5DarkCh64.dll",
     "type": "fx",
     "host": "dll",
@@ -10479,7 +10538,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console6 Buss",
+    "name": "Console6Buss64",
     "filename": "Console6Buss64.dll",
     "type": "fx",
     "host": "dll",
@@ -10494,7 +10553,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console6 Channel",
+    "name": "Console6Channel64",
     "filename": "Console6Channel64.dll",
     "type": "fx",
     "host": "dll",
@@ -10509,7 +10568,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console7 Buss",
+    "name": "Console7Buss64",
     "filename": "Console7Buss64.dll",
     "type": "fx",
     "host": "dll",
@@ -10524,7 +10583,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console7 Cascade",
+    "name": "Console7Cascade64",
     "filename": "Console7Cascade64.dll",
     "type": "fx",
     "host": "dll",
@@ -10539,7 +10598,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console7 Channel",
+    "name": "Console7Channel64",
     "filename": "Console7Channel64.dll",
     "type": "fx",
     "host": "dll",
@@ -10554,7 +10613,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console7 Crunch",
+    "name": "Console7Crunch64",
     "filename": "Console7Crunch64.dll",
     "type": "fx",
     "host": "dll",
@@ -10569,7 +10628,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console8 BussHype",
+    "name": "Console8Busshype64",
     "filename": "Console8BussHype64.dll",
     "type": "fx",
     "host": "dll",
@@ -10584,7 +10643,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console8 BussIn",
+    "name": "Console8Bussin64",
     "filename": "Console8BussIn64.dll",
     "type": "fx",
     "host": "dll",
@@ -10599,7 +10658,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console8 BussOut",
+    "name": "Console8Bussout64",
     "filename": "Console8BussOut64.dll",
     "type": "fx",
     "host": "dll",
@@ -10614,7 +10673,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console8 ChannelHype",
+    "name": "Console8Channelhype64",
     "filename": "Console8ChannelHype64.dll",
     "type": "fx",
     "host": "dll",
@@ -10629,7 +10688,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console8 ChannelIn",
+    "name": "Console8Channelin64",
     "filename": "Console8ChannelIn64.dll",
     "type": "fx",
     "host": "dll",
@@ -10644,7 +10703,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console8 ChannelOut",
+    "name": "Console8Channelout64",
     "filename": "Console8ChannelOut64.dll",
     "type": "fx",
     "host": "dll",
@@ -10659,7 +10718,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console8 Lite Buss",
+    "name": "Console8Litebuss64",
     "filename": "Console8LiteBuss64.dll",
     "type": "fx",
     "host": "dll",
@@ -10674,7 +10733,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console8 Lite Channel",
+    "name": "Console8Litechannel64",
     "filename": "Console8LiteChannel64.dll",
     "type": "fx",
     "host": "dll",
@@ -10689,7 +10748,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console8 SubHype",
+    "name": "Console8Subhype64",
     "filename": "Console8SubHype64.dll",
     "type": "fx",
     "host": "dll",
@@ -10704,7 +10763,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console8 SubIn",
+    "name": "Console8Subin64",
     "filename": "Console8SubIn64.dll",
     "type": "fx",
     "host": "dll",
@@ -10719,7 +10778,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console8 SubOut",
+    "name": "Console8Subout64",
     "filename": "Console8SubOut64.dll",
     "type": "fx",
     "host": "dll",
@@ -10734,7 +10793,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console9 Buss",
+    "name": "Console9Buss64",
     "filename": "Console9Buss64.dll",
     "type": "fx",
     "host": "dll",
@@ -10749,7 +10808,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "Console9 Channel",
+    "name": "Console9Channel64",
     "filename": "Console9Channel64.dll",
     "type": "fx",
     "host": "dll",
@@ -10764,7 +10823,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "ConsoleLA Buss",
+    "name": "Consolelabuss64",
     "filename": "ConsoleLABuss64.dll",
     "type": "fx",
     "host": "dll",
@@ -10779,7 +10838,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "ConsoleLA Channel",
+    "name": "Consolelachannel64",
     "filename": "ConsoleLAChannel64.dll",
     "type": "fx",
     "host": "dll",
@@ -10794,7 +10853,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "ConsoleMC Buss",
+    "name": "Consolemcbuss64",
     "filename": "ConsoleMCBuss64.dll",
     "type": "fx",
     "host": "dll",
@@ -10809,7 +10868,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "ConsoleMC Channel",
+    "name": "Consolemcchannel64",
     "filename": "ConsoleMCChannel64.dll",
     "type": "fx",
     "host": "dll",
@@ -10824,7 +10883,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "ConsoleMD Buss",
+    "name": "Consolemdbuss64",
     "filename": "ConsoleMDBuss64.dll",
     "type": "fx",
     "host": "dll",
@@ -10839,7 +10898,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "ConsoleMD Channel",
+    "name": "Consolemdchannel64",
     "filename": "ConsoleMDChannel64.dll",
     "type": "fx",
     "host": "dll",
@@ -10854,7 +10913,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "ConsoleX Buss",
+    "name": "Consolexbuss64",
     "filename": "ConsoleXBuss64.dll",
     "type": "fx",
     "host": "dll",
@@ -10869,7 +10928,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "ConsoleX Channel",
+    "name": "Consolexchannel64",
     "filename": "ConsoleXChannel64.dll",
     "type": "fx",
     "host": "dll",
@@ -10884,7 +10943,7 @@
   },
   {
     "product": "Airwinwdows Console",
-    "name": "ConsoleX Pre",
+    "name": "Consolexpre64",
     "filename": "ConsoleXPre64.dll",
     "type": "fx",
     "host": "dll",
@@ -11066,14 +11125,29 @@
   },
   {
     "product": "Voxengo Correlometer",
+    "name": "Correlation Meter",
+    "filename": "correlation_meter.jsfx",
+    "type": "fx",
+    "host": "jsfx",
+    "developer": "Voxengo",
+    "families": [],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Voxengo Correlometer",
     "name": "Correlometer",
     "filename": "Correlometer.vst3",
     "type": "fx",
     "host": "vst3",
     "developer": "Voxengo",
     "families": [
-"phase",
-      "metering"
+      "analysis",
+      "loudness",
+      "metering",
+      "gainstaging"
     ],
     "tags": [],
     "emulates": null,
@@ -11313,20 +11387,20 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows CrunchCoat",
-    "name": "CrunchCoat",
+    "product": "Airwindows Crunch",
+    "name": "Crunchcoat64",
     "filename": "CrunchCoat64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["reverbs"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Voxengo Crunch",
+    "product": "Airwindows Crunch",
     "name": "Crunchessor",
     "filename": "Crunchessor.vst3",
     "type": "fx",
@@ -11335,6 +11409,8 @@
     "families": [
       "compressors",
       "de essers",
+      "vocal",
+      "reverbs",
       "dynamics"
     ],
     "tags": [],
@@ -11343,8 +11419,8 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows CrunchyGrooveWear",
-    "name": "CrunchyGrooveWear",
+    "product": "Airwindows Crunch",
+    "name": "Crunchygroovewear64",
     "filename": "CrunchyGrooveWear64.dll",
     "type": "fx",
     "host": "dll",
@@ -11373,7 +11449,7 @@
   },
   {
     "product": "Airwindows Crystal",
-    "name": "Crystal",
+    "name": "Crystal64",
     "filename": "Crystal64.dll",
     "type": "fx",
     "host": "dll",
@@ -11440,12 +11516,12 @@
   },
   {
     "product": "Airwindows CStrip",
-    "name": "CStrip",
+    "name": "Cstrip64",
     "filename": "CStrip64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["channel strips"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -11453,12 +11529,12 @@
   },
   {
     "product": "Airwindows CStrip",
-    "name": "CStrip2",
+    "name": "Cstrip264",
     "filename": "CStrip264.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["channel strips"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -11567,7 +11643,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
-      "preamps","dynamics"
+      "preamps"
     ],
     "tags": [
       "cupwise"
@@ -11668,8 +11744,10 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "distortion",
+      "harmonics",
       "preamps",
-      "dynamics"
+      "saturation"
     ],
     "tags": [
       "cupwise"
@@ -11797,8 +11875,11 @@
     "families": [
       "convolution",
       "reverbs",
+      [
+        "reverbs",
         "emulations",
         "spaces"
+      ]
     ],
     "tags": [
       "cupwise"
@@ -11815,9 +11896,11 @@
     "host": "dll",
     "developer": "Nebula",
     "families": [
+      [
         "reverbs",
         "emulations",
         "spaces"
+      ]
     ],
     "tags": [
       "cupwise"
@@ -11834,9 +11917,11 @@
     "host": "dll",
     "developer": "Nebula",
     "families": [
+      [
         "reverbs",
         "emulations",
         "spaces"
+      ]
     ],
     "tags": [
       "cupwise"
@@ -11853,9 +11938,11 @@
     "host": "dll",
     "developer": "Nebula",
     "families": [
+      [
         "reverbs",
         "emulations",
         "spaces"
+      ]
     ],
     "tags": [
       "cupwise"
@@ -11874,8 +11961,11 @@
     "families": [
       "convolution",
       "reverbs",
+      [
+        "reverbs",
         "emulations",
         "spaces"
+      ]
     ],
     "tags": [
       "cupwise"
@@ -11893,9 +11983,12 @@
     "developer": "Nebula",
     "families": [
       "convolution",
+      "reverbs",
+      [
         "reverbs",
         "emulations",
         "spaces"
+      ]
     ],
     "tags": [
       "cupwise"
@@ -11912,9 +12005,11 @@
     "host": "dll",
     "developer": "Nebula",
     "families": [
+      [
         "reverbs",
         "emulations",
         "spaces"
+      ]
     ],
     "tags": [
       "cupwise"
@@ -11932,9 +12027,12 @@
     "developer": "Nebula",
     "families": [
       "convolution",
+      "reverbs",
+      [
         "reverbs",
         "emulations",
         "spaces"
+      ]
     ],
     "tags": [
       "cupwise"
@@ -11951,9 +12049,13 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "digital",
+      "reverbs",
+      [
         "reverbs",
         "emulations",
         "spaces"
+      ]
     ],
     "tags": [
       "cupwise"
@@ -12107,6 +12209,41 @@
     "ACTIVE": true
   },
   {
+    "product": "Cyclone",
+    "name": "Cyclone",
+    "filename": "Cyclone.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "unknown",
+    "families": [
+      "compressors",
+      "digital",
+      "dynamics"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": false
+  },
+  {
+    "product": "Cypress",
+    "name": "Cypress Tt 15",
+    "filename": "Cypress_TT_15.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": "unknown",
+    "families": [
+      "compressors",
+      "amp sims",
+      "emulations",
+      "dynamics"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": false
+  },
+  {
     "product": "Demian D 1175 Compressor",
     "name": "D 1175 Compressor",
     "filename": "D 1175 Compressor.jsfx",
@@ -12119,7 +12256,7 @@
       "emulations",
       "dynamics"
     ],
-    "tags": ["1175"],
+    "tags": [],
     "emulates": "1175 Compressor",
     "id": null,
     "ACTIVE": true
@@ -12163,7 +12300,8 @@
     "host": "jsfx",
     "developer": "Demian D",
     "families": [
-      "de essers"
+      "de essers",
+      "vocal mixing tools"
     ],
     "tags": [],
     "emulates": null,
@@ -12213,7 +12351,7 @@
       "emulations",
       "dynamics"
     ],
-    "tags": "fairchild",
+    "tags": [],
     "emulates": "Fairchild 660",
     "id": null,
     "ACTIVE": true
@@ -12357,7 +12495,7 @@
       "eq",
       "emulations"
     ],
-    "tags": ["pultec"],
+    "tags": [],
     "emulates": "Pultec EQ",
     "id": null,
     "ACTIVE": true
@@ -12400,9 +12538,9 @@
     "type": "fx",
     "host": "jsfx",
     "developer": "Demian D",
-    "families": ["eq", "equalisers"],
+    "families": [],
     "tags": [],
-    "emulates": null,
+    "emulates": "Neve",
     "id": null,
     "ACTIVE": true
   },
@@ -12430,7 +12568,7 @@
     "host": "jsfx",
     "developer": "Demian D",
     "families": [
-      "bus processors", "inflators"
+      "bus processors"
     ],
     "tags": [],
     "emulates": null,
@@ -12524,7 +12662,7 @@
     "host": "jsfx",
     "developer": "Demian D",
     "families": [
-      "stereo field",
+      "spatial",
       "monostereo"
     ],
     "tags": [],
@@ -12541,7 +12679,7 @@
     "developer": "Demian D",
     "families": [
       "low end",
-      "bass processing", "drum mixing tools"
+      "bass processing"
     ],
     "tags": [],
     "emulates": null,
@@ -12714,7 +12852,8 @@
     "host": "vst3",
     "developer": "Direct Approach",
     "families": [
-      "de essers"
+      "de essers",
+      "vocal"
     ],
     "tags": [],
     "emulates": null,
@@ -12734,7 +12873,7 @@
       "tape"
     ],
     "tags": [],
-    "emulates": "cassette",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -12766,7 +12905,7 @@
       "reverbs",
       "emulations"
     ],
-    "tags": ["emt"],
+    "tags": [],
     "emulates": "EMT 250",
     "id": null,
     "ACTIVE": true
@@ -12794,7 +12933,7 @@
     "host": "jsfx",
     "developer": "Chokehold",
     "families": [
-      "utilities"
+      "ulitity"
     ],
     "tags": [],
     "emulates": null,
@@ -13020,7 +13159,7 @@
   },
   {
     "product": "Airwindows Dehiss",
-    "name": "DeHiss",
+    "name": "Dehiss",
     "filename": "DeHiss64.dll",
     "type": "fx",
     "host": "dll",
@@ -13104,12 +13243,12 @@
   },
   {
     "product": "Airwindows Density",
-    "name": "Density",
+    "name": "Density64",
     "filename": "Density64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["distortion"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13117,20 +13256,20 @@
   },
   {
     "product": "Airwindows Density",
-    "name": "Density2",
+    "name": "Density264",
     "filename": "Density264.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["distortion"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Variety of Sound Density",
-    "name": "Density mkIII",
+    "product": "Airwindows Density",
+    "name": "Densitymkiii  64 ",
     "filename": "DensitymkIII__64_.dll",
     "type": "fx",
     "host": "dll",
@@ -13147,12 +13286,12 @@
   },
   {
     "product": "Airwindows Derez",
-    "name": "DeRez",
+    "name": "Derez64",
     "filename": "DeRez64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["bitcrushers"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13160,12 +13299,12 @@
   },
   {
     "product": "Airwindows Derez",
-    "name": "Derez2",
+    "name": "Derez264",
     "filename": "DeRez264.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["bitcrushers"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13173,12 +13312,12 @@
   },
   {
     "product": "Airwindows Derez",
-    "name": "Derez3",
+    "name": "Derez364",
     "filename": "DeRez364.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["bitcrushers"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13192,7 +13331,7 @@
     "host": "vst3",
     "developer": "Acustica",
     "families": [
-      "channel strips", "emulations"
+      "channel strips"
     ],
     "tags": [],
     "emulates": [
@@ -13291,7 +13430,7 @@
   },
   {
     "product": "Soundtoys Devil-Loc",
-    "name": "Devil-loc",
+    "name": "Devilloc",
     "filename": "DevilLoc.vst3",
     "type": "fx",
     "host": "vst3",
@@ -13308,7 +13447,7 @@
   },
   {
     "product": "Soundtoys Devil-Loc",
-    "name": "Devil-loc Deluxe",
+    "name": "Devillocdeluxe",
     "filename": "DevilLocDeluxe.vst3",
     "type": "fx",
     "host": "vst3",
@@ -13333,7 +13472,7 @@
     "families": [
       "equalisers",
       "analog",
-      "eq", "emulations"
+      "eq"
     ],
     "tags": [],
     "emulates": "CharterOak PEQ-1",
@@ -13349,7 +13488,7 @@
     "developer": "SoundeviceDigital",
     "families": [
       "analog",
-      "di box", "emulations"
+      "di box"
     ],
     "tags": [],
     "emulates": null,
@@ -13486,7 +13625,7 @@
     "ACTIVE": true
   },
   {
-    "product": "Arturia Dist OpAmp-21",
+    "product": "Airwindows Dist OpAmp-21",
     "name": "Dist Opamp 21",
     "filename": "Dist_OPAMP_21.vst3",
     "type": "fx",
@@ -13503,7 +13642,7 @@
     "ACTIVE": true
   },
   {
-    "product": "Arturia Tube Culture",
+    "product": "Airwindows Tube Culture",
     "name": "Dist Tube Culture",
     "filename": "Dist_TUBE_CULTURE.vst3",
     "type": "fx",
@@ -13521,12 +13660,12 @@
   },
   {
     "product": "Airwindows Distance",
-    "name": "Distance",
+    "name": "Distance64",
     "filename": "Distance64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["filters"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13534,12 +13673,12 @@
   },
   {
     "product": "Airwindows Distance",
-    "name": "Distance2",
+    "name": "Distance264",
     "filename": "Distance264.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["filters"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13547,12 +13686,12 @@
   },
   {
     "product": "Airwindows Distance",
-    "name": "Distance3",
+    "name": "Distance364",
     "filename": "Distance364.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["filters"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13560,7 +13699,7 @@
   },
   {
     "product": "Kiive Distinct",
-    "name": "Distinct V2",
+    "name": "Distinct V2 X64",
     "filename": "Distinct_V2_x64.vst3",
     "type": "fx",
     "host": "vst3",
@@ -13577,64 +13716,97 @@
   },
   {
     "product": "Airwindows Disortion",
-    "name": "Distortion",
+    "name": "Distortion 1 Mkii",
+    "filename": "Distortion_1_mkII.dll",
+    "type": "fx",
+    "host": "dll",
+    "developer": null,
+    "families": [
+      "pedals",
+      "emulations"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Airwindows Disortion",
+    "name": "Distortion64",
     "filename": "Distortion64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["distortion"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows Ditherbox",
-    "name": "Ditherbox",
+    "product": "Airwindows Dist",
+    "name": "Distox",
+    "filename": "Distox.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": null,
+    "families": [
+      "distortion",
+      "harmonics",
+      "saturation"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Airwindows Dither",
+    "name": "Ditherbox64",
     "filename": "Ditherbox64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["dither"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows DitherFloat",
-    "name": "DitherFloat",
+    "product": "Airwindows Dither",
+    "name": "Ditherfloat64",
     "filename": "DitherFloat64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["dither"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows DitherMeDiskers",
-    "name": "Dithermediskers",
+    "product": "Airwindows Dither",
+    "name": "Dithermediskers64",
     "filename": "DitherMeDiskers64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["dither"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Airwindows DitherMeTimbers",
-    "name": "DitherMeTimbers",
+    "product": "Airwindows Dither",
+    "name": "Dithermetimbers64",
     "filename": "DitherMeTimbers64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["dither"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13656,7 +13828,7 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows Doublelay",
+    "product": "Airwindows Delay",
     "name": "Doublelay",
     "filename": "Doublelay64.dll",
     "type": "fx",
@@ -13671,8 +13843,8 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows Doublepaul",
-    "name": "Doublepaul",
+    "product": "Airwindows Paul",
+    "name": "Doublepaul64",
     "filename": "DoublePaul64.dll",
     "type": "fx",
     "host": "dll",
@@ -13829,6 +14001,7 @@
     "host": "vst3",
     "developer": "TBPro Audio",
     "families": [
+      "analysis",
       "loudness",
       "metering"
     ],
@@ -13927,7 +14100,7 @@
     "type": "fx",
     "host": "jsfx",
     "developer": "Geraint",
-    "families": ["creative","delay"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -13998,12 +14171,12 @@
   },
   {
     "product": "Airwindows DrumSlam",
-    "name": "DrumSlam",
+    "name": "Drumslam64",
     "filename": "DrumSlam64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["compressors","dynamics"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -14034,9 +14207,12 @@
     "host": "jsfx",
     "developer": "Nebula",
     "families": [
+      "channel management",
       "emulations",
+      [
         "reverbs",
         "spring"
+      ]
     ],
     "tags": [],
     "emulates": [
@@ -14072,6 +14248,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "tape",
       "emulations",
       "reverbs",
       "spring"
@@ -14148,6 +14325,7 @@
     "host": "vst3",
     "developer": "Nebula",
     "families": [
+      "tape",
       "emulations",
       "reverbs",
       "spring"
@@ -14205,7 +14383,8 @@
     "host": "vst3",
     "developer": "Audio Assault",
     "families": [
-      "amp sims"
+      "amp sims",
+      "emulations"
     ],
     "tags": [],
     "emulates": null,
@@ -14293,8 +14472,8 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows DubSub",
-    "name": "DubSub 2",
+    "product": "Airwindows Dubsub",
+    "name": "Dubsub 2",
     "filename": "DubSub264.dll",
     "type": "fx",
     "host": "dll",
@@ -14309,8 +14488,8 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows DustBunny",
-    "name": "DustBunny",
+    "product": "Airwindows Dustbunny",
+    "name": "Dustbunny",
     "filename": "DustBunny64.dll",
     "type": "fx",
     "host": "dll",
@@ -14459,12 +14638,27 @@
   {
     "product": "Airwindows Dyno",
     "name": "Dyno",
+    "filename": "Dyno.vst3",
+    "type": "fx",
+    "host": "vst3",
+    "developer": "Airwindows",
+    "families": [
+      "compressors",
+      "dynamics"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "Airwindows Dyno",
+    "name": "Dyno64",
     "filename": "Dyno64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": [      "compressors",
-      "dynamics"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
@@ -15167,8 +15361,7 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "compressors",
-      "dynamics"
+      "compressors", "dynamics"
     ],
     "tags": [],
     "emulates": null,
@@ -15184,10 +15377,7 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "digital",
-      "tape",
-      "reverse",
-      "delay"
+      "digital", "tape", "reverse", "delay"
     ],
     "tags": [],
     "emulates": null,
@@ -15202,8 +15392,7 @@
     "host": "vst3",
     "developer": "Kuassa",
     "families": [
-      "pedals",
-      "distortion"
+      "pedals", "distortion"
     ],
     "tags": [],
     "emulates": null,
@@ -15219,8 +15408,7 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "emulations",
-      "delay"
+      "emulations", "delay"
     ],
     "tags": [],
     "emulates": "classic bucket brigade delay units",
@@ -15252,9 +15440,7 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "emulations",
-      "distortion",
-      "fuzz"
+      "emulations", "distortion", "fuzz"
     ],
     "tags": [],
     "emulates": null,
@@ -15286,9 +15472,7 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "emulations",
-      "preamps",
-      "tubes"
+      "emulations", "preamps", "tubes"
     ],
     "tags": [],
     "emulates": "tube driver pedal from the 1980s",
@@ -15336,8 +15520,7 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "emulations",
-      "distortion"
+      "emulations", "distortion"
     ],
     "tags": [],
     "emulates": "Marshall distortion pedals",
@@ -15353,8 +15536,7 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "pitch shifters",
-      "harmonisers"
+      "pitch shifters", "harmonisers"
     ],
     "tags": [],
     "emulates": null,
@@ -15386,9 +15568,7 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "emulations",
-      "fuzz",
-      "distortion"
+      "emulations", "fuzz", "distortion"
     ],
     "tags": [],
     "emulates": "classic fuzz, distortion, and sustainer pedals",
@@ -15404,8 +15584,7 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "emulations",
-      "overdrive"
+      "emulations", "overdrive"
     ],
     "tags": [],
     "emulates": null,
@@ -15469,8 +15648,7 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "rotary",
-      "modulation"
+      "rotary", "modulation"
     ],
     "tags": [],
     "emulates": null,
@@ -15486,10 +15664,7 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "reverbs",
-      "spaces",
-      "plate",
-      "spring"
+      "reverbs", "spaces", "plate", "spring"
     ],
     "tags": [],
     "emulates": null,
@@ -15505,9 +15680,7 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "emulations",
-      "noise",
-      "gates"
+      "emulations", "noise", "gates"
     ],
     "tags": [],
     "emulates": null,
@@ -15555,14 +15728,10 @@
     "developer": "Kuassa",
     "families": [
       "pedals",
-      "emulations",
-      "modulation"
+      "emulations", "modulation"
     ],
     "tags": [],
-    "emulates": [
-      "Cry Baby",
-      "Mu-Tron III"
-    ],
+    "emulates": ["Cry Baby", "Mu-Tron III"],
     "id": null,
     "ACTIVE": true
   },
@@ -15652,7 +15821,8 @@
     "host": "vst3",
     "developer": "Eiosis",
     "families": [
-      "de essers"
+      "de essers",
+      "vocal"
     ],
     "tags": [],
     "emulates": null,
@@ -15887,7 +16057,7 @@
       "eq"
     ],
     "tags": [],
-    "emulates": null,
+    "emulates": "Kush Audio",
     "id": null,
     "ACTIVE": true
   },
@@ -15909,20 +16079,20 @@
     "ACTIVE": true
   },
   {
-    "product": "Airwindows ElectroHat",
-    "name": "ElectroHat",
+    "product": "Audiority Electric Matter",
+    "name": "Electrohat64",
     "filename": "ElectroHat64.dll",
     "type": "fx",
     "host": "dll",
     "developer": "Airwindows",
-    "families": ["noise"],
+    "families": [],
     "tags": [],
     "emulates": null,
     "id": null,
     "ACTIVE": true
   },
   {
-    "product": "Voxengo Elephant",
+    "product": "Voxengo voxengo",
     "name": "Elephant",
     "filename": "Elephant.vst3",
     "type": "fx",
@@ -15931,6 +16101,21 @@
     "families": [
       "limiters",
       "dynamics"
+    ],
+    "tags": [],
+    "emulates": null,
+    "id": null,
+    "ACTIVE": true
+  },
+  {
+    "product": "reaclassical Elsa",
+    "name": "Elsa",
+    "filename": "Elsa.jsfx",
+    "type": "fx",
+    "host": "jsfx",
+    "developer": "reaclassical",
+    "families": [
+      "reaclassical"
     ],
     "tags": [],
     "emulates": null,
@@ -15950,7 +16135,7 @@
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Elysia Alpha Compressor",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -15967,7 +16152,7 @@
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Elysia Alpha Compressor",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -15984,7 +16169,7 @@
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Elysia Alpha Compressor",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -16001,7 +16186,7 @@
       "dynamics"
     ],
     "tags": [],
-    "emulates": "Elysia Alpha Compressor",
+    "emulates": null,
     "id": null,
     "ACTIVE": true
   },
@@ -25199,13 +25384,8 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [
-      "channel strips",
-      "emulations"
-    ],
-    "tags": [
-      "api"
-    ],
+    "families": ["channel strips", "emulations"],
+    "tags": ["api"],
     "emulates": "API",
     "id": null,
     "ACTIVE": true
@@ -25217,13 +25397,8 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [
-      "channel strips",
-      "emulations"
-    ],
-    "tags": [
-      "api"
-    ],
+    "families": ["channel strips", "emulations"],
+    "tags": ["api"],
     "emulates": "API",
     "id": null,
     "ACTIVE": true
@@ -25235,13 +25410,8 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [
-      "channel strips",
-      "emulations"
-    ],
-    "tags": [
-      "neve"
-    ],
+    "families": ["channel strips", "emulations"],
+    "tags": ["neve"],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -25253,13 +25423,8 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [
-      "channel strips",
-      "emulations"
-    ],
-    "tags": [
-      "neve"
-    ],
+    "families": ["channel strips", "emulations"],
+    "tags": ["neve"],
     "emulates": "Neve",
     "id": null,
     "ACTIVE": true
@@ -25271,14 +25436,8 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [
-      "compressors",
-      "diode",
-      "emulations"
-    ],
-    "tags": [
-      "neve"
-    ],
+    "families": ["compressors", "diode", "emulations"],
+    "tags": ["neve"],
     "emulates": "Neve 254E",
     "id": null,
     "ACTIVE": true
@@ -25291,10 +25450,7 @@
     "host": "vst3",
     "developer": "Lindell",
     "families": [
-      "compressors",
-      "diode",
-      "multiband",
-      "emulations"
+      "compressors", "diode", "multiband","emulations"
     ],
     "tags": [],
     "emulates": "Neve 2254E",
@@ -25323,14 +25479,8 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [
-      "compressors",
-      "bus",
-      "emulations"
-    ],
-    "tags": [
-      "api"
-    ],
+    "families": ["compressors", "bus", "emulations"],
+    "tags": ["api"],
     "emulates": "API 2500 bus compressor",
     "id": null,
     "ACTIVE": true
@@ -25342,14 +25492,8 @@
     "type": "fx",
     "host": "vst3",
     "developer": "Lindell",
-    "families": [
-      "compressors",
-      "bus",
-      "emulations"
-    ],
-    "tags": [
-      "api"
-    ],
+    "families": ["compressors", "bus", "emulations"],
+    "tags": ["api"],
     "emulates": "API 2500 compressor",
     "id": null,
     "ACTIVE": true
@@ -25377,12 +25521,7 @@
     "host": "vst3",
     "developer": "SoundToys",
     "families": [
-      "pitch shifters",
-      "modulation",
-      "saturation",
-      "tubes",
-      "vocoder",
-      "vocal mixing tools"
+     "pitch shifters", "modulation", "saturation", "tubes", "vocoder","vocal mixing tools"
     ],
     "tags": [],
     "emulates": null,
@@ -25401,10 +25540,7 @@
       "vocal mixing tools"
     ],
     "tags": [],
-    "emulates": [
-      "Eventide H3000",
-      "AMS DMX 15-80"
-    ],
+    "emulates": ["Eventide H3000", "AMS DMX 15-80"],
     "id": null,
     "ACTIVE": true
   },
@@ -25454,6 +25590,7 @@
     "id": null,
     "ACTIVE": true
   },
+
   {
     "product": "Airwindows Logical",
     "name": "Logical4",

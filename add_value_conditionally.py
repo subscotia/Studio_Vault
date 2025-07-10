@@ -33,16 +33,16 @@ CONDITION_FIELD = "product"
 # "exact_match":     The field's value is exactly equal to CONDITION_VALUE.
 # "contains_string": The string field contains CONDITION_VALUE as a substring.
 # "in_list":         The list field contains CONDITION_VALUE as an item.
-CONDITION_TYPE = "contains_string"
+CONDITION_TYPE = "exact_match"
 
 # The value to use for the condition check.
-CONDITION_VALUE = "Chorus Class"
+CONDITION_VALUE = "Calrec 1061 EQ Nebula"
 
 # --- The Action ---
 # The field to add the new value to.
-TARGET_FIELD = "tags"
+TARGET_FIELD = "emulates"
 # The new value to add.
-VALUE_TO_ADD = "timp"
+VALUE_TO_ADD = "Calrec 1061 EQ"
 
 
 # ---------------------------------------------------------
