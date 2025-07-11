@@ -49,3 +49,19 @@ Crucially, any plugin that qualifies for the **`equalisers`** family **must also
 
 * *Example:* A full-featured digital EQ would have families including `["equalisers", "eq", "digital"]`.
 
+### **Entry 4: The `type` Field**
+
+**Rule:** The `type` field is a mandatory, single-value field that defines the primary function of a tool. It must be one of the following four values: `"instrument"`, `"container"`, `"fx"`, or `"utility"`.
+
+**Context:** This classification provides the broadest, most fundamental categorization of a tool in the vault. It is not meant to be as granular as the `families` field. Its purpose is to allow for high-level filtering to quickly isolate a major class of tool.
+
+**Implementation:**
+
+* **`instrument`**: Use for any plugin that generates sound, typically a VSTi. This includes synthesizers, samplers, and romplers.
+    * *Example: Spectrasonics Omnisphere*
+* **`container`**: Use for any plugin that acts as a host or shell for other plugins or modules.
+    * *Examples: Native Instruments Kontakt, Slate Digital VMR, a channel strip that can load other modules.*
+* **`fx`**: Use for any standard audio effect that processes sound. This is the most common type for non-instrument plugins.
+    * *Examples: A reverb, compressor, delay, or equaliser.*
+* **`utility`**: Use for any tool whose primary purpose is technical analysis, routing, or workflow assistance, rather than direct sound manipulation.
+    * *Examples: A metering plugin, a spectrum analyzer, a gain staging tool, or a connectivity plugin like Blue Cat's Connector.*

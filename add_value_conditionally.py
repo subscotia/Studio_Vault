@@ -36,13 +36,13 @@ CONDITION_FIELD = "product"
 CONDITION_TYPE = "exact_match"
 
 # The value to use for the condition check.
-CONDITION_VALUE = "Calrec 1061 EQ Nebula"
+CONDITION_VALUE = "TNT Dynamics Nebula"
 
 # --- The Action ---
 # The field to add the new value to.
 TARGET_FIELD = "emulates"
 # The new value to add.
-VALUE_TO_ADD = "Calrec 1061 EQ"
+VALUE_TO_ADD = "Valley People Dyna-mite"
 
 
 # ---------------------------------------------------------
