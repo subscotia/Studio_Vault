@@ -14,7 +14,7 @@ from pathlib import Path
 
 VAULT_FILE = Path("../data/ivault_master.json")
 REF_DIR = Path("../ref")
-OUTPUT_FILE = REF_DIR / "families.txt"
+OUTPUT_FILE = REF_DIR / "families.md"
 
 def main():
     data = json.loads(VAULT_FILE.read_text(encoding="utf-8"))

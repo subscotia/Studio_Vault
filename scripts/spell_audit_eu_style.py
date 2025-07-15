@@ -11,7 +11,7 @@ spell_audit_eu_style_expanded.py
 
 📋 Reports US spelling → EU suggestion without modifying entries
 
-📁 INPUT: xvault_master_wking.json
+📁 INPUT: xvault_master.json
 📁 OUTPUT: backups/eu_spelling_report_expanded.txt
 """
 
@@ -20,7 +20,7 @@ from pathlib import Path
 import re
 
 # ── CONFIG ───────────────────────────
-VAULT_FILE = Path("../data/xvault_master_wking.json")
+VAULT_FILE = Path("../data/xvault_master.json")
 REPORT_FILE = Path("backups/eu_spelling_report_expanded.txt")
 SAVE_REPORT = True
 IGNORE_FIELDS = {"Product", "Name", "Filename"}

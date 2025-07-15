@@ -51,7 +51,7 @@ Crucially, any plugin that qualifies for the **`equalisers`** family **must also
 
 ### **Entry 4: The `type` Field**
 
-**Rule:** The `type` field is a mandatory, single-value field that defines the primary function of a tool. It must be one of the following four values: `"instrument"`, `"container"`, `"fx"`, or `"utility"`.
+**Rule:** The `type` field is a mandatory, single-value field that defines the primary function of a tool. It must be one of the following four values: `"instrument"`, `"container"`, `"fx"`, `"utility"` or '"expansion"'.
 
 **Context:** This classification provides the broadest, most fundamental categorization of a tool in the vault. It is not meant to be as granular as the `families` field. Its purpose is to allow for high-level filtering to quickly isolate a major class of tool.
 
@@ -59,9 +59,71 @@ Crucially, any plugin that qualifies for the **`equalisers`** family **must also
 
 * **`instrument`**: Use for any plugin that generates sound, typically a VSTi. This includes synthesizers, samplers, and romplers.
     * *Example: Spectrasonics Omnisphere*
-* **`container`**: Use for any plugin that acts as a host or shell for other plugins or modules.
-    * *Examples: Native Instruments Kontakt, Slate Digital VMR, a channel strip that can load other modules.*
+* **`container`**: Use for any plugin that acts PRIMARILY as a host or shell for other plugins or modules.
+    * *Examples: Native Instruments Kontakt, EastWest Opus.*
 * **`fx`**: Use for any standard audio effect that processes sound. This is the most common type for non-instrument plugins.
     * *Examples: A reverb, compressor, delay, or equaliser.*
 * **`utility`**: Use for any tool whose primary purpose is technical analysis, routing, or workflow assistance, rather than direct sound manipulation.
     * *Examples: A metering plugin, a spectrum analyzer, a gain staging tool, or a connectivity plugin like Blue Cat's Connector.*
+**expansion:** This type is for any product that is not a standalone plugin itself, but is a sound library, preset pack, or add-on content designed to be loaded into an existing instrument.
+
+    Entry 5: Clarification on instrument, container, and expansion Types
+Rule: A clear distinction must be made between tools that create sound, tools that host other tools, and content that expands existing tools.
+
+Context: Many modern music software products have a modular nature. This guide provides a strict taxonomy to classify these components correctly, ensuring they can be found easily and logically within the vault.
+
+Implementation:
+
+**container:** This type is reserved for a plugin that, on its own, produces no sound and exists only to host other sound-producing libraries or modules.
+
+Primary Example: Native Instruments Kontakt, when loaded without any libraries.
+
+**instrument:** This type is for any plugin that can produce sound "out of the box" with its default installation.
+
+Example: Toontrack's EZDrummer or Superior Drummer, which come with a core sound library.
+
+**expansion:** This type is for any product that is not a standalone plugin itself, but is a sound library, preset pack, or add-on content designed to be loaded into an existing instrument.
+
+Example: An EZX expansion pack for EZDrummer.
+
+The Hierarchy Rule:
+The primary function dictates the type.
+
+A tool that can both make sound on its own AND host expansions (like EZDrummer) is classified as an instrument, not a container.
+
+A library that requires a container to function (like a Kontakt library) is classified as an instrument, not an expansion, because the container itself does nothing. The library is the instrument in this context.
+
+Entry 6: ID Naming Convention
+Rule: Every object in the master vault must be assigned a unique, permanent ID. This ID is generated programmatically and follows a strict three-part structure to ensure it is both unique and informative.
+
+ID Structure: [Type Code (1)][Developer Code (2)][Sequential Number (5)]
+
+Part 1: Type Code (1 character)
+A single uppercase letter representing the object's type key.
+
+I = instrument
+
+X = fx
+
+U = utility
+
+C = container
+
+E = expansion
+
+Part 2: Developer Code (2 characters)
+The first two letters of the developer key, converted to uppercase. If the developer name is only a single character, it will be padded with an 'X'.
+
+Part 3: Sequential Number (5 digits)
+A globally sequential number that increments for each object in the entire vault, starting from 00001. This number is unique across the whole database and is not reset for different types or developers.
+
+Example:
+If the 125th object in the vault is an instrument from "Spitfire Audio", its ID would be:
+
+I (for instrument)
+
+SP (from Spitfire Audio)
+
+00125 (the 125th sequential number)
+
+Final ID: ISP00125

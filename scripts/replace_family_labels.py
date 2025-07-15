@@ -10,7 +10,7 @@ You imported legacy Reaper labels (e.g. "---STUDIO-Cocteau") and want to replace
 one or more modern equivalents (e.g. "studios", "guthrie").
 
 🔁 WHAT IT DOES:
-- Loads `xvault_master_wking.json`
+- Loads `xvault_master.json`
 - Scans entries with a "families" list
 - Replaces mapped values (supports 1:1 or 1:many mappings)
 - Adds new values, removes old ones, avoids duplicates
@@ -34,12 +34,12 @@ import json
 from pathlib import Path
 
 # ── CONFIG ─────────────────────────────────────────────
-VAULT_FILE = Path("../data/xvault_master_wking.json")
+VAULT_FILE = Path("../data/ivault_master.json")
 BACKUP_DIR = Path("../backups")
-BACKUP_FILE = BACKUP_DIR / "xvault_wking_filling.relabel_families.json"
+BACKUP_FILE = BACKUP_DIR / "ivault_master.relabel_families.json"
 
 family_replacements = {
-    "reverb": "reverbs"
+    "vocal": "vocals"
 
 
     # Add more as needed

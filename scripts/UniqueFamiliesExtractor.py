@@ -13,7 +13,7 @@ import json
 import argparse
 from pathlib import Path
 
-VAULT_FILE = Path("../data/xvault_master_wking.json")
+VAULT_FILE = Path("../data/xvault_master.json")
 REF_DIR = Path("../ref")
 OUTPUT_FILE = REF_DIR / "families.txt"
 

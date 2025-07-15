@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographic: The 20-Year Evolution of Web Servers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Brilliant Blues -->
+    <!-- Application Structure Plan: The infographic uses a linear, scroll-based narrative to guide the user through the evolution of web servers. It starts with the most fundamental shift (Architecture), then presents the current market landscape (Market Share), followed by how things are built and run (Deployment & Operations), the underlying communication changes (Protocols), and finally, how they are secured (Security). This top-down approach makes the complex information digestible for someone returning to the field. -->
+    <!-- Visualization & Content Choices:
+        - Report Info: Monolith vs. Microservices. Goal: Compare. Viz: HTML/CSS Diagram. Justification: A simple visual metaphor is most effective for this core concept. CONFIRMING: NO SVG/Mermaid.
+        - Report Info: Server Market Share. Goal: Compare/Show Composition. Viz: Donut Chart (Chart.js/Canvas). Justification: Best way to show parts of a whole for the current server landscape. CONFIRMING: NO SVG/Mermaid.
+        - Report Info: Deployment Evolution. Goal: Organize/Show Process. Viz: HTML/CSS Flowchart. Justification: Clearly illustrates the linear progression of abstraction in deployment technologies. CONFIRMING: NO SVG/Mermaid.
+        - Report Info: CI/CD Pipeline. Goal: Organize/Show Process. Viz: HTML/CSS Flowchart. Justification: A simple, clear representation of this key automated workflow. CONFIRMING: NO SVG/Mermaid.
+        - Report Info: HTTP Protocol Changes. Goal: Compare. Viz: HTML/CSS Comparison Table. Justification: Allows for a direct, feature-by-feature comparison for clarity. CONFIRMING: NO SVG/Mermaid.
+        - Report Info: Security Pillars. Goal: Inform. Viz: Icon-based cards using Unicode characters. Justification: Breaks down complex security topics into easily scannable, visually distinct points. CONFIRMING: NO SVG/Mermaid.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f9ff;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 320px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+        .flow-arrow {
+            color: #99D9E8;
+            font-size: 2rem;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body class="text-slate-700">
+
+    <div class="container mx-auto max-w-5xl px-4 py-8 sm:py-12">
+
+        <header class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#00A1E4] mb-4">The 20-Year Leap</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto text-slate-600">The world of web servers has transformed. What was once about managing a single box is now about orchestrating a dynamic, automated ecosystem. Here’s what’s changed.</p>
+        </header>
+
+        <section id="architecture" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-12">The Blueprint Has Changed: From Monolith to Microservices</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12">The single, all-in-one application has been replaced by a collection of small, independent services. This was the most fundamental shift, enabling the speed, scale, and resilience of the modern web.</p>
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-slate-200 text-center">
+                    <h3 class="text-2xl font-semibold mb-6 text-[#33B5E5]">THEN: The Monolith</h3>
+                    <div class="bg-slate-700 text-white rounded-lg flex items-center justify-center h-40 w-full font-mono text-xl shadow-inner">
+                        <span>Single Application</span>
+                    </div>
+                    <p class="mt-6 text-sm text-slate-500">One large codebase handled everything. Simple to start, but slow to update, difficult to scale, and a single failure could crash the entire system.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-slate-200 text-center">
+                    <h3 class="text-2xl font-semibold mb-6 text-[#00A1E4]">NOW: Microservices</h3>
+                    <div class="grid grid-cols-3 gap-3 h-40">
+                        <div class="bg-[#00A1E4] text-white text-xs rounded-md flex items-center justify-center font-mono shadow-md">Auth</div>
+                        <div class="bg-[#33B5E5] text-white text-xs rounded-md flex items-center justify-center font-mono shadow-md">Users</div>
+                        <div class="bg-[#33B5E5] text-white text-xs rounded-md flex items-center justify-center font-mono shadow-md">Products</div>
+                        <div class="bg-[#33B5E5] text-white text-xs rounded-md flex items-center justify-center font-mono shadow-md">Orders</div>
+                        <div class="bg-[#66C7E7] text-white text-xs rounded-md flex items-center justify-center font-mono shadow-md">Payments</div>
+                        <div class="bg-[#66C7E7] text-white text-xs rounded-md flex items-center justify-center font-mono shadow-md">Search</div>
+                    </div>
+                    <p class="mt-6 text-sm text-slate-500">The application is broken into small, independent services that communicate via APIs. They can be scaled, updated, and deployed separately.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-16 border-t border-slate-300">
+
+        <section id="market-share" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-4">A New Set of Leaders</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12">While Apache once ruled, the modern landscape is dominated by servers built for high-concurrency and performance. Nginx's event-driven architecture made it the new king, while cloud providers have also become major players.</p>
+            <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg border border-slate-200">
+                <h3 class="text-xl font-semibold text-center mb-6">Web Server Market Share (2024-2025)</h3>
+                <div class="chart-container">
+                    <canvas id="serverMarketShareChart"></canvas>
+                </div>
+                <p class="text-xs text-center mt-4 text-slate-400">Data aggregated from multiple 2024/2025 reports. "Others" includes servers like LiteSpeed, OpenResty, Node.js etc.</p>
+            </div>
+        </section>
+
+        <hr class="my-16 border-t border-slate-300">
+
+        <section id="deployment" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-12">The Automation Revolution: How We Deploy</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12">Deployment is no longer a manual process of uploading files. It's an automated, multi-stage pipeline where infrastructure itself is treated as code. The goal: fast, reliable, and repeatable releases.</p>
+
+            <div class="bg-white p-8 rounded-xl shadow-lg border border-slate-200 mb-12">
+                 <h3 class="text-2xl font-semibold mb-8 text-center text-[#00A1E4]">The Path to Abstraction</h3>
+                 <div class="flex flex-col md:flex-row items-center justify-between text-center gap-4">
+                    <div class="flex-1">
+                        <div class="text-5xl mb-2">🖥️</div>
+                        <h4 class="font-bold">Virtual Machines</h4>
+                        <p class="text-sm text-slate-500">Abstracted hardware</p>
+                    </div>
+                    <div class="flow-arrow hidden md:block">→</div>
+                     <div class="flex-1">
+                        <div class="text-5xl mb-2">📦</div>
+                        <h4 class="font-bold">Containers (Docker)</h4>
+                        <p class="text-sm text-slate-500">Abstracted OS</p>
+                    </div>
+                    <div class="flow-arrow hidden md:block">→</div>
+                    <div class="flex-1">
+                        <div class="text-5xl mb-2">🚢</div>
+                        <h4 class="font-bold">Orchestration (K8s)</h4>
+                        <p class="text-sm text-slate-500">Abstracted operations</p>
+                    </div>
+                     <div class="flow-arrow hidden md:block">→</div>
+                    <div class="flex-1">
+                        <div class="text-5xl mb-2">☁️</div>
+                        <h4 class="font-bold">Serverless</h4>
+                        <p class="text-sm text-slate-500">Abstracted everything</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-lg border border-slate-200">
+                <h3 class="text-2xl font-semibold mb-8 text-center text-[#00A1E4]">The CI/CD Pipeline</h3>
+                <div class="flex flex-col md:flex-row items-stretch justify-center gap-2">
+                    <div class="bg-slate-100 rounded-lg p-4 text-center flex-1 flex flex-col justify-center">
+                        <h4 class="font-semibold">Code</h4>
+                        <p class="text-sm text-slate-500">Commit to Git</p>
+                    </div>
+                    <div class="flow-arrow mx-2 self-center rotate-90 md:rotate-0">→</div>
+                    <div class="bg-slate-100 rounded-lg p-4 text-center flex-1 flex flex-col justify-center">
+                        <h4 class="font-semibold">Build</h4>
+                        <p class="text-sm text-slate-500">Create container</p>
+                    </div>
+                    <div class="flow-arrow mx-2 self-center rotate-90 md:rotate-0">→</div>
+                    <div class="bg-slate-100 rounded-lg p-4 text-center flex-1 flex flex-col justify-center">
+                        <h4 class="font-semibold">Test</h4>
+                        <p class="text-sm text-slate-500">Run automated tests</p>
+                    </div>
+                    <div class="flow-arrow mx-2 self-center rotate-90 md:rotate-0">→</div>
+                    <div class="bg-[#CCEBF0] rounded-lg p-4 text-center flex-1 flex flex-col justify-center">
+                        <h4 class="font-semibold text-[#00A1E4]">Deploy</h4>
+                        <p class="text-sm text-slate-500">Release to production</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-16 border-t border-slate-300">
+
+        <section id="protocols" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-12">Faster, Smarter Conversations</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12">The underlying protocols of the web have been re-engineered for performance. This means faster page loads, more efficient data transfer, and the ability to build real-time applications that were previously impossible.</p>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-slate-200">
+                    <h3 class="text-xl font-bold text-[#00A1E4] mb-4">HTTP/1.1</h3>
+                    <p class="text-sm">Sequential requests over many connections. Slowed down by "head-of-line" blocking.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-slate-200">
+                     <h3 class="text-xl font-bold text-[#00A1E4] mb-4">HTTP/2</h3>
+                    <p class="text-sm">Multiple requests over a single connection (multiplexing). Much faster and more efficient.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-slate-200">
+                     <h3 class="text-xl font-bold text-[#00A1E4] mb-4">HTTP/3</h3>
+                    <p class="text-sm">Built on UDP (QUIC) to eliminate blocking entirely. Ideal for mobile and unstable networks.</p>
+                </div>
+            </div>
+             <div class="mt-8 text-center">
+                <p class="text-slate-600">And for APIs, the shift has been from rigid **SOAP** to flexible **REST**, with **GraphQL** now allowing apps to request exactly the data they need, and nothing more.</p>
+            </div>
+        </section>
+
+        <hr class="my-16 border-t border-slate-300">
+
+        <section id="security" class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-12">Security is No Longer an Option</h2>
+            <p class="text-center max-w-3xl mx-auto mb-12">Security has shifted from a manual, reactive process to a proactive, automated, and multi-layered defense that's built-in by default.</p>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                 <div class="bg-white p-6 rounded-xl shadow-lg border border-slate-200 text-center">
+                    <div class="text-4xl mb-3">🔒</div>
+                    <h3 class="font-semibold text-lg">HTTPS Everywhere</h3>
+                    <p class="text-sm text-slate-500">Free, automated certificates (Let's Encrypt) made encryption the default for all web traffic.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-slate-200 text-center">
+                    <div class="text-4xl mb-3">🛡️</div>
+                    <h3 class="font-semibold text-lg">WAFs</h3>
+                    <p class="text-sm text-slate-500">Web Application Firewalls filter malicious requests before they reach the server.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-slate-200 text-center">
+                    <div class="text-4xl mb-3">🌊</div>
+                    <h3 class="font-semibold text-lg">DDoS Mitigation</h3>
+                    <p class="text-sm text-slate-500">Cloud-scale networks and intelligent filtering absorb massive traffic attacks.</p>
+                </div>
+                 <div class="bg-white p-6 rounded-xl shadow-lg border border-slate-200 text-center">
+                    <div class="text-4xl mb-3">⚙️</div>
+                    <h3 class="font-semibold text-lg">Security Headers</h3>
+                    <p class="text-sm text-slate-500">Instruct browsers to enforce stricter security policies, preventing client-side attacks.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center mt-20 pt-8 border-t border-slate-300">
+            <p class="text-slate-500">The modern web is a complex, interconnected system. The role of a web administrator has evolved to that of an architect and orchestrator, focused on automation, resilience, and performance at scale.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const wrapLabel = (label, maxLength) => {
+                if (label.length <= maxLength) {
+                    return label;
+                }
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                words.forEach(word => {
+                    if ((currentLine + ' ' + word).trim().length > maxLength) {
+                        lines.push(currentLine.trim());
+                        currentLine = word;
+                    } else {
+                        currentLine = (currentLine + ' ' + word).trim();
+                    }
+                });
+                if (currentLine) {
+                    lines.push(currentLine.trim());
+                }
+                return lines;
+            };
+
+            const marketShareCtx = document.getElementById('serverMarketShareChart').getContext('2d');
+            new Chart(marketShareCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Nginx', 'Cloudflare Server', 'Apache', 'Others'],
+                    datasets: [{
+                        label: 'Market Share %',
+                        data: [33.8, 24.1, 25.8, 16.3],
+                        backgroundColor: [
+                            '#00A1E4',
+                            '#33B5E5',
+                            '#66C7E7',
+                            '#CCEBF0'
+                        ],
+                        borderColor: '#f0f9ff',
+                        borderWidth: 4,
+                        hoverOffset: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                padding: 20,
+                                font: {
+                                    size: 14,
+                                    family: "'Inter', sans-serif"
+                                },
+                                color: '#475569'
+                            }
+                        },
+                        tooltip: {
+                            enabled: true,
+                            backgroundColor: '#0f172a',
+                            titleFont: { size: 16 },
+                            bodyFont: { size: 14 },
+                            padding: 12,
+                            cornerRadius: 6,
+                            callbacks: {
+                                title: function(tooltipItems) {
+                                    const item = tooltipItems[0];
+                                    let label = item.chart.data.labels[item.dataIndex];
+                                    if (Array.isArray(label)) {
+                                      return label.join(' ');
+                                    }
+                                    return label;
+                                },
+                                label: function(context) {
+                                    let label = context.dataset.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    if (context.parsed !== null) {
+                                        label += context.parsed + '%';
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    },
+                    cutout: '65%'
+                }
+            });
+        });
+    </script>
+</body>
+</html>

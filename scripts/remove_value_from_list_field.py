@@ -23,14 +23,14 @@ from pathlib import Path
 from vault_utils import save_vault_with_backup
 
 # --- CONFIGURATION (Tweak these values as needed) ---
-VAULT_FILE = Path("../data/xvault_master_wking.json")
+VAULT_FILE = Path("../data/ivault_master.json")
 BACKUP_DIR = Path("../backups")
 
 # The list-based field to clean up.
 FIELD_TO_CLEAN = "families"
 
 # The specific string value you want to remove from that field.
-VALUE_TO_REMOVE = "1176"
+VALUE_TO_REMOVE = "indian"
 
 
 # ---------------------------------------------------------

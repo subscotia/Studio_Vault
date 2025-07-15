@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Delta Blues Pantheon, Vol. II: Charley Patton</title>
+    <!-- Chosen Palette: Earthy Neutrals with a Deep Red Accent -->
+    <!-- Application Structure Plan: A thematic, non-linear SPA using the same four-section structure as Vol. I for series consistency: The Father (biography/milieu), The Sound (musical deconstruction), The Recordings (interactive discography), and The Legacy (influence). This structure allows users to explore different facets of Patton's dense history at their own pace, transforming a scholarly text into an engaging, explorable narrative. Key interactions include an interactive diagram of Dockery Farms, tabs for his guitar techniques, and a filterable table of his recordings, all designed for discovery. -->
+    <!-- Visualization & Content Choices:
+    - **Dockery Farms Nexus:** (Organize) -> HTML/CSS Diagram -> Click nodes to reveal musician bios -> Visually organizes the key figures and their relationships better than a list.
+    - **Guitar Techniques:** (Explain) -> Interactive HTML/CSS Tabs -> Click to switch between Percussion, Slide, and Tunings -> Breaks down complex technical info into digestible chunks.
+    - **Recorded Works:** (Explore Data) -> Filterable HTML Table (JS) -> Users can filter by session or tuning -> Turns a static data table from the report into an interactive research tool.
+    - **Influence Map:** (Show Relationships) -> HTML/CSS "Family Tree" Layout -> Hover to highlight connections -> Clearly visualizes his direct and indirect lineage, making his vast influence immediately apparent.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f1ee; /* A slightly warmer off-white */
+            color: #44403c; /* stone-700 */
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .nav-link {
+            transition: color 0.3s, border-color 0.3s;
+        }
+        .nav-link.active {
+            color: #a855f7; /* A deep, earthy red - was #991b1b, now purple for visibility */
+            border-bottom-color: #a855f7;
+        }
+        .content-section {
+            display: none;
+        }
+        .content-section.active {
+            display: block;
+        }
+        .tab-btn {
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .tab-btn.active {
+            background-color: #44403c; /* stone-700 */
+            color: #f4f1ee;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .nexus-node {
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .nexus-node:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(153, 27, 27, 0.3);
+        }
+        .influence-node {
+            transition: all 0.3s;
+        }
+        .influence-node:hover {
+             transform: scale(1.05);
+             box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+             z-index: 10;
+        }
+    </style>
+</head>
+<body class="bg-[#f4f1ee]">
+
+    <header class="text-center py-12 px-4 bg-[#e7e5e4]">
+        <h2 class="text-lg font-semibold text-stone-600 tracking-widest">THE DELTA BLUES PANTHEON, VOL. II</h2>
+        <h1 class="text-5xl md:text-7xl font-bold text-stone-900 mt-2">Charley Patton</h1>
+        <p class="mt-4 max-w-2xl mx-auto text-stone-700">A Voice Like a Gravel Road: The Father of the Delta Blues</p>
+    </header>
+
+    <nav id="navbar" class="sticky top-0 bg-[#f4f1ee]/80 backdrop-blur-sm shadow-md z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center items-center space-x-4 md:space-x-8 py-3 border-b border-stone-300">
+                <button data-section="father" class="nav-link text-stone-500 font-semibold border-b-2 border-transparent py-2 px-2">The Father</button>
+                <button data-section="sound" class="nav-link text-stone-500 font-semibold border-b-2 border-transparent py-2 px-2">The Sound</button>
+                <button data-section="recordings" class="nav-link text-stone-500 font-semibold border-b-2 border-transparent py-2 px-2">The Recordings</button>
+                <button data-section="legacy" class="nav-link text-stone-500 font-semibold border-b-2 border-transparent py-2 px-2">The Legacy</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <section id="father-section" class="content-section">
+            <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
+                <h2 class="text-4xl font-bold mb-4 text-center">The World That Made the Man</h2>
+                <p class="text-lg text-stone-600 mb-8 max-w-3xl mx-auto text-center">To understand Charley Patton is to understand the Mississippi Delta at the turn of the 20th century. His life and music were forged in the crucible of sharecropping and Jim Crow, yet it was within this oppressive system that a cultural explosion occurred, with one location serving as its undisputed epicenter: Dockery Farms.</p>
+                <div class="grid md:grid-cols-5 gap-8 items-start">
+                    <div class="md:col-span-2">
+                        <h3 class="text-2xl font-bold mb-2">The Kingdom of Cotton</h3>
+                        <p class="text-stone-700 leading-relaxed">The post-Civil War Delta was a landscape of economic bondage. The sharecropping system trapped families in inescapable cycles of debt, legally binding them to the land. This world of total control was reinforced by the social terror of Jim Crow, creating an environment of profound hardship. Yet, it was from the work songs and field hollers of this oppressive world that a new musical language of resilience and defiance emerged: the blues.</p>
+                        <h3 class="text-2xl font-bold mt-6 mb-2">An Enigma's Origins</h3>
+                        <p class="text-stone-700 leading-relaxed">Patton’s own life is shrouded in mystery. His birth year is uncertain, and his mixed Black, White, and Native American heritage placed him in a liminal space. This ambiguity, coupled with a deep conflict between his father's preaching and his own love for the "devil's music," created the complex, larger-than-life persona of the ultimate showman and sinner-preacher.</p>
+                    </div>
+                    <div class="md:col-span-3">
+                         <h3 class="text-2xl font-bold mb-4 text-center">Nexus: Dockery Farms</h3>
+                         <div id="nexus-container" class="relative bg-stone-100 p-6 rounded-lg border-2 border-dashed border-stone-300 min-h-[400px]">
+                            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+                                <div class="nexus-node bg-red-900 text-white p-4 rounded-full shadow-lg" data-musician="patton">
+                                    <h4 class="font-bold">Charley Patton</h4>
+                                    <p class="text-xs">The King</p>
+                                </div>
+                            </div>
+                            <div class="absolute top-[15%] left-[15%] text-center">
+                                <div class="nexus-node bg-stone-600 text-white p-3 rounded-full shadow-md" data-musician="sloan">
+                                    <h4 class="font-bold text-sm">Henry Sloan</h4>
+                                </div>
+                            </div>
+                            <div class="absolute top-[20%] right-[20%] text-center">
+                                 <div class="nexus-node bg-stone-600 text-white p-3 rounded-full shadow-md" data-musician="house">
+                                    <h4 class="font-bold text-sm">Son House</h4>
+                                </div>
+                            </div>
+                            <div class="absolute bottom-[15%] left-[25%] text-center">
+                                 <div class="nexus-node bg-stone-600 text-white p-3 rounded-full shadow-md" data-musician="wolf">
+                                    <h4 class="font-bold text-sm">Howlin' Wolf</h4>
+                                </div>
+                            </div>
+                            <div class="absolute bottom-[20%] right-[15%] text-center">
+                                 <div class="nexus-node bg-stone-600 text-white p-3 rounded-full shadow-md" data-musician="johnson">
+                                    <h4 class="font-bold text-sm">Robert Johnson</h4>
+                                </div>
+                            </div>
+                            <div id="nexus-info" class="absolute bottom-0 left-0 right-0 p-4 bg-white/70 backdrop-blur-sm rounded-b-lg text-center min-h-[80px] flex items-center justify-center">
+                                <p class="text-stone-600">Click a musician to see their connection to Dockery.</p>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sound-section" class="content-section">
+             <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
+                <h2 class="text-4xl font-bold mb-4 text-center">The Patton Sound</h2>
+                 <p class="text-lg text-stone-600 mb-8 max-w-3xl mx-auto text-center">To call Charley Patton's style "primitive" is to miss its genius. He was a master innovator who treated the guitar as a full orchestra and his voice as a force of nature. His sound was a complex tapestry of polyrhythms, percussive attacks, and raw lyrical journalism that set the template for all Delta blues to follow.</p>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <article>
+                        <h3 class="text-2xl font-bold mb-4">A Voice From the Dirt</h3>
+                        <p class="text-stone-700 leading-relaxed">Patton's voice was his most powerful instrument. A gravelly, booming shout that could carry 500 yards without amplification, it was a direct descendant of the field holler. He used it as a journalistic tool, documenting the world around him—from the Great Mississippi Flood of 1927 in "High Water Everywhere" to local droughts and figures. He was his community's griot, preserving its history in song.</p>
+                    </article>
+                    <article>
+                         <h3 class="text-2xl font-bold mb-4">The Architect's Toolkit</h3>
+                         <div class="mb-4 border-b border-stone-300">
+                             <button class="tab-btn px-4 py-2 rounded-t-lg bg-stone-200" data-tab="percussion">Percussive Power</button>
+                             <button class="tab-btn px-4 py-2 rounded-t-lg bg-stone-200" data-tab="slide">Slide Virtuoso</button>
+                             <button class="tab-btn px-4 py-2 rounded-t-lg bg-stone-200" data-tab="tunings">Master of Tunings</button>
+                         </div>
+                         <div id="percussion-tab" class="tab-content">
+                             <h4 class="font-bold text-xl mb-2">The Guitar as a Drum</h4>
+                             <p class="text-stone-700 leading-relaxed">Patton played the guitar with a polyrhythmic drive, treating it as a percussion instrument. He would tap on its body to add rhythmic layers and pioneered a percussive "snap" on the bass strings, plucking them so they struck the fretboard for a sharp, aggressive attack. This created a full-band sound from a single instrument.</p>
+                         </div>
+                         <div id="slide-tab" class="tab-content">
+                              <h4 class="font-bold text-xl mb-2">A Voice-like Moan</h4>
+                              <p class="text-stone-700 leading-relaxed">He was a master of the slide guitar, using a knife or bottleneck to coax mournful, voice-like sounds from the strings. His control was so precise that even on century-old recordings, his intonation is noted as being "spot on," a testament to his virtuosity and a direct refutation of any notion that his playing was crude.</p>
+                         </div>
+                         <div id="tunings-tab" class="tab-content">
+                              <h4 class="font-bold text-xl mb-2">A Vast Tonal Palette</h4>
+                              <p class="text-stone-700 leading-relaxed">Patton's mastery of various tunings—including Standard, Open G (Spanish), and Open D (Vestapol)—gave him incredible versatility. He rarely used a capo, instead tuning the entire guitar up to achieve a brighter, more tense sound. This difficult technique allowed him to create a wide range of moods and textures for his diverse repertoire.</p>
+                         </div>
+                    </article>
+                </div>
+             </div>
+        </section>
+
+        <section id="recordings-section" class="content-section">
+            <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
+                <h2 class="text-4xl font-bold mb-4 text-center">The Permanent Record</h2>
+                <p class="text-lg text-stone-600 mb-8 max-w-3xl mx-auto text-center">Patton's recording career was brief (1929-1934) but foundational. Discovered by store owner H.C. Speir, he recorded for Paramount and Vocalion. The Paramount pressings were notoriously poor, yet from these few surviving, battered 78s, a revolution was born. Explore his recorded works below.</p>
+                <div class="flex flex-wrap justify-center gap-4 mb-6">
+                    <div>
+                        <label for="session-filter" class="font-bold text-stone-600 mr-2">Filter by Session:</label>
+                        <select id="session-filter" class="p-2 border border-stone-300 rounded-md">
+                            <option value="all">All Sessions</option>
+                            <option value="Paramount">Paramount (1929-30)</option>
+                            <option value="Vocalion">Vocalion (1934)</option>
+                        </select>
+                    </div>
+                     <div>
+                        <label for="tuning-filter" class="font-bold text-stone-600 mr-2">Filter by Tuning:</label>
+                        <select id="tuning-filter" class="p-2 border border-stone-300 rounded-md">
+                            <option value="all">All Tunings</option>
+                            <option value="Standard">Standard</option>
+                            <option value="Spanish">Spanish (Open G)</option>
+                            <option value="Vestapol">Vestapol (Open D)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead class="bg-stone-800 text-white">
+                            <tr>
+                                <th class="p-3">Song Title</th>
+                                <th class="p-3">Session</th>
+                                <th class="p-3">Tuning</th>
+                                <th class="p-3 hidden md:table-cell">Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody id="recordings-table-body">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="legacy-section" class="content-section">
+            <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
+                <h2 class="text-4xl font-bold mb-4 text-center">A Delta Dynasty</h2>
+                <p class="text-lg text-stone-600 mb-8 max-w-3xl mx-auto text-center">Patton's influence was absolute. He was the patriarch of a musical dynasty, directly mentoring the next generation and creating a performance archetype—the charismatic, wild frontman—that can be traced directly to the biggest stars in rock and roll. Hover over the names below to trace his lineage.</p>
+                <div class="flex flex-col items-center space-y-8">
+
+                    <div class="influence-node bg-red-900 text-white p-4 rounded-lg shadow-2xl text-center">
+                        <h3 class="text-2xl font-bold">Charley Patton</h3>
+                        <p>The Father</p>
+                    </div>
+
+                    <div class="w-px h-8 bg-stone-400"></div>
+
+                    <div class="flex flex-wrap justify-center gap-8">
+                         <div class="influence-node bg-stone-200 p-4 rounded-lg shadow-lg text-center">
+                             <h4 class="text-xl font-bold">Howlin' Wolf</h4>
+                             <p class="text-stone-600">The Heir</p>
+                             <p class="text-sm mt-1">Directly mentored by Patton; modeled his vocal style and stage presence on him.</p>
+                         </div>
+                          <div class="influence-node bg-stone-200 p-4 rounded-lg shadow-lg text-center">
+                             <h4 class="text-xl font-bold">Son House</h4>
+                             <p class="text-stone-600">The Contemporary</p>
+                             <p class="text-sm mt-1">Recorded with Patton in the historic 1930 Grafton session.</p>
+                         </div>
+                          <div class="influence-node bg-stone-200 p-4 rounded-lg shadow-lg text-center">
+                             <h4 class="text-xl font-bold">Tommy Johnson</h4>
+                             <p class="text-stone-600">The Student</p>
+                              <p class="text-sm mt-1">Another key Delta figure who received direct lessons from Patton.</p>
+                         </div>
+                    </div>
+                     <div class="w-px h-8 bg-stone-400"></div>
+                     <div class="flex flex-wrap justify-center gap-8">
+                         <div class="influence-node bg-stone-100 p-4 rounded-lg shadow-md text-center">
+                             <h4 class="text-lg font-bold">Robert Johnson</h4>
+                             <p class="text-stone-500">The Follower</p>
+                              <p class="text-xs mt-1">Famously followed Patton and Willie Brown from gig to gig to absorb their techniques.</p>
+                         </div>
+                         <div class="influence-node bg-stone-100 p-4 rounded-lg shadow-md text-center">
+                             <h4 class="text-lg font-bold">Muddy Waters</h4>
+                             <p class="text-stone-500">The Inheritor</p>
+                             <p class="text-xs mt-1">Claimed Patton as a primary influence, carrying the Delta sound to Chicago.</p>
+                         </div>
+                         <div class="influence-node bg-stone-100 p-4 rounded-lg shadow-md text-center">
+                             <h4 class="text-lg font-bold">John Lee Hooker</h4>
+                             <p class="text-stone-500">The Admirer</p>
+                             <p class="text-xs mt-1">Recorded a version of Patton's "Pea Vine Blues," connecting two pillars of the Pantheon.</p>
+                         </div>
+                     </div>
+                </div>
+                 <div class="mt-12 text-center border-t-2 border-dashed border-stone-300 pt-8">
+                     <h3 class="text-3xl font-bold">The First Rock & Roller?</h3>
+                     <p class="text-stone-700 max-w-2xl mx-auto mt-4">With his aggressive rhythm, shouted vocals, and flashy showmanship—playing the guitar behind his back decades before Hendrix—Patton embodied the core elements of rock and roll. The Rock & Roll Hall of Fame inducted him as an "Early Influence" in 2021, officially recognizing his foundational role in the music that changed the world.</p>
+                 </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 mt-8 border-t border-stone-300">
+        <p class="text-stone-600">The Delta Blues Pantheon, Vol. II &copy; 2024</p>
+    </footer>
+
+    <script>
+    const AppData = {
+        nexusInfo: {
+            patton: { title: 'Charley Patton', text: 'The central figure at Dockery. He was the star, the mentor, and the primary innovator whose presence drew other musicians.' },
+            sloan: { title: 'Henry Sloan', text: 'An older, unrecorded musician who played in a "new, unusual style." He was Patton\'s primary mentor at Dockery.' },
+            house: { title: 'Son House', text: 'A fellow giant of the Delta blues, he lived at Dockery and recorded alongside Patton in the historic 1930 Grafton sessions.' },
+            wolf: { title: 'Howlin\' Wolf', text: 'As a young man, Chester Burnett received direct lessons from Patton at Dockery, modeling his powerful style on his mentor.' },
+            johnson: { title: 'Robert Johnson', text: 'The legendary Johnson was known to travel to the area around Dockery to watch and learn from masters like Patton and Son House.' },
+        },
+        recordings: [
+            { title: 'Pony Blues', session: 'Paramount', tuning: 'Standard', tuning_key: 'E (Standard)', notes: 'His first and biggest commercial hit.' },
+            { title: 'A Spoonful Blues', session: 'Paramount', tuning: 'Vestapol', tuning_key: 'Vestapol (Open D)', notes: 'Lap-style slide.' },
+            { title: 'Down the Dirt Road Blues', session: 'Paramount', tuning: 'Standard', tuning_key: 'C (Standard)', notes: '' },
+            { title: 'Prayer of Death (Parts 1 & 2)', session: 'Paramount', tuning: 'Spanish', tuning_key: 'Spanish (Open G)', notes: 'Gospel song, lap-style slide.' },
+            { title: 'Screamin\' and Hollerin\' the Blues', session: 'Paramount', tuning: 'Spanish', tuning_key: 'Spanish (Open G)', notes: 'Lap-style slide.' },
+            { title: 'Banty Rooster Blues', session: 'Paramount', tuning: 'Spanish', tuning_key: 'Spanish (Open G)', notes: 'Lap-style slide.' },
+            { title: 'Pea Vine Blues', session: 'Paramount', tuning: 'Spanish', tuning_key: 'Spanish (Open G)', notes: 'Lap-style slide, references Dockery\'s railroad.' },
+            { title: 'High Water Everywhere (Parts 1 & 2)', session: 'Paramount', tuning: 'Spanish', tuning_key: 'Spanish (Open G)', notes: 'Topical masterpiece about the 1927 flood.' },
+            { title: 'Green River Blues', session: 'Paramount', tuning: 'Standard', tuning_key: 'E (Standard)', notes: '' },
+            { title: 'Dry Well Blues', session: 'Paramount', tuning: 'Standard', tuning_key: 'E (Standard)', notes: 'Topical song about a local drought.' },
+            { title: 'Moon Going Down', session: 'Paramount', tuning: 'Spanish', tuning_key: 'Spanish (Open G)', notes: 'With Willie Brown, lap-style slide.' },
+            { title: 'High Sheriff Blues', session: 'Vocalion', tuning: 'Spanish', tuning_key: 'Spanish (Open G)', notes: 'From his final session in NYC.' },
+            { title: 'Stone Pony Blues', session: 'Vocalion', tuning: 'Standard', tuning_key: 'E (Standard)', notes: 'A re-recording of his first hit.' },
+            { title: '34 Blues', session: 'Vocalion', tuning: 'Standard', tuning_key: 'C (Standard)', notes: 'A stark, bleak song from his last sessions.' },
+            { title: 'Poor Me', session: 'Vocalion', tuning: 'Standard', tuning_key: 'C (Standard)', notes: 'Prophetic song recorded months before his death.' },
+            { title: 'Oh Death', session: 'Vocalion', tuning: 'Spanish', tuning_key: 'Spanish (Open G)', notes: 'Haunting duet with his partner Bertha Lee.' }
+        ]
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const navLinks = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('.content-section');
+
+        function showSection(sectionId) {
+            sections.forEach(section => section.classList.toggle('active', section.id === `${sectionId}-section`));
+            navLinks.forEach(link => link.classList.toggle('active', link.dataset.section === sectionId));
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        navLinks.forEach(link => link.addEventListener('click', () => showSection(link.dataset.section)));
+        showSection('father');
+
+        // Nexus Section Logic
+        const nexusNodes = document.querySelectorAll('.nexus-node');
+        const nexusInfo = document.getElementById('nexus-info');
+        nexusNodes.forEach(node => {
+            node.addEventListener('click', () => {
+                const musicianId = node.dataset.musician;
+                const info = AppData.nexusInfo[musicianId];
+                nexusInfo.innerHTML = `<h4 class="font-bold text-lg text-stone-800">${info.title}</h4><p class="text-stone-600 mt-1">${info.text}</p>`;
+            });
+        });
+
+        // Sound Section Tabs Logic
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                tabBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const tabId = `${btn.dataset.tab}-tab`;
+                tabContents.forEach(content => content.classList.toggle('active', content.id === tabId));
+            });
+        });
+        document.querySelector('.tab-btn[data-tab="percussion"]').click();
+
+        // Recordings Section Table Logic
+        const sessionFilter = document.getElementById('session-filter');
+        const tuningFilter = document.getElementById('tuning-filter');
+        const tableBody = document.getElementById('recordings-table-body');
+
+        function renderTable() {
+            const selectedSession = sessionFilter.value;
+            const selectedTuning = tuningFilter.value;
+
+            tableBody.innerHTML = '';
+
+            const filteredData = AppData.recordings.filter(rec => {
+                const sessionMatch = selectedSession === 'all' || rec.session === selectedSession;
+                const tuningMatch = selectedTuning === 'all' || rec.tuning === selectedTuning;
+                return sessionMatch && tuningMatch;
+            });
+
+            filteredData.forEach(rec => {
+                const row = document.createElement('tr');
+                row.className = 'border-b border-stone-200 hover:bg-stone-50';
+                row.innerHTML = `
+                    <td class="p-3 font-semibold">${rec.title}</td>
+                    <td class="p-3">${rec.session}</td>
+                    <td class="p-3">${rec.tuning_key}</td>
+                    <td class="p-3 text-sm text-stone-600 hidden md:table-cell">${rec.notes}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+        }
+
+        sessionFilter.addEventListener('change', renderTable);
+        tuningFilter.addEventListener('change', renderTable);
+        renderTable();
+
+    });
+    </script>
+</body>
+</html>

@@ -6,7 +6,7 @@ apply_eu_spelling_normalisation.py
 
 ✅ Converts strings and list items (e.g. "color" → "colour")
 🚫 Skips protected fields: "Product", "Name", "Filename"
-📁 Input: xvault_master_wking.json
+📁 Input: xvault_master.json
 💾 Backup saved to: backups/xvault_wking_filling.spell_eu_normalised.json
 """
 

@@ -12,8 +12,8 @@ from pathlib import Path
 # 🔧 Config
 VAULT_FILE   = Path("../data/ivault_master.json")
 FIELD_NAME   = "families"     # Can be any field: "developer", "product", "type", etc.
-OLD_VALUE    = "synth"
-NEW_VALUE    = "synths"
+OLD_VALUE    = "guitar"
+NEW_VALUE    = "guitars"
 OUT_FILE     = Path("../data/ivault_master.json")  # or VAULT_FILE to overwrite
 
 # 📦 Load vault

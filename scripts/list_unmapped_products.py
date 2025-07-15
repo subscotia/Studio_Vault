@@ -8,7 +8,7 @@
 import json
 from pathlib import Path
 
-VAULT_FILE = Path("../data/xvault_master_wking.json")
+VAULT_FILE = Path("../data/xvault_master.json")
 OUT_FILE   = Path("unmapped_entries.txt")
 
 with VAULT_FILE.open(encoding="utf-8") as f:

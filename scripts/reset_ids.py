@@ -15,7 +15,7 @@ from vault_utils import save_vault_with_backup
 
 # --- CONFIGURATION (Tweak these values as needed) ---
 # The paths are now relative to the /scripts directory.
-VAULT_FILE = Path("../data/ivault_master.json")
+VAULT_FILE = Path("../data/xvault_master.json")
 BACKUP_DIR = Path("../backups")
 
 # The key to reset to null.

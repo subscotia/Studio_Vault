@@ -50,7 +50,6 @@
 "step sequencer"
 "string instruments"
 "strings"
-"synth"
 "synth layers"
 "synths"
 "textures"

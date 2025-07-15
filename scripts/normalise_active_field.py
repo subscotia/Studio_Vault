@@ -10,7 +10,7 @@ Cleans up inconsistent "ACTIVE" fields across the vault:
 - Leaves entries untouched if "ACTIVE" is missing (unless you want to default those too)
 
 📁 INPUT:
-- xvault_master_wking.json
+- xvault_master.json
 
 📁 OUTPUT:
 - Overwrites the original vault file
@@ -20,7 +20,7 @@ Cleans up inconsistent "ACTIVE" fields across the vault:
 import json
 from pathlib import Path
 
-VAULT_FILE   = Path("../data/xvault_master_wking.json")
+VAULT_FILE   = Path("../data/xvault_master.json")
 BACKUP_DIR   = Path("../backups")
 BACKUP_FILE  = BACKUP_DIR / "xvault_wking_filling.active_normalized.json"
 

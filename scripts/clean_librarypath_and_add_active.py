@@ -10,7 +10,7 @@ clean_librarypath_and_add_active.py
 You can change the default value of ACTIVE, the target field names, or add additional fields later.
 
 🔁 What it does:
-- Loads xvault_master_wking.json
+- Loads xvault_master.json
 - Removes "libraryPath" if present
 - Adds "ACTIVE": true to each entry
 - Writes a backup to backups/

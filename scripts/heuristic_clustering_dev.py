@@ -13,7 +13,7 @@ from collections import defaultdict
 from pathlib import Path
 
 # ─── CONFIG ────────────────────────────────────────────────────────
-VAULT_FILE   = Path("../data/xvault_master_wking.json")
+VAULT_FILE   = Path("../data/xvault_master.json")
 OUTPUT_MAP   = Path("suite_map.json")
 MIN_PREFIX   = 4   # minimal shared chars to form a cluster
 # ───────────────────────────────────────────────────────────────────

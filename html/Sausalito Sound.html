@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sausalito Sound: An Interactive Exploration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Chosen Palette: Warm Neutrals (Linen, Slate Gray, Burnt Sienna, Dark Charcoal) -->
+    <!-- Application Structure Plan: A single-page application with a fixed top navigation bar. This non-linear, tab-based structure allows users to freely explore different facets of the studio—from its overarching philosophy to specific gear—without being forced into a linear reading order. This design caters to both users seeking specific information (e.g., the mic locker) and those who prefer a more serendipitous, exploratory journey. The interactive diagrams and visual galleries transform dense text into an engaging, explorable format, making the complex technical information more digestible and memorable. -->
+    <!-- Visualization & Content Choices: The application uses a variety of interactive methods to present the report's content. GOAL: Visualize the core "Sausalito Sound." VIZ: A Chart.js radar chart qualitatively maps the sonic characteristics of the key signal chain components. JUSTIFICATION: This offers a quick, memorable visual summary superior to a text description. GOAL: Make the gear lists interactive. VIZ: The outboard gear is shown as an interactive grid ("The Racks"), and the microphones are in a filterable HTML table. INTERACTION: Clicking an item reveals detailed information in a modal window. JUSTIFICATION: This is more engaging and less overwhelming than static tables. GOAL: Explain the studio's layout. VIZ: A clickable floor plan diagram built with HTML/CSS. JUSTIFICATION: This provides spatial context that text alone cannot. All visualizations are built using Chart.js or structured HTML/CSS, adhering to the NO SVG/Mermaid constraint. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FAF0E6; /* Linen */
+            color: #333333; /* Dark Charcoal */
+        }
+        .nav-button {
+            transition: all 0.3s ease;
+            color: #F8F8FF; /* Ghost White */
+        }
+        .nav-button.active, .nav-button:hover {
+            background-color: #E97451; /* Burnt Sienna */
+            color: #FFFFFF;
+        }
+        .content-section {
+            display: none;
+        }
+        .content-section.active {
+            display: block;
+        }
+        .card {
+            background-color: #FFFFFF;
+            border: 1px solid #E5E7EB;
+            border-radius: 0.75rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 100;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+            animation: fadeIn 0.3s;
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 10% auto;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            width: 90%;
+            max-width: 600px;
+            animation: slideIn 0.3s;
+        }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes slideIn { from { transform: translateY(-50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+        .close-button {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 400px;
+            max-height: 50vh;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-slate-700 shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0">
+                    <h1 class="text-2xl font-bold text-white">The Sausalito Sound</h1>
+                    <p class="text-sm text-gray-300">An Interactive Exploration of The Record Plant</p>
+                </div>
+                <nav class="hidden md:block">
+                    <div id="nav-container" class="ml-10 flex items-baseline space-x-4">
+                        <button data-section="overview" class="nav-button px-3 py-2 rounded-md text-sm font-medium">Philosophy</button>
+                        <button data-section="signal-chain" class="nav-button px-3 py-2 rounded-md text-sm font-medium">Signal Chain</button>
+                        <button data-section="rooms" class="nav-button px-3 py-2 rounded-md text-sm font-medium">The Rooms</button>
+                        <button data-section="racks" class="nav-button px-3 py-2 rounded-md text-sm font-medium">The Racks</button>
+                        <button data-section="mic-locker" class="nav-button px-3 py-2 rounded-md text-sm font-medium">Mic Locker</button>
+                        <button data-section="case-study" class="nav-button px-3 py-2 rounded-md text-sm font-medium">Case Study: Rumours</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+
+        <section id="overview" class="content-section">
+            <h2 class="text-3xl font-bold tracking-tight text-slate-800">The Redwood Retreat: A New Philosophy in Recording</h2>
+            <p class="mt-4 text-lg text-slate-600">This application explores the legendary Record Plant in Sausalito, California, during its golden era from 1972 to 1978. This was not just a studio; it was a revolution in recording philosophy. Founders Gary Kellgren and Chris Stone rejected the sterile, clinical environments of the 1960s in favor of a "living-room style" creative sanctuary. Conceived as a "resort studio," it offered artists an idyllic escape where they could live, work, and create, insulated from the pressures of the music industry. Use the navigation above to explore the elements that created the iconic "Sausalito Sound"—from the innovative acoustic architecture to the specific gear that shaped rock history.</p>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="card p-6">
+                    <h3 class="text-xl font-semibold text-slate-800">Artist-Centric Design</h3>
+                    <p class="mt-2 text-slate-600">The studio was designed to dismantle psychological barriers, fostering a casual, comfortable, and creatively inspiring atmosphere. Luxurious perks like a Jacuzzi and guest houses made it a true "getaway" for rock royalty.</p>
+                </div>
+                <div class="card p-6">
+                    <h3 class="text-xl font-semibold text-slate-800">Uncompromising Technology</h3>
+                    <p class="mt-2 text-slate-600">The laid-back vibe was backed by a state-of-the-art technical infrastructure. A carefully selected arsenal of equipment was a core component of the creative sanctuary, defining the powerful, polished sound of 1970s West Coast rock.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="signal-chain" class="content-section">
+            <h2 class="text-3xl font-bold tracking-tight text-slate-800">The Core Signal Chain</h2>
+            <p class="mt-4 text-lg text-slate-600">The "Sausalito Sound" was not an accident. It was the result of a synergistic system of carefully chosen equipment. The combination of the API console's punch, the density of 3M multitrack tape, and the accuracy of Westlake monitoring created a sonic signature that was powerful, clear, and distinctly American. Explore the components of this legendary signal chain below. The chart provides a qualitative look at how each component contributed to the overall sound.</p>
+             <div class="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="space-y-6">
+                        <div class="card p-6 interactive-card" data-modal="console">
+                            <h3 class="text-xl font-semibold text-slate-800">The Console: API</h3>
+                            <p class="mt-2 text-slate-600">At the heart of the control room, the API console provided the aggressive, punchy character of American rock, largely thanks to its 2520 op-amps and legendary 550A EQs.</p>
+                        </div>
+                        <div class="card p-6 interactive-card" data-modal="tape">
+                            <h3 class="text-xl font-semibold text-slate-800">The Medium: 3M & Ampex Tape</h3>
+                            <p class="mt-2 text-slate-600">Utilizing 16 and 24-track machines from 3M and Ampex, the studio was at the apex of the analog multitrack era, offering unprecedented creative freedom.</p>
+                        </div>
+                         <div class="card p-6 interactive-card" data-modal="monitors">
+                            <h3 class="text-xl font-semibold text-slate-800">The Playback: Westlake Monitors</h3>
+                            <p class="mt-2 text-slate-600">Tom Hidley-designed Westlake monitors with JBL components ensured accurate, full-range playback at high volumes, critical for rock and roll mixing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <canvas id="signalChainChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="rooms" class="content-section">
+            <h2 class="text-3xl font-bold tracking-tight text-slate-800">The Sonic Architecture</h2>
+            <p class="mt-4 text-lg text-slate-600">The physical rooms, designed by the pioneering Tom Hidley, were the first and most crucial piece of equipment. His "dead room" acoustic design philosophy, which aimed to eliminate the room's own character from the sound, was fundamental to the studio's sonic precision. Click on the different areas of the studio plan below to learn more about their unique acoustic properties and design features, from the artist-centric live rooms to the legendary, bizarre "Pit" built for Sly Stone.</p>
+            <div class="mt-8 card p-8">
+                <div class="relative w-full max-w-4xl mx-auto">
+                    <div class="grid grid-cols-3 grid-rows-2 gap-4 h-[50vh]">
+                        <div class="col-span-2 row-span-2 bg-slate-200 rounded-lg flex items-center justify-center p-4 interactive-card" data-modal="studioA">
+                            <span class="text-slate-700 font-bold text-2xl">Studio A</span>
+                        </div>
+                        <div class="bg-slate-200 rounded-lg flex items-center justify-center p-4 interactive-card" data-modal="controlA">
+                             <span class="text-slate-700 font-bold text-xl">Control Room A</span>
+                        </div>
+                        <div class="bg-slate-200 rounded-lg flex items-center justify-center p-4 interactive-card" data-modal="controlB">
+                           <span class="text-slate-700 font-bold text-xl">Control Room B</span>
+                        </div>
+                    </div>
+                     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/3 h-1/3 bg-amber-200 rounded-lg flex items-center justify-center p-4 interactive-card border-4 border-dashed border-amber-500" data-modal="pit">
+                        <span class="text-amber-800 font-bold text-xl text-center">"The Pit"<br>(Sly Stone's Room)</span>
+                    </div>
+                     <div class="absolute bottom-4 right-[35%] w-1/4 h-1/4 bg-blue-200 rounded-lg flex items-center justify-center p-4 interactive-card" data-modal="studioB">
+                        <span class="text-blue-700 font-bold text-2xl">Studio B</span>
+                    </div>
+                </div>
+                 <p class="text-center mt-4 text-sm text-slate-500">A simplified, conceptual layout. Click areas for details.</p>
+            </div>
+        </section>
+
+        <section id="racks" class="content-section">
+            <h2 class="text-3xl font-bold tracking-tight text-slate-800">The Racks: Outboard Gear</h2>
+            <p class="mt-4 text-lg text-slate-600">Beyond the console, The Record Plant's racks were filled with a formidable collection of outboard gear—the "sonic color palette" for creative sound shaping. From industry-standard workhorses for dynamic control to esoteric "secret weapons" for creating unique effects, this gear was central to the studio's identity. Click on each piece of equipment below to discover its function and character.</p>
+            <div id="racks-grid" class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            </div>
+        </section>
+
+        <section id="mic-locker" class="content-section">
+            <h2 class="text-3xl font-bold tracking-tight text-slate-800">The Microphone Locker</h2>
+            <p class="mt-4 text-lg text-slate-600">The final, critical link in the recording chain is the microphone. The Record Plant maintained a comprehensive, world-class mic locker, ensuring engineers had the perfect tool for any application. The collection was built around the titans of the microphone world. Use the filter below to explore the collection by microphone type.</p>
+            <div class="mt-6 mb-4">
+                <label for="mic-filter" class="block text-sm font-medium text-slate-700">Filter by Type:</label>
+                <select id="mic-filter" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                    <option value="all">All Types</option>
+                    <option value="Large Diaphragm Condenser">Large Diaphragm Condenser</option>
+                    <option value="Small Diaphragm Condenser">Small Diaphragm Condenser</option>
+                    <option value="Dynamic">Dynamic</option>
+                    <option value="Ribbon">Ribbon</option>
+                </select>
+            </div>
+            <div class="flex flex-col">
+                <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                    <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+                        <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+                            <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-50">
+                                    <tr>
+                                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Manufacturer</th>
+                                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Model(s)</th>
+                                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
+                                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Common Applications</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="mic-table-body" class="bg-white divide-y divide-gray-200">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="case-study" class="content-section">
+            <h2 class="text-3xl font-bold tracking-tight text-slate-800">Case Study: The Engineering of *Rumours*</h2>
+            <p class="mt-4 text-lg text-slate-600">The recording of Fleetwood Mac's 1977 masterpiece, *Rumours*, is the definitive case study of The Record Plant in action. The sessions, helmed by engineers Ken Caillat and Richard Dashut, pushed the studio, its equipment, and the artists to their limits. This intense, isolated environment was both a pressure cooker for the band's emotional turmoil and the crucible in which one of history's greatest albums was forged.</p>
+             <div class="mt-8 space-y-8">
+                <div class="card p-6">
+                    <h3 class="text-xl font-semibold text-slate-800">The Caillat & Dashut Method</h3>
+                    <p class="mt-2 text-slate-600">After struggling with a sound that felt "miniature," the engineers had a breakthrough by embracing the character of the studio's API console. They pushed the preamps hard and aggressively boosted the EQs, unlocking the powerful, punchy sound that would define the album. This mastery was born from experimentation and frustration, perfectly demonstrating how the gear was an instrument in itself.</p>
+                </div>
+                <div class="card p-6">
+                    <h3 class="text-xl font-semibold text-slate-800">Gear Behind the Grammys</h3>
+                    <p class="mt-2 text-slate-600">Specific gear choices were critical:</p>
+                    <ul class="mt-3 list-disc list-inside space-y-2 text-slate-600">
+                        <li><strong>Drums:</strong> A Sennheiser MD 441 on kick, an AKG C414 on snare, and AKG 451s for overheads.</li>
+                        <li><strong>Bass:</strong> A combination of a direct input (DI) signal for clarity and a miked amplifier (likely with an AKG C414).</li>
+                        <li><strong>Guitars:</strong> A blend of a Shure SM57 and an AKG C451 on Lindsey Buckingham's amps. For the acoustic track "Never Going Back Again," the guitar was restrung every 20 minutes to maintain maximum brightness.</li>
+                         <li><strong>Tracking:</strong> The entire album was tracked on the studio's 3M 24-track machine at 15 ips with Dolby noise reduction, a process that famously wore the master tape so thin it nearly disintegrated during mixdown.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h3 id="modal-title" class="text-2xl font-bold text-slate-800 mb-4"></h3>
+        <p id="modal-text" class="text-slate-600"></p>
+      </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const navContainer = document.getElementById('nav-container');
+            const sections = document.querySelectorAll('.content-section');
+            const navButtons = document.querySelectorAll('.nav-button');
+            const modal = document.getElementById('modal');
+            const modalTitle = document.getElementById('modal-title');
+            const modalText = document.getElementById('modal-text');
+            const closeModal = document.querySelector('.close-button');
+
+            const db = {
+                racks: [
+                    { id: 'urei1176', name: 'UREI 1176', desc: 'A FET-based compressor prized for its lightning-fast attack time and aggressive character. A go-to for adding punch to drums, bass, and energetic vocals.' },
+                    { id: 'ureila3a', name: 'UREI LA-3A', desc: 'A solid-state optical compressor offering smoother, more musical compression. It excelled on sources like electric and acoustic guitars.' },
+                    { id: 'pultec', name: 'Pultec EQP-1A', desc: 'A legendary passive tube EQ, renowned not for surgical precision but for its broad, musically pleasing curves. Famous for the "low-end trick" of boosting and cutting the same low frequency to add weight and clarity.' },
+                    { id: 'emt140', name: 'EMT 140 Plate Reverb', desc: 'The gold standard for artificial reverb in the 1970s. This massive mechanical unit produced a lush, dense, and shimmering sound that became synonymous with professional recordings.' },
+                    { id: 'cooper', name: 'UREI Cooper Time Cube', desc: 'An esoteric mechanical delay unit that sent audio through a long, coiled tube (like a garden hose). It provided unique short slapback echo and doubling effects.' },
+                    { id: 'eventide', name: 'Eventide Phaser', desc: 'A creative tool for generating classic swirling, sweeping, and modulation effects, used for sonic manipulation and sound design.' }
+                ],
+                micLocker: [
+                    { manufacturer: 'Neumann', models: 'U47, U67, U87, M49', type: 'Large Diaphragm Condenser', app: 'Vocals, Piano, Drum Overheads, Acoustic Instruments' },
+                    { manufacturer: 'Neumann', models: 'KM84, KM-54', type: 'Small Diaphragm Condenser', app: 'Acoustic Guitar, Drum Overheads, Hi-Hats, Strings' },
+                    { manufacturer: 'AKG', models: 'C414, C414EB', type: 'Large Diaphragm Condenser', app: 'Vocals, Piano, Drum Overheads, Brass, Guitar Amps' },
+                    { manufacturer: 'AKG', models: 'C451, C452', type: 'Small Diaphragm Condenser', app: 'Acoustic Guitar, Drum Overheads, Hi-Hats' },
+                    { manufacturer: 'AKG', models: 'D12, D112', type: 'Dynamic', app: 'Kick Drum, Bass Cabinets' },
+                    { manufacturer: 'Shure', models: 'SM57', type: 'Dynamic', app: 'Snare Drum, Guitar Amps, Vocals (guide)' },
+                    { manufacturer: 'Shure', models: 'SM58', type: 'Dynamic', app: 'Vocals (live/guide)' },
+                    { manufacturer: 'Shure', models: 'SM7', type: 'Dynamic', app: 'Vocals, Broadcast, Kick Drum' },
+                    { manufacturer: 'Sennheiser', models: 'MD 421, MD 441', type: 'Dynamic', app: 'Toms, Guitar Amps, Bass Cabinets, Vocals, Brass' },
+                    { manufacturer: 'Electro-Voice', models: 'RE20', type: 'Dynamic', app: 'Kick Drum, Vocals, Broadcast, Bass Cabinets' },
+                    { manufacturer: 'RCA', models: '44-DX, 77-DX', type: 'Ribbon', app: 'Vocals, Brass, Strings, Room Mics' },
+                    { manufacturer: 'Sony', models: 'C37P, ECM-22P', type: 'Large Diaphragm Condenser', app: 'Piano, Acoustic Instruments' },
+                ],
+                modalContent: {
+                    console: { title: 'API Console', text: 'Upon opening, both of Sausalito\'s control rooms were centered around consoles from Automated Processes, Inc. (API). In the 1970s, API consoles were at the heart of the aggressive, punchy sound of American rock. Their character was defined by two key proprietary components: the 2520 operational amplifier and the legendary 550A discrete 3-band equalizer. The 550A was particularly revered, considered one of the first console EQs to rival the quality and musicality of standalone outboard units.' },
+                    tape: { title: 'Multitrack Tape', text: 'The Record Plant Sausalito opened at the apex of the analog multitrack era. The studio was initially commissioned with a pair of 3M 16-track tape machines, and it quickly offered both 16- and 24-track recording capabilities. The primary workhorse machines were from 3M and Ampex. To combat tape hiss, the studio was equipped with Dolby M-16 multi-channel noise reduction units, an essential tool for maintaining fidelity in complex productions.' },
+                    monitors: { title: 'Westlake Monitoring', text: 'To accurately judge the sounds being committed to tape, the control rooms were fitted with large, soffit-mounted main monitors designed by Tom Hidley and sold through his company, Westlake Audio. These monitoring systems, which typically used high-power components from JBL, were engineered for full-range, accurate playback at the very high sound pressure levels demanded by rock and roll mixing.' },
+                    studioA: { title: 'Studio A', text: 'Dominated by a massive, multi-tone sunburst marquetry on one wall, with a ceiling of white fabric tents to diffuse sound. It was an acoustically "dead" room designed by Tom Hidley, allowing for controlled recordings with minimal leakage.' },
+                    studioB: { title: 'Studio B', text: 'A more visually vibrant room with psychedelic murals and velvet-covered "cloud" baffles on the ceiling. Acoustically, it shared the "dead room" properties of Studio A. It was the primary room for recording Fleetwood Mac\'s *Rumours*, a medium-sized space of about 20x30 feet.' },
+                    controlA: { title: 'Control Room A', text: 'A classic Tom Hidley "Non-Environment" control room. The design featured extreme acoustic damping to create a "dead" listening space, ensuring engineers heard the most accurate possible representation of the sound from the main Westlake monitors.'},
+                    controlB: { title: 'Control Room B', text: 'Acoustically mirrored to Control Room A, this space also followed Hidley\'s "Non-Environment" principles, providing a precise and reliable mixing environment that was crucial for creating mixes that translated well to other systems.'},
+                    pit: { title: '"The Pit"', text: 'A legendary and bizarre room built for Sly Stone. It was a futuristic, sunken, inverted layer-cake-shaped inground studio, carpeted on every surface in bright maroon plush. It was the ultimate isolation booth, engineered for "totally isolated, multi-track recording" essential for Sly and the Family Stone\'s dense production style.'}
+                }
+            };
+
+            function showSection(sectionId) {
+                sections.forEach(section => {
+                    section.classList.toggle('active', section.id === sectionId);
+                });
+                navButtons.forEach(button => {
+                    button.classList.toggle('active', button.dataset.section === sectionId);
+                });
+                window.scrollTo(0, 0);
+            }
+
+            navContainer.addEventListener('click', (e) => {
+                if (e.target.tagName === 'BUTTON') {
+                    showSection(e.target.dataset.section);
+                }
+            });
+
+            function populateRacks() {
+                const grid = document.getElementById('racks-grid');
+                grid.innerHTML = db.racks.map(item => `
+                    <div class="card p-6 text-center interactive-card" data-modal="${item.id}" data-type="rack">
+                        <h3 class="text-xl font-semibold text-slate-800">${item.name}</h3>
+                        <p class="mt-2 text-sm text-slate-500">${item.desc.split('.')[0]}.</p>
+                    </div>
+                `).join('');
+            }
+
+            function populateMicTable(filter = 'all') {
+                const tableBody = document.getElementById('mic-table-body');
+                const filteredMics = filter === 'all' ? db.micLocker : db.micLocker.filter(mic => mic.type === filter);
+
+                tableBody.innerHTML = filteredMics.map(mic => `
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">${mic.manufacturer}</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${mic.models}</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${mic.type}</td>
+                        <td class="px-6 py-4 text-sm text-gray-500">${mic.app}</td>
+                    </tr>
+                `).join('');
+            }
+
+            document.getElementById('mic-filter').addEventListener('change', (e) => {
+                populateMicTable(e.target.value);
+            });
+
+            function openModal(title, text) {
+                modalTitle.textContent = title;
+                modalText.innerHTML = text.replace(/\n/g, '<br>');
+                modal.style.display = 'block';
+            }
+
+            closeModal.onclick = () => modal.style.display = 'none';
+            window.onclick = (event) => {
+                if (event.target == modal) {
+                    modal.style.display = 'none';
+                }
+            };
+
+            document.body.addEventListener('click', (e) => {
+                const card = e.target.closest('.interactive-card');
+                if (card) {
+                    const modalId = card.dataset.modal;
+                    const type = card.dataset.type;
+                    let content;
+
+                    if (type === 'rack') {
+                        const rackItem = db.racks.find(r => r.id === modalId);
+                        content = { title: rackItem.name, text: rackItem.desc };
+                    } else {
+                        content = db.modalContent[modalId];
+                    }
+
+                    if(content) {
+                        openModal(content.title, content.text);
+                    }
+                }
+            });
+
+            function createChart() {
+                const ctx = document.getElementById('signalChainChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'radar',
+                    data: {
+                        labels: ['Punch', 'Warmth', 'Clarity', 'Flexibility', 'Headroom'],
+                        datasets: [
+                            {
+                                label: 'API Console',
+                                data: [9, 6, 8, 7, 8],
+                                backgroundColor: 'rgba(233, 116, 81, 0.2)',
+                                borderColor: 'rgba(233, 116, 81, 1)',
+                                borderWidth: 2
+                            },
+                            {
+                                label: '3M Tape',
+                                data: [7, 9, 6, 8, 6],
+                                backgroundColor: 'rgba(112, 128, 144, 0.2)',
+                                borderColor: 'rgba(112, 128, 144, 1)',
+                                borderWidth: 2
+                            },
+                            {
+                                label: 'Westlake Monitors',
+                                data: [8, 7, 9, 6, 9],
+                                backgroundColor: 'rgba(100, 149, 237, 0.2)',
+                                borderColor: 'rgba(100, 149, 237, 1)',
+                                borderWidth: 2
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                            },
+                            title: {
+                                display: true,
+                                text: 'Qualitative Sonic Characteristics'
+                            }
+                        },
+                        scales: {
+                            r: {
+                                angleLines: {
+                                    display: true
+                                },
+                                suggestedMin: 0,
+                                suggestedMax: 10,
+                                pointLabels: {
+                                    font: {
+                                        size: 14
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+
+            // Initial setup
+            showSection('overview');
+            populateRacks();
+            populateMicTable();
+            createChart();
+        });
+    </script>
+</body>
+</html>

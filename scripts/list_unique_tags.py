@@ -13,7 +13,7 @@ import json
 from pathlib import Path
 
 # --- CONFIGURATION (Tweak these values as needed) ---
-# You can point this to ivault_master.json, xvault_master_wking.json, or a merged file.
+# You can point this to ivault_master.json, xvault_master.json, or a merged file.
 VAULT_FILE = Path("../data/ivault_master.json")
 REF_DIR = Path("../ref")
 OUTPUT_FILE = REF_DIR / "tags.txt"

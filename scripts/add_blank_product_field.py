@@ -11,7 +11,7 @@ You're reviewing unmatched entries in the vault and want a `"product"` key in pl
 on every entry, even if it's temporarily empty.
 
 🔁 WHAT IT DOES:
-- Loads `xvault_master_wking.json`
+- Loads `xvault_master.json`
 - Finds entries missing `"product"`
 - Adds: `"product": ""` to them
 - Reorders the keys so `"product"` is first
@@ -26,7 +26,7 @@ on every entry, even if it's temporarily empty.
 import json
 from pathlib import Path
 
-VAULT_FILE  = Path("../data/xvault_master_wking.json")
+VAULT_FILE  = Path("../data/xvault_master.json")
 BACKUP_DIR  = Path("../backups")
 BACKUP_FILE = BACKUP_DIR / "xvault_wking_filling.added_blank_product.json"
 

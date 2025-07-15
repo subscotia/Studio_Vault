@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Delta Blues Pantheon, Vol. I: John Lee Hooker</title>
+    <!-- Chosen Palette: Warm Neutrals with Muddy Blue Accent -->
+    <!-- Application Structure Plan: A thematic, non-linear SPA with a sticky navigation bar (The Man, The Sound, The Career, The Pantheon). This structure abandons the report's linear flow to empower user-driven exploration. Users can jump between Hooker's biography, his unique musical style, his career evolution via an interactive timeline, and his legacy compared to peers. This approach transforms a static document into an engaging, multi-faceted interactive resource, prioritizing discovery over sequential reading. -->
+    <!-- Visualization & Content Choices:
+    - **Life Journey:** (Inform) -> Interactive CSS Map -> Click cities for info -> More engaging than text.
+    - **Career Path:** (Change) -> Interactive Bubble Timeline (Chart.js) -> Click bubbles to show era details -> Visualizes a 50+ year career dynamically, better than a static table.
+    - **Peer Comparison:** (Compare) -> Side-by-side HTML columns -> Direct visual comparison -> Highlights his unique qualities instantly.
+    - **Awards:** (Inform) -> CSS "Trophy Case" Grid -> Hover for details -> More prestigious and visually interesting than a list.
+    - **Musical Style:** (Explain) -> Text with emphasis -> Simple, direct explanation of a complex topic without needing audio plugins.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f5f4; /* stone-100 */
+            color: #292524; /* stone-800 */
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .nav-link {
+            transition: color 0.3s, border-color 0.3s;
+        }
+        .nav-link.active {
+            color: #374151; /* gray-700 */
+            border-bottom-color: #374151; /* gray-700 */
+        }
+        .content-section {
+            display: none;
+        }
+        .content-section.active {
+            display: block;
+        }
+        .chart-container {
+            position: relative;
+            margin: auto;
+            height: 350px;
+            width: 100%;
+            max-width: 800px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 500px;
+            }
+        }
+        .map-point {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #4b5563; /* gray-600 */
+            border-radius: 50%;
+            border: 2px solid #f5f5f4; /* stone-100 */
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+        .map-point:hover, .map-point.active {
+            background-color: #1f2937; /* gray-800 */
+            transform: scale(1.2);
+        }
+        .map-label {
+            position: absolute;
+            transform: translateX(-50%);
+            background-color: #292524;
+            color: #f5f5f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            white-space: nowrap;
+        }
+        .award-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .award-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-stone-100">
+
+    <header class="text-center py-12 px-4 bg-stone-200">
+        <h2 class="text-lg font-semibold text-stone-600 tracking-widest">THE DELTA BLUES PANTHEON, VOL. I</h2>
+        <h1 class="text-5xl md:text-7xl font-bold text-stone-900 mt-2">John Lee Hooker</h1>
+        <p class="mt-4 max-w-2xl mx-auto text-stone-700">The Boogie Man and the Unruly Soul of the Blues</p>
+    </header>
+
+    <nav id="navbar" class="sticky top-0 bg-stone-100/80 backdrop-blur-sm shadow-md z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center items-center space-x-4 md:space-x-8 py-3 border-b border-stone-300">
+                <button data-section="man" class="nav-link text-stone-500 font-semibold border-b-2 border-transparent py-2 px-2">The Man</button>
+                <button data-section="sound" class="nav-link text-stone-500 font-semibold border-b-2 border-transparent py-2 px-2">The Sound</button>
+                <button data-section="career" class="nav-link text-stone-500 font-semibold border-b-2 border-transparent py-2 px-2">The Career</button>
+                <button data-section="pantheon" class="nav-link text-stone-500 font-semibold border-b-2 border-transparent py-2 px-2">The Pantheon</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <section id="man-section" class="content-section">
+            <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
+                <h2 class="text-4xl font-bold mb-4 text-center">The Making of the Man</h2>
+                <p class="text-lg text-stone-600 mb-8 max-w-3xl mx-auto text-center">John Lee Hooker's journey is a story of the Great Migration, from the oppressive cotton fields of the Mississippi Delta to the industrial clamor of Detroit. This section explores the world that forged him and the path he took, absorbing the traditions of his environment while cultivating a sound that was entirely his own.</p>
+
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <article>
+                        <h3 class="text-2xl font-bold mb-2">The Delta Crucible</h3>
+                        <p class="text-stone-700 leading-relaxed">Born into a sharecropping family in the Mississippi Delta around 1917, Hooker's world was defined by the economic bondage of the plantation system and the rigid racial hierarchy of Jim Crow. His father, a Baptist preacher, forbade secular music, limiting his early exposure to church spirituals. The pivotal moment came when his mother married Will Moore, a local bluesman who played a droning, one-chord style learned in Louisiana—a sound radically different from the mainstream Delta blues. This became the foundation of Hooker's musical DNA, making him an outlier from his very first lesson.</p>
+                    </article>
+                    <div class="relative w-full max-w-md mx-auto h-64 md:h-80 bg-stone-200 rounded-lg p-4">
+                        <h3 class="text-xl font-bold text-center mb-2">The Great Migration</h3>
+                         <div class="relative w-full h-full">
+                             <!-- Map lines could be drawn with pseudo-elements for more flair -->
+                             <span class="map-point" data-city="ms" style="top: 85%; left: 30%;"></span>
+                             <span class="map-label" style="top: 92%; left: 30%;">Mississippi</span>
+
+                             <span class="map-point" data-city="mem" style="top: 55%; left: 45%;"></span>
+                             <span class="map-label" style="top: 62%; left: 45%;">Memphis</span>
+
+                             <span class="map-point" data-city="cin" style="top: 35%; left: 75%;"></span>
+                              <span class="map-label" style="top: 42%; left: 75%;">Cincinnati</span>
+
+                             <span class="map-point" data-city="det" style="top: 10%; left: 65%;"></span>
+                              <span class="map-label" style="top: 17%; left: 65%;">Detroit</span>
+                        </div>
+                    </div>
+                </div>
+                 <div id="map-info" class="mt-8 p-4 bg-stone-100 rounded-lg min-h-[100px] text-center flex items-center justify-center">
+                    <p class="text-stone-600">Click a point on the map to learn about Hooker's journey.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sound-section" class="content-section">
+             <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
+                <h2 class="text-4xl font-bold mb-4 text-center">The Anatomy of the Hook</h2>
+                <p class="text-lg text-stone-600 mb-8 max-w-3xl mx-auto text-center">The enduring power of John Lee Hooker's music lies in a set of unique stylistic signatures that are instantly recognizable. His revolutionary approach to guitar, voice, and song structure created a sound that was his and his alone, rooted not in melodic complexity but in the primal, hypnotic power of rhythm.</p>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <article class="p-6 bg-stone-50 rounded-lg">
+                        <h3 class="text-2xl font-bold mb-2">The Hypnotic Groove</h3>
+                        <p class="text-stone-700 leading-relaxed mb-4">Learned from his stepfather, Hooker's trademark was the "one-chord blues." He used open tunings to create a mesmerizing, droning foundation. His rhythm was a relentless, driving syncopation, often anchored by the steady, metronomic stomp of his own foot. Famously "free-form," he ignored standard meter, adding or dropping beats to fit the song's emotion. This made him a musical iconoclast, notoriously difficult for other musicians to follow.</p>
+                        <div class="border-t-2 border-stone-200 mt-4 pt-4">
+                             <h4 class="font-bold">Key Elements:</h4>
+                             <ul class="list-disc list-inside text-stone-600 mt-2 space-y-1">
+                                 <li>One-Chord Drone</li>
+                                 <li>Open Guitar Tunings (A & G)</li>
+                                 <li>Driving, Syncopated Rhythm</li>
+                                 <li>Foot-Stomping Percussion</li>
+                                 <li>Free-Form Song Structure</li>
+                             </ul>
+                        </div>
+                    </article>
+                    <article class="p-6 bg-stone-50 rounded-lg">
+                        <h3 class="text-2xl font-bold mb-2">The Voice of Experience</h3>
+                        <p class="text-stone-700 leading-relaxed mb-4">Hooker's voice was as unique as his guitar playing—a deep, gruff baritone that carried the weight of a lifetime. His trademark was the "talking blues," a half-spoken, half-sung delivery where his narrative floated over the relentless guitar rhythm. His voice could be menacing, plaintiff, or ruminative, but it was always authentic. As he said, "Every song I sing is something that happened... That's why everybody digs the blues… it has more feeling."</p>
+                        <div class="border-t-2 border-stone-200 mt-4 pt-4">
+                             <h4 class="font-bold">Vocal Qualities:</h4>
+                             <ul class="list-disc list-inside text-stone-600 mt-2 space-y-1">
+                                 <li>Deep, Gruff Baritone</li>
+                                 <li>"Talking Blues" Style</li>
+                                 <li>Authentic, Emotional Delivery</li>
+                                 <li>Master Storyteller</li>
+                                 <li>Distinctive, Halting Phrasing</li>
+                             </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="career-section" class="content-section">
+            <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
+                <h2 class="text-4xl font-bold mb-4 text-center">The Boogie Man on Wax</h2>
+                 <p class="text-lg text-stone-600 mb-8 max-w-3xl mx-auto text-center">Hooker's recording career spanned over 50 years, marked by constant reinvention. This interactive timeline charts his evolution from a raw, solo innovator to a revered elder statesman of the blues, collaborating with rock royalty. Click on a bubble to explore a key era in his career.</p>
+
+                <div class="chart-container">
+                    <canvas id="careerChart"></canvas>
+                </div>
+                <div id="career-info" class="mt-8 p-6 bg-stone-100 rounded-lg min-h-[200px] text-center flex flex-col items-center justify-center transition-opacity duration-500">
+                     <p class="text-stone-600">Select an era from the timeline to see details.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pantheon-section" class="content-section">
+            <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
+                <h2 class="text-4xl font-bold mb-4 text-center">Placing Hooker in the Pantheon</h2>
+                <p class="text-lg text-stone-600 mb-8 max-w-3xl mx-auto text-center">To fully appreciate John Lee Hooker's stature, it is essential to place him in context. Through comparison with his peers, his unique and monumental contribution to the blues—and all of modern music—becomes strikingly clear. He wasn't just another great bluesman; he was a category unto himself.</p>
+
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                     <div class="text-center p-4 border border-stone-200 rounded-lg">
+                         <h3 class="text-2xl font-bold">John Lee Hooker</h3>
+                         <p class="text-stone-500 font-semibold mb-2">The Lone Wolf</p>
+                         <p class="text-stone-700">His intensely personal, rhythmically free style was an expression, not a template. He was the king of his own domain: the hypnotic boogie.</p>
+                     </div>
+                     <div class="text-center p-4 border border-stone-200 rounded-lg">
+                         <h3 class="text-2xl font-bold">Muddy Waters</h3>
+                         <p class="text-stone-500 font-semibold mb-2">The Bandleader</p>
+                         <p class="text-stone-700">Forged the powerful, structured Chicago blues ensemble sound. His music became the archetype that countless bands could emulate.</p>
+                     </div>
+                     <div class="text-center p-4 border border-stone-200 rounded-lg">
+                         <h3 class="text-2xl font-bold">B.B. King</h3>
+                         <p class="text-stone-500 font-semibold mb-2">The Thrill King</p>
+                         <p class="text-stone-700">Master of the melodic, single-note solo. He forged the path of sophistication, leading to the modern guitar virtuoso.</p>
+                     </div>
+                </div>
+
+                <h3 class="text-3xl font-bold text-center mb-6">Hall of Honors</h3>
+                <div id="awards-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                    <!-- Awards will be injected here by JS -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 mt-8 border-t border-stone-300">
+        <p class="text-stone-600">The Delta Blues Pantheon, Vol. I &copy; 2024</p>
+    </footer>
+
+    <script>
+    const AppData = {
+        mapInfo: {
+            ms: {
+                title: 'Coahoma County, Mississippi',
+                text: 'Born into the sharecropping system, Hooker learned his unique, one-chord blues style from his stepfather, Will Moore.'
+            },
+            mem: {
+                title: 'Memphis, Tennessee',
+                text: 'As a runaway teen in the mid-1930s, he worked as a movie usher on Beale Street, absorbing the city\'s rich musical atmosphere.'
+            },
+            cin: {
+                title: 'Cincinnati, Ohio',
+                text: 'Living here for about a decade, he held various day jobs while honing his craft and singing with gospel groups like the Fairfield Four.'
+            },
+            det: {
+                title: 'Detroit, Michigan',
+                text: 'Arriving in 1943, he found factory work and became a star on the Hastings Street blues scene, where he had to electrify his sound to be heard.'
+            }
+        },
+        career: [
+            { year: 1951, era: 'The Raw Beginnings', impact: 8, album: 'Boogie Chillen\' (1948)', details: 'Discovered in Detroit, his first recordings were raw, solo, and hypnotic. "Boogie Chillen\'" became a #1 R&B hit, its foot-stomping, one-chord drone defining his early sound and resonating with Black migrants across the country.' },
+            { year: 1959, era: 'The Vee-Jay Years', impact: 7, album: 'Boom Boom (1962)', details: 'Signing with Vee-Jay Records, he began recording with a full band for the first time. This era produced more structured R&B hits like "Dimples" and the crossover smash "Boom Boom," proving his sound could work in a tighter, dance-oriented format.' },
+            { year: 1968, era: 'Folk & Rock Adulation', impact: 9, album: 'Hooker \'n Heat (1971)', details: '"Rediscovered" by the folk revival and idolized by British Invasion bands like The Animals and The Yardbirds. His collaboration with Canned Heat on "Hooker \'n Heat" was a massive success, cementing his status as a rock god.' },
+            { year: 1980, era: 'The Comeback Cameo', impact: 6, album: 'The Blues Brothers (1980)', details: 'After a commercially quiet period, his riveting performance of "Boom Boom" in the hit movie "The Blues Brothers" introduced him to a new generation of fans and set the stage for a major late-career comeback.' },
+            { year: 1995, era: 'The Late Renaissance', impact: 10, album: 'The Healer (1989)', details: 'Starting with the star-studded, Grammy-winning album "The Healer," Hooker launched the most acclaimed chapter of his career. A series of successful albums with collaborators like Carlos Santana, Bonnie Raitt, and Van Morrison made him a true superstar.' }
+        ],
+        awards: [
+            { year: '1980', name: 'Blues Hall of Fame', icon: '🎵' },
+            { year: '1983', name: 'National Heritage Fellowship', icon: '🏛️' },
+            { year: '1990', name: 'Grammy Award: "I\'m in the Mood"', icon: '🏆' },
+            { year: '1991', name: 'Rock & Roll Hall of Fame', icon: '🎸' },
+            { year: '1996', name: 'Grammy Award: "Chill Out"', icon: '🏆' },
+            { year: '1997', name: 'Hollywood Walk of Fame', icon: '⭐' },
+            { year: '1998', name: 'Grammy Award (x2): "Don\'t Look Back"', icon: '🏆' },
+            { year: '1999', name: 'R&B Foundation Lifetime Achievement', icon: '🎖️' },
+            { year: '2000', name: 'Grammy Lifetime Achievement', icon: '🏆' },
+            { year: '2016', name: 'Grammy Hall of Fame: "Boom Boom"', icon: '🎶' }
+        ]
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const navLinks = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('.content-section');
+        const mapPoints = document.querySelectorAll('.map-point');
+        const mapInfo = document.getElementById('map-info');
+        const awardsGrid = document.getElementById('awards-grid');
+        const careerInfo = document.getElementById('career-info');
+
+        function showSection(sectionId) {
+            sections.forEach(section => {
+                section.classList.toggle('active', section.id === `${sectionId}-section`);
+            });
+            navLinks.forEach(link => {
+                link.classList.toggle('active', link.dataset.section === sectionId);
+            });
+             window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => showSection(link.dataset.section));
+        });
+
+        mapPoints.forEach(point => {
+            point.addEventListener('click', () => {
+                const cityId = point.dataset.city;
+                const info = AppData.mapInfo[cityId];
+                mapInfo.innerHTML = `<h4 class="font-bold text-lg text-stone-800">${info.title}</h4><p class="text-stone-600 mt-1">${info.text}</p>`;
+                mapPoints.forEach(p => p.classList.remove('active'));
+                point.classList.add('active');
+            });
+        });
+
+        AppData.awards.forEach(award => {
+            const card = document.createElement('div');
+            card.className = 'award-card bg-stone-100 p-4 rounded-lg text-center flex flex-col items-center justify-center';
+            card.innerHTML = `
+                <div class="text-4xl mb-2">${award.icon}</div>
+                <p class="font-semibold text-stone-800 text-sm leading-tight">${award.name}</p>
+                <p class="text-xs text-stone-500 mt-1">${award.year}</p>
+            `;
+            awardsGrid.appendChild(card);
+        });
+
+        const careerCtx = document.getElementById('careerChart').getContext('2d');
+        const careerChart = new Chart(careerCtx, {
+            type: 'bubble',
+            data: {
+                datasets: [{
+                    label: 'Career Milestones',
+                    data: AppData.career.map(d => ({
+                        x: d.year,
+                        y: 5, // A constant y-value for linear layout
+                        r: d.impact * 2, // Radius based on impact
+                        details: d
+                    })),
+                    backgroundColor: 'rgba(55, 65, 81, 0.7)',
+                    borderColor: 'rgb(55, 65, 81)',
+                    hoverBackgroundColor: 'rgba(31, 41, 55, 0.9)',
+                    hoverBorderColor: 'rgb(31, 41, 55)',
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.raw.details.era;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Year'
+                        },
+                        min: 1945,
+                        max: 2005
+                    },
+                    y: {
+                       display: false,
+                       min: 0,
+                       max: 10
+                    }
+                },
+                onClick: (e, elements) => {
+                    if (elements.length > 0) {
+                        const element = elements[0];
+                        const dataPoint = careerChart.data.datasets[element.datasetIndex].data[element.index];
+                        const d = dataPoint.details;
+                        careerInfo.style.opacity = '0';
+                        setTimeout(() => {
+                           careerInfo.innerHTML = `
+                                <h3 class="text-2xl font-bold text-stone-900">${d.era}</h3>
+                                <p class="font-semibold text-stone-600 my-2">Key Work: <em>${d.album}</em></p>
+                                <p class="text-stone-700 max-w-xl mx-auto">${d.details}</p>
+                            `;
+                            careerInfo.style.opacity = '1';
+                        }, 300);
+                    }
+                }
+            }
+        });
+
+        showSection('man');
+    });
+    </script>
+</body>
+</html>

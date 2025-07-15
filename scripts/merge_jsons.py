@@ -25,13 +25,13 @@ from vault_utils import save_vault_with_backup
 
 # --- CONFIGURATION (Tweak these values as needed) ---
 # The primary vault file. Entries from this file are the default.
-PRIMARY_VAULT_FILE = Path("../data/xvault_master_wking.json")
+PRIMARY_VAULT_FILE = Path("../data/xvault_master.json")
 
 # The secondary vault file to merge into the primary one.
 SECONDARY_VAULT_FILE = Path("waves.json")
 
 # The final, merged output file.
-OUTPUT_VAULT_FILE = Path("../data/xvault_master_wking.json")
+OUTPUT_VAULT_FILE = Path("../data/xvault_master.json")
 
 # Directory for backups.
 BACKUP_DIR = Path("../backups")

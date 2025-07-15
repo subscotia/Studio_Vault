@@ -2,7 +2,7 @@
 """
 inject_product_by_filename.py
 
-Backs up xvault_master_wking.json, then for each entry:
+Backs up xvault_master.json, then for each entry:
 - extracts the filename stem (lowercased)
 - looks up that stem in suite_map.json
 - injects/overwrites "product": "<mapped name>"
@@ -14,7 +14,7 @@ import shutil
 from pathlib import Path
 
 # ── CONFIG ─────────────────────────────────────────────────────
-VAULT       = Path("../data/xvault_master_wking.json")
+VAULT       = Path("../data/xvault_master.json")
 BACKUP      = Path("xvault_wking_filling.backup.json")
 SUITE_MAP   = Path("suite_map.json")
 # ────────────────────────────────────────────────────────────────

@@ -32,10 +32,10 @@ KEY_TO_MODIFY = "tags"  # Can be "families", "tags", etc.
 
 # A list of the source values you want to find and replace.
 # This check is case-insensitive.
-SOURCE_VALUES = ["cdsm", "c d s m"]
+SOURCE_VALUES = ["atmospheres and moods", "atmospheric", "atmospheric sustains"]
 
 # The single, unified value that will replace all of the source values.
-TARGET_VALUE = "cdsm"
+TARGET_VALUE = "atmospheres"
 
 
 # ---------------------------------------------------------

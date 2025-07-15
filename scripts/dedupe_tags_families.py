@@ -6,7 +6,7 @@ from pathlib import Path
 from vault_utils import save_vault_with_backup # <-- Import our new function
 
 # --- Configuration ---
-VAULT_FILE = Path("../data/xvault_master_wking.json")
+VAULT_FILE = Path("../data/xvault_master.json")
 BACKUP_DIR = Path("../backups")
 
 def deduplicate_list(values):
