@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f5293e2-f8c9-45e3-9466-0d840ec8e439" name="Changes" comment="Work Report: 15 July 2025&#10;Milestone Reached: Backend Data Buildout Complete&#10;&#10;This commit marks the completion of the data population and cleaning phase for the Subscotia Vault. The ivault and xvault are now finalized and have been merged into a single, definitive vault_master.json. All objects have been assigned a final, globally unique ID according to the established convention.&#10;&#10;Key Achievements in this Commit:&#10;&#10;Project Structure &amp; Best Practices:&#10;&#10;Transitioned the project to a professional directory structure (/data, /scripts, /archive) to enforce separation of concerns.&#10;&#10;Authored the DEVELOPMENT_GUIDE.md, formalizing our coding standards, Git workflow, and architectural principles.&#10;&#10;Upgraded the development workflow to use the integrated Git client within the PyCharm Professional IDE.&#10;&#10;Final Data Consolidation:&#10;&#10;Developed and executed robust scripts to merge the two vaults (merge_master_vaults_with_logging.py), creating a detailed log of the process.&#10;&#10;Developed and executed the final ID assignment script (assign_master_ids.py) to apply globally unique IDs to all 3,808 objects in the master vault.&#10;&#10;Successfully debugged runtime errors during the ID assignment process, making the script more robust against inconsistent data types.&#10;&#10;Documentation &amp; Toolkit Refinement:&#10;&#10;Updated the project's README.md to reflect the current status.&#10;&#10;Updated the re-initialization prompt to mark the completion of the data buildout milestone.&#10;&#10;Added the official ID Naming Convention to the VAULT_GUIDE.md.&#10;&#10;Created several new utility scripts, including a dedicated JSON formatter and a powerful, read-only search tool (find_key_value.py).&#10;&#10;With the backend data now stable and complete, the project is officially ready to move into Phase 1: Web Application Development." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;subscotia&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/subscotia/Studio_Vault.git",
+    "accountId": "d3b6e46f-b749-4d4b-b8bb-e3a479cdac62"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2zmyB0KyTpPNbFKbIGtP19K34Q1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.assign_master_ids.executor": "Run",
+    "Python.find_key_value.executor": "Run",
+    "Python.format_json.executor": "Run",
+    "Python.list_unique_families.executor": "Run",
+    "Python.list_unique_tags.executor": "Run",
+    "Python.list_unique_types.executor": "Run",
+    "Python.list_unique_values_REFACT.executor": "Run",
+    "Python.merge_list_values.executor": "Run",
+    "Python.merge_master_vaults.executor": "Run",
+    "Python.remove_value_from_list_field.executor": "Run",
+    "Python.replace_any_tag.executor": "Run",
+    "Python.replace_family_labels.executor": "Run",
+    "Python.reset_ids.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "F:/Studio/Admin Ops/Operations/git/vault_project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Studio\Admin Ops\Operations\git\vault_project\html" />
+      <recent name="F:\Studio\Admin Ops\Operations\git\vault_project\scripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.assign_master_ids">
+    <configuration name="assign_master_ids" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vault_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/assign_master_ids.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list_unique_types" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vault_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/list_unique_types.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="merge_master_vaults" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vault_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/merge_master_vaults.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="remove_value_from_list_field" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vault_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/remove_value_from_list_field.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reset_ids" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vault_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/reset_ids.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.assign_master_ids" />
+        <item itemvalue="Python.list_unique_types" />
+        <item itemvalue="Python.merge_master_vaults" />
+        <item itemvalue="Python.reset_ids" />
+        <item itemvalue="Python.remove_value_from_list_field" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f5293e2-f8c9-45e3-9466-0d840ec8e439" name="Changes" comment="" />
+      <created>1752350403783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752350403783</updated>
+      <workItem from="1752523846050" duration="3209000" />
+      <workItem from="1752532754925" duration="4389000" />
+      <workItem from="1752565708015" duration="16288000" />
+    </task>
+    <task id="LOCAL-00001" summary="Work Report: 15 July 2025&#10;Milestone Reached: Backend Data Buildout Complete&#10;&#10;This commit marks the completion of the data population and cleaning phase for the Subscotia Vault. The ivault and xvault are now finalized and have been merged into a single, definitive vault_master.json. All objects have been assigned a final, globally unique ID according to the established convention.&#10;&#10;Key Achievements in this Commit:&#10;&#10;Project Structure &amp; Best Practices:&#10;&#10;Transitioned the project to a professional directory structure (/data, /scripts, /archive) to enforce separation of concerns.&#10;&#10;Authored the DEVELOPMENT_GUIDE.md, formalizing our coding standards, Git workflow, and architectural principles.&#10;&#10;Upgraded the development workflow to use the integrated Git client within the PyCharm Professional IDE.&#10;&#10;Final Data Consolidation:&#10;&#10;Developed and executed robust scripts to merge the two vaults (merge_master_vaults_with_logging.py), creating a detailed log of the process.&#10;&#10;Developed and executed the final ID assignment script (assign_master_ids.py) to apply globally unique IDs to all 3,808 objects in the master vault.&#10;&#10;Successfully debugged runtime errors during the ID assignment process, making the script more robust against inconsistent data types.&#10;&#10;Documentation &amp; Toolkit Refinement:&#10;&#10;Updated the project's README.md to reflect the current status.&#10;&#10;Updated the re-initialization prompt to mark the completion of the data buildout milestone.&#10;&#10;Added the official ID Naming Convention to the VAULT_GUIDE.md.&#10;&#10;Created several new utility scripts, including a dedicated JSON formatter and a powerful, read-only search tool (find_key_value.py).&#10;&#10;With the backend data now stable and complete, the project is officially ready to move into Phase 1: Web Application Development.">
+      <option name="closed" value="true" />
+      <created>1752595646161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752595646161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Work Report: 15 July 2025&#10;Milestone Reached: Backend Data Buildout Complete&#10;&#10;This commit marks the completion of the data population and cleaning phase for the Subscotia Vault. The ivault and xvault are now finalized and have been merged into a single, definitive vault_master.json. All objects have been assigned a final, globally unique ID according to the established convention.&#10;&#10;Key Achievements in this Commit:&#10;&#10;Project Structure &amp; Best Practices:&#10;&#10;Transitioned the project to a professional directory structure (/data, /scripts, /archive) to enforce separation of concerns.&#10;&#10;Authored the DEVELOPMENT_GUIDE.md, formalizing our coding standards, Git workflow, and architectural principles.&#10;&#10;Upgraded the development workflow to use the integrated Git client within the PyCharm Professional IDE.&#10;&#10;Final Data Consolidation:&#10;&#10;Developed and executed robust scripts to merge the two vaults (merge_master_vaults_with_logging.py), creating a detailed log of the process.&#10;&#10;Developed and executed the final ID assignment script (assign_master_ids.py) to apply globally unique IDs to all 3,808 objects in the master vault.&#10;&#10;Successfully debugged runtime errors during the ID assignment process, making the script more robust against inconsistent data types.&#10;&#10;Documentation &amp; Toolkit Refinement:&#10;&#10;Updated the project's README.md to reflect the current status.&#10;&#10;Updated the re-initialization prompt to mark the completion of the data buildout milestone.&#10;&#10;Added the official ID Naming Convention to the VAULT_GUIDE.md.&#10;&#10;Created several new utility scripts, including a dedicated JSON formatter and a powerful, read-only search tool (find_key_value.py).&#10;&#10;With the backend data now stable and complete, the project is officially ready to move into Phase 1: Web Application Development." />
+    <option name="LAST_COMMIT_MESSAGE" value="Work Report: 15 July 2025&#10;Milestone Reached: Backend Data Buildout Complete&#10;&#10;This commit marks the completion of the data population and cleaning phase for the Subscotia Vault. The ivault and xvault are now finalized and have been merged into a single, definitive vault_master.json. All objects have been assigned a final, globally unique ID according to the established convention.&#10;&#10;Key Achievements in this Commit:&#10;&#10;Project Structure &amp; Best Practices:&#10;&#10;Transitioned the project to a professional directory structure (/data, /scripts, /archive) to enforce separation of concerns.&#10;&#10;Authored the DEVELOPMENT_GUIDE.md, formalizing our coding standards, Git workflow, and architectural principles.&#10;&#10;Upgraded the development workflow to use the integrated Git client within the PyCharm Professional IDE.&#10;&#10;Final Data Consolidation:&#10;&#10;Developed and executed robust scripts to merge the two vaults (merge_master_vaults_with_logging.py), creating a detailed log of the process.&#10;&#10;Developed and executed the final ID assignment script (assign_master_ids.py) to apply globally unique IDs to all 3,808 objects in the master vault.&#10;&#10;Successfully debugged runtime errors during the ID assignment process, making the script more robust against inconsistent data types.&#10;&#10;Documentation &amp; Toolkit Refinement:&#10;&#10;Updated the project's README.md to reflect the current status.&#10;&#10;Updated the re-initialization prompt to mark the completion of the data buildout milestone.&#10;&#10;Added the official ID Naming Convention to the VAULT_GUIDE.md.&#10;&#10;Created several new utility scripts, including a dedicated JSON formatter and a powerful, read-only search tool (find_key_value.py).&#10;&#10;With the backend data now stable and complete, the project is officially ready to move into Phase 1: Web Application Development." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/vault_project$assign_master_ids.coverage" NAME="assign_master_ids Coverage Results" MODIFIED="1752594781452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/vault_project$format_json.coverage" NAME="format_json Coverage Results" MODIFIED="1752527080730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/vault_project$reset_ids.coverage" NAME="reset_ids Coverage Results" MODIFIED="1752591224074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/vault_project$find_key_value.coverage" NAME="find_key_value Coverage Results" MODIFIED="1752588786311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/vault_project$list_unique_values_REFACT.coverage" NAME="list_unique_values_REFACT Coverage Results" MODIFIED="1752576210735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/vault_project$remove_value_from_list_field.coverage" NAME="remove_value_from_list_field Coverage Results" MODIFIED="1752589501986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/vault_project$merge_master_vaults.coverage" NAME="merge_master_vaults Coverage Results" MODIFIED="1752591576547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/vault_project$list_unique_types.coverage" NAME="list_unique_types Coverage Results" MODIFIED="1752591818519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/vault_project$replace_family_labels.coverage" NAME="replace_family_labels Coverage Results" MODIFIED="1752588569018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/vault_project$list_unique_families.coverage" NAME="list_unique_families Coverage Results" MODIFIED="1752589454108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+  </component>
+</project>
