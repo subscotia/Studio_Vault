@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qwen2.5: An Interactive Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Warm Neutrals & Muted Blue -->
+    <!-- Application Structure Plan: A tabbed dashboard interface is used to break down the dense report into logical, digestible sections: Overview, Universe, Performance, and Strategy. This non-linear structure empowers the user to explore topics based on interest, rather than following the linear flow of the source document. Key interactions include tab navigation to switch contexts, dropdowns to filter comparative benchmark charts, and toggles for cost analysis, making data exploration dynamic and user-driven. This structure was chosen to transform a static report into an interactive decision-making tool, focusing on usability and direct comparison. -->
+    <!-- Visualization & Content Choices:
+        - Report Info: Key stats (90k models, 18T tokens). Goal: Inform/Impress. Viz: Animated stat cards. Interaction: None. Justification: Creates an engaging entry point. Library: JS/CSS.
+        - Report Info: Table 1 (Model Family). Goal: Organize/Inform. Viz: Filterable cards. Interaction: Buttons to filter models by type. Justification: Simplifies a dense table into an exploratory tool. Library: JS/HTML.
+        - Report Info: Table 2 (Benchmarks). Goal: Compare. Viz: Dynamic bar chart. Interaction: Dropdown to select benchmark. Justification: Allows direct, visual head-to-head comparison, which is central to the report's purpose. Library: Chart.js.
+        - Report Info: Table 4 (API Pricing). Goal: Compare. Viz: Dynamic bar chart. Interaction: Toggle for input/output costs. Justification: Clarifies complex pricing data for strategic cost analysis. Library: Chart.js.
+        - Report Info: Strategic Routing. Goal: Explain. Viz: HTML/CSS diagram. Interaction: Hover effects. Justification: Visually simplifies the core strategic recommendation. Library: HTML/CSS.
+        - All choices adhere to the NO SVG/Mermaid constraint. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .chart-container { position: relative; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; height: 400px; max-height: 50vh; }
+        @media (min-width: 768px) { .chart-container { height: 450px; } }
+        .tab-button { transition: all 0.3s ease; }
+        .tab-button.active { border-color: #2563eb; color: #2563eb; background-color: #eff6ff; }
+        .tab-button:not(.active):hover { background-color: #f3f4f6; }
+        .content-section { display: none; }
+        .content-section.active { display: block; }
+        .card { transition: all 0.3s ease-in-out; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); }
+        .stat-card-value { font-weight: 700; font-size: 2.25rem; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-900">Qwen2.5: An Interactive Analysis</h1>
+            <p class="mt-2 text-lg text-slate-600 max-w-3xl mx-auto">Exploring Alibaba's AI as a Strategic Complement to the Gemini Ecosystem.</p>
+        </header>
+
+        <nav class="mb-8 flex flex-wrap justify-center gap-2 md:gap-4">
+            <button class="tab-button active text-sm md:text-base font-medium py-2 px-4 rounded-lg border-2 border-transparent" data-tab="overview">
+                🚀 Overview
+            </button>
+            <button class="tab-button text-sm md:text-base font-medium py-2 px-4 rounded-lg border-2 border-transparent" data-tab="universe">
+                🌌 The Qwen Universe
+            </button>
+            <button class="tab-button text-sm md:text-base font-medium py-2 px-4 rounded-lg border-2 border-transparent" data-tab="performance">
+                📊 Performance Deep Dive
+            </button>
+            <button class="tab-button text-sm md:text-base font-medium py-2 px-4 rounded-lg border-2 border-transparent" data-tab="strategy">
+                ♟️ Strategic Playbook
+            </button>
+        </nav>
+
+        <main>
+            <div id="overview" class="content-section active">
+                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-4">Executive Summary</h2>
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        This analysis provides a comprehensive overview of Alibaba's Qwen2.5, a family of large language models that has emerged as a significant force in the global AI landscape. The findings indicate that Qwen2.5 is not a single model but a rapidly advancing portfolio. Its primary value is not as a direct replacement for top-tier generalist models like Google Gemini, but as a powerful, versatile, and often more cost-effective or higher-performing solution for specific, high-value tasks. This interactive dashboard allows you to explore the data behind this conclusion.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                        <div class="stat-card card bg-slate-100 p-6 rounded-xl">
+                            <div class="stat-card-value text-blue-600" id="stat-models">0</div>
+                            <div class="text-slate-600 font-medium mt-1">Derivative Models on Hugging Face</div>
+                        </div>
+                        <div class="stat-card card bg-slate-100 p-6 rounded-xl">
+                            <div class="stat-card-value text-blue-600" id="stat-tokens">0T</div>
+                            <div class="text-slate-600 font-medium mt-1">Tokens in Pre-training Data</div>
+                        </div>
+                        <div class="stat-card card bg-slate-100 p-6 rounded-xl">
+                            <div class="stat-card-value text-blue-600" id="stat-languages">0+</div>
+                            <div class="text-slate-600 font-medium mt-1">Languages Supported</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="universe" class="content-section">
+                 <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-2">The Qwen Universe</h2>
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        The Qwen2.5 family is a diverse ecosystem of models, not a monolith. It spans from small, efficient models that can run on consumer hardware to large-scale proprietary systems, including highly specialized variants for coding, math, and multimodal tasks. Use the filters below to explore the different models and their key specifications to understand which tool is right for which job.
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-2 mb-6" id="model-filters">
+                         <button class="filter-btn active bg-blue-600 text-white py-1 px-3 rounded-full text-sm" data-filter="all">All</button>
+                         <button class="filter-btn bg-slate-200 text-slate-700 py-1 px-3 rounded-full text-sm" data-filter="General">General</button>
+                         <button class="filter-btn bg-slate-200 text-slate-700 py-1 px-3 rounded-full text-sm" data-filter="Coder">Coder</button>
+                         <button class="filter-btn bg-slate-200 text-slate-700 py-1 px-3 rounded-full text-sm" data-filter="Math">Math</button>
+                         <button class="filter-btn bg-slate-200 text-slate-700 py-1 px-3 rounded-full text-sm" data-filter="Vision">Vision</button>
+                         <button class="filter-btn bg-slate-200 text-slate-700 py-1 px-3 rounded-full text-sm" data-filter="Long-Context">Long-Context</button>
+                    </div>
+                    <div id="model-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    </div>
+                </div>
+            </div>
+
+            <div id="performance" class="content-section">
+                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-2">Performance Deep Dive</h2>
+                     <p class="text-slate-600 leading-relaxed mb-6">
+                        How does Qwen2.5 stack up against the competition? This section provides a head-to-head comparison on key industry benchmarks. While generalist models like Gemini often lead in broad knowledge, Qwen's specialized models demonstrate state-of-the-art performance in their respective domains. Select a benchmark from the dropdown to see how the models compare.
+                    </p>
+                    <div class="flex justify-center mb-4">
+                        <select id="benchmark-selector" class="block w-full max-w-xs p-2 border border-slate-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="MMLU">MMLU (General Knowledge)</option>
+                            <option value="MATH">MATH (Problem Solving)</option>
+                            <option value="HumanEval">HumanEval (Coding)</option>
+                            <option value="GSM8K">GSM8K (Grade School Math)</option>
+                        </select>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="benchmarkChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div id="strategy" class="content-section">
+                 <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-2">Strategic Playbook</h2>
+                     <p class="text-slate-600 leading-relaxed mb-6">
+                        The most effective AI strategy involves a hybrid, best-of-breed approach. Instead of a single model, a sophisticated infrastructure can route queries to the most suitable one, maximizing both performance and cost-efficiency. This section visualizes this strategic approach and provides a clear comparison of API costs across providers.
+                    </p>
+
+                    <div class="mb-8">
+                        <h3 class="text-xl font-semibold text-center mb-4">Hybrid AI Task Routing</h3>
+                        <div class="flex flex-col md:flex-row justify-center items-center gap-4 p-4 rounded-lg bg-slate-100">
+                            <div class="text-center">
+                                <div class="font-bold text-lg">User Query</div>
+                                <div class="text-slate-500">Any task</div>
+                            </div>
+                            <div class="text-5xl text-slate-300 transform md:-rotate-90">→</div>
+                            <div class="p-4 bg-white rounded-lg shadow-sm text-center">
+                                <div class="font-bold text-lg">Intelligent Router</div>
+                                <div class="text-slate-500">Determines task type</div>
+                            </div>
+                            <div class="text-5xl text-slate-300 transform md:-rotate-90">→</div>
+                             <div class="grid grid-cols-2 gap-4">
+                                <div class="p-3 bg-green-100 border border-green-300 rounded-lg text-center">
+                                    <div class="font-semibold">General Tasks</div>
+                                    <div class="text-sm text-green-800">→ Gemini Pro</div>
+                                </div>
+                                <div class="p-3 bg-blue-100 border border-blue-300 rounded-lg text-center">
+                                    <div class="font-semibold">Coding Tasks</div>
+                                    <div class="text-sm text-blue-800">→ Qwen2.5 Coder</div>
+                                </div>
+                                <div class="p-3 bg-blue-100 border border-blue-300 rounded-lg text-center">
+                                    <div class="font-semibold">Math/Quant</div>
+                                    <div class="text-sm text-blue-800">→ Qwen2.5 Math</div>
+                                </div>
+                                 <div class="p-3 bg-blue-100 border border-blue-300 rounded-lg text-center">
+                                    <div class="font-semibold">Document Parsing</div>
+                                    <div class="text-sm text-blue-800">→ Qwen2.5 VL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-center mb-4">API Cost Comparison (per 1M Tokens)</h3>
+                         <div class="flex justify-center gap-2 mb-4">
+                            <button id="cost-input-btn" class="cost-btn active bg-blue-600 text-white py-1 px-3 rounded-full text-sm">Input Cost</button>
+                            <button id="cost-output-btn" class="cost-btn bg-slate-200 text-slate-700 py-1 px-3 rounded-full text-sm">Output Cost</button>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="costChart"></canvas>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const appData = {
+            stats: {
+                models: 90000,
+                tokens: 18,
+                languages: 29
+            },
+            models: [
+                { name: 'Qwen2.5-7B-Instruct', type: 'General', params: '7.6B', context: '128K', license: 'Apache 2.0' },
+                { name: 'Qwen2.5-72B-Instruct', type: 'General', params: '72.7B', context: '128K', license: 'Qwen License' },
+                { name: 'Qwen2.5-Coder-32B', type: 'Coder', params: '32.7B', context: '128K', license: 'Apache 2.0' },
+                { name: 'Qwen2.5-Math-72B', type: 'Math', params: '72B+', context: '128K', license: 'Qwen License' },
+                { name: 'Qwen2.5-VL-72B', type: 'Vision', params: '72B+', context: '32K', license: 'Qwen License' },
+                { name: 'Qwen2.5-Omni-7B', type: 'Vision', params: '7B+', context: '32K', license: 'Apache 2.0' },
+                { name: 'Qwen2.5-14B-Instruct-1M', type: 'Long-Context', params: '14.7B', context: '1M', license: 'Apache 2.0' },
+                { name: 'Qwen2.5-Max', type: 'General', params: 'Proprietary (MoE)', context: '128K', license: 'Proprietary' },
+            ],
+            benchmarks: {
+                'MMLU': {
+                    'Qwen2.5-72B-Instruct': 86.1, 'Gemini 1.5 Pro': 85.9, 'GPT-4o': 85.7, 'Qwen2.5-Coder-32B': 75.1,
+                },
+                'MATH': {
+                     'Qwen2.5-Math-72B': 92.9, 'Gemini 1.5 Pro': 86.5, 'Qwen2.5-72B-Instruct': 83.1, 'Llama 3.1-405B': 73.8, 'Claude 3.5 Sonnet': 71.1,
+                },
+                'HumanEval': {
+                    'Qwen2.5-Coder-32B': 92.7, 'Claude 3.5 Sonnet': 92.0, 'Llama 3.1-405B': 89.0, 'GPT-4o': 88.4, 'Qwen2.5-72B-Instruct': 86.6, 'Gemini 1.5 Pro': 84.1,
+                },
+                'GSM8K': {
+                    'Llama 3.1-405B': 96.8, 'Claude 3.5 Sonnet': 96.4, 'Qwen2.5-72B-Instruct': 95.8, 'Gemini 1.5 Pro': 90.8,
+                }
+            },
+            costs: {
+                'Qwen-Max': { input: 1.60, output: 1.60 },
+                'Gemini 1.5 Pro': { input: 2.50, output: 10.00 },
+                'Claude 3.5 Sonnet': { input: 3.00, output: 15.00 },
+                'GPT-4o': { input: 2.50, output: 10.00 },
+                'Llama 3.1-405B': { input: 0.90, output: 0.90 },
+                'Qwen2.5-72B': { input: 0.35, output: 0.40 },
+                'Qwen2.5-Coder-32B': { input: 0.09, output: 0.09 },
+            }
+        };
+
+        let benchmarkChart, costChart;
+
+        function animateValue(element, start, end, duration, suffix = '', decimals = 0) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                const currentValue = progress * (end - start) + start;
+                element.innerHTML = currentValue.toFixed(decimals).replace(/\B(?=(\d{3})+(?!\d))/g, ",") + suffix;
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        function renderModelCards(filter = 'all') {
+            const grid = document.getElementById('model-grid');
+            grid.innerHTML = '';
+            const filteredModels = filter === 'all'
+                ? appData.models
+                : appData.models.filter(m => m.type === filter);
+
+            filteredModels.forEach(model => {
+                const card = document.createElement('div');
+                card.className = 'card bg-slate-100 p-4 rounded-lg shadow-sm border border-slate-200';
+                card.innerHTML = `
+                    <h4 class="font-bold text-lg text-slate-900">${model.name}</h4>
+                    <div class="mt-2 space-y-1 text-sm text-slate-600">
+                        <div><span class="font-semibold text-slate-700">Type:</span> <span class="py-0.5 px-1.5 rounded-md bg-blue-100 text-blue-800 text-xs font-medium">${model.type}</span></div>
+                        <div><span class="font-semibold text-slate-700">Parameters:</span> ${model.params}</div>
+                        <div><span class="font-semibold text-slate-700">Max Context:</span> ${model.context} Tokens</div>
+                        <div><span class="font-semibold text-slate-700">License:</span> ${model.license}</div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function updateBenchmarkChart(benchmarkKey) {
+            const data = appData.benchmarks[benchmarkKey];
+            const sortedData = Object.entries(data).sort(([,a],[,b]) => b-a);
+
+            benchmarkChart.data.labels = sortedData.map(item => item[0]);
+            benchmarkChart.data.datasets[0].data = sortedData.map(item => item[1]);
+            benchmarkChart.options.plugins.title.text = `${benchmarkKey} Benchmark Scores (%)`;
+            benchmarkChart.update();
+        }
+
+        function createBenchmarkChart() {
+            const ctx = document.getElementById('benchmarkChart').getContext('2d');
+            benchmarkChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: 'Score',
+                        data: [],
+                        backgroundColor: 'rgba(37, 99, 235, 0.8)',
+                        borderColor: 'rgba(37, 99, 235, 1)',
+                        borderWidth: 1,
+                        borderRadius: 5,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            grid: { color: '#e2e8f0' }
+                        },
+                        y: {
+                           grid: { display: false }
+                        }
+                    },
+                    plugins: {
+                        legend: { display: false },
+                        title: {
+                            display: true,
+                            text: '',
+                            font: { size: 18, weight: '600' },
+                            color: '#1e293b',
+                            padding: { top: 10, bottom: 20 }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return ` Score: ${context.raw}%`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+            updateBenchmarkChart('MMLU');
+        }
+
+        function updateCostChart(costType) {
+            const sortedData = Object.entries(appData.costs).sort(([,a],[,b]) => a[costType]-b[costType]);
+            costChart.data.labels = sortedData.map(item => item[0]);
+            costChart.data.datasets[0].data = sortedData.map(item => item[1][costType]);
+            costChart.options.plugins.title.text = `API Cost for ${costType.charAt(0).toUpperCase() + costType.slice(1)} (USD per 1M Tokens)`;
+            costChart.update();
+        }
+
+        function createCostChart() {
+             const ctx = document.getElementById('costChart').getContext('2d');
+             costChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: 'USD ($)',
+                        data: [],
+                        backgroundColor: 'rgba(22, 163, 74, 0.8)',
+                        borderColor: 'rgba(22, 163, 74, 1)',
+                        borderWidth: 1,
+                        borderRadius: 5,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                             grid: { color: '#e2e8f0' }
+                        },
+                        y: {
+                           grid: { display: false }
+                        }
+                    },
+                    plugins: {
+                        legend: { display: false },
+                        title: {
+                            display: true,
+                            text: '',
+                            font: { size: 18, weight: '600' },
+                            color: '#1e293b',
+                            padding: { top: 10, bottom: 20 }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return ` Cost: $${context.raw.toFixed(2)}`;
+                                }
+                            }
+                        }
+                    }
+                }
+             });
+             updateCostChart('input');
+        }
+
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabs = document.querySelectorAll('.tab-button');
+            const contents = document.querySelectorAll('.content-section');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    tabs.forEach(t => t.classList.remove('active'));
+                    contents.forEach(c => c.classList.remove('active'));
+
+                    tab.classList.add('active');
+                    document.getElementById(tab.dataset.tab).classList.add('active');
+                });
+            });
+
+            animateValue(document.getElementById('stat-models'), 0, appData.stats.models, 2000);
+            animateValue(document.getElementById('stat-tokens'), 0, appData.stats.tokens, 2000, 'T');
+            animateValue(document.getElementById('stat-languages'), 0, appData.stats.languages, 2000, '+');
+
+            const modelFilters = document.querySelectorAll('#model-filters .filter-btn');
+            modelFilters.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    modelFilters.forEach(b => b.classList.remove('active', 'bg-blue-600', 'text-white'));
+                    modelFilters.forEach(b => b.classList.add('bg-slate-200', 'text-slate-700'));
+
+                    btn.classList.add('active', 'bg-blue-600', 'text-white');
+                    btn.classList.remove('bg-slate-200', 'text-slate-700');
+                    renderModelCards(btn.dataset.filter);
+                });
+            });
+
+            document.getElementById('benchmark-selector').addEventListener('change', (e) => {
+                updateBenchmarkChart(e.target.value);
+            });
+
+            const costInputBtn = document.getElementById('cost-input-btn');
+            const costOutputBtn = document.getElementById('cost-output-btn');
+
+            costInputBtn.addEventListener('click', () => {
+                updateCostChart('input');
+                costInputBtn.classList.add('active', 'bg-blue-600', 'text-white');
+                costInputBtn.classList.remove('bg-slate-200', 'text-slate-700');
+                costOutputBtn.classList.remove('active', 'bg-blue-600', 'text-white');
+                costOutputBtn.classList.add('bg-slate-200', 'text-slate-700');
+            });
+            costOutputBtn.addEventListener('click', () => {
+                updateCostChart('output');
+                costOutputBtn.classList.add('active', 'bg-blue-600', 'text-white');
+                costOutputBtn.classList.remove('bg-slate-200', 'text-slate-700');
+                costInputBtn.classList.remove('active', 'bg-blue-600', 'text-white');
+                costInputBtn.classList.add('bg-slate-200', 'text-slate-700');
+            });
+
+            renderModelCards();
+            createBenchmarkChart();
+            createCostChart();
+        });
+    </script>
+</body>
+</html>
+
+<body>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CDN Dark Mode Isolation Test</title>
+
+    <!-- 1. Load the Tailwind Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- 2. Configure Tailwind for class-based dark mode -->
+    <script>
+        tailwind.config = {
+          darkMode: 'class'
+        }
+    </script>
+</head>
+<body class="bg-white dark:bg-black p-10 transition-colors duration-500">
+
+    <h1 class="text-black dark:text-white text-2xl font-bold">Isolation Test</h1>
+    <p class="text-gray-700 dark:text-gray-300">The background of this page should toggle between white and black.</p>
+
+    <button id="cdn-test-toggle" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">
+        Toggle Theme
+    </button>
+
+    <script>
+        // 3. Simple toggle logic
+        const toggleButton = document.getElementById('cdn-test-toggle');
+
+        // Function to apply the theme based on localStorage
+        function applyTheme() {
+            if (localStorage.getItem('theme') === 'dark') {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        }
+
+        toggleButton.addEventListener('click', () => {
+            // Toggle the dark class
+            document.documentElement.classList.toggle('dark');
+
+            // Save the new state to localStorage
+            if (document.documentElement.classList.contains('dark')) {
+                localStorage.setItem('theme', 'dark');
+            } else {
+                localStorage.setItem('theme', 'light');
+            }
+        });
+
+        // Apply the theme when the page loads
+        applyTheme();
+    </script>
+
+</body>
+</html>
