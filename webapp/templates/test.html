@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dark Mode Test</title>
+    <!-- We link the CSS file directly. No Flask variables. -->
+    <link href="../static/output.css" rel="stylesheet">
+    <script>
+        // Apply theme instantly
+        if (localStorage.theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+    </script>
+</head>
+<body class="bg-white dark:bg-black p-10">
+
+    <h1 class="text-black dark:text-white text-2xl font-bold">Dark Mode Test Page</h1>
+    <p class="text-gray-700 dark:text-gray-300">If you can see this text on a black background, dark mode is working.</p>
+
+    <button id="test-toggle" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">Toggle Theme</button>
+
+    <script>
+        document.getElementById('test-toggle').addEventListener('click', () => {
+            const isDarkMode = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        });
+    </script>
+
+</body>
+</html>

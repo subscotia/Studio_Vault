@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscotia Vault</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { darkMode: 'class' }
+    </script>
+
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+    </script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 font-sans transition-colors duration-300">
+
+    <div class="flex flex-col h-screen">
+        <header class="bg-white dark:bg-gray-800 shadow-md p-4 z-20 flex justify-between items-center">
+            <button id="hamburger-button" class="p-2 rounded-md md:hidden hover:bg-gray-200 dark:hover:bg-gray-700">
+                <svg class="h-6 w-6 text-gray-800 dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Subscotia Vault</h1>
+            <button id="theme-toggle-button" class="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700">
+                <svg id="theme-toggle-sun-icon" class="h-6 w-6 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor"></svg>
+                <svg id="theme-toggle-moon-icon" class="h-6 w-6 text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"></svg>
+            </button>
+        </header>
+
+        <div class="relative flex flex-1 overflow-y-hidden">
+            <aside id="sidebar" class="fixed inset-y-0 left-0 w-3/4 max-w-xs bg-gray-200 dark:bg-gray-800/95 p-6 transform -translate-x-full transition-transform duration-300 ease-in-out z-30 md:relative md:w-1/4 md:translate-x-0 overflow-y-auto">
+                <h2 class="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Filters</h2>
+                <div class="mb-4">
+                    <input type="text" id="search-input" placeholder="Search..." class="w-full p-2 rounded-md bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-sky-500 focus:border-sky-500">
+                </div>
+
+                <div id="families-filter-container" class="mb-4"></div>
+                <div id="tags-filter-container"></div>
+
+            </aside>
+            <div id="sidebar-overlay" class="fixed inset-0 bg-black/50 z-20 hidden md:hidden"></div>
+            <main class="w-full p-6 overflow-y-auto md:w-3/4">
+                <h2 class="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Plugins</h2>
+                <div id="plugin-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"></div>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        window.vaultData = {{ vault_data|tojson }};
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- ELEMENT REFERENCES ---
+            const themeToggleButton = document.getElementById('theme-toggle-button');
+            const sunIcon = document.getElementById('theme-toggle-sun-icon');
+            const moonIcon = document.getElementById('theme-toggle-moon-icon');
+            const hamburgerButton = document.getElementById('hamburger-button');
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebar-overlay');
+            const searchInput = document.getElementById('search-input');
+            const pluginContainer = document.getElementById('plugin-grid-container');
+            const familiesContainer = document.getElementById('families-filter-container');
+            const tagsContainer = document.getElementById('tags-filter-container');
+
+            // --- STATE MANAGEMENT ---
+            const activeFilters = { families: new Set(), tags: new Set() };
+
+            // --- REUSABLE FUNCTIONS ---
+
+            function renderCards(pluginsToRender) {
+                if (!pluginContainer) return;
+                pluginContainer.innerHTML = '';
+                if (pluginsToRender.length === 0) {
+                    pluginContainer.innerHTML = '<p class="text-gray-500 dark:text-gray-400 col-span-full">No plugins match your filters.</p>';
+                    return;
+                }
+                pluginsToRender.forEach(plugin => {
+                    const card = document.createElement('div');
+                    card.className = 'bg-white dark:bg-gray-800 rounded-lg shadow p-4 flex flex-col justify-between';
+                    const developerText = Array.isArray(plugin.developer) ? plugin.developer.join(', ') : plugin.developer;
+                    card.innerHTML = `
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-900 dark:text-white truncate" title="${plugin.name || ''}">${plugin.name || 'Unnamed'}</h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">${developerText || 'Unknown'}</p>
+                        </div>
+                        <div>
+                            <span class="bg-sky-100 text-sky-800 text-xs font-semibold mt-4 inline-block px-2.5 py-0.5 rounded-full dark:bg-sky-900 dark:text-sky-200">
+                                ${plugin.type || 'N/A'}
+                            </span>
+                        </div>`;
+                    pluginContainer.appendChild(card);
+                });
+            }
+
+            function applyAllFilters() {
+                const query = searchInput.value.toLowerCase();
+                const filteredPlugins = (window.vaultData || []).filter(plugin => {
+                    const nameMatch = typeof plugin.name === 'string' && plugin.name.toLowerCase().includes(query);
+                    let developerMatch = false;
+                    if (typeof plugin.developer === 'string') {
+                        developerMatch = plugin.developer.toLowerCase().includes(query);
+                    } else if (Array.isArray(plugin.developer)) {
+                        developerMatch = plugin.developer.some(dev => typeof dev === 'string' && dev.toLowerCase().includes(query));
+                    }
+                    if (query && !nameMatch && !developerMatch) return false;
+
+                    const pluginFamilies = new Set(Array.isArray(plugin.families) ? plugin.families : []);
+                    for (const family of activeFilters.families) {
+                        if (!pluginFamilies.has(family)) return false;
+                    }
+                    const pluginTags = new Set(Array.isArray(plugin.tags) ? plugin.tags : []);
+                    for (const tag of activeFilters.tags) {
+                        if (!pluginTags.has(tag)) return false;
+                    }
+
+                    return true;
+                });
+                renderCards(filteredPlugins);
+            }
+
+            function populateFilters() {
+                const allFamilies = new Set();
+                const allTags = new Set();
+                (window.vaultData || []).forEach(plugin => {
+                    if (Array.isArray(plugin.families)) {
+                        plugin.families.forEach(family => {
+                            if (typeof family === 'string') allFamilies.add(family);
+                        });
+                    }
+                    if (Array.isArray(plugin.tags)) {
+                        plugin.tags.forEach(tag => {
+                            if (typeof tag === 'string') allTags.add(tag);
+                        });
+                    }
+                });
+
+                const createCheckboxHTML = (type, value) => {
+                    // Defensive check to ensure value is a string before calling replace
+                    if (typeof value !== 'string') return '';
+                    const checkboxId = `${type}-${value.replace(/\s+/g, '-')}`;
+                    return `
+                        <div class="flex items-center mb-1">
+                            <input id="${checkboxId}" type="checkbox" data-filter-type="${type}" data-filter-value="${value}" class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500">
+                            <label for="${checkboxId}" class="ml-2 text-sm text-gray-700 dark:text-gray-300">${value}</label>
+                        </div>`;
+                };
+
+                familiesContainer.innerHTML = `<h3 class="text-md font-semibold mb-2 text-gray-900 dark:text-white">Families</h3>` + Array.from(allFamilies).sort().map(f => createCheckboxHTML('families', f)).join('');
+                tagsContainer.innerHTML = `<h3 class="text-md font-semibold mt-4 mb-2 text-gray-900 dark:text-white">Tags</h3>` + Array.from(allTags).sort().map(t => createCheckboxHTML('tags', t)).join('');
+
+                document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+                    checkbox.addEventListener('change', (e) => {
+                        const { filterType, filterValue } = e.target.dataset;
+                        if (e.target.checked) activeFilters[filterType].add(filterValue);
+                        else activeFilters[filterType].delete(filterValue);
+                        applyAllFilters();
+                    });
+                });
+            }
+
+            function applyTheme() {
+                const isDarkMode = document.documentElement.classList.contains('dark');
+                if (moonIcon && sunIcon) {
+                    moonIcon.classList.toggle('hidden', !isDarkMode);
+                    sunIcon.classList.toggle('hidden', isDarkMode);
+                }
+            }
+
+            function toggleSidebar() {
+                sidebar.classList.toggle('-translate-x-full');
+                overlay.classList.toggle('hidden');
+            }
+
+            // --- EVENT LISTENERS ---
+            themeToggleButton.addEventListener('click', () => {
+                document.documentElement.classList.toggle('dark');
+                localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+                applyTheme();
+            });
+            hamburgerButton.addEventListener('click', toggleSidebar);
+            overlay.addEventListener('click', toggleSidebar);
+            searchInput.addEventListener('input', applyAllFilters);
+
+            // --- INITIALIZATION ---
+            applyTheme();
+            populateFilters();
+            applyAllFilters();
+        });
+    </script>
+</body>
+</html>

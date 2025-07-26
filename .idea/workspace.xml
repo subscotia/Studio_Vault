@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f5293e2-f8c9-45e3-9466-0d840ec8e439" name="Changes" comment="Work Report: 15 July 2025&#10;Milestone Reached: Backend Data Buildout Complete&#10;&#10;This commit marks the completion of the data population and cleaning phase for the Subscotia Vault. The ivault and xvault are now finalized and have been merged into a single, definitive vault_master.json. All objects have been assigned a final, globally unique ID according to the established convention.&#10;&#10;Key Achievements in this Commit:&#10;&#10;Project Structure &amp; Best Practices:&#10;&#10;Transitioned the project to a professional directory structure (/data, /scripts, /archive) to enforce separation of concerns.&#10;&#10;Authored the DEVELOPMENT_GUIDE.md, formalizing our coding standards, Git workflow, and architectural principles.&#10;&#10;Upgraded the development workflow to use the integrated Git client within the PyCharm Professional IDE.&#10;&#10;Final Data Consolidation:&#10;&#10;Developed and executed robust scripts to merge the two vaults (merge_master_vaults_with_logging.py), creating a detailed log of the process.&#10;&#10;Developed and executed the final ID assignment script (assign_master_ids.py) to apply globally unique IDs to all 3,808 objects in the master vault.&#10;&#10;Successfully debugged runtime errors during the ID assignment process, making the script more robust against inconsistent data types.&#10;&#10;Documentation &amp; Toolkit Refinement:&#10;&#10;Updated the project's README.md to reflect the current status.&#10;&#10;Updated the re-initialization prompt to mark the completion of the data buildout milestone.&#10;&#10;Added the official ID Naming Convention to the VAULT_GUIDE.md.&#10;&#10;Created several new utility scripts, including a dedicated JSON formatter and a powerful, read-only search tool (find_key_value.py).&#10;&#10;With the backend data now stable and complete, the project is officially ready to move into Phase 1: Web Application Development." />
+    <list default="true" id="0f5293e2-f8c9-45e3-9466-0d840ec8e439" name="Changes" comment="Phase 1 Kick-off &amp; Local Environment Setup&#10;&#10;Date: 15 July 2025&#10;&#10;Summary:&#10;This commit marks the official start of Phase 1 development. The primary achievement is the successful configuration of the local development environment on the main workstation, paving the way for API development.&#10;&#10;Project Alignment: Reviewed all core project documents (Project Plan, Tech Stack, Development Guide) to ensure full alignment on goals and practices.&#10;&#10;Documentation Update: Revised the DEVELOPMENT_GUIDE.md to reflect the project's move to a single, definitive vault_master.json file.&#10;&#10;Framework Confirmation: Re-assessed and confirmed that Flask is the optimal web framework for the project's needs.&#10;&#10;Environment Setup: Successfully configured the project within PyCharm, verified the existing virtual environment, and installed Flask and its dependencies.&#10;&#10;Verification: Confirmed the end-to-end environment setup by successfully running a test Flask development server.&#10;&#10;The project is now primed for the development of the vault API endpoint.">
+      <change afterPath="$PROJECT_DIR$/html/Qwen25_Interactive_Analysis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/templates/test_cdn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/Studio Log – FX Vault Work 2025-06-29.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/how to use merge_vaults_fx.py.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/interactive dev fixer by cass.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/workflow from here 2025-06-29.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/List_ArturiaV9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/Project Plan v1.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/Project Plan v1.0.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/Project Plan v1.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/Tech Stack Overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/Tech Stack Overview.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/VAULT_GUIDE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/developers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/eu_spelling_report_expanded.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/families-refct.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/families.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/family_audit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/fx-functions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/fx_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/id_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/known_developers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/reaper-fxfolders.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/reaper-fxtags.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/reaper-vstplugins64.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/tags.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/types.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/unmapped_entries.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +50,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -33,12 +82,12 @@
     &quot;assignee&quot;: &quot;subscotia&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/subscotia/Studio_Vault.git",
-    "accountId": "d3b6e46f-b749-4d4b-b8bb-e3a479cdac62"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/subscotia/Studio_Vault.git&quot;,
+    &quot;accountId&quot;: &quot;d3b6e46f-b749-4d4b-b8bb-e3a479cdac62&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -55,46 +104,71 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.assign_master_ids.executor": "Run",
-    "Python.find_key_value.executor": "Run",
-    "Python.format_json.executor": "Run",
-    "Python.list_unique_families.executor": "Run",
-    "Python.list_unique_tags.executor": "Run",
-    "Python.list_unique_types.executor": "Run",
-    "Python.list_unique_values_REFACT.executor": "Run",
-    "Python.merge_list_values.executor": "Run",
-    "Python.merge_master_vaults.executor": "Run",
-    "Python.remove_value_from_list_field.executor": "Run",
-    "Python.replace_any_tag.executor": "Run",
-    "Python.replace_family_labels.executor": "Run",
-    "Python.reset_ids.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "F:/Studio/Admin Ops/Operations/git/vault_project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.assign_master_ids.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_key_value.executor&quot;: &quot;Run&quot;,
+    &quot;Python.format_json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_unique_families.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_unique_tags.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_unique_types.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_unique_values_REFACT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merge_list_values.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merge_master_vaults.executor&quot;: &quot;Run&quot;,
+    &quot;Python.remove_value_from_list_field.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replace_any_tag.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replace_family_labels.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reset_ids.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Shell Script.Tailwind Watcher.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Studio/Admin Ops/Operations/git/vault_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.codeium.AppSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Studio\Admin Ops\Operations\git\vault_project\html" />
       <recent name="F:\Studio\Admin Ops\Operations\git\vault_project\scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.assign_master_ids">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vault_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webapp/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="assign_master_ids" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="vault_project" />
       <option name="ENV_FILES" value="" />
@@ -164,29 +238,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="remove_value_from_list_field" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="vault_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/remove_value_from_list_field.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="reset_ids" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="vault_project" />
       <option name="ENV_FILES" value="" />
@@ -210,13 +261,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Tailwind Watcher" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="false" />
+      <option name="SCRIPT_PATH" value="&quot;$PROJECT_DIR$/tailwindcss.exe&quot;" />
+      <option name="SCRIPT_OPTIONS" value="-i .\webapp\static\input.css -o .\webapp\static\output.css --watch" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="&quot;$PROJECT_DIR$&quot;" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="powershell.exe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.assign_master_ids" />
+      <item itemvalue="Python.list_unique_types" />
+      <item itemvalue="Python.merge_master_vaults" />
+      <item itemvalue="Python.reset_ids" />
+      <item itemvalue="Shell Script.Tailwind Watcher" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.assign_master_ids" />
-        <item itemvalue="Python.list_unique_types" />
-        <item itemvalue="Python.merge_master_vaults" />
-        <item itemvalue="Python.reset_ids" />
-        <item itemvalue="Python.remove_value_from_list_field" />
+        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +308,19 @@
       <workItem from="1752523846050" duration="3209000" />
       <workItem from="1752532754925" duration="4389000" />
       <workItem from="1752565708015" duration="16288000" />
+      <workItem from="1752609259474" duration="1202000" />
+      <workItem from="1752620765109" duration="124000" />
+      <workItem from="1752671545506" duration="2445000" />
+      <workItem from="1752674082788" duration="1812000" />
+      <workItem from="1753124842462" duration="6224000" />
+      <workItem from="1753187492560" duration="7522000" />
+      <workItem from="1753356976477" duration="4370000" />
+      <workItem from="1753479351918" duration="5000" />
+      <workItem from="1753480657778" duration="271000" />
+      <workItem from="1753528335792" duration="66000" />
+      <workItem from="1753528424876" duration="148000" />
+      <workItem from="1753541643022" duration="67000" />
+      <workItem from="1753541785813" duration="8837000" />
     </task>
     <task id="LOCAL-00001" summary="Work Report: 15 July 2025&#10;Milestone Reached: Backend Data Buildout Complete&#10;&#10;This commit marks the completion of the data population and cleaning phase for the Subscotia Vault. The ivault and xvault are now finalized and have been merged into a single, definitive vault_master.json. All objects have been assigned a final, globally unique ID according to the established convention.&#10;&#10;Key Achievements in this Commit:&#10;&#10;Project Structure &amp; Best Practices:&#10;&#10;Transitioned the project to a professional directory structure (/data, /scripts, /archive) to enforce separation of concerns.&#10;&#10;Authored the DEVELOPMENT_GUIDE.md, formalizing our coding standards, Git workflow, and architectural principles.&#10;&#10;Upgraded the development workflow to use the integrated Git client within the PyCharm Professional IDE.&#10;&#10;Final Data Consolidation:&#10;&#10;Developed and executed robust scripts to merge the two vaults (merge_master_vaults_with_logging.py), creating a detailed log of the process.&#10;&#10;Developed and executed the final ID assignment script (assign_master_ids.py) to apply globally unique IDs to all 3,808 objects in the master vault.&#10;&#10;Successfully debugged runtime errors during the ID assignment process, making the script more robust against inconsistent data types.&#10;&#10;Documentation &amp; Toolkit Refinement:&#10;&#10;Updated the project's README.md to reflect the current status.&#10;&#10;Updated the re-initialization prompt to mark the completion of the data buildout milestone.&#10;&#10;Added the official ID Naming Convention to the VAULT_GUIDE.md.&#10;&#10;Created several new utility scripts, including a dedicated JSON formatter and a powerful, read-only search tool (find_key_value.py).&#10;&#10;With the backend data now stable and complete, the project is officially ready to move into Phase 1: Web Application Development.">
       <option name="closed" value="true" />
@@ -247,7 +330,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752595646161</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Work Report: 15 July 2025&#10;Milestone Reached: Backend Data Buildout Complete&#10;&#10;This commit marks the completion of the data population and cleaning phase for the Subscotia Vault. The ivault and xvault are now finalized and have been merged into a single, definitive vault_master.json. All objects have been assigned a final, globally unique ID according to the established convention.&#10;&#10;Key Achievements in this Commit:&#10;&#10;Project Structure &amp; Best Practices:&#10;&#10;Transitioned the project to a professional directory structure (/data, /scripts, /archive) to enforce separation of concerns.&#10;&#10;Authored the DEVELOPMENT_GUIDE.md, formalizing our coding standards, Git workflow, and architectural principles.&#10;&#10;Upgraded the development workflow to use the integrated Git client within the PyCharm Professional IDE.&#10;&#10;Final Data Consolidation:&#10;&#10;Developed and executed robust scripts to merge the two vaults (merge_master_vaults_with_logging.py), creating a detailed log of the process.&#10;&#10;Developed and executed the final ID assignment script (assign_master_ids.py) to apply globally unique IDs to all 3,808 objects in the master vault.&#10;&#10;Successfully debugged runtime errors during the ID assignment process, making the script more robust against inconsistent data types.&#10;&#10;Documentation &amp; Toolkit Refinement:&#10;&#10;Updated the project's README.md to reflect the current status.&#10;&#10;Updated the re-initialization prompt to mark the completion of the data buildout milestone.&#10;&#10;Added the official ID Naming Convention to the VAULT_GUIDE.md.&#10;&#10;Created several new utility scripts, including a dedicated JSON formatter and a powerful, read-only search tool (find_key_value.py).&#10;&#10;With the backend data now stable and complete, the project is officially ready to move into Phase 1: Web Application Development.">
+      <option name="closed" value="true" />
+      <created>1752609287576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752609287576</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Phase 1 Kick-off &amp; Local Environment Setup&#10;&#10;Date: 15 July 2025&#10;&#10;Summary:&#10;This commit marks the official start of Phase 1 development. The primary achievement is the successful configuration of the local development environment on the main workstation, paving the way for API development.&#10;&#10;Project Alignment: Reviewed all core project documents (Project Plan, Tech Stack, Development Guide) to ensure full alignment on goals and practices.&#10;&#10;Documentation Update: Revised the DEVELOPMENT_GUIDE.md to reflect the project's move to a single, definitive vault_master.json file.&#10;&#10;Framework Confirmation: Re-assessed and confirmed that Flask is the optimal web framework for the project's needs.&#10;&#10;Environment Setup: Successfully configured the project within PyCharm, verified the existing virtual environment, and installed Flask and its dependencies.&#10;&#10;Verification: Confirmed the end-to-end environment setup by successfully running a test Flask development server.&#10;&#10;The project is now primed for the development of the vault API endpoint.">
+      <option name="closed" value="true" />
+      <created>1752609837094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752609837094</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,10 +354,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Work Report: 15 July 2025&#10;Milestone Reached: Backend Data Buildout Complete&#10;&#10;This commit marks the completion of the data population and cleaning phase for the Subscotia Vault. The ivault and xvault are now finalized and have been merged into a single, definitive vault_master.json. All objects have been assigned a final, globally unique ID according to the established convention.&#10;&#10;Key Achievements in this Commit:&#10;&#10;Project Structure &amp; Best Practices:&#10;&#10;Transitioned the project to a professional directory structure (/data, /scripts, /archive) to enforce separation of concerns.&#10;&#10;Authored the DEVELOPMENT_GUIDE.md, formalizing our coding standards, Git workflow, and architectural principles.&#10;&#10;Upgraded the development workflow to use the integrated Git client within the PyCharm Professional IDE.&#10;&#10;Final Data Consolidation:&#10;&#10;Developed and executed robust scripts to merge the two vaults (merge_master_vaults_with_logging.py), creating a detailed log of the process.&#10;&#10;Developed and executed the final ID assignment script (assign_master_ids.py) to apply globally unique IDs to all 3,808 objects in the master vault.&#10;&#10;Successfully debugged runtime errors during the ID assignment process, making the script more robust against inconsistent data types.&#10;&#10;Documentation &amp; Toolkit Refinement:&#10;&#10;Updated the project's README.md to reflect the current status.&#10;&#10;Updated the re-initialization prompt to mark the completion of the data buildout milestone.&#10;&#10;Added the official ID Naming Convention to the VAULT_GUIDE.md.&#10;&#10;Created several new utility scripts, including a dedicated JSON formatter and a powerful, read-only search tool (find_key_value.py).&#10;&#10;With the backend data now stable and complete, the project is officially ready to move into Phase 1: Web Application Development." />
-    <option name="LAST_COMMIT_MESSAGE" value="Work Report: 15 July 2025&#10;Milestone Reached: Backend Data Buildout Complete&#10;&#10;This commit marks the completion of the data population and cleaning phase for the Subscotia Vault. The ivault and xvault are now finalized and have been merged into a single, definitive vault_master.json. All objects have been assigned a final, globally unique ID according to the established convention.&#10;&#10;Key Achievements in this Commit:&#10;&#10;Project Structure &amp; Best Practices:&#10;&#10;Transitioned the project to a professional directory structure (/data, /scripts, /archive) to enforce separation of concerns.&#10;&#10;Authored the DEVELOPMENT_GUIDE.md, formalizing our coding standards, Git workflow, and architectural principles.&#10;&#10;Upgraded the development workflow to use the integrated Git client within the PyCharm Professional IDE.&#10;&#10;Final Data Consolidation:&#10;&#10;Developed and executed robust scripts to merge the two vaults (merge_master_vaults_with_logging.py), creating a detailed log of the process.&#10;&#10;Developed and executed the final ID assignment script (assign_master_ids.py) to apply globally unique IDs to all 3,808 objects in the master vault.&#10;&#10;Successfully debugged runtime errors during the ID assignment process, making the script more robust against inconsistent data types.&#10;&#10;Documentation &amp; Toolkit Refinement:&#10;&#10;Updated the project's README.md to reflect the current status.&#10;&#10;Updated the re-initialization prompt to mark the completion of the data buildout milestone.&#10;&#10;Added the official ID Naming Convention to the VAULT_GUIDE.md.&#10;&#10;Created several new utility scripts, including a dedicated JSON formatter and a powerful, read-only search tool (find_key_value.py).&#10;&#10;With the backend data now stable and complete, the project is officially ready to move into Phase 1: Web Application Development." />
+    <MESSAGE value="Phase 1 Kick-off &amp; Local Environment Setup&#10;&#10;Date: 15 July 2025&#10;&#10;Summary:&#10;This commit marks the official start of Phase 1 development. The primary achievement is the successful configuration of the local development environment on the main workstation, paving the way for API development.&#10;&#10;Project Alignment: Reviewed all core project documents (Project Plan, Tech Stack, Development Guide) to ensure full alignment on goals and practices.&#10;&#10;Documentation Update: Revised the DEVELOPMENT_GUIDE.md to reflect the project's move to a single, definitive vault_master.json file.&#10;&#10;Framework Confirmation: Re-assessed and confirmed that Flask is the optimal web framework for the project's needs.&#10;&#10;Environment Setup: Successfully configured the project within PyCharm, verified the existing virtual environment, and installed Flask and its dependencies.&#10;&#10;Verification: Confirmed the end-to-end environment setup by successfully running a test Flask development server.&#10;&#10;The project is now primed for the development of the vault API endpoint." />
+    <option name="LAST_COMMIT_MESSAGE" value="Phase 1 Kick-off &amp; Local Environment Setup&#10;&#10;Date: 15 July 2025&#10;&#10;Summary:&#10;This commit marks the official start of Phase 1 development. The primary achievement is the successful configuration of the local development environment on the main workstation, paving the way for API development.&#10;&#10;Project Alignment: Reviewed all core project documents (Project Plan, Tech Stack, Development Guide) to ensure full alignment on goals and practices.&#10;&#10;Documentation Update: Revised the DEVELOPMENT_GUIDE.md to reflect the project's move to a single, definitive vault_master.json file.&#10;&#10;Framework Confirmation: Re-assessed and confirmed that Flask is the optimal web framework for the project's needs.&#10;&#10;Environment Setup: Successfully configured the project within PyCharm, verified the existing virtual environment, and installed Flask and its dependencies.&#10;&#10;Verification: Confirmed the end-to-end environment setup by successfully running a test Flask development server.&#10;&#10;The project is now primed for the development of the vault API endpoint." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/vault_project$assign_master_ids.coverage" NAME="assign_master_ids Coverage Results" MODIFIED="1752594781452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/vault_project$app.coverage" NAME="app Coverage Results" MODIFIED="1753563061135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp" />
     <SUITE FILE_PATH="coverage/vault_project$format_json.coverage" NAME="format_json Coverage Results" MODIFIED="1752527080730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/vault_project$reset_ids.coverage" NAME="reset_ids Coverage Results" MODIFIED="1752591224074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/vault_project$find_key_value.coverage" NAME="find_key_value Coverage Results" MODIFIED="1752588786311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />

@@ -54,6 +54,6 @@ Product vs. Plugin: Each JSON entry represents a single plugin, not a product bu
 
 Modular Families: The families field uses modular, single-purpose tags (e.g., ["compressors", "opto"]) rather than hyper-specific ones.
 
-Primary type: Each entry has a primary type of "instrument", "container", "fx", or "utility".
+Primary type: Each entry has a primary type of "instrument", "container", "fx", "utility" or "expansion.
 
 For a complete list of all conventions, please refer to the VAULT_GUIDE.md file.

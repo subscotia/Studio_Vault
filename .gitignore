@@ -15,4 +15,4 @@ Thumbs.db
 # 🧪 Virtual environments (if any later)
 venv/
 __pycache__/
-*.pyc
+*.pyc!/data/vault_master.json
