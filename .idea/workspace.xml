@@ -4,44 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f5293e2-f8c9-45e3-9466-0d840ec8e439" name="Changes" comment="Phase 1 Kick-off &amp; Local Environment Setup&#10;&#10;Date: 15 July 2025&#10;&#10;Summary:&#10;This commit marks the official start of Phase 1 development. The primary achievement is the successful configuration of the local development environment on the main workstation, paving the way for API development.&#10;&#10;Project Alignment: Reviewed all core project documents (Project Plan, Tech Stack, Development Guide) to ensure full alignment on goals and practices.&#10;&#10;Documentation Update: Revised the DEVELOPMENT_GUIDE.md to reflect the project's move to a single, definitive vault_master.json file.&#10;&#10;Framework Confirmation: Re-assessed and confirmed that Flask is the optimal web framework for the project's needs.&#10;&#10;Environment Setup: Successfully configured the project within PyCharm, verified the existing virtual environment, and installed Flask and its dependencies.&#10;&#10;Verification: Confirmed the end-to-end environment setup by successfully running a test Flask development server.&#10;&#10;The project is now primed for the development of the vault API endpoint.">
-      <change afterPath="$PROJECT_DIR$/html/Qwen25_Interactive_Analysis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/static/input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/templates/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/templates/test_cdn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/Studio Log – FX Vault Work 2025-06-29.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/how to use merge_vaults_fx.py.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/interactive dev fixer by cass.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/workflow from here 2025-06-29.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/List_ArturiaV9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/Project Plan v1.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/Project Plan v1.0.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/Project Plan v1.0.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/Tech Stack Overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/Tech Stack Overview.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/VAULT_GUIDE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/developers.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/eu_spelling_report_expanded.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/families-refct.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/families.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/family_audit.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/fx-functions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/fx_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/id_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/known_developers.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/reaper-fxfolders.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/reaper-fxtags.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/reaper-vstplugins64.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/tags.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/types.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref/unmapped_entries.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="0f5293e2-f8c9-45e3-9466-0d840ec8e439" name="Changes" comment="Subject: Implement Multi-Select Checkbox Filters &amp; Harden JS Logic&#10;&#10;Date: 25 July 2025&#10;&#10;Summary:&#10;This commit marks the successful completion of Task 3.2, the implementation of the core filtering functionality for the application. The sidebar is now populated with dynamically generated, multi-select checkboxes for both families and tags, allowing for powerful, layered searches.&#10;&#10;Feature Implementation:&#10;&#10;Developed a JavaScript function to dynamically scan the vault data, extract all unique families and tags, and render them as alphabetized checkbox groups in the UI.&#10;&#10;Refactored the core filtering logic into a unified pipeline that now combines the live text search with the new multi-select checkbox filters.&#10;&#10;Implemented &quot;AND&quot; logic for the checkbox filters, ensuring that only plugins matching all selected criteria are displayed.&#10;&#10;Code Hardening &amp; Debugging:&#10;&#10;During implementation, a series of TypeError exceptions were identified, caused by data integrity inconsistencies in the vault_master.json file.&#10;&#10;The JavaScript functions (handleSearch, populateFilters, renderCards) were significantly refactored to be more &quot;defensive.&quot; They now gracefully handle cases where developer, families, or tags fields contain unexpected data types (e.g., arrays, non-string values), preventing script crashes.&#10;&#10;The application's core filtering mechanism is now complete and resilient. The project is ready to proceed to the next task in Phase 3.&#10;&#10;Signed-off-by: Drew Campbell &lt;drew@subscotia.net&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +31,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Drew Campbell &lt;drew@subscotia.net&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -75,6 +44,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -320,7 +290,7 @@
       <workItem from="1753528335792" duration="66000" />
       <workItem from="1753528424876" duration="148000" />
       <workItem from="1753541643022" duration="67000" />
-      <workItem from="1753541785813" duration="8837000" />
+      <workItem from="1753541785813" duration="9117000" />
     </task>
     <task id="LOCAL-00001" summary="Work Report: 15 July 2025&#10;Milestone Reached: Backend Data Buildout Complete&#10;&#10;This commit marks the completion of the data population and cleaning phase for the Subscotia Vault. The ivault and xvault are now finalized and have been merged into a single, definitive vault_master.json. All objects have been assigned a final, globally unique ID according to the established convention.&#10;&#10;Key Achievements in this Commit:&#10;&#10;Project Structure &amp; Best Practices:&#10;&#10;Transitioned the project to a professional directory structure (/data, /scripts, /archive) to enforce separation of concerns.&#10;&#10;Authored the DEVELOPMENT_GUIDE.md, formalizing our coding standards, Git workflow, and architectural principles.&#10;&#10;Upgraded the development workflow to use the integrated Git client within the PyCharm Professional IDE.&#10;&#10;Final Data Consolidation:&#10;&#10;Developed and executed robust scripts to merge the two vaults (merge_master_vaults_with_logging.py), creating a detailed log of the process.&#10;&#10;Developed and executed the final ID assignment script (assign_master_ids.py) to apply globally unique IDs to all 3,808 objects in the master vault.&#10;&#10;Successfully debugged runtime errors during the ID assignment process, making the script more robust against inconsistent data types.&#10;&#10;Documentation &amp; Toolkit Refinement:&#10;&#10;Updated the project's README.md to reflect the current status.&#10;&#10;Updated the re-initialization prompt to mark the completion of the data buildout milestone.&#10;&#10;Added the official ID Naming Convention to the VAULT_GUIDE.md.&#10;&#10;Created several new utility scripts, including a dedicated JSON formatter and a powerful, read-only search tool (find_key_value.py).&#10;&#10;With the backend data now stable and complete, the project is officially ready to move into Phase 1: Web Application Development.">
       <option name="closed" value="true" />
@@ -346,16 +316,53 @@
       <option name="project" value="LOCAL" />
       <updated>1752609837094</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Subject: Implement Multi-Select Checkbox Filters &amp; Harden JS Logic&#10;&#10;Date: 25 July 2025&#10;&#10;Summary:&#10;This commit marks the successful completion of Task 3.2, the implementation of the core filtering functionality for the application. The sidebar is now populated with dynamically generated, multi-select checkboxes for both families and tags, allowing for powerful, layered searches.&#10;&#10;Feature Implementation:&#10;&#10;Developed a JavaScript function to dynamically scan the vault data, extract all unique families and tags, and render them as alphabetized checkbox groups in the UI.&#10;&#10;Refactored the core filtering logic into a unified pipeline that now combines the live text search with the new multi-select checkbox filters.&#10;&#10;Implemented &quot;AND&quot; logic for the checkbox filters, ensuring that only plugins matching all selected criteria are displayed.&#10;&#10;Code Hardening &amp; Debugging:&#10;&#10;During implementation, a series of TypeError exceptions were identified, caused by data integrity inconsistencies in the vault_master.json file.&#10;&#10;The JavaScript functions (handleSearch, populateFilters, renderCards) were significantly refactored to be more &quot;defensive.&quot; They now gracefully handle cases where developer, families, or tags fields contain unexpected data types (e.g., arrays, non-string values), preventing script crashes.&#10;&#10;The application's core filtering mechanism is now complete and resilient. The project is ready to proceed to the next task in Phase 3.">
+      <option name="closed" value="true" />
+      <created>1753563499781</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753563499781</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Subject: Implement Multi-Select Checkbox Filters &amp; Harden JS Logic&#10;&#10;Date: 25 July 2025&#10;&#10;Summary:&#10;This commit marks the successful completion of Task 3.2, the implementation of the core filtering functionality for the application. The sidebar is now populated with dynamically generated, multi-select checkboxes for both families and tags, allowing for powerful, layered searches.&#10;&#10;Feature Implementation:&#10;&#10;Developed a JavaScript function to dynamically scan the vault data, extract all unique families and tags, and render them as alphabetized checkbox groups in the UI.&#10;&#10;Refactored the core filtering logic into a unified pipeline that now combines the live text search with the new multi-select checkbox filters.&#10;&#10;Implemented &quot;AND&quot; logic for the checkbox filters, ensuring that only plugins matching all selected criteria are displayed.&#10;&#10;Code Hardening &amp; Debugging:&#10;&#10;During implementation, a series of TypeError exceptions were identified, caused by data integrity inconsistencies in the vault_master.json file.&#10;&#10;The JavaScript functions (handleSearch, populateFilters, renderCards) were significantly refactored to be more &quot;defensive.&quot; They now gracefully handle cases where developer, families, or tags fields contain unexpected data types (e.g., arrays, non-string values), preventing script crashes.&#10;&#10;The application's core filtering mechanism is now complete and resilient. The project is ready to proceed to the next task in Phase 3.">
+      <option name="closed" value="true" />
+      <created>1753563699435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753563699435</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Subject: Implement Multi-Select Checkbox Filters &amp; Harden JS Logic&#10;&#10;Date: 25 July 2025&#10;&#10;Summary:&#10;This commit marks the successful completion of Task 3.2, the implementation of the core filtering functionality for the application. The sidebar is now populated with dynamically generated, multi-select checkboxes for both families and tags, allowing for powerful, layered searches.&#10;&#10;Feature Implementation:&#10;&#10;Developed a JavaScript function to dynamically scan the vault data, extract all unique families and tags, and render them as alphabetized checkbox groups in the UI.&#10;&#10;Refactored the core filtering logic into a unified pipeline that now combines the live text search with the new multi-select checkbox filters.&#10;&#10;Implemented &quot;AND&quot; logic for the checkbox filters, ensuring that only plugins matching all selected criteria are displayed.&#10;&#10;Code Hardening &amp; Debugging:&#10;&#10;During implementation, a series of TypeError exceptions were identified, caused by data integrity inconsistencies in the vault_master.json file.&#10;&#10;The JavaScript functions (handleSearch, populateFilters, renderCards) were significantly refactored to be more &quot;defensive.&quot; They now gracefully handle cases where developer, families, or tags fields contain unexpected data types (e.g., arrays, non-string values), preventing script crashes.&#10;&#10;The application's core filtering mechanism is now complete and resilient. The project is ready to proceed to the next task in Phase 3.&#10;&#10;Signed-off-by: Drew Campbell &lt;drew@subscotia.net&gt;">
+      <option name="closed" value="true" />
+      <created>1753563731028</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753563731028</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Work Report: 15 July 2025&#10;Milestone Reached: Backend Data Buildout Complete&#10;&#10;This commit marks the completion of the data population and cleaning phase for the Subscotia Vault. The ivault and xvault are now finalized and have been merged into a single, definitive vault_master.json. All objects have been assigned a final, globally unique ID according to the established convention.&#10;&#10;Key Achievements in this Commit:&#10;&#10;Project Structure &amp; Best Practices:&#10;&#10;Transitioned the project to a professional directory structure (/data, /scripts, /archive) to enforce separation of concerns.&#10;&#10;Authored the DEVELOPMENT_GUIDE.md, formalizing our coding standards, Git workflow, and architectural principles.&#10;&#10;Upgraded the development workflow to use the integrated Git client within the PyCharm Professional IDE.&#10;&#10;Final Data Consolidation:&#10;&#10;Developed and executed robust scripts to merge the two vaults (merge_master_vaults_with_logging.py), creating a detailed log of the process.&#10;&#10;Developed and executed the final ID assignment script (assign_master_ids.py) to apply globally unique IDs to all 3,808 objects in the master vault.&#10;&#10;Successfully debugged runtime errors during the ID assignment process, making the script more robust against inconsistent data types.&#10;&#10;Documentation &amp; Toolkit Refinement:&#10;&#10;Updated the project's README.md to reflect the current status.&#10;&#10;Updated the re-initialization prompt to mark the completion of the data buildout milestone.&#10;&#10;Added the official ID Naming Convention to the VAULT_GUIDE.md.&#10;&#10;Created several new utility scripts, including a dedicated JSON formatter and a powerful, read-only search tool (find_key_value.py).&#10;&#10;With the backend data now stable and complete, the project is officially ready to move into Phase 1: Web Application Development." />
     <MESSAGE value="Phase 1 Kick-off &amp; Local Environment Setup&#10;&#10;Date: 15 July 2025&#10;&#10;Summary:&#10;This commit marks the official start of Phase 1 development. The primary achievement is the successful configuration of the local development environment on the main workstation, paving the way for API development.&#10;&#10;Project Alignment: Reviewed all core project documents (Project Plan, Tech Stack, Development Guide) to ensure full alignment on goals and practices.&#10;&#10;Documentation Update: Revised the DEVELOPMENT_GUIDE.md to reflect the project's move to a single, definitive vault_master.json file.&#10;&#10;Framework Confirmation: Re-assessed and confirmed that Flask is the optimal web framework for the project's needs.&#10;&#10;Environment Setup: Successfully configured the project within PyCharm, verified the existing virtual environment, and installed Flask and its dependencies.&#10;&#10;Verification: Confirmed the end-to-end environment setup by successfully running a test Flask development server.&#10;&#10;The project is now primed for the development of the vault API endpoint." />
-    <option name="LAST_COMMIT_MESSAGE" value="Phase 1 Kick-off &amp; Local Environment Setup&#10;&#10;Date: 15 July 2025&#10;&#10;Summary:&#10;This commit marks the official start of Phase 1 development. The primary achievement is the successful configuration of the local development environment on the main workstation, paving the way for API development.&#10;&#10;Project Alignment: Reviewed all core project documents (Project Plan, Tech Stack, Development Guide) to ensure full alignment on goals and practices.&#10;&#10;Documentation Update: Revised the DEVELOPMENT_GUIDE.md to reflect the project's move to a single, definitive vault_master.json file.&#10;&#10;Framework Confirmation: Re-assessed and confirmed that Flask is the optimal web framework for the project's needs.&#10;&#10;Environment Setup: Successfully configured the project within PyCharm, verified the existing virtual environment, and installed Flask and its dependencies.&#10;&#10;Verification: Confirmed the end-to-end environment setup by successfully running a test Flask development server.&#10;&#10;The project is now primed for the development of the vault API endpoint." />
+    <MESSAGE value="Subject: Implement Multi-Select Checkbox Filters &amp; Harden JS Logic&#10;&#10;Date: 25 July 2025&#10;&#10;Summary:&#10;This commit marks the successful completion of Task 3.2, the implementation of the core filtering functionality for the application. The sidebar is now populated with dynamically generated, multi-select checkboxes for both families and tags, allowing for powerful, layered searches.&#10;&#10;Feature Implementation:&#10;&#10;Developed a JavaScript function to dynamically scan the vault data, extract all unique families and tags, and render them as alphabetized checkbox groups in the UI.&#10;&#10;Refactored the core filtering logic into a unified pipeline that now combines the live text search with the new multi-select checkbox filters.&#10;&#10;Implemented &quot;AND&quot; logic for the checkbox filters, ensuring that only plugins matching all selected criteria are displayed.&#10;&#10;Code Hardening &amp; Debugging:&#10;&#10;During implementation, a series of TypeError exceptions were identified, caused by data integrity inconsistencies in the vault_master.json file.&#10;&#10;The JavaScript functions (handleSearch, populateFilters, renderCards) were significantly refactored to be more &quot;defensive.&quot; They now gracefully handle cases where developer, families, or tags fields contain unexpected data types (e.g., arrays, non-string values), preventing script crashes.&#10;&#10;The application's core filtering mechanism is now complete and resilient. The project is ready to proceed to the next task in Phase 3." />
+    <MESSAGE value="Subject: Implement Multi-Select Checkbox Filters &amp; Harden JS Logic&#10;&#10;Date: 25 July 2025&#10;&#10;Summary:&#10;This commit marks the successful completion of Task 3.2, the implementation of the core filtering functionality for the application. The sidebar is now populated with dynamically generated, multi-select checkboxes for both families and tags, allowing for powerful, layered searches.&#10;&#10;Feature Implementation:&#10;&#10;Developed a JavaScript function to dynamically scan the vault data, extract all unique families and tags, and render them as alphabetized checkbox groups in the UI.&#10;&#10;Refactored the core filtering logic into a unified pipeline that now combines the live text search with the new multi-select checkbox filters.&#10;&#10;Implemented &quot;AND&quot; logic for the checkbox filters, ensuring that only plugins matching all selected criteria are displayed.&#10;&#10;Code Hardening &amp; Debugging:&#10;&#10;During implementation, a series of TypeError exceptions were identified, caused by data integrity inconsistencies in the vault_master.json file.&#10;&#10;The JavaScript functions (handleSearch, populateFilters, renderCards) were significantly refactored to be more &quot;defensive.&quot; They now gracefully handle cases where developer, families, or tags fields contain unexpected data types (e.g., arrays, non-string values), preventing script crashes.&#10;&#10;The application's core filtering mechanism is now complete and resilient. The project is ready to proceed to the next task in Phase 3.&#10;&#10;Signed-off-by: Drew Campbell &lt;drew@subscotia.net&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subject: Implement Multi-Select Checkbox Filters &amp; Harden JS Logic&#10;&#10;Date: 25 July 2025&#10;&#10;Summary:&#10;This commit marks the successful completion of Task 3.2, the implementation of the core filtering functionality for the application. The sidebar is now populated with dynamically generated, multi-select checkboxes for both families and tags, allowing for powerful, layered searches.&#10;&#10;Feature Implementation:&#10;&#10;Developed a JavaScript function to dynamically scan the vault data, extract all unique families and tags, and render them as alphabetized checkbox groups in the UI.&#10;&#10;Refactored the core filtering logic into a unified pipeline that now combines the live text search with the new multi-select checkbox filters.&#10;&#10;Implemented &quot;AND&quot; logic for the checkbox filters, ensuring that only plugins matching all selected criteria are displayed.&#10;&#10;Code Hardening &amp; Debugging:&#10;&#10;During implementation, a series of TypeError exceptions were identified, caused by data integrity inconsistencies in the vault_master.json file.&#10;&#10;The JavaScript functions (handleSearch, populateFilters, renderCards) were significantly refactored to be more &quot;defensive.&quot; They now gracefully handle cases where developer, families, or tags fields contain unexpected data types (e.g., arrays, non-string values), preventing script crashes.&#10;&#10;The application's core filtering mechanism is now complete and resilient. The project is ready to proceed to the next task in Phase 3.&#10;&#10;Signed-off-by: Drew Campbell &lt;drew@subscotia.net&gt;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
