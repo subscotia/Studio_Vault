@@ -9,7 +9,7 @@ import json
 import re
 from pathlib import Path
 
-VAULT = Path("../data/ivault_master.json")  # <-- point this to your instrument vault
+VAULT = Path("../data/vault_master.json")  # <-- point this to your vault
 
 def extract_suffix(id_str):
     if not isinstance(id_str, str):

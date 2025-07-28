@@ -25,34 +25,68 @@
 
     <div class="flex flex-col h-screen">
         <header class="bg-white dark:bg-gray-800 shadow-md p-4 z-20 flex justify-between items-center">
-            <button id="hamburger-button" class="p-2 rounded-md md:hidden hover:bg-gray-200 dark:hover:bg-gray-700">
-                <svg class="h-6 w-6 text-gray-800 dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-            </button>
-            <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Subscotia Vault</h1>
-            <button id="theme-toggle-button" class="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700">
-                <svg id="theme-toggle-sun-icon" class="h-6 w-6 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor"></svg>
-                <svg id="theme-toggle-moon-icon" class="h-6 w-6 text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"></svg>
-            </button>
+            <div class="flex items-center space-x-2">
+                <button id="hamburger-button" aria-label="Toggle navigation menu" class="p-2 rounded-md md:hidden hover:bg-gray-200 dark:hover:bg-gray-700">
+                    <svg class="h-6 w-6 text-gray-800 dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+                </button>
+                <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Subscotia Vault</h1>
+            </div>
+            <div class="flex items-center space-x-2">
+                <button id="add-plugin-button" aria-label="Add new plugin" class="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700">
+                    <svg class="h-6 w-6 text-gray-800 dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" /></svg>
+                </button>
+                <button id="theme-toggle-button" aria-label="Toggle dark mode" class="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700">
+                    <svg id="theme-toggle-sun-icon" class="h-6 w-6 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m8.66-15.66l-.7.7M4.04 19.96l-.7.7M21 12h-1M4 12H3m16.96-4.04l-.7.7M4.74 4.74l-.7.7m12.72 12.72l.7.7M4.04 4.04l.7.7" /></svg>
+                    <svg id="theme-toggle-moon-icon" class="h-6 w-6 text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
+                </button>
+            </div>
         </header>
 
         <div class="relative flex flex-1 overflow-y-hidden">
-            <aside id="sidebar" class="fixed inset-y-0 left-0 w-3/4 max-w-xs bg-gray-200 dark:bg-gray-800/95 p-6 transform -translate-x-full transition-transform duration-300 ease-in-out z-30 md:relative md:w-1/4 md:translate-x-0 overflow-y-auto">
+             <aside id="sidebar" class="fixed inset-y-0 left-0 w-3/4 max-w-xs bg-gray-200 dark:bg-gray-800/95 p-6 transform -translate-x-full transition-transform duration-300 ease-in-out z-30 md:relative md:w-1/4 md:translate-x-0 overflow-y-auto">
                 <h2 class="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Filters</h2>
-                <div class="mb-4">
-                    <input type="text" id="search-input" placeholder="Search..." class="w-full p-2 rounded-md bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-sky-500 focus:border-sky-500">
-                </div>
-
+                <div class="mb-4"><input type="text" id="search-input" placeholder="Search..." class="w-full p-2 rounded-md bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100 border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-sky-500 focus:border-sky-500"></div>
+                <div class="mb-4 flex items-center p-2 rounded-md bg-gray-50 dark:bg-gray-700/50"><input id="active-filter-checkbox" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500"><label for="active-filter-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-100">Show Inactive</label></div>
+                <div id="type-filter-container" class="mb-4"></div>
                 <div id="families-filter-container" class="mb-4"></div>
                 <div id="tags-filter-container"></div>
-
             </aside>
             <div id="sidebar-overlay" class="fixed inset-0 bg-black/50 z-20 hidden md:hidden"></div>
             <main class="w-full p-6 overflow-y-auto md:w-3/4">
-                <h2 class="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Plugins</h2>
+                <div class="flex justify-between items-center mb-4"><h2 class="text-lg font-semibold text-gray-900 dark:text-white">Plugins</h2><span id="plugin-count" class="text-sm font-medium text-gray-500 dark:text-gray-400"></span></div>
                 <div id="plugin-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"></div>
             </main>
+        </div>
+    </div>
+
+    <!-- Detail View Modal -->
+    <div id="detail-modal-container" class="fixed inset-0 z-50 flex items-center justify-center hidden"><div id="modal-backdrop" class="fixed inset-0 bg-black/75"></div><div class="relative bg-white dark:bg-gray-800 rounded-lg shadow-xl p-6 w-full max-w-lg m-4"><div class="flex justify-between items-start mb-4"><h2 id="modal-title" class="text-2xl font-bold text-gray-900 dark:text-white"></h2><button id="modal-close-button" class="p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700"><svg class="h-6 w-6 text-gray-600 dark:text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg></button></div><div id="modal-content" class="space-y-4 text-gray-700 dark:text-gray-300"></div></div></div>
+
+    <!-- Add New Plugin Form Modal -->
+    <div id="add-modal-container" class="fixed inset-0 z-50 flex items-center justify-center hidden">
+        <div id="add-modal-backdrop" class="fixed inset-0 bg-black/75"></div>
+        <div class="relative bg-white dark:bg-gray-800 rounded-lg shadow-xl w-full max-w-2xl m-4">
+            <form id="add-plugin-form" class="p-6">
+                <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Add New Plugin</h2>
+                <div class="space-y-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div><label for="name-input" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Name</label><input type="text" id="name-input" required class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"></div>
+                        <div><label for="product-input" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Product</label><input type="text" id="product-input" class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"></div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div><label for="developer-input" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Developer</label><input type="text" id="developer-input" required class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"></div>
+                        <div><label for="type-select" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Type</label><select id="type-select" class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"><option>instrument</option><option>fx</option><option>utility</option><option>container</option><option>expansion</option></select></div>
+                    </div>
+                    <div><label for="families-input" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Families (comma-separated)</label><input type="text" id="families-input" class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"></div>
+                    <div><label for="tags-input" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Tags (comma-separated)</label><input type="text" id="tags-input" class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"></div>
+                    <div><label for="notes-textarea" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Notes</label><textarea id="notes-textarea" rows="3" class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"></textarea></div>
+                    <div class="flex items-center"><input id="active-checkbox" type="checkbox" checked class="h-4 w-4 rounded border-gray-300 text-sky-600"><label for="active-checkbox" class="ml-2 text-sm text-gray-900 dark:text-gray-100">Active</label></div>
+                </div>
+                <div class="mt-6 flex justify-end space-x-4">
+                    <button type="button" id="add-modal-cancel-button" class="px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-500 rounded-md shadow-sm hover:bg-gray-50 dark:hover:bg-gray-600">Cancel</button>
+                    <button type="submit" id="add-modal-save-button" class="px-4 py-2 text-sm font-medium text-white bg-sky-600 border border-transparent rounded-md shadow-sm hover:bg-sky-700">Save Plugin</button>
+                </div>
+            </form>
         </div>
     </div>
 
@@ -62,140 +96,220 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // --- ELEMENT REFERENCES ---
-            const themeToggleButton = document.getElementById('theme-toggle-button');
-            const sunIcon = document.getElementById('theme-toggle-sun-icon');
-            const moonIcon = document.getElementById('theme-toggle-moon-icon');
-            const hamburgerButton = document.getElementById('hamburger-button');
-            const sidebar = document.getElementById('sidebar');
-            const overlay = document.getElementById('sidebar-overlay');
-            const searchInput = document.getElementById('search-input');
-            const pluginContainer = document.getElementById('plugin-grid-container');
-            const familiesContainer = document.getElementById('families-filter-container');
-            const tagsContainer = document.getElementById('tags-filter-container');
+            const elements = {
+                themeToggle: document.getElementById('theme-toggle-button'),
+                sunIcon: document.getElementById('theme-toggle-sun-icon'),
+                moonIcon: document.getElementById('theme-toggle-moon-icon'),
+                hamburger: document.getElementById('hamburger-button'),
+                sidebar: document.getElementById('sidebar'),
+                overlay: document.getElementById('sidebar-overlay'),
+                searchInput: document.getElementById('search-input'),
+                activeFilterCheckbox: document.getElementById('active-filter-checkbox'),
+                pluginContainer: document.getElementById('plugin-grid-container'),
+                pluginCount: document.getElementById('plugin-count'),
+                typeContainer: document.getElementById('type-filter-container'),
+                familiesContainer: document.getElementById('families-filter-container'),
+                tagsContainer: document.getElementById('tags-filter-container'),
+                modalContainer: document.getElementById('detail-modal-container'),
+                modalBackdrop: document.getElementById('modal-backdrop'),
+                modalCloseBtn: document.getElementById('modal-close-button'),
+                modalTitle: document.getElementById('modal-title'),
+                modalContent: document.getElementById('modal-content'),
+                addPluginBtn: document.getElementById('add-plugin-button'),
+                addModalContainer: document.getElementById('add-modal-container'),
+                addModalBackdrop: document.getElementById('add-modal-backdrop'),
+                addModalCancelBtn: document.getElementById('add-modal-cancel-button'),
+                addPluginForm: document.getElementById('add-plugin-form'),
+            };
 
-            // --- STATE MANAGEMENT ---
-            const activeFilters = { families: new Set(), tags: new Set() };
-
-            // --- REUSABLE FUNCTIONS ---
+            const state = {
+                showInactive: false,
+                filters: { types: new Set(), families: new Set(), tags: new Set() }
+            };
 
             function renderCards(pluginsToRender) {
-                if (!pluginContainer) return;
-                pluginContainer.innerHTML = '';
+                elements.pluginCount.textContent = `${pluginsToRender.length} items found`;
+                elements.pluginContainer.innerHTML = '';
                 if (pluginsToRender.length === 0) {
-                    pluginContainer.innerHTML = '<p class="text-gray-500 dark:text-gray-400 col-span-full">No plugins match your filters.</p>';
+                    elements.pluginContainer.innerHTML = '<p class="text-gray-500 dark:text-gray-400 col-span-full">No plugins match your filters.</p>';
                     return;
                 }
                 pluginsToRender.forEach(plugin => {
                     const card = document.createElement('div');
-                    card.className = 'bg-white dark:bg-gray-800 rounded-lg shadow p-4 flex flex-col justify-between';
+                    card.className = 'bg-white dark:bg-gray-800 rounded-lg shadow p-4 flex flex-col justify-between cursor-pointer hover:shadow-lg transition-shadow';
                     const developerText = Array.isArray(plugin.developer) ? plugin.developer.join(', ') : plugin.developer;
-                    card.innerHTML = `
-                        <div>
-                            <h3 class="text-lg font-bold text-gray-900 dark:text-white truncate" title="${plugin.name || ''}">${plugin.name || 'Unnamed'}</h3>
-                            <p class="text-sm text-gray-600 dark:text-gray-400">${developerText || 'Unknown'}</p>
-                        </div>
-                        <div>
-                            <span class="bg-sky-100 text-sky-800 text-xs font-semibold mt-4 inline-block px-2.5 py-0.5 rounded-full dark:bg-sky-900 dark:text-sky-200">
-                                ${plugin.type || 'N/A'}
-                            </span>
-                        </div>`;
-                    pluginContainer.appendChild(card);
+                    card.innerHTML = `<div><h3 class="text-lg font-bold text-gray-900 dark:text-white truncate" title="${plugin.name || ''}">${plugin.name || 'Unnamed'}</h3><p class="text-sm text-gray-600 dark:text-gray-400">${developerText || 'Unknown'}</p></div><div><span class="bg-sky-100 text-sky-800 text-xs font-semibold mt-4 inline-block px-2.5 py-0.5 rounded-full dark:bg-sky-900 dark:text-sky-200">${plugin.type || 'N/A'}</span></div>`;
+                    card.addEventListener('click', () => openModal(plugin));
+                    elements.pluginContainer.appendChild(card);
                 });
             }
 
             function applyAllFilters() {
-                const query = searchInput.value.toLowerCase();
-                const filteredPlugins = (window.vaultData || []).filter(plugin => {
+                let baseData = window.vaultData || [];
+                if (!state.showInactive) {
+                    baseData = baseData.filter(plugin => plugin.active !== false && plugin.ACTIVE !== false);
+                }
+                const query = elements.searchInput.value.toLowerCase();
+                const filtered = baseData.filter(plugin => {
                     const nameMatch = typeof plugin.name === 'string' && plugin.name.toLowerCase().includes(query);
-                    let developerMatch = false;
-                    if (typeof plugin.developer === 'string') {
-                        developerMatch = plugin.developer.toLowerCase().includes(query);
-                    } else if (Array.isArray(plugin.developer)) {
-                        developerMatch = plugin.developer.some(dev => typeof dev === 'string' && dev.toLowerCase().includes(query));
-                    }
-                    if (query && !nameMatch && !developerMatch) return false;
-
-                    const pluginFamilies = new Set(Array.isArray(plugin.families) ? plugin.families : []);
-                    for (const family of activeFilters.families) {
-                        if (!pluginFamilies.has(family)) return false;
-                    }
-                    const pluginTags = new Set(Array.isArray(plugin.tags) ? plugin.tags : []);
-                    for (const tag of activeFilters.tags) {
-                        if (!pluginTags.has(tag)) return false;
-                    }
-
+                    let devMatch = false;
+                    if (typeof plugin.developer === 'string') devMatch = plugin.developer.toLowerCase().includes(query);
+                    else if (Array.isArray(plugin.developer)) devMatch = plugin.developer.some(d => typeof d === 'string' && d.toLowerCase().includes(query));
+                    if (query && !nameMatch && !devMatch) return false;
+                    if (state.filters.types.size > 0 && !state.filters.types.has(plugin.type)) return false;
+                    const families = new Set(Array.isArray(plugin.families) ? plugin.families : []);
+                    for (const f of state.filters.families) if (!families.has(f)) return false;
+                    const tags = new Set(Array.isArray(plugin.tags) ? plugin.tags : []);
+                    for (const t of state.filters.tags) if (!tags.has(t)) return false;
                     return true;
                 });
-                renderCards(filteredPlugins);
+                renderCards(filtered);
             }
 
             function populateFilters() {
-                const allFamilies = new Set();
-                const allTags = new Set();
-                (window.vaultData || []).forEach(plugin => {
-                    if (Array.isArray(plugin.families)) {
-                        plugin.families.forEach(family => {
-                            if (typeof family === 'string') allFamilies.add(family);
-                        });
-                    }
-                    if (Array.isArray(plugin.tags)) {
-                        plugin.tags.forEach(tag => {
-                            if (typeof tag === 'string') allTags.add(tag);
-                        });
-                    }
+                const allTypes = new Set(), allFamilies = new Set(), allTags = new Set();
+                (window.vaultData || []).forEach(p => {
+                    if (typeof p.type === 'string') allTypes.add(p.type);
+                    if (Array.isArray(p.families)) p.families.forEach(f => { if(typeof f === 'string') allFamilies.add(f) });
+                    if (Array.isArray(p.tags)) p.tags.forEach(t => { if(typeof t === 'string') allTags.add(t) });
                 });
-
-                const createCheckboxHTML = (type, value) => {
-                    // Defensive check to ensure value is a string before calling replace
-                    if (typeof value !== 'string') return '';
-                    const checkboxId = `${type}-${value.replace(/\s+/g, '-')}`;
-                    return `
-                        <div class="flex items-center mb-1">
-                            <input id="${checkboxId}" type="checkbox" data-filter-type="${type}" data-filter-value="${value}" class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500">
-                            <label for="${checkboxId}" class="ml-2 text-sm text-gray-700 dark:text-gray-300">${value}</label>
-                        </div>`;
+                const createCheckboxes = (type, values, container) => {
+                    const sorted = Array.from(values).sort();
+                    container.innerHTML = `<h3 class="text-md font-semibold mb-2 text-gray-900 dark:text-white">${type.charAt(0).toUpperCase() + type.slice(1)}</h3>` + sorted.map(val => { const id = `${type}-${val.replace(/\s+/g, '-')}`; return `<div class="flex items-center mb-1"><input id="${id}" type="checkbox" data-type="${type}" data-value="${val}" class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500"><label for="${id}" class="ml-2 text-sm">${val}</label></div>`; }).join('');
                 };
-
-                familiesContainer.innerHTML = `<h3 class="text-md font-semibold mb-2 text-gray-900 dark:text-white">Families</h3>` + Array.from(allFamilies).sort().map(f => createCheckboxHTML('families', f)).join('');
-                tagsContainer.innerHTML = `<h3 class="text-md font-semibold mt-4 mb-2 text-gray-900 dark:text-white">Tags</h3>` + Array.from(allTags).sort().map(t => createCheckboxHTML('tags', t)).join('');
-
-                document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
-                    checkbox.addEventListener('change', (e) => {
-                        const { filterType, filterValue } = e.target.dataset;
-                        if (e.target.checked) activeFilters[filterType].add(filterValue);
-                        else activeFilters[filterType].delete(filterValue);
+                createCheckboxes('types', allTypes, elements.typeContainer);
+                createCheckboxes('families', allFamilies, elements.familiesContainer);
+                createCheckboxes('tags', allTags, elements.tagsContainer);
+                document.querySelectorAll('input[data-type]').forEach(cb => {
+                    cb.addEventListener('change', e => {
+                        const { type, value } = e.target.dataset;
+                        if (e.target.checked) state.filters[type].add(value);
+                        else state.filters[type].delete(value);
                         applyAllFilters();
                     });
                 });
             }
 
-            function applyTheme() {
-                const isDarkMode = document.documentElement.classList.contains('dark');
-                if (moonIcon && sunIcon) {
-                    moonIcon.classList.toggle('hidden', !isDarkMode);
-                    sunIcon.classList.toggle('hidden', isDarkMode);
+            function openModal(plugin) {
+                elements.modalTitle.textContent = plugin.name || 'Unnamed Plugin';
+                let content = `<p><strong>Developer:</strong> ${Array.isArray(plugin.developer) ? plugin.developer.join(', ') : plugin.developer || 'Unknown'}</p>`;
+                content += `<p><strong>Product:</strong> ${plugin.product || 'N/A'}</p><p><strong>Type:</strong> ${plugin.type || 'N/A'}</p>`;
+                const createPills = (items, cat) => items && items.length ? `<div class="mt-2"><strong>${cat}:</strong><div class="flex flex-wrap mt-1">${items.map(i => `<span class="bg-gray-200 dark:bg-gray-700 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">${i}</span>`).join('')}</div></div>` : '';
+                content += createPills(plugin.families, 'Families');
+                content += createPills(plugin.tags, 'Tags');
+                content += `<div class="mt-4"><p><strong>Notes:</strong></p><p class="text-sm p-2 bg-gray-100 dark:bg-gray-700/50 rounded-md">${plugin.notes || 'No notes available.'}</p></div>`;
+                elements.modalContent.innerHTML = content;
+                elements.modalContainer.classList.remove('hidden');
+            }
+
+            function closeModal() { elements.modalContainer.classList.add('hidden'); }
+
+            function initTheme() {
+                function applyTheme() {
+                    const isDark = document.documentElement.classList.contains('dark');
+                    elements.moonIcon.classList.toggle('hidden', !isDark);
+                    elements.sunIcon.classList.toggle('hidden', isDark);
                 }
-            }
-
-            function toggleSidebar() {
-                sidebar.classList.toggle('-translate-x-full');
-                overlay.classList.toggle('hidden');
-            }
-
-            // --- EVENT LISTENERS ---
-            themeToggleButton.addEventListener('click', () => {
-                document.documentElement.classList.toggle('dark');
-                localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+                elements.themeToggle.addEventListener('click', () => {
+                    document.documentElement.classList.toggle('dark');
+                    localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+                    applyTheme();
+                });
                 applyTheme();
-            });
-            hamburgerButton.addEventListener('click', toggleSidebar);
-            overlay.addEventListener('click', toggleSidebar);
-            searchInput.addEventListener('input', applyAllFilters);
+            }
 
-            // --- INITIALIZATION ---
-            applyTheme();
-            populateFilters();
+            function initSidebar() {
+                function toggle() { elements.sidebar.classList.toggle('-translate-x-full'); elements.overlay.classList.toggle('hidden'); }
+                elements.hamburger.addEventListener('click', toggle);
+                elements.overlay.addEventListener('click', toggle);
+            }
+
+            function initModal() {
+                 elements.modalCloseBtn.addEventListener('click', closeModal);
+                 elements.modalBackdrop.addEventListener('click', closeModal);
+                 window.addEventListener('keydown', e => { if (e.key === 'Escape' && !elements.modalContainer.classList.contains('hidden')) closeModal(); });
+            }
+
+            function initAddPluginModal() {
+                const open = () => elements.addModalContainer.classList.remove('hidden');
+                const close = () => {
+                    elements.addPluginForm.reset();
+                    elements.addModalContainer.classList.add('hidden');
+                }
+                elements.addPluginBtn.addEventListener('click', open);
+                elements.addModalBackdrop.addEventListener('click', close);
+                elements.addModalCancelBtn.addEventListener('click', close);
+                elements.addPluginForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    const processTags = (s) => s ? s.split(',').map(t => t.trim()).filter(t => t) : [];
+                    const newPluginData = {
+                        name: document.getElementById('name-input').value,
+                        product: document.getElementById('product-input').value,
+                        developer: document.getElementById('developer-input').value,
+                        type: document.getElementById('type-select').value,
+                        families: processTags(document.getElementById('families-input').value),
+                        tags: processTags(document.getElementById('tags-input').value),
+                        notes: document.getElementById('notes-textarea').value,
+                        active: document.getElementById('active-checkbox').checked,
+                    };
+                    fetch('/api/plugin', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(newPluginData),
+                    })
+                    .then(res => res.ok ? res.json() : Promise.reject(new Error(`Server error: ${res.status}`)))
+                    .then(data => {
+                        if (data.new_plugin) {
+                            window.vaultData.push(data.new_plugin);
+                            // Call the globally scoped initFilters function to refresh the UI
+                            initFilters();
+                            applyAllFilters();
+                        }
+                        close();
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        alert(`Failed to save plugin: ${error.message}`);
+                    });
+                });
+            }
+
+            // --- RUN INITIALIZATION ---
+            initTheme();
+            initSidebar();
+            // Bug Fix: initFilters must be defined before it is called by initAddPluginModal
+            function initFilters() {
+                const allTypes = new Set(), allFamilies = new Set(), allTags = new Set();
+                (window.vaultData || []).forEach(p => {
+                    if (typeof p.type === 'string') allTypes.add(p.type);
+                    if (Array.isArray(p.families)) p.families.forEach(f => { if(typeof f === 'string') allFamilies.add(f) });
+                    if (Array.isArray(p.tags)) p.tags.forEach(t => { if(typeof t === 'string') allTags.add(t) });
+                });
+                const createCheckboxes = (type, values, container) => {
+                    const sorted = Array.from(values).sort();
+                    container.innerHTML = `<h3 class="text-md font-semibold mb-2 text-gray-900 dark:text-white">${type.charAt(0).toUpperCase() + type.slice(1)}</h3>` + sorted.map(val => { const id = `${type}-${val.replace(/\s+/g, '-')}`; return `<div class="flex items-center mb-1"><input id="${id}" type="checkbox" data-type="${type}" data-value="${val}" class="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500"><label for="${id}" class="ml-2 text-sm">${val}</label></div>`; }).join('');
+                };
+                createCheckboxes('types', allTypes, elements.typeContainer);
+                createCheckboxes('families', allFamilies, elements.familiesContainer);
+                createCheckboxes('tags', allTags, elements.tagsContainer);
+                document.querySelectorAll('input[data-type]').forEach(cb => {
+                    cb.addEventListener('change', e => {
+                        const { type, value } = e.target.dataset;
+                        if (e.target.checked) state.filters[type].add(value);
+                        else state.filters[type].delete(value);
+                        applyAllFilters();
+                    });
+                });
+                elements.searchInput.addEventListener('input', applyAllFilters);
+                elements.activeFilterCheckbox.addEventListener('change', e => {
+                    state.showInactive = e.target.checked;
+                    applyAllFilters();
+                });
+            }
+
+            initModal();
+            initAddPluginModal();
+            initFilters(); // Call initFilters after the other initializations
             applyAllFilters();
         });
     </script>
