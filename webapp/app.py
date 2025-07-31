@@ -40,7 +40,7 @@ def generate_new_id(new_plugin_type, new_plugin_developer, existing_data):
     }
     type_code = type_code_map.get(new_plugin_type, "X")
 
-    # Bug Fix: Sanitize the developer name to remove non-alphabetic characters
+    # Sanitize the developer name to remove non-alphabetic characters
     # before creating the two-letter code.
     sanitized_dev = ""
     if new_plugin_developer:

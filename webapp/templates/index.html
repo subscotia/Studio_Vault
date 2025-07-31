@@ -96,6 +96,8 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            // --- ALL LOGIC IS NOW SAFELY INSIDE THIS LISTENER ---
+
             const elements = {
                 themeToggle: document.getElementById('theme-toggle-button'),
                 sunIcon: document.getElementById('theme-toggle-sun-icon'),
@@ -262,7 +264,7 @@
                         if (data.new_plugin) {
                             window.vaultData.push(data.new_plugin);
                             // Call the globally scoped initFilters function to refresh the UI
-                            initFilters();
+                            populateFilters();
                             applyAllFilters();
                         }
                         close();
@@ -274,9 +276,6 @@
                 });
             }
 
-            // --- RUN INITIALIZATION ---
-            initTheme();
-            initSidebar();
             // Bug Fix: initFilters must be defined before it is called by initAddPluginModal
             function initFilters() {
                 const allTypes = new Set(), allFamilies = new Set(), allTags = new Set();
@@ -307,9 +306,12 @@
                 });
             }
 
+            // --- RUN INITIALIZATION ---
+            initTheme();
+            initSidebar();
+            initFilters();
             initModal();
             initAddPluginModal();
-            initFilters(); // Call initFilters after the other initializations
             applyAllFilters();
         });
     </script>

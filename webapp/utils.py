@@ -45,4 +45,3 @@ def save_vault_with_backup(data_to_save):
     except Exception as e:
         print(f"CRITICAL ERROR: Failed to save vault data. Error: {e}")
         return False
-
