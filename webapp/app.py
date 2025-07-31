@@ -100,6 +100,88 @@ def add_plugin():
         print(f"Error in add_plugin: {e}")
         return jsonify({'status': 'error', 'message': str(e)}), 500
 
+@app.route('/api/plugin/<string:plugin_id>', methods=['DELETE'])
+def delete_plugin(plugin_id):
+    """
+    API endpoint to delete a plugin by its ID.
+    """
+    try:
+        # Load the existing vault data
+        try:
+            with open(VAULT_FILE_PATH, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            return jsonify({'status': 'error', 'message': 'Vault file not found or is empty.'}), 404
+
+        # Find the plugin and create a new list without it
+        original_count = len(existing_data)
+        # This is a safe way to remove the item: build a new list of all items that *don't* match the ID
+        updated_data = [p for p in existing_data if p.get('id') != plugin_id]
+
+        # Check if a plugin was actually removed
+        if len(updated_data) == original_count:
+            return jsonify({'status': 'error', 'message': 'Plugin not found.'}), 404
+
+        # Save the updated data back to the file
+        save_successful = save_vault_with_backup(updated_data)
+
+        if save_successful:
+            return jsonify({
+                'status': 'success',
+                'message': 'Plugin deleted successfully.'
+            }), 200
+        else:
+            raise IOError("Failed to save the vault file after deletion.")
+
+    except Exception as e:
+        print(f"Error in delete_plugin: {e}")
+        return jsonify({'status': 'error', 'message': str(e)}), 500
+
+
+@app.route('/api/plugin/<string:plugin_id>', methods=['PUT'])
+def update_plugin(plugin_id):
+    """
+    API endpoint to update an existing plugin by its ID.
+    """
+    try:
+        updated_plugin = request.get_json()
+
+        # Load the existing vault data
+        try:
+            with open(VAULT_FILE_PATH, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            return jsonify({'status': 'error', 'message': 'Vault file not found or is empty.'}), 404
+
+        # Find the plugin and update it
+        plugin_found = False
+        for i, plugin in enumerate(existing_data):
+            if plugin.get('id') == plugin_id:
+                # Preserve the original ID
+                updated_plugin['id'] = plugin_id
+                existing_data[i] = updated_plugin
+                plugin_found = True
+                break
+
+        if not plugin_found:
+            return jsonify({'status': 'error', 'message': 'Plugin not found.'}), 404
+
+        # Save the updated data back to the file
+        save_successful = save_vault_with_backup(existing_data)
+
+        if save_successful:
+            return jsonify({
+                'status': 'success',
+                'message': 'Plugin updated successfully.',
+                'updated_plugin': updated_plugin
+            }), 200
+        else:
+            raise IOError("Failed to save the vault file after update.")
+
+    except Exception as e:
+        print(f"Error in update_plugin: {e}")
+        return jsonify({'status': 'error', 'message': str(e)}), 500
+
 
 if __name__ == '__main__':
     app.run(debug=True)

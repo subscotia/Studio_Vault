@@ -90,6 +90,35 @@
         </div>
     </div>
 
+    <!-- Edit Plugin Form Modal -->
+    <div id="edit-modal-container" class="fixed inset-0 z-50 flex items-center justify-center hidden">
+        <div id="edit-modal-backdrop" class="fixed inset-0 bg-black/75"></div>
+        <div class="relative bg-white dark:bg-gray-800 rounded-lg shadow-xl w-full max-w-2xl m-4">
+            <form id="edit-plugin-form" class="p-6">
+                <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Edit Plugin</h2>
+                <input type="hidden" id="edit-plugin-id">
+                <div class="space-y-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div><label for="edit-name-input" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Name</label><input type="text" id="edit-name-input" required class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"></div>
+                        <div><label for="edit-product-input" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Product</label><input type="text" id="edit-product-input" class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"></div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div><label for="edit-developer-input" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Developer</label><input type="text" id="edit-developer-input" required class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"></div>
+                        <div><label for="edit-type-select" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Type</label><select id="edit-type-select" class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"><option>instrument</option><option>fx</option><option>utility</option><option>container</option><option>expansion</option></select></div>
+                    </div>
+                    <div><label for="edit-families-input" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Families (comma-separated)</label><input type="text" id="edit-families-input" class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"></div>
+                    <div><label for="edit-tags-input" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Tags (comma-separated)</label><input type="text" id="edit-tags-input" class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"></div>
+                    <div><label for="edit-notes-textarea" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Notes</label><textarea id="edit-notes-textarea" rows="3" class="mt-1 block w-full rounded-md dark:bg-gray-700 border-gray-300 dark:border-gray-600 shadow-sm"></textarea></div>
+                    <div class="flex items-center"><input id="edit-active-checkbox" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-sky-600"><label for="edit-active-checkbox" class="ml-2 text-sm text-gray-900 dark:text-gray-100">Active</label></div>
+                </div>
+                <div class="mt-6 flex justify-end space-x-4">
+                    <button type="button" id="edit-modal-cancel-button" class="px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-500 rounded-md shadow-sm hover:bg-gray-50 dark:hover:bg-gray-600">Cancel</button>
+                    <button type="submit" id="edit-modal-save-button" class="px-4 py-2 text-sm font-medium text-white bg-sky-600 border border-transparent rounded-md shadow-sm hover:bg-sky-700">Update Plugin</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <script>
         window.vaultData = {{ vault_data|tojson }};
     </script>
@@ -122,12 +151,20 @@
                 addModalBackdrop: document.getElementById('add-modal-backdrop'),
                 addModalCancelBtn: document.getElementById('add-modal-cancel-button'),
                 addPluginForm: document.getElementById('add-plugin-form'),
+                editModalContainer: document.getElementById('edit-modal-container'),
+                editModalBackdrop: document.getElementById('edit-modal-backdrop'),
+                editModalCancelBtn: document.getElementById('edit-modal-cancel-button'),
+                editPluginForm: document.getElementById('edit-plugin-form'),
             };
 
             const state = {
                 showInactive: false,
                 filters: { types: new Set(), families: new Set(), tags: new Set() }
-            };
+            }
+
+            // =================================================================
+            // === REPLACE YOUR OLD 'renderCards' FUNCTION WITH THIS BLOCK ===
+            // =================================================================
 
             function renderCards(pluginsToRender) {
                 elements.pluginCount.textContent = `${pluginsToRender.length} items found`;
@@ -138,13 +175,82 @@
                 }
                 pluginsToRender.forEach(plugin => {
                     const card = document.createElement('div');
-                    card.className = 'bg-white dark:bg-gray-800 rounded-lg shadow p-4 flex flex-col justify-between cursor-pointer hover:shadow-lg transition-shadow';
+                    // We add the plugin's ID to the card element for easy reference
+                    card.dataset.id = plugin.id;
+                    card.className = 'bg-white dark:bg-gray-800 rounded-lg shadow p-4 flex flex-col justify-between hover:shadow-lg transition-shadow';
                     const developerText = Array.isArray(plugin.developer) ? plugin.developer.join(', ') : plugin.developer;
-                    card.innerHTML = `<div><h3 class="text-lg font-bold text-gray-900 dark:text-white truncate" title="${plugin.name || ''}">${plugin.name || 'Unnamed'}</h3><p class="text-sm text-gray-600 dark:text-gray-400">${developerText || 'Unknown'}</p></div><div><span class="bg-sky-100 text-sky-800 text-xs font-semibold mt-4 inline-block px-2.5 py-0.5 rounded-full dark:bg-sky-900 dark:text-sky-200">${plugin.type || 'N/A'}</span></div>`;
-                    card.addEventListener('click', () => openModal(plugin));
+                    
+                    // The new HTML includes a main clickable body and a separate footer for the delete button
+                    card.innerHTML = `
+                        <div class="card-body cursor-pointer flex-grow">
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-900 dark:text-white truncate" title="${plugin.name || ''}">${plugin.name || 'Unnamed'}</h3>
+                                <p class="text-sm text-gray-600 dark:text-gray-400">${developerText || 'Unknown'}</p>
+                            </div>
+                            <div>
+                                <span class="bg-sky-100 text-sky-800 text-xs font-semibold mt-4 inline-block px-2.5 py-0.5 rounded-full dark:bg-sky-900 dark:text-sky-200">${plugin.type || 'N/A'}</span>
+                            </div>
+                        </div>
+                        <div class="card-footer mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 flex justify-end">
+                            <button class="delete-button bg-red-500 hover:bg-red-700 text-white text-sm font-bold py-1 px-3 rounded focus:outline-none focus:shadow-outline" data-id="${plugin.id}">
+                                Delete
+                            </button>
+                        </div>
+                    `;
+                    // Note: The old event listener on the card itself is now gone from here.
                     elements.pluginContainer.appendChild(card);
                 });
             }
+
+            // This new function handles all clicks on the plugin cards area
+            elements.pluginContainer.addEventListener('click', (event) => {
+                const card = event.target.closest('[data-id]');
+                if (!card) return; // Ignore clicks in the gaps between cards
+
+                const pluginId = card.dataset.id;
+                const plugin = window.vaultData.find(p => p.id === pluginId);
+                if (!plugin) return;
+
+                // Check if the delete button was the specific target of the click
+                if (event.target.closest('.delete-button')) {
+                    if (confirm(`Are you sure you want to delete "${plugin.name}"?`)) {
+                        handleDelete(pluginId);
+                    }
+                } 
+                // Otherwise, if the main body of the card was clicked, open the modal
+                else if (event.target.closest('.card-body')) {
+                    openModal(plugin);
+                }
+            });
+
+            // This new function sends the delete request to your Python backend
+            async function handleDelete(pluginId) {
+                try {
+                    const response = await fetch(`/api/plugin/${pluginId}`, {
+                        method: 'DELETE',
+                    });
+
+                    const result = await response.json();
+
+                    if (response.ok) {
+                        // On success, remove the plugin from our local data source
+                        window.vaultData = window.vaultData.filter(p => p.id !== pluginId);
+                        // Then, re-run the filters and rendering to update the UI completely
+                        applyAllFilters();
+                        // You could show a more subtle notification here instead of an alert
+                        // alert('Plugin deleted successfully!'); 
+                    } else {
+                        throw new Error(result.message || 'Failed to delete plugin.');
+                    }
+                } catch (error) {
+                    console.error('Error deleting plugin:', error);
+                    alert(`Error: ${error.message}`);
+                }
+            }
+
+            // =================================================================
+            // === END OF REPLACEMENT BLOCK ====================================
+            // =================================================================
 
             function applyAllFilters() {
                 let baseData = window.vaultData || [];
@@ -200,8 +306,23 @@
                 content += createPills(plugin.families, 'Families');
                 content += createPills(plugin.tags, 'Tags');
                 content += `<div class="mt-4"><p><strong>Notes:</strong></p><p class="text-sm p-2 bg-gray-100 dark:bg-gray-700/50 rounded-md">${plugin.notes || 'No notes available.'}</p></div>`;
+
+                // Add an edit button to the modal
+                content += `
+                <div class="mt-6 flex justify-end">
+                    <button id="edit-plugin-button" class="bg-sky-500 hover:bg-sky-700 text-white text-sm font-bold py-1 px-3 rounded focus:outline-none focus:shadow-outline" data-id="${plugin.id}">
+                        Edit Plugin
+                    </button>
+                </div>`;
+
                 elements.modalContent.innerHTML = content;
                 elements.modalContainer.classList.remove('hidden');
+
+                // Add event listener to the edit button
+                document.getElementById('edit-plugin-button').addEventListener('click', () => {
+                    openEditModal(plugin);
+                    closeModal();
+                });
             }
 
             function closeModal() { elements.modalContainer.classList.add('hidden'); }
@@ -274,6 +395,81 @@
                         alert(`Failed to save plugin: ${error.message}`);
                     });
                 });
+            }
+
+            function openEditModal(plugin) {
+                // Add missing edit modal elements to the elements object
+                elements.editModalContainer = document.getElementById('edit-modal-container');
+                elements.editModalBackdrop = document.getElementById('edit-modal-backdrop');
+                elements.editModalCancelBtn = document.getElementById('edit-modal-cancel-button');
+                elements.editPluginForm = document.getElementById('edit-plugin-form');
+
+                // Set the form values based on the plugin data
+                document.getElementById('edit-plugin-id').value = plugin.id;
+                document.getElementById('edit-name-input').value = plugin.name || '';
+                document.getElementById('edit-product-input').value = plugin.product || '';
+                document.getElementById('edit-developer-input').value = Array.isArray(plugin.developer) ? plugin.developer.join(', ') : plugin.developer || '';
+                document.getElementById('edit-type-select').value = plugin.type || 'fx';
+                document.getElementById('edit-families-input').value = Array.isArray(plugin.families) ? plugin.families.join(', ') : '';
+                document.getElementById('edit-tags-input').value = Array.isArray(plugin.tags) ? plugin.tags.join(', ') : '';
+                document.getElementById('edit-notes-textarea').value = plugin.notes || '';
+                document.getElementById('edit-active-checkbox').checked = plugin.active !== false && plugin.ACTIVE !== false;
+
+                // Show the edit modal
+                elements.editModalContainer.classList.remove('hidden');
+
+                // Add event listeners for the edit modal if they don't exist yet
+                if (!elements.editModalCancelBtn._hasListener) {
+                    const closeEditModal = () => {
+                        elements.editPluginForm.reset();
+                        elements.editModalContainer.classList.add('hidden');
+                    };
+
+                    elements.editModalBackdrop.addEventListener('click', closeEditModal);
+                    elements.editModalCancelBtn.addEventListener('click', closeEditModal);
+                    elements.editModalCancelBtn._hasListener = true;
+
+                    elements.editPluginForm.addEventListener('submit', (e) => {
+                        e.preventDefault();
+                        const pluginId = document.getElementById('edit-plugin-id').value;
+                        const processTags = (s) => s ? s.split(',').map(t => t.trim()).filter(t => t) : [];
+
+                        const updatedPluginData = {
+                            name: document.getElementById('edit-name-input').value,
+                            product: document.getElementById('edit-product-input').value,
+                            developer: document.getElementById('edit-developer-input').value,
+                            type: document.getElementById('edit-type-select').value,
+                            families: processTags(document.getElementById('edit-families-input').value),
+                            tags: processTags(document.getElementById('edit-tags-input').value),
+                            notes: document.getElementById('edit-notes-textarea').value,
+                            active: document.getElementById('edit-active-checkbox').checked,
+                        };
+
+                        fetch(`/api/plugin/${pluginId}`, {
+                            method: 'PUT',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify(updatedPluginData),
+                        })
+                        .then(res => res.ok ? res.json() : Promise.reject(new Error(`Server error: ${res.status}`)))
+                        .then(data => {
+                            if (data.updated_plugin) {
+                                // Update the plugin in our local data
+                                const index = window.vaultData.findIndex(p => p.id === pluginId);
+                                if (index !== -1) {
+                                    window.vaultData[index] = data.updated_plugin;
+                                }
+                                // Refresh the UI
+                                populateFilters();
+                                applyAllFilters();
+                            }
+                            closeEditModal();
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                            alert(`Failed to update plugin: ${error.message}`);
+                        });
+                    });
+                }
             }
 
             // Bug Fix: initFilters must be defined before it is called by initAddPluginModal
