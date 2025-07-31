@@ -7,6 +7,7 @@ vault_*.json
 logs/
 *.csv
 *.log
+*.pdf
 
 # 💻 OS/system files
 .DS_Store
