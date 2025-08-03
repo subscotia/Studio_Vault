@@ -1,0 +1,15 @@
+# Specifies the Docker Compose file format version.
+version: "3.8"
+
+# Defines the services (containers) that make up your application.
+services:
+  # This is the only service: your Python web application.
+  webapp:
+    # Tells Docker Compose to build an image from the Dockerfile in the current directory ('.').
+    build: .
+    # Mounts your project folder on your local machine to the /app directory inside the container.
+    volumes:
+      - .:/app
+    # Maps port 5000 on your local machine to port 5000 in the container.
+    ports:
+      - "5000:5000"
