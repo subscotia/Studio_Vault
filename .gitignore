@@ -1,8 +1,8 @@
 # 🗃️ Raw vault files (local only)
-vault_*.json
-*_deduped.json
-*.bak.json
+data/*.json             # Supposed to ignore all JSONs in /data/
+!data/vault_master.json # Except this one
 
+*.bak.json
 # 📄 CSV/JSON logs and reports
 logs/
 *.csv
@@ -16,5 +16,5 @@ Thumbs.db
 # 🧪 Virtual environments (if any later)
 venv/
 __pycache__/
-*.pyc!/data/vault_master.json
+*.pyc
 tailwindcss.exe

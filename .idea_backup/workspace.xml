@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="718ddf01-7964-44cb-8b4e-e4c505ab1575" name="Changes" comment="Work Report: 13 July 2025&#10;This commit marks a major milestone in the project's maturity, focusing on refactoring the project structure and formalizing development best practices. We also continued to build out our data cleaning toolkit with several new, powerful scripts.&#10;&#10;Project Structure Refactoring:&#10;&#10;Established a new, professional directory structure to enforce separation of concerns. The project now has dedicated folders for /data, /scripts, /archive, and the future /webapp.&#10;&#10;Created the DEVELOPMENT_GUIDE.md, a master document outlining our official coding standards, Git workflow, and best practices to ensure consistency and maintainability as the project scales.&#10;&#10;Taxonomy &amp; Data Schema Refinement:&#10;&#10;Created data cleaning scripts to enforce our taxonomy rules, such as correctly identifying phaser effects and moving them into the modulation parent category.&#10;&#10;Developed a suite of scripts to prepare the ivault for the final merge, including tools to add missing keys, convert keys from lists to strings, and remove unwanted suffixes from product names.&#10;&#10;Clarified and adopted standard industry terminology for JSON data structures (Array, Object, Key, Value).&#10;&#10;Script Toolkit Enhancement:&#10;&#10;Refactored the single-purpose merge_families.py script into a more powerful, configurable merge_list_values.py that can operate on any list-based key.&#10;&#10;Created analyze_scripts.py, a new meta-tool that scans the project directory and generates a summary report on all other scripts, helping to identify their purpose and whether they are deprecated." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;subscotia&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/subscotia/Studio_Vault.git&quot;,
+    &quot;accountId&quot;: &quot;f670b0a6-c395-420c-96e5-a2c909ab1d98&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/merge_jsons.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2yrrXzhVqHnCbwKBkNKQI08O1mV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.Gen-IDs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gen-IDs&gt; fx-init-from-542.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Missing dev.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UniqueFamiliesExtractor_console.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add_blank_product_field.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add_field_to_vault.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add_missing_field.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add_parent_category.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add_tools_to_vault.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add_value_conditionally.executor&quot;: &quot;Run&quot;,
+    &quot;Python.append_falcon_to_vault.executor&quot;: &quot;Run&quot;,
+    &quot;Python.append_instruments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.append_to_vault.executor&quot;: &quot;Run&quot;,
+    &quot;Python.apply_eu_spelling_normalisation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.assign_ordinals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.auto_tag_fx_only.executor&quot;: &quot;Run&quot;,
+    &quot;Python.backup_vault -&gt;instr master.executor&quot;: &quot;Run&quot;,
+    &quot;Python.build_html_catalog.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clean_librarypath_and_add_active.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conditional_edit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convert_list_to_string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.copy_rename.executor&quot;: &quot;Run&quot;,
+    &quot;Python.correct_phaser_family.executor&quot;: &quot;Run&quot;,
+    &quot;Python.count_field_value.executor&quot;: &quot;Run&quot;,
+    &quot;Python.count_vault.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dedupe_by_id_keep_tags.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.dedupe_tags_families.executor&quot;: &quot;Run&quot;,
+    &quot;Python.delete_entries_by_criteria.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dev_helper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dev_rules_profiler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dev_test_single.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dupe_checker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dupe_checker_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dupe_remove_vst2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dupe_remover.executor&quot;: &quot;Run&quot;,
+    &quot;Python.emulate_helper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enforce_field_order.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enforce_lowercase_type.executor&quot;: &quot;Run&quot;,
+    &quot;Python.export_json_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.export_unique_values.executor&quot;: &quot;Run&quot;,
+    &quot;Python.extract_developers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.extract_reaper_developers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.extract_skipped_entries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.family_helper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.field_rules.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fill_empty_developer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_max_catalog_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_missing_export_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_value_export_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate falcon_instruments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_Arturia_instruments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_EZBass_expansions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_EZDrummer_expansions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_analogx_effects.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_catalog_ids.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_instruments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_kontakt_instruments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_melda_plugins.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_musio_instruments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_orctools_instruments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_roland_instruments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_soundpaint_instruments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.heuristic_clustering_dev.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inject_product_by_filename.executor&quot;: &quot;Run&quot;,
+    &quot;Python.interactive_tag_fixer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_unique_developers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_unique_families.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_unique_tags.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_unique_values_REFACT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_unmapped_products.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage_untagged -&gt; extract.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage_untagged.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merge_backto_master.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merge_families.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merge_keep_dev.executor&quot;: &quot;Run&quot;,
+    &quot;Python.missing_dev_replace_with_value.executor&quot;: &quot;Run&quot;,
+    &quot;Python.missing_value_replace_with_value (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.move_tags_to_families.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nullify_value.executor&quot;: &quot;Run&quot;,
+    &quot;Python.page_monitor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parse_fxfolders_to_raw.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parse_reaper_fxfolders.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pickout_brand_emu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.populate_field_by_criteria.executor&quot;: &quot;Run&quot;,
+    &quot;Python.populate_product_field.executor&quot;: &quot;Run&quot;,
+    &quot;Python.publish_html_catalog (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.remove_instr_dupes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.remove_suffix_from_field.executor&quot;: &quot;Run&quot;,
+    &quot;Python.remove_value_from_list_field.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replace_any_tag.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replace_developer_tag.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replace_family_labels.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replace_field_value.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reset_ids.executor&quot;: &quot;Run&quot;,
+    &quot;Python.set_type_from_family.executor&quot;: &quot;Run&quot;,
+    &quot;Python.spell_audit_eu_style.executor&quot;: &quot;Run&quot;,
+    &quot;Python.split_fx_instr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.split_list_item.executor&quot;: &quot;Run&quot;,
+    &quot;Python.update_developer_from_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python.uppercase_ids.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vault-builder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vault_gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vault_linter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vault_marger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vault_merger (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.vault_validator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.version_vault.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Studio/Admin Ops/Operations/git/vault&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Studio\Admin Ops\Operations\git\vault" />
+      <recent name="F:\Studio\Admin Ops\Operations\git\vault\backups" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Studio\Admin Ops\Operations\git\vault\scripts" />
+      <recent name="F:\Studio\Admin Ops\Operations\git\vault\data" />
+      <recent name="F:\Studio\Admin Ops\Operations\git\vault\ideas" />
+      <recent name="F:\Studio\Admin Ops\Operations\git\vault\backups" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.replace_any_tag">
+    <configuration name="Gen-IDs&gt; fx-init-from-542" type="PythonConfigurationType" factoryName="Python">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (PythonProject1)" />
+      <option name="WORKING_DIRECTORY" value="F:\Studio\Admin Ops\Operations\git\vault" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\Studio\Admin Ops\Operations\git\vault\scripts\generate_catalog_ids.py" />
+      <option name="PARAMETERS" value="xvault_raw.json xvault_raw_with_ids.json --index-file fx_index.csv --log-file fx_log.txt --start-seq 542" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UniqueFamiliesExtractor_console" type="PythonConfigurationType" factoryName="Python">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\Studio\Admin Ops\Operations\git\vault\scripts\UniqueFamiliesExtractor.py" />
+      <option name="PARAMETERS" value="--console" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list_unique_families" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\Studio\Admin Ops\Operations\git\vault\scripts\list_unique_families.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list_unique_tags" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\Studio\Admin Ops\Operations\git\vault\scripts\list_unique_tags.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage_untagged" type="PythonConfigurationType" factoryName="Python">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (PythonProject1)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\Studio\Admin Ops\Operations\git\vault\scripts\extract_untagged.py" />
+      <option name="PARAMETERS" value="python manage_untagged.py merge  master.json untagged.json merged.json" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="populate_product_field" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\Studio\Admin Ops\Operations\git\vault\scripts\populate_product_field.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="remove_suffix_from_field" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\Studio\Admin Ops\Operations\git\vault\scripts\remove_suffix_from_field.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="replace_any_tag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\Studio\Admin Ops\Operations\git\vault\scripts\replace_any_tag.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Gen-IDs&gt; fx-init-from-542" />
+      <item itemvalue="Python.UniqueFamiliesExtractor_console" />
+      <item itemvalue="Python.manage_untagged" />
+      <item itemvalue="Python.backup_vault -&gt;instr master" />
+      <item itemvalue="Python.manage_untagged &lt;- merge" />
+      <item itemvalue="Python.list_unique_families" />
+      <item itemvalue="Python.list_unique_tags" />
+      <item itemvalue="Python.populate_product_field" />
+      <item itemvalue="Python.remove_suffix_from_field" />
+      <item itemvalue="Python.replace_any_tag" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.replace_any_tag" />
+        <item itemvalue="Python.list_unique_families" />
+        <item itemvalue="Python.list_unique_tags" />
+        <item itemvalue="Python.remove_suffix_from_field" />
+        <item itemvalue="Python.populate_product_field" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-598b0484d0b5-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="718ddf01-7964-44cb-8b4e-e4c505ab1575" name="Changes" comment="" />
+      <created>1750603576456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750603576456</updated>
+      <workItem from="1752233722657" duration="23909000" />
+    </task>
+    <task id="LOCAL-00001" summary="### **Work Report: 12 July 2025**&#10;&#10;This commit focuses on significant progress in refining the vault's data taxonomy and creating new, powerful scripts to enforce these classification rules. It also marks a move to a more professional and integrated development workflow.&#10;&#10;* **Development Workflow Upgrade**:&#10;    * Made the strategic decision to upgrade to the PyCharm Professional IDE to better support the upcoming web application development phase.&#10;    * Transitioned from using a standalone Git client to managing the repository directly within the IDE, adopting a more efficient and industry-standard workflow.&#10;&#10;* **Taxonomy Refinement &amp; Documentation**:&#10;    * Formalized the high-level classification system by creating a new entry in the `VAULT_GUIDE.md` for the `type` field, strictly defining the four categories: `instrument`, `container`, `fx`, and `utility`.&#10;    * This process led to a refinement of our classification philosophy, clarifying the distinction between sound-processing tools (`fx`) and technical/analytical tools (`utility`), which will improve the logical consistency and searchability of the vault.&#10;&#10;* **New Data Classification Scripts**:&#10;    * `add_parent_category.py`: Developed a script to automatically create hierarchical relationships in the `families` field. For example, it ensures any tool with the `connectivity` family is also assigned its parent `utilities` family.&#10;    * `set_type_from_family.py`: Created a script to enforce the new taxonomy rules by automatically setting the primary `type` of a plugin based on its membership in a specific family (e.g., if `families` contains &quot;utilities&quot;, the `type` is set to &quot;utility&quot;).">
+      <option name="closed" value="true" />
+      <created>1752275895154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752275895154</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Work Report: 13 July 2025&#10;This commit marks a major milestone in the project's maturity, focusing on refactoring the project structure and formalizing development best practices. We also continued to build out our data cleaning toolkit with several new, powerful scripts.&#10;&#10;Project Structure Refactoring:&#10;&#10;Established a new, professional directory structure to enforce separation of concerns. The project now has dedicated folders for /data, /scripts, /archive, and the future /webapp.&#10;&#10;Created the DEVELOPMENT_GUIDE.md, a master document outlining our official coding standards, Git workflow, and best practices to ensure consistency and maintainability as the project scales.&#10;&#10;Taxonomy &amp; Data Schema Refinement:&#10;&#10;Created data cleaning scripts to enforce our taxonomy rules, such as correctly identifying phaser effects and moving them into the modulation parent category.&#10;&#10;Developed a suite of scripts to prepare the ivault for the final merge, including tools to add missing keys, convert keys from lists to strings, and remove unwanted suffixes from product names.&#10;&#10;Clarified and adopted standard industry terminology for JSON data structures (Array, Object, Key, Value).&#10;&#10;Script Toolkit Enhancement:&#10;&#10;Refactored the single-purpose merge_families.py script into a more powerful, configurable merge_list_values.py that can operate on any list-based key.&#10;&#10;Created analyze_scripts.py, a new meta-tool that scans the project directory and generates a summary report on all other scripts, helping to identify their purpose and whether they are deprecated.">
+      <option name="closed" value="true" />
+      <created>1752343651309</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752343651309</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="### **Work Report: 12 July 2025**&#10;&#10;This commit focuses on significant progress in refining the vault's data taxonomy and creating new, powerful scripts to enforce these classification rules. It also marks a move to a more professional and integrated development workflow.&#10;&#10;* **Development Workflow Upgrade**:&#10;    * Made the strategic decision to upgrade to the PyCharm Professional IDE to better support the upcoming web application development phase.&#10;    * Transitioned from using a standalone Git client to managing the repository directly within the IDE, adopting a more efficient and industry-standard workflow.&#10;&#10;* **Taxonomy Refinement &amp; Documentation**:&#10;    * Formalized the high-level classification system by creating a new entry in the `VAULT_GUIDE.md` for the `type` field, strictly defining the four categories: `instrument`, `container`, `fx`, and `utility`.&#10;    * This process led to a refinement of our classification philosophy, clarifying the distinction between sound-processing tools (`fx`) and technical/analytical tools (`utility`), which will improve the logical consistency and searchability of the vault.&#10;&#10;* **New Data Classification Scripts**:&#10;    * `add_parent_category.py`: Developed a script to automatically create hierarchical relationships in the `families` field. For example, it ensures any tool with the `connectivity` family is also assigned its parent `utilities` family.&#10;    * `set_type_from_family.py`: Created a script to enforce the new taxonomy rules by automatically setting the primary `type` of a plugin based on its membership in a specific family (e.g., if `families` contains &quot;utilities&quot;, the `type` is set to &quot;utility&quot;)." />
+    <MESSAGE value="Work Report: 13 July 2025&#10;This commit marks a major milestone in the project's maturity, focusing on refactoring the project structure and formalizing development best practices. We also continued to build out our data cleaning toolkit with several new, powerful scripts.&#10;&#10;Project Structure Refactoring:&#10;&#10;Established a new, professional directory structure to enforce separation of concerns. The project now has dedicated folders for /data, /scripts, /archive, and the future /webapp.&#10;&#10;Created the DEVELOPMENT_GUIDE.md, a master document outlining our official coding standards, Git workflow, and best practices to ensure consistency and maintainability as the project scales.&#10;&#10;Taxonomy &amp; Data Schema Refinement:&#10;&#10;Created data cleaning scripts to enforce our taxonomy rules, such as correctly identifying phaser effects and moving them into the modulation parent category.&#10;&#10;Developed a suite of scripts to prepare the ivault for the final merge, including tools to add missing keys, convert keys from lists to strings, and remove unwanted suffixes from product names.&#10;&#10;Clarified and adopted standard industry terminology for JSON data structures (Array, Object, Key, Value).&#10;&#10;Script Toolkit Enhancement:&#10;&#10;Refactored the single-purpose merge_families.py script into a more powerful, configurable merge_list_values.py that can operate on any list-based key.&#10;&#10;Created analyze_scripts.py, a new meta-tool that scans the project directory and generates a summary report on all other scripts, helping to identify their purpose and whether they are deprecated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Work Report: 13 July 2025&#10;This commit marks a major milestone in the project's maturity, focusing on refactoring the project structure and formalizing development best practices. We also continued to build out our data cleaning toolkit with several new, powerful scripts.&#10;&#10;Project Structure Refactoring:&#10;&#10;Established a new, professional directory structure to enforce separation of concerns. The project now has dedicated folders for /data, /scripts, /archive, and the future /webapp.&#10;&#10;Created the DEVELOPMENT_GUIDE.md, a master document outlining our official coding standards, Git workflow, and best practices to ensure consistency and maintainability as the project scales.&#10;&#10;Taxonomy &amp; Data Schema Refinement:&#10;&#10;Created data cleaning scripts to enforce our taxonomy rules, such as correctly identifying phaser effects and moving them into the modulation parent category.&#10;&#10;Developed a suite of scripts to prepare the ivault for the final merge, including tools to add missing keys, convert keys from lists to strings, and remove unwanted suffixes from product names.&#10;&#10;Clarified and adopted standard industry terminology for JSON data structures (Array, Object, Key, Value).&#10;&#10;Script Toolkit Enhancement:&#10;&#10;Refactored the single-purpose merge_families.py script into a more powerful, configurable merge_list_values.py that can operate on any list-based key.&#10;&#10;Created analyze_scripts.py, a new meta-tool that scans the project directory and generates a summary report on all other scripts, helping to identify their purpose and whether they are deprecated." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/dupe_fuzzy_finder.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/add_tools_to_vault.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scripts/emulate_helper.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/vault$replace_developer_tag.coverage" NAME="replace_developer_tag Coverage Results" MODIFIED="1752249022683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

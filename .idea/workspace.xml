@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f5293e2-f8c9-45e3-9466-0d840ec8e439" name="Changes" comment="Git Commit Journal EntrySubject: Phase 4 Complete - Data Management InterfaceDate: 30 July 2025Summary:This commit marks the successful completion of Phase 4. The application has been extended from a read-only tool to a fully-fledged data management interface. A user can now add new plugin entries directly through the web UI, with the data being safely processed and saved on the backend.Task 4.1: &quot;Add New Plugin&quot; Form UI:A new &quot;Add Plugin&quot; button was added to the header.A comprehensive modal form was designed and built with input fields for all necessary plugin data, adhering to our established themes.Task 4.2: Backend API Endpoint:A new API endpoint (/api/plugin) was created in the Flask application, configured to accept POST requests.The endpoint was successfully tested to receive and parse JSON data submitted from the frontend form.Task 4.3: Save Logic Implementation:A shared utils.py module was created to house a save_vault_with_backup function, adhering to our &quot;safe save&quot; best practice.The backend was enhanced with logic to generate a new, globally unique ID for each submitted plugin, following the schema in VAULT_GUIDE.md.The /api/plugin endpoint now uses these utilities to append the new plugin to the vault_master.json file and create a timestamped backup.Task 4.4: Auto-Refresh UI:The frontend JavaScript was updated to handle the success response from the backend.Upon a successful save, the application now automatically adds the new plugin to its in-memory data, re-populates the filter lists, and re-renders the main plugin grid without requiring a page reload.A significant ReferenceError was diagnosed and resolved, leading to a more robust, correctly-scoped script structure.The application's core feature set for local management is now complete. The project is ready to proceed to the final phase: production deployment.">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vault_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vault_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,43 +81,43 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.assign_master_ids.executor&quot;: &quot;Run&quot;,
-    &quot;Python.find_key_value.executor&quot;: &quot;Run&quot;,
-    &quot;Python.find_max_catalog_id.executor&quot;: &quot;Run&quot;,
-    &quot;Python.format_json.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list_unique_families.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list_unique_tags.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list_unique_types.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list_unique_values_REFACT.executor&quot;: &quot;Run&quot;,
-    &quot;Python.merge_list_values.executor&quot;: &quot;Run&quot;,
-    &quot;Python.merge_master_vaults.executor&quot;: &quot;Run&quot;,
-    &quot;Python.remove_value_from_list_field.executor&quot;: &quot;Run&quot;,
-    &quot;Python.replace_any_tag.executor&quot;: &quot;Run&quot;,
-    &quot;Python.replace_family_labels.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reset_ids.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Shell Script.Tailwind Watcher.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Studio/Admin Ops/Operations/git/vault_project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\drewp\\AppData\\Local\\Programs\\PyCharm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.app.executor": "Run",
+    "Python.assign_master_ids.executor": "Run",
+    "Python.find_key_value.executor": "Run",
+    "Python.find_max_catalog_id.executor": "Run",
+    "Python.format_json.executor": "Run",
+    "Python.list_unique_families.executor": "Run",
+    "Python.list_unique_tags.executor": "Run",
+    "Python.list_unique_types.executor": "Run",
+    "Python.list_unique_values_REFACT.executor": "Run",
+    "Python.merge_list_values.executor": "Run",
+    "Python.merge_master_vaults.executor": "Run",
+    "Python.remove_value_from_list_field.executor": "Run",
+    "Python.replace_any_tag.executor": "Run",
+    "Python.replace_family_labels.executor": "Run",
+    "Python.reset_ids.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Shell Script.Tailwind Watcher.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "F:/Studio/Admin Ops/Operations/git/vault_project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "ts.external.directory.path": "C:\\Users\\drewp\\AppData\\Local\\Programs\\PyCharm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Studio\Admin Ops\Operations\git\vault_project\html" />
@@ -310,6 +312,7 @@
       <workItem from="1754064371621" duration="14000" />
       <workItem from="1754083145581" duration="1463000" />
       <workItem from="1754127097426" duration="2809000" />
+      <workItem from="1754149213330" duration="2447000" />
     </task>
     <task id="LOCAL-00001" summary="Work Report: 15 July 2025&#10;Milestone Reached: Backend Data Buildout Complete&#10;&#10;This commit marks the completion of the data population and cleaning phase for the Subscotia Vault. The ivault and xvault are now finalized and have been merged into a single, definitive vault_master.json. All objects have been assigned a final, globally unique ID according to the established convention.&#10;&#10;Key Achievements in this Commit:&#10;&#10;Project Structure &amp; Best Practices:&#10;&#10;Transitioned the project to a professional directory structure (/data, /scripts, /archive) to enforce separation of concerns.&#10;&#10;Authored the DEVELOPMENT_GUIDE.md, formalizing our coding standards, Git workflow, and architectural principles.&#10;&#10;Upgraded the development workflow to use the integrated Git client within the PyCharm Professional IDE.&#10;&#10;Final Data Consolidation:&#10;&#10;Developed and executed robust scripts to merge the two vaults (merge_master_vaults_with_logging.py), creating a detailed log of the process.&#10;&#10;Developed and executed the final ID assignment script (assign_master_ids.py) to apply globally unique IDs to all 3,808 objects in the master vault.&#10;&#10;Successfully debugged runtime errors during the ID assignment process, making the script more robust against inconsistent data types.&#10;&#10;Documentation &amp; Toolkit Refinement:&#10;&#10;Updated the project's README.md to reflect the current status.&#10;&#10;Updated the re-initialization prompt to mark the completion of the data buildout milestone.&#10;&#10;Added the official ID Naming Convention to the VAULT_GUIDE.md.&#10;&#10;Created several new utility scripts, including a dedicated JSON formatter and a powerful, read-only search tool (find_key_value.py).&#10;&#10;With the backend data now stable and complete, the project is officially ready to move into Phase 1: Web Application Development.">
       <option name="closed" value="true" />
@@ -412,7 +415,7 @@
     <SUITE FILE_PATH="coverage/vault_project$replace_family_labels.coverage" NAME="replace_family_labels Coverage Results" MODIFIED="1752588569018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/vault_project$find_max_catalog_id.coverage" NAME="find_max_catalog_id Coverage Results" MODIFIED="1753710909956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/vault_project$assign_master_ids.coverage" NAME="assign_master_ids Coverage Results" MODIFIED="1752594781452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/vault_project$app.coverage" NAME="app Coverage Results" MODIFIED="1753956089102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp" />
+    <SUITE FILE_PATH="coverage/vault_project$app.coverage" NAME="app Coverage Results" MODIFIED="1754149788115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp" />
     <SUITE FILE_PATH="coverage/vault_project$find_key_value.coverage" NAME="find_key_value Coverage Results" MODIFIED="1752588786311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/vault_project$list_unique_values_REFACT.coverage" NAME="list_unique_values_REFACT Coverage Results" MODIFIED="1752576210735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/vault_project$merge_master_vaults.coverage" NAME="merge_master_vaults Coverage Results" MODIFIED="1752591576547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
