@@ -1,0 +1,19 @@
+parameters:
+  targets:
+    type: TargetSpec
+    description: The server or servers to deploy to.
+  branch:
+    type: String
+    description: The git branch to pull.
+    default: 'docker-deployment'
+
+steps:
+  - command: "git -C /home/subscotia/vault_docker pull origin $branch"
+    targets: $targets
+    description: "Pull the latest code from the specified git branch."
+
+  - command: "docker compose -f /home/subscotia/vault_docker/docker-compose.yml up --build -d"
+    targets: $targets
+    description: "Rebuild the Docker image if needed and restart the application."
+
+description: A plan to deploy the web application by pulling from git and restarting the docker container.
