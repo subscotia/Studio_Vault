@@ -1,30 +1,8 @@
-# Specifies the Docker Compose file format version.
 version: "3.8"
-
-# Defines the services (containers) that make up your application.
 services:
-  # This is the only service: your Python web application.
   webapp:
-    # Tells Docker Compose to build an image from the Dockerfile in the current directory ('.').
     build: .
-<<<<<<< HEAD
-    # Sets the command to run when the container starts.
-    # IMPORTANT: You must change "python app.py" to the actual command that starts your application.
-    # For example: "flask run --host=0.0.0.0" or "gunicorn --bind 0.0.0.0:8000 wsgi:app"
-
-    # Mounts your project folder on your local machine to the /app directory inside the container.
-    # This means code changes you make locally are instantly available inside the container.
     volumes:
-      - .:/app
-    # Maps port 8000 on your local machine to port 8000 in the container.
-    # If your app listens on a different port (e.g., 5000), change this to "5000:5000".
+      - /home/subscotia/vault_data:/app/data
     ports:
       - "5000:5000"
-=======
-    # Mounts your project folder on your local machine to the /app directory inside the container.
-    volumes:
-      - .:/app
-    # Maps port 5000 on your local machine to port 5000 in the container.
-    ports:
-      - "5000:5000"
->>>>>>> docker-deployment

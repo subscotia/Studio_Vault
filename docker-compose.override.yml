@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  webapp:
+    command: ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "1", "--reload", "app:app"]
+    volumes:
+      - .:/app
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_ENV=development
